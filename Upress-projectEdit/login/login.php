@@ -20,7 +20,7 @@
             "password" => 'alejandro'
     
         )
-    );
+        );
     if(isset($_POST['username']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
         $username = htmlentities($_POST['username']);
