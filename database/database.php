@@ -1,9 +1,9 @@
 <?php
 
 class Database{
-    private $host = 'localhost';
-    private $username = 'root';
-    private $password = '';
+    public $host = 'localhost';
+    public $username = 'root';
+    public $password = '';
     public $database = 'db_upress';
     protected $connection;
 

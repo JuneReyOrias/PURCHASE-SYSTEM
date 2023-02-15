@@ -18,10 +18,7 @@
                         <h4>University Press</h4>
                         <p> It is known as Printing Press for WMSU Colleges,</p>
                         <p>Faculty, and Students. Offered diffrent type of services and provide a better quality of services.</p>
-                        <p> Critical-thinking skills</p>
-                        <p> Detail-oriented</p>
-                        <p> Multitasking</p>
-                        <p> Self-motivated</p>
+                     
                     </div>
                 </div>
 

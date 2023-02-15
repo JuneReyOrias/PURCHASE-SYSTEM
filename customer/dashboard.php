@@ -19,87 +19,7 @@
     require_once '../includes/header.php';
 ?>
     
-    <!-- offcanvas -->
-    <!--<main class="mt-5 pt-3">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-12">
-            <h4>Dashboard</h4>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3 mb-3">
-            <div class="card bg-primary text-white h-100">
-              <div class="card-body py-5">Printing</div>
-              <div class="card-footer d-flex">
-                View Details
-                <span class="ms-auto">
-                  <i class="bi bi-chevron-right"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-warning text-dark h-100">
-              <div class="card-body py-5">Layout</div>
-              <div class="card-footer d-flex">
-                View Details
-                <span class="ms-auto">
-                  <i class="bi bi-chevron-right"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-success text-white h-100">
-              <div class="card-body py-5">Binding</div>
-              <div class="card-footer d-flex">
-                View Details
-                <span class="ms-auto">
-                  <i class="bi bi-chevron-right"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 mb-3">
-            <div class="card bg-danger text-white h-100">
-              <div class="card-body py-5">Delivery</div>
-              <div class="card-footer d-flex">
-                View Details
-                <span class="ms-auto">
-                  <i class="bi bi-chevron-right"></i>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 mb-3">
-            <div class="card h-100">
-              <div class="card-header">
-                <span class="me-2"><i class="bi bi-bar-chart-
-                ll"></i></span>
-                Weekly Chart
-              </div>
-              <div class="card-body">
-                <canvas class="chart" width="400" height="200"></canvas>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-3">
-            <div class="card h-100">
-              <div class="card-header">
-                <span class="me-2"><i class="bi bi-bar-chart-fill"></i></span>
-                Monthly Chart
-              </div>
-              <div class="card-body">
-                <canvas class="chart" width="400" height="200"></canvas>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
-      </div>
+   
     </main> -->
    
 
@@ -166,10 +86,10 @@
 			<div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/joe.jpg" class="img-responsive" alt="">
+					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
-						Joe Maderal
+						<a href="#">Joe Maderal</a>
 					</div>
 				
 				</div>
@@ -206,8 +126,9 @@
 
     <section class="home">
         <div class="text" >UNIVERSITY PRESS</div>
-      
+ 
         <hr class= "divider">
+        
         <div class="home-content">
         <div class="overview-boxes" >
             <div class="box">
@@ -233,12 +154,17 @@
                     <div class="number">A strong covering holding the pages of a book together</div>
                     
                     </div>
+                    
                 </div>
+                
+ <div>
 
-              
+ </div>
+          
     </section>
 
 </nav>
+
 
 <script>
         const body = document.querySelector('body'),

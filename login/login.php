@@ -73,6 +73,6 @@ $accounts = array(
             ?>
         </form>
     </div>
-<?php
+    <?php
     require_once '../includes/footer.php';
 ?>
