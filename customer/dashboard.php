@@ -125,12 +125,10 @@
     </section>
 
     <section class="home">
-    <div class="image-text">
-                <span class="image">
+        <div class="text" >UNIVERSITY PRESS</div>
+        <span class="image2">
                 <img src="../img/upress-logo.png" alt="">
                 </span>
-        <div class="text" >UNIVERSITY PRESS</div>
- 
         <hr class= "divider">
         
         <div class="home-content">
