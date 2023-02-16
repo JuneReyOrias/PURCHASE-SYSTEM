@@ -1162,11 +1162,13 @@
             }
             
             img1 {
+                padding: 12px 60px;
+                margin-left: 350px;
                 vertical-align: middle;
                 border-style: none;
-                width: 6rem;
+                width: 3rem;
                 display: inline-flex;
-                margin-left: 233fpx;
+                margin-left: 300px;
             }
             
             .home .image1 .img {
