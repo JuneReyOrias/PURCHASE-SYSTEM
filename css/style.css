@@ -362,9 +362,11 @@
                 align-items: center;
                 justify-content: center;
                 width: calc(135vh/ 3 - 10px);
-                background: #fff;
-                margin-bottom: 2rem;
-                margin-left: 4rem;
+                background-image: url('../img/binding.jpeg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 1.5rem;
+                margin-left: 2rem;
                 height: 35vh;
                 padding: 15px 14px;
                 border-radius: 12px;
