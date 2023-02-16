@@ -18,6 +18,13 @@ $accounts = array(
             "type" => 'customer',
             "username" => 'jaydee',
             "password" => 'jaydee'
+        ),
+        "user3" => array(
+            "firstname" => 'Chelsea',
+            "lastname" => 'Alboroto',
+            "type" => 'customer',
+            "username" => 'chelsea',
+            "password" => 'alboroto'
         )
      
     );
