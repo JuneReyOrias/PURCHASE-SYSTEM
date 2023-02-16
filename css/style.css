@@ -1162,9 +1162,13 @@
             }
             
             .home .image1 {
-                color: #990000;
                 padding: 12px 60px;
                 margin-left: 350px;
+                vertical-align: middle;
+                border-style: none;
+                width: 3rem;
+                display: inline-block;
+                margin-left: 0.34rem;
             }
             
             .home .text {
