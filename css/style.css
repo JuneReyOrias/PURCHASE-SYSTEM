@@ -1161,14 +1161,6 @@
                 transition: var(--tran-05);
             }
             
-            .home .img {
-                vertical-align: middle;
-                border-style: none;
-                width: 2rem;
-                display: inline-block;
-                margin-left: 0.34rem;
-            }
-            
             .home .text {
                 font-size: 30px;
                 font-weight: 500;
