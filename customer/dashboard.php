@@ -132,8 +132,6 @@
 
         <div class="text" ><span>UNIVERSITY PRESS</span></div>
 
-        <div class="text">UNIVERSITY PRESS</div>
-
         <hr class= "divider">
         
         <div class="home-content">
