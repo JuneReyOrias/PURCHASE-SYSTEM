@@ -129,11 +129,11 @@
                 <span class="image1" >
                 <img src="../img/upress-logo.png" alt="">
                 </span>
-<<<<<<< HEAD
+
         <div class="text" ><span>UNIVERSITY PRESS</span></div>
-=======
+
         <div class="text">UNIVERSITY PRESS</div>
->>>>>>> efb6baf717d32c5b386dc73de9cb7419bf2960c9
+
         <hr class= "divider">
         
         <div class="home-content">
