@@ -125,6 +125,7 @@
     </section>
 
     <section class="home">
+    <img src="../img/upress-logo.png" alt=""></span>
         <div class="text" >UNIVERSITY PRESS</div>
  
         <hr class= "divider">
