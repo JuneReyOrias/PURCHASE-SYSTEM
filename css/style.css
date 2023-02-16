@@ -1161,6 +1161,12 @@
                 transition: var(--tran-05);
             }
             
+            .home .image1 {
+                color: #990000;
+                padding: 12px 60px;
+                margin-left: 350px;
+            }
+            
             .home .text {
                 font-size: 30px;
                 font-weight: 500;
