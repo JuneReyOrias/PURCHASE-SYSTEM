@@ -126,12 +126,12 @@
 
     <section class="home">
     <div class="image-text2">
-                <span class="image1" >
-                   
+                <span class="image1" >   
                 <img src="../img/upress-logo.png" alt="">
+                
                 </span>
 
-        <div class="text" ><span>UNIVERSITY PRESS</span></div>
+       <h1>UNIVERSITY PRESS</h1>
 
         <hr class= "divider">
         
