@@ -129,7 +129,7 @@
                 <span class="image1">
                 <img src="../img/upress-logo.png" alt="">
                 </span>
-        <div class="text" >UNIVERSITY PRESS</div>
+        <div class="text">UNIVERSITY PRESS</div>
         <hr class= "divider">
         
         <div class="home-content">
