@@ -1161,10 +1161,12 @@
                 transition: var(--tran-05);
             }
             
-            .home .image {
-                min-width: 60px;
-                border-radius: 6px;
-                margin-left: 0%;
+            .home .image2 {
+                vertical-align: middle;
+                border-style: none;
+                width: 6rem;
+                display: inline-block;
+                margin-left: 0.34rem;
             }
             
             .home .text {
