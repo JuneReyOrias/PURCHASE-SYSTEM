@@ -1166,7 +1166,7 @@
                 font-weight: 500;
                 color: #990000;
                 padding: 12px 60px;
-                margin-left: 350px;
+                display: flex;
             }
             
             .sidebar.close~.home {
