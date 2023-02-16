@@ -131,7 +131,7 @@
                 <img src="../img/upress-logo.png" alt="">
                 </span>
 
-                <div class="text logo-text">
+                <div class="text">
                     <span class="name">University</span>
                     <span class="profession">Press</span>
                 </div>
@@ -139,7 +139,7 @@
 
           
         </header>
-        <div class="text" >UNIVERSITY PRESS</div>
+     
         <hr class= "divider">
         
         <div class="home-content">
