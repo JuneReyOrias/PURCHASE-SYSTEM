@@ -1161,6 +1161,14 @@
                 transition: var(--tran-05);
             }
             
+            img1 {
+                vertical-align: middle;
+                border-style: none;
+                width: 6rem;
+                display: inline-flex;
+                margin-left: 234rem;
+            }
+            
             .home .image1 .img {
                 padding: 12px 60px;
                 margin-left: 350px;
