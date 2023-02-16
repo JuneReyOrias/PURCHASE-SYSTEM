@@ -362,10 +362,8 @@
                 align-items: center;
                 justify-content: center;
                 width: calc(135vh/ 3 - 10px);
-                background-image: url('../img/out.jpeg');
-                background-repeat: no-repeat;
-                background-size: fixed;
-                margin-bottom: 1.5rem;
+                background: #fff;
+                margin-bottom: 1rem;
                 margin-left: 2rem;
                 height: 35vh;
                 padding: 15px 14px;
