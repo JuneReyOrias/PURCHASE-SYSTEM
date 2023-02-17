@@ -134,7 +134,7 @@
         <div class="text" ><span>UNIVERSITY PRESS</span></div>
 
         <hr class= "divider">
-        
+        <div class="col1" ><span>Offered Services</span></div>
         <div class="home-content">
         <div class="overview-boxes" >
             <div class="box">
