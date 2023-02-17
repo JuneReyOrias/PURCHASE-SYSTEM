@@ -1161,6 +1161,16 @@
                 transition: var(--tran-05);
             }
             
+            .col1 {
+                font-size: 30px;
+                font-weight: 500;
+                color: #990000;
+                vertical-align: middle;
+                padding: 12px 60px;
+                display: inline-flex;
+                margin-left: 29px;
+            }
+            
             .home .image1 {
                 padding: 12px 60px;
                 margin-left: 350px;
