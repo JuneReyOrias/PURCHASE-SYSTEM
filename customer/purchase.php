@@ -114,27 +114,96 @@
         <div class="overview-boxes" >
             
 
-        <table bgcolor="white">
-        
-        <thead>
-          <tr bgcolor="grey">
-            <th>Order</th>
-            <th>Customer</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          <?php
-            for ($i = 0; $i < 5; $i++) {
-              echo "<tr>";
-              echo "<td>Row " . ($i + 1) . ", Column 1</td>";
-              echo "<td>Row " . ($i + 1) . ", Column 2</td>";
-              echo "<td>Row " . ($i + 1) . ", Column 3</td>";
-              echo "</tr>";
-            }
-          ?>
-        </tbody>
-      </table>
+        <div class="home-content">
+    <div class="table-container">
+        <div class="table-heading">
+            <h3 class="table-title">PURCHASE ORDERS</h3>
+           
+            
+        </div>
+        <div class="divider-no-border"></div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Total</th>
+                   
+                    <th class="action">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>Jaydee</td>
+                    <td>200</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>Jaydee</td>
+                    <td>100</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>Jaydee</td>
+                    <td>400</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>Jaydee</td>
+                    <td>120</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>Jaydee</td>
+                    <td>50</td>
+                  
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>Jaydee</td>
+                    <td>600</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 
               
