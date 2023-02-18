@@ -71,7 +71,7 @@ Class user{
         }
         return $data;
     }
-
+*/
 }
- */
+
 ?>
