@@ -13,7 +13,7 @@
         header('location: ../purchase/purchase.php');
     }
     else{
-       // header('location: ../login/login.php');
+       header('location: ../customer/dashboard.php');
     }
 
 ?>
