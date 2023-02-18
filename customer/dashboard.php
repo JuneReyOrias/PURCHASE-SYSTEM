@@ -12,7 +12,7 @@
     }
     //if the above code is false then html below will be displayed
 
-    require_once '../functions/variables.php';
+   
     $page_title = 'Upress | Dashboard';
     $dashboard = 'active';
 
