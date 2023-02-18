@@ -51,9 +51,11 @@ $accounts = array(
                     //header('location: ../purchase/purchase.php');
                 }
             }
-        //}
-        //set the error message if account is invalid
-        $error = 'Invalid username/password. Try again.';
+        
+            else{
+                //set the error message if account is invalid
+                $error = 'Invalid username/password. Try again.';
+            }
     //}
  /*  $user_obj = new User();
   if(isset($_POST['email']) && isset($_POST['password'])){
