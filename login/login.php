@@ -30,27 +30,28 @@ $accounts = array(
     );
     if(isset($_POST['username']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
-        $username = htmlentities($_POST['username']);
-        $password = htmlentities($_POST['password']);
-        foreach($accounts as $keys => $value){
-            //check if the username and password match in the array
-            if($username == $value['username'] && $password == $value['password']){
-                //if match then save username, fullname and type as session to be reused somewhere else
-                $_SESSION['logged-in'] = $value['username'];
-                $_SESSION['fullname'] = $value['firstname'] . ' ' . $value['lastname'];
-                $_SESSION['user_type'] = $value['type'];
+        $users= new users;
+        $users -> email = htmlentities($_POST['username']);
+        $users -> password = htmlentities($_POST['password']);
+
+        $output=$users -> login();
+         if($output){
+            $_SESSION['logged-in']=$output['username'];
+            $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
+            $_SESSION['user_type']=$output['type'];
+         }
+       
                 //display the appropriate dashboard page for user
-                if($value['type'] == 'customer'){
+                if($output['type'] == 'customer'){
                     header('location: ../customer/dashboard.php');
                 }else{
-                    header('location: ../purchase/purchase.php');
+                    //header('location: ../purchase/purchase.php');
                 }
             }
-        }
+        //}
         //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
-    }
-
+   // }
     require_once '../includes/header.php';
  
     
