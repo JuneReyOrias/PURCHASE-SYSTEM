@@ -68,8 +68,7 @@ $accounts = array(
             $_SESSION['type'] = $row['type'];
             //display the appropriate dashboard page for user
             if($row['type'] == 'customer'){
-                
-                header("location: ../customer/dashboard.php");
+                header('location: ../customer/dashboard.php');
             }else if($row['type'] == 'staff'){
                 header('location: ../purchase/dashboard.php');
             }
