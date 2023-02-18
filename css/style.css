@@ -1201,4 +1201,80 @@
                 color: var(--text-color);
             }
 
+            .divider-no-border{
+                height: 20px;
+            }
+
+            .table-container{
+                position: relative;
+                top: 80px;
+                padding: 40px;
+            }
+
+            .table-container .table-heading{
+                display: flex;
+                justify-content: space-between;
+                height: 25px;
+                align-items: center;
+            }
+
+            .table-title{
+                font-weight: solid;
+                font-size: 20px;
+                text-align: left;
+                color: #333;
+                margin: 20px 0;
+                display: inline;
+            }
+
+            .table{
+                border-collapse: collapse;
+                border: 1px solid black;
+                text-align: left;
+                vertical-align: middle;
+                width: 100%;
+                overflow: auto;
+            }
             
+            th, td{
+                padding: 8px;
+                font-size: 14px;
+            }
+            
+            thead{
+                background-color: #333;
+                color: white;
+                font-size: .9rem;
+                text-transform: uppercase;
+                letter-spacing: 2%;
+            }
+            
+            thead th{
+                width: auto;
+                height: fit-content;
+            }
+            
+            tbody tr:nth-child(odd){
+                background-color: #fff;
+            }
+            
+            tbody tr:nth-child(even){
+                background-color: #eee;
+            }
+            tr .action, th .action{
+                text-align: center;
+            }
+            
+            td a{
+                padding: 5px 10px;
+                font-size: 12px;
+                border-radius: 5px;
+                margin: 0 2px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+            }
+              
+            a.action-view{
+                background-color: rgb(97, 96, 94);
+            }
