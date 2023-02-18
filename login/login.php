@@ -3,7 +3,7 @@ require_once '../database/user.class.php';
 require_once '../includes/header.php';
 //we start session since we need to use session values
 session_start();
-$page_title = 'UPRESS ';
+$page_title = 'UPRESS -dasboard';
 ?>
 <?php
 //creating an array for list of users can login to the system
