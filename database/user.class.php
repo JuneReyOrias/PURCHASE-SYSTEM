@@ -16,7 +16,7 @@ Class user{
         $this->db = new database();
     }
  
-   /* function login(){
+    function login(){
         $sql = "SELECT * FROM users WHERE email= :email and password = :password" ;
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':email', $this->email);
@@ -26,11 +26,10 @@ Class user{
         }
      	return $data;
     }
-*/
 
 
 
-    function login(){
+/*    function login(){
         $sql = "SELECT * FROM users WHERE BINARY email = :email AND BINARY password = :password AND type = 'customers';";
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':email', $this->email);
@@ -74,5 +73,5 @@ Class user{
     }
 
 }
-
+ */
 ?>
