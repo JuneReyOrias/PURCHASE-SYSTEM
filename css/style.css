@@ -363,12 +363,12 @@
                 justify-content: center;
                 width: calc(135vh/ 3 - 10px);
                 background: #fff;
-                margin-bottom: 2rem;
-                margin-left: 4rem;
+                margin-bottom: 1rem;
+                margin-left: 2rem;
                 height: 35vh;
                 padding: 15px 14px;
                 border-radius: 12px;
-                box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+                box-shadow: 0 14px 16px #990000;
             }
             
             .overview-boxes .box-topic {
@@ -1161,22 +1161,34 @@
                 transition: var(--tran-05);
             }
             
+            .col1 {
+                font-size: 30px;
+                font-weight: 500;
+                color: #990000;
+                vertical-align: middle;
+                padding: 12px 60px;
+                display: inline-flex;
+                margin-left: 30px;
+            }
+            
             .home .image1 {
                 padding: 12px 60px;
                 margin-left: 350px;
                 vertical-align: middle;
                 border-style: none;
                 width: 3rem;
-                display: inline-block;
-                margin-left: 0.34rem;
+                display: inline-flex;
+                margin-left: 300px;
             }
             
             .home .text {
                 font-size: 30px;
                 font-weight: 500;
                 color: #990000;
+                vertical-align: middle;
                 padding: 12px 60px;
-                margin-left: 350px;
+                display: inline-flex;
+                margin-left: 29px;
             }
             
             .sidebar.close~.home {
