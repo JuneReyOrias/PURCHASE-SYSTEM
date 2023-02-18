@@ -344,7 +344,7 @@
             /*ebd*/
             
             .home-section .home-content {
-                position: center;
+                position: relative;
             }
             
             .home-content .overview-boxes {
@@ -1206,7 +1206,7 @@
             }
 
             .table-container{
-                position: center;
+                position: relative;
                 top: 80px;
                 padding: 40px;
             }
