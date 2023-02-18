@@ -31,15 +31,15 @@ $accounts = array(
         )
      
     );
-   /* if(isset($_POST['username']) && isset($_POST['password'])){
+    if(isset($_POST['email']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
         $user= new User;
-        $user -> email = htmlentities($_POST['username']);
+        $user -> email = htmlentities($_POST['email']);
         $user -> password = htmlentities($_POST['password']);
 
         $output=$user -> login();
          if($output){
-            $_SESSION['logged-in']=$output['username'];
+            $_SESSION['logged-in']=$output['email'];
             $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
             $_SESSION['user_type']=$output['type'];
          }
@@ -55,7 +55,7 @@ $accounts = array(
         //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
     //}
-   $user_obj = new User();
+ /*  $user_obj = new User();
   if(isset($_POST['email']) && isset($_POST['password'])){
     //Sanitizing the inputs of the users. Mandatory to prevent injections!
     $user_obj->email = htmlentities($_POST['email']);
@@ -77,7 +77,7 @@ $accounts = array(
         //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
     }
-  }
+  }*/
   
  
     
