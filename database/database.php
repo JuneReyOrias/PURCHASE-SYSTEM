@@ -2,8 +2,8 @@
 
 class Database{
     public $host = 'localhost';
-    public $username = 'root';
-    public $password = '';
+    public $username = 'u151063784_upresswmsuprs';
+    public $password = 'LadQw702+&3';
     public $database = 'u151063784_db_upress';
     protected $connection;
 
