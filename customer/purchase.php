@@ -111,7 +111,7 @@
     <section class="home">
         <div class="text" >UNIVERSITY PRESS</div>
         <div class="home-content">
-        <div class="overview-boxes" >
+        <div class="tablee" >
             
 
         <div class="home-content">
