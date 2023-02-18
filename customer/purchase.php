@@ -141,8 +141,8 @@
                     <td>200</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
+                        
                     </td>
                 </tr>
                 <tr>
@@ -152,8 +152,7 @@
                     <td>100</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
                 <tr>
@@ -163,8 +162,7 @@
                     <td>400</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
                 <tr>
@@ -174,8 +172,7 @@
                     <td>120</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
                 <tr>
@@ -185,8 +182,7 @@
                     <td>50</td>
                   
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
                 <tr>
@@ -196,8 +192,7 @@
                     <td>600</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
             </tbody>
