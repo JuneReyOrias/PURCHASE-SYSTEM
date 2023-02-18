@@ -125,7 +125,7 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th>#</th>
+                    
                     <th>Order ID</th>
                     <th>Customer</th>
                     <th>Total</th>
@@ -135,7 +135,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
+                    
                     <td>1</td>
                     <td>Jaydee</td>
                     <td>200</td>
@@ -146,7 +146,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>2</td>
+                    
                     <td>2</td>
                     <td>Jaydee</td>
                     <td>100</td>
@@ -157,7 +157,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>3</td>
+                    
                     <td>3</td>
                     <td>Jaydee</td>
                     <td>400</td>
@@ -168,7 +168,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>4</td>
+                    
                     <td>4</td>
                     <td>Jaydee</td>
                     <td>120</td>
@@ -179,7 +179,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>5</td>
+                    
                     <td>5</td>
                     <td>Jaydee</td>
                     <td>50</td>
@@ -190,7 +190,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>6</td>
+                   
                     <td>6</td>
                     <td>Jaydee</td>
                     <td>600</td>
