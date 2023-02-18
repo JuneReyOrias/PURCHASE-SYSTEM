@@ -1,8 +1,11 @@
 <?php
-$page_title = 'UPRESS - Login';
-
+require_once '../database/user.class.php';
+require_once '../includes/header.php';
 //we start session since we need to use session values
 session_start();
+$page_title = 'UPRESS - Login';
+?>
+<?php
 //creating an array for list of users can login to the system
 $accounts = array(
         "user1" => array(
@@ -30,11 +33,11 @@ $accounts = array(
     );
     if(isset($_POST['username']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
-        $users= new users;
-        $users -> email = htmlentities($_POST['username']);
-        $users -> password = htmlentities($_POST['password']);
+        $user= new User;
+        $user -> email = htmlentities($_POST['username']);
+        $user -> password = htmlentities($_POST['password']);
 
-        $output=$users -> login();
+        $output=$user -> login();
          if($output){
             $_SESSION['logged-in']=$output['username'];
             $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
@@ -51,8 +54,8 @@ $accounts = array(
         //}
         //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
-   // }
-    require_once '../includes/header.php';
+    //}
+   
  
     
 
