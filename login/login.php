@@ -31,7 +31,7 @@ $accounts = array(
         )
      
     );
-    if(isset($_POST['username']) && isset($_POST['password'])){
+   /* if(isset($_POST['username']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
         $user= new User;
         $user -> email = htmlentities($_POST['username']);
@@ -55,7 +55,31 @@ $accounts = array(
         //set the error message if account is invalid
         $error = 'Invalid username/password. Try again.';
     //}
-   
+   */$user_obj = new User();
+  if(isset($_POST['email']) && isset($_POST['password'])){
+    //Sanitizing the inputs of the users. Mandatory to prevent injections!
+    $user_obj->email = htmlentities($_POST['email']);
+    $user_obj->password = htmlentities($_POST['password']);
+    if($user_obj->login()){
+        $user_obj= $user_obj->get_user_info();
+        foreach($users_obj as $row){
+            $_SESSION['logged_id'] = TRUE;
+            $_SESSION['name'] = $_POST['email'];
+            $_SESSION['type'] = $row['type'];
+            //display the appropriate dashboard page for user
+            if($row['type'] == 'customer'){
+                
+                header("location: ../customer/dashboard.php");
+            }else if($row['type'] == 'staff'){
+                header('location: ../purchase/dashboard.php');
+            }
+        }
+    }else{
+        //set the error message if account is invalid
+        $error = 'Invalid username/password. Try again.';
+    }
+  }
+  
  
     
 
