@@ -108,17 +108,7 @@
        
     </section>
 
-    <section class="home">
-        <div class="text" >UNIVERSITY PRESS</div>
-        <div class="home-content">
-        <div class="overview-boxes" >
-            
 
-        <div class="home-content">
-    <div class="table-container">
-        <div class="table-heading">
-            <h3 class="table-title">PURCHASE ORDERS</h3>
-           
             
         </div>
         <div class="divider-no-border"></div>
