@@ -6,7 +6,7 @@
     session_start();
 
     //check if user is login already otherwise send to login page
-    if (isset($_SESSION['role']) == 'twst'){
+    if (isset($_SESSION['role']) == 'test'){
         header('location: ../customer/dashboard.php');
     }
     else if (isset($_SESSION['role']) == 'staff'){
