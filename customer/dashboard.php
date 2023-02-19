@@ -127,7 +127,7 @@
     <section class="home">
     <div class="image-text2">
                 <span class="image1" >   
-                <img src="../img/upress-logo.png" alt="">
+                <img src="../img/upress-logo.png" alt="UPRESS-LOGO">
                 
                 </span>
 
