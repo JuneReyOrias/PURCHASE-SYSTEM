@@ -33,29 +33,29 @@ $accounts = array(
     );
     if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
-        $user= new Users;
-        $user -> email = htmlentities($_POST['email']);
-        $user -> password = htmlentities($_POST['password']);
-
-        $output=$user -> login();
-         if($output){
-            $_SESSION['logged-in']=$output['username'];
-            $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
-            $_SESSION['role']=$output['role'];
-         }
        
-                //display the appropriate dashboard page for user
+        $user= new users;
+        $user -> email = htmlentities($_POST['user_name']); 
+        $user -> password = htmlentities($_POST['password']); 
+
+        $output= $user -> login();
+
+        if ($output) {
+            // CREATE -- COLUMN "firstname" "lastname" "role"
+            $_SESSION['logged-in'] = $output['username'];
+            $_SESSION['fullname'] = $output['firstname'] . ' ' . $output['lastname'];
+            $_SESSION['user_role'] = $output['role'];
+
+            //display the appropriate dashboard page for user
                 if($output['role'] == 'test'){
+                    print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
                 }else{
-                    //header('location: ../purchase/purchase.php');
+                    // header('location: ../user/user-profile.php');
+                    //  header('location: ../admin/dashboard1.php');
                 }
             }
-        
-            else{
-                //set the error message if account is invalid
-                $error = 'Invalid username/password. Try again.';
-            }
+        }
     //}
  /*  $user_obj = new User();
   if(isset($_POST['email']) && isset($_POST['password'])){
