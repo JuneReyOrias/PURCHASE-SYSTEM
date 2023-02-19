@@ -1171,13 +1171,20 @@
                 margin-left: 30px;
             }
             
+            .home .image-text1 {
+                display: flex;
+                align-items: center;
+            }
+            
+            .home .image1 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
             .home .image1 img {
-                padding: 12px 60px;
-                margin-left: 350px;
-                border-style: none;
-                width: 40px;
-                display: inline-flex;
-                margin-left: 300px;
+                width: 120px;
+                border-radius: 6px;
             }
             
             .home .text {
