@@ -54,9 +54,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="line"></div>
-                    <div class="second2">
+            <div class="second2">
                         <a href="#" target="_blank"> <i class="fab fa-facebook fa-2x margin"></i></a>
                         <a href="#" target="_blank"> <i class="fab fa-google fa-2x margin"></i></a>
                         <!--<a href="https://www.linkedin.com/in/andreea-mihaela-bunget-a4248812b/" target="_blank"> <i class="fab fa-linkedin fa-2x margin"></i></a>
