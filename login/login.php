@@ -56,7 +56,7 @@ $accounts = array(
                 }
             }else{
                 //set the error message if account is invalid
-                $error = 'Invalid username/password. Try again.';
+                $error = 'fuckyou hahahah. Try again.';
             }
 
             }
