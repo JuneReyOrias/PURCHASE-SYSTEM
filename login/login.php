@@ -56,7 +56,7 @@ $accounts = array(
                 }
             }else{
                 //set the error message if account is invalid
-                $error = 'BUN E KING KUTKUT DIRA KUTKUT DIDTU. Try again.';
+                $error = 'ARGIE PILI NA NAKUPIT OYY MANGAYO KO. Try again.';
             }
 
             }
