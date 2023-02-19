@@ -56,7 +56,7 @@ $accounts = array(
                 }
             }else{
                 //set the error message if account is invalid
-                $error = 'BAYOT KA VINCENT. Try again.';
+                $error = 'BUN E KING KUTKUT DIRA KUTKUT DIDTU. Try again.';
             }
 
             }
