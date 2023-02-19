@@ -45,7 +45,7 @@ $accounts = array(
          }
        
                 //display the appropriate dashboard page for user
-                if($output['role'] == 'customer'){
+                if($output['role'] == 'test'){
                     header('location: ../customer/dashboard.php');
                 }else{
                     //header('location: ../purchase/purchase.php');
