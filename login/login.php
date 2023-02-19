@@ -37,15 +37,15 @@ $accounts = array(
         $user -> email = htmlentities($_POST['username']);
         $user -> password = htmlentities($_POST['password']);
 
-        $output=$users -> login();
+        $output=$user -> login();
          if($output){
             $_SESSION['logged-in']=$output['username'];
             $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
-            $_SESSION['user_type']=$output['type'];
+            $_SESSION['role']=$output['type'];
          }
        
                 //display the appropriate dashboard page for user
-                if($output['type'] == 'customer'){
+                if($output['role'] == 'customer'){
                     header('location: ../customer/dashboard.php');
                 }else{
                     //header('location: ../purchase/purchase.php');
