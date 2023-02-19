@@ -1,13 +1,13 @@
 <?php 
 require_once 'database.php';
 
-Class user{
-    public $firstname;
-    public $lastname;
-    public $type;
+Class users{
     public $username;
     public $password;
+    public $firstname;
+    public $lastname;
     public $email;
+    public $role;
 
     protected $db;
 
@@ -17,7 +17,7 @@ Class user{
     }
  
     function login(){
-        $sql = "SELECT * FROM users WHERE email= :email and password = :password" ;
+        $sql = "SELECT * FROM user_acc WHERE username = :email and user_pass = :password" ;
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':email', $this->email);
         $query->bindParam(':password', $this->password);
@@ -26,7 +26,6 @@ Class user{
         }
      	return $data;
     }
-
 
 
 /*    function login(){
