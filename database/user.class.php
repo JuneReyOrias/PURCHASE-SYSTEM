@@ -17,9 +17,9 @@ Class users{
     }
  
     function login(){
-        $sql = "SELECT * FROM user_acc WHERE username = :username and user_pass = :password" ;
+        $sql = "SELECT * FROM user_acc WHERE user_name = :email and user_pass = :password" ;
         $query=$this->db->connect()->prepare($sql);
-        $query->bindParam(':userrname', $this->username);
+        $query->bindParam(':email', $this->email);
         $query->bindParam(':password', $this->password);
         if($query->execute()){
            $data = $query->fetch();

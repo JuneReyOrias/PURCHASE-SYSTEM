@@ -31,17 +31,17 @@ $accounts = array(
         )
      
     );
-    if(isset($_POST['username']) && isset($_POST['password'])){
+    if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
         $user= new Users;
-        $user -> email = htmlentities($_POST['username']);
+        $user -> email = htmlentities($_POST['email']);
         $user -> password = htmlentities($_POST['password']);
 
         $output=$user -> login();
          if($output){
             $_SESSION['logged-in']=$output['username'];
             $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
-            $_SESSION['role']=$output['type'];
+            $_SESSION['role']=$output['role'];
          }
        
                 //display the appropriate dashboard page for user
