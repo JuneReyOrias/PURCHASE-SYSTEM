@@ -42,7 +42,7 @@ $accounts = array(
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
-            $_SESSION['logged-in'] = $output['username'];
+            $_SESSION['logged-in'] = $output['user_name'];
             $_SESSION['fullname'] = $output['firstname'] . ' ' . $output['lastname'];
             $_SESSION['user_role'] = $output['role'];
 
