@@ -1171,12 +1171,11 @@
                 margin-left: 30px;
             }
             
-            .home .image1 {
+            .home .image1 img {
                 padding: 12px 60px;
                 margin-left: 350px;
-                vertical-align: middle;
                 border-style: none;
-                width: 3rem;
+                width: 40px;
                 display: inline-flex;
                 margin-left: 300px;
             }
@@ -1200,25 +1199,25 @@
             body.dark .home .text {
                 color: var(--text-color);
             }
-
-            .divider-no-border{
+            
+            .divider-no-border {
                 height: 20px;
             }
-
-            .table-container{
+            
+            .table-container {
                 position: relative;
                 top: 80px;
                 padding: 40px;
             }
-
-            .table-container .table-heading{
+            
+            .table-container .table-heading {
                 display: flex;
                 justify-content: space-between;
                 height: 25px;
                 align-items: center;
             }
-
-            .table-title{
+            
+            .table-title {
                 font-weight: solid;
                 font-size: 20px;
                 text-align: left;
@@ -1226,8 +1225,8 @@
                 margin: 20px 0;
                 display: inline;
             }
-
-            .table{
+            
+            .table {
                 border-collapse: collapse;
                 border: 1px solid black;
                 text-align: left;
@@ -1236,12 +1235,13 @@
                 overflow: auto;
             }
             
-            th, td{
+            th,
+            td {
                 padding: 8px;
                 font-size: 14px;
             }
             
-            thead{
+            thead {
                 background-color: #333;
                 color: white;
                 font-size: .9rem;
@@ -1249,23 +1249,25 @@
                 letter-spacing: 2%;
             }
             
-            thead th{
+            thead th {
                 width: auto;
                 height: fit-content;
             }
             
-            tbody tr:nth-child(odd){
+            tbody tr:nth-child(odd) {
                 background-color: #fff;
             }
             
-            tbody tr:nth-child(even){
+            tbody tr:nth-child(even) {
                 background-color: #eee;
             }
-            tr .action, th .action{
+            
+            tr .action,
+            th .action {
                 text-align: center;
             }
             
-            td a{
+            td a {
                 padding: 5px 10px;
                 font-size: 12px;
                 border-radius: 5px;
@@ -1274,7 +1276,7 @@
                 text-transform: uppercase;
                 color: white;
             }
-              
-            a.action-view{
+            
+            a.action-view {
                 background-color: rgb(97, 96, 94);
             }
