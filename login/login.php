@@ -33,28 +33,30 @@ $accounts = array(
     );
     if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
+        $user= new Users;
+        $user -> email = htmlentities($_POST['email']);
+        $user -> password = htmlentities($_POST['password']);
+
+        $output=$user -> login();
+         if($output){
+            $_SESSION['logged-in']=$output['username'];
+            $_SESSION['fullname']= $output['firstname'] . ' '. $output['lastname'];
+            $_SESSION['role']=$output['role'];
+         }
        
-        $user= new users;
-        $user -> email = htmlentities($_POST['user_name']); 
-        $user -> password = htmlentities($_POST['password']); 
-
-        $output= $user -> login();
-
-        if ($output) {
-            // CREATE -- COLUMN "firstname" "lastname" "role"
-            $_SESSION['logged-in'] = $output['username'];
-            $_SESSION['fullname'] = $output['firstname'] . ' ' . $output['lastname'];
-            $_SESSION['user_role'] = $output['role'];
-
-            //display the appropriate dashboard page for user
+                //display the appropriate dashboard page for user
                 if($output['role'] == 'test'){
-                    // print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
                 }else{
-                    // header('location: ../user/user-profile.php');
-                    //  header('location: ../admin/dashboard1.php');
+                    //header('location: ../purchase/purchase.php');
                 }
             }
+        
+            else{
+                //set the error message if account is invalid
+                $error = 'Invalid username/password. Try again.';
+            }
+    //}
  /*  $user_obj = new User();
   if(isset($_POST['email']) && isset($_POST['password'])){
     //Sanitizing the inputs of the users. Mandatory to prevent injections!
@@ -94,7 +96,7 @@ $accounts = array(
             </div>
             <hr class="divider">
             <label for="username">Username</label>
-            <input type="text" id="username" name="username" placeholder="Enter username" required tabindex="1">
+            <input type="text" id="user_name" name="user_name" placeholder="Enter username" required tabindex="1">
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="Enter password" required tabindex="2">
             <input class="button" type="submit" value="Login" name="login" tabindex="3">
