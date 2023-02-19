@@ -29,12 +29,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `user_acc` (
   `id` int(11) NOT NULL,
-  `user_name` varchar(50) NOT NULL,
-  `user_pass` varchar(50) NOT NULL,
-  `firstname` varchar(50) NOT NULL,
-  `lastname` varchar(50) NOT NULL,
-  `email` varchar(35) NOT NULL,
-  `role` varchar(50) NOT NULL
+  `user_name` varchar(100) NOT NULL,
+  `user_pass` varchar(100) NOT NULL,
+  `firstname` varchar(100) NOT NULL,
+  `lastname` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `role` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
