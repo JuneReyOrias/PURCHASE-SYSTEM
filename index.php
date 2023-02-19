@@ -6,14 +6,14 @@
     session_start();
 
     //check if user is login already otherwise send to login page
-    if (isset($_SESSION['user_type']) == 'customer'){
+    if (isset($_SESSION['role']) == 'customer'){
         header('location: ../customer/dashboard.php');
     }
-    else if (isset($_SESSION['user_type']) == 'staff'){
-        header('location: ../purchase/purchase.php');
+    else if (isset($_SESSION['role']) == 'staff'){
+        //header('location: ../purchase/purchase.php');
     }
     else{
-       header('location: ../customer/dashboard.php');
+      // header('location: ../customer/dashboard.php');
     }
 
 ?>
