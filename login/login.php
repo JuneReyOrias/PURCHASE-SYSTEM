@@ -48,7 +48,7 @@ $accounts = array(
 
             //display the appropriate dashboard page for user
                 if($output['role'] == 'test'){
-                    print_r($_SESSION);
+                   // print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
                 }else{
                     // header('location: ../user/user-profile.php');
