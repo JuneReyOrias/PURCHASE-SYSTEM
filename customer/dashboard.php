@@ -131,7 +131,7 @@
                 
                 </span>
 
-        <div class="text" ><span>UNIVERSITY PRESS</span></div>
+        <span class="text">UNIVERSITY PRESS</span>
 
         <hr class= "divider">
         <div class="col1" ><span>Offered Services</span></div>
