@@ -47,7 +47,7 @@ $accounts = array(
             $_SESSION['user_role'] = $output['role'];
 
             //display the appropriate dashboard page for user
-                if($output['role'] == 'test'){
+                if($output['role'] == 'june'){
                    // print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
                 }else{
