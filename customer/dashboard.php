@@ -132,7 +132,7 @@
                 </span>
 
                 <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
+                    <span class="name">University Press</span>
                   
                 </div>
             </div>
