@@ -139,9 +139,12 @@
 
            
         </header>
-
+    <?php
+        require_once '../includes/tapnav.php';
+    ?>
         <hr class= "divider">
         <div class="col1" ><span>Offered Services</span></div>
+        
         <div class="home-content">
         <div class="overview-boxes" >
             <div class="box">
