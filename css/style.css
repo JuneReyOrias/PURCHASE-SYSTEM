@@ -1172,8 +1172,13 @@
             }
             
             .home header .logo img {
-                width: 110px;
+                width: 90px;
                 border-radius: 6px;
+            }
+            
+            .home header .image-logo {
+                display: flex;
+                align-items: center;
             }
             
             .home .text {
