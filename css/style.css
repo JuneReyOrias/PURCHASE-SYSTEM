@@ -1192,7 +1192,8 @@
                 vertical-align: middle;
                 padding: 12px 60px;
                 display: inline-flex;
-                margin-left: 29px;
+                margin: left 0;
+                ;
             }
             
             .sidebar.close~.home {
