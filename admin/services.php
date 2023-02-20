@@ -20,6 +20,8 @@
 ?>
     
    
+    </main> -->
+   
 
     <nav class="sidebar close">
         <header>
@@ -47,7 +49,7 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="dashboard.php">
+                        <a href="#">
                             <i class='bx bxs-dashboard icon' ></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
@@ -55,29 +57,51 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="purchase.php">
+                        <a href="items.php">
                             <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Purchase</span>
+                            <span class="text nav-text">Items</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bx-cart icon' ></i>
-                            <span class="text nav-text">Orders</span>
+                        <a href="services.php">
+                            <i class='bx bx-printer icon' ></i>
+                            <span class="text nav-text">Services</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="customer">
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">Customer</span>
                         </a>
                     </li>
 
                    
                     <li class="nav-link">
-                        <a href="trackorder.php">
-                            <i class='bx bx-map icon' ></i>
-                            <span class="text nav-text">Track Orders</span>
+                        <a href="orders.php">
+                            <i class='bx bx-cart icon' ></i>
+                            <span class="text nav-text">Orders</span>
                         </a>
                     </li>
 
                 </ul>
             </div>
+            <div class="container">
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
+          <div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						<a href="#">Joe Maderal</a>
+					</div>
+				
+				</div>
+		
+				</div>
 
             <div class="bottom-content">
                 <li class="">
