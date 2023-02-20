@@ -169,6 +169,13 @@
                             <span class="text nav-text">box</span>
                         
                     </li>
+
+                    <li class="nav-link">
+                      
+                      <i class='bx bx-box' ></i>
+                      <span class="text nav-text">box</span>
+                  
+              </li>
                     
                     
                     </div>
