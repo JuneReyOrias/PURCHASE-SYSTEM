@@ -645,7 +645,7 @@
             .tapnav a {
                 float: right;
                 margin-right: 1rem;
-                color: #990000 text-align: center;
+                color: #990000;
                 text-decoration: none;
                 font-size: 17px;
             }
