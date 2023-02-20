@@ -141,8 +141,13 @@
         </header>
    
         <hr class= "divider">
-    
+        <div class="tapnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#contact">Contact</a>
+        <a href='#contact us'>About</a>
+</div>
         <div class="col1" ><span>Offered Services</span></div>
+     
         
         <div class="home-content">
         <div class="overview-boxes" >
