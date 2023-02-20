@@ -20,8 +20,6 @@
 ?>
     
    
-    </main> -->
-   
 
     <nav class="sidebar close">
         <header>
@@ -57,51 +55,29 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="items.php">
+                        <a href="purchase.php">
                             <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Items</span>
+                            <span class="text nav-text">Purchase</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="services.php">
-                            <i class='bx bx-printer icon' ></i>
-                            <span class="text nav-text">Services</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="customer">
-                            <i class='bx bx-user icon' ></i>
-                            <span class="text nav-text">Customer</span>
-                        </a>
-                    </li>
-
-                   
-                    <li class="nav-link">
-                        <a href="orders.php">
+                        <a href="#">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
                     </li>
 
+                   
+                    <li class="nav-link">
+                        <a href="trackorder.php">
+                            <i class='bx bx-map icon' ></i>
+                            <span class="text nav-text">Track Orders</span>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
-			<div class="profile-sidebar">
-				<!-- SIDEBAR USERPIC -->
-				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
-          <div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
-					</div>
-				
-				</div>
-		
-				</div>
 
             <div class="bottom-content">
                 <li class="">
@@ -158,7 +134,7 @@
         <div class="home-content">
     <div class="table-container">
         <div class="table-heading">
-            <h3 class="table-title">ORDERS</h3>
+            <h3 class="table-title">PURCHASE ORDERS</h3>
            
             
         </div>
@@ -167,8 +143,9 @@
             <thead>
                 <tr>
                     
-                    <th>Name</th>
-                    <th>Price</th>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Total</th>
                    
                     <th class="action">Action</th>
                 </tr>
@@ -176,33 +153,63 @@
             <tbody>
                 <tr>
                     
-                    <th>Name</th>
-                    <th>Price</th>
+                    <td>1</td>
+                    <td>Jaydee</td>
+                    <td>200</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
+                        
                     </td>
                 </tr>
                 <tr>
                     
-                    <th>Name</th>
-                    <th>Price</th>
+                    <td>2</td>
+                    <td>Jaydee</td>
+                    <td>100</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
+                </tr>
+                <tr>
                     
+                    <td>3</td>
+                    <td>Jaydee</td>
+                    <td>400</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">View</a>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>4</td>
+                    <td>Jaydee</td>
+                    <td>120</td>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">View</a>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td>5</td>
+                    <td>Jaydee</td>
+                    <td>50</td>
+                  
+                    <td class="action">
+                        <a class="action-edit" href="#">View</a>
+                    </td>
                 </tr>
                 <tr>
                    
-                    <th>Name</th>
-                    <th>Price</th>
+                    <td>6</td>
+                    <td>Jaydee</td>
+                    <td>600</td>
                     
                     <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
+                        <a class="action-edit" href="#">View</a>
                     </td>
                 </tr>
             </tbody>
