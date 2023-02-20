@@ -57,21 +57,21 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="purchase.php">
+                        <a href="items.php">
                             <i class='bx bx-shopping-bag icon' ></i>
                             <span class="text nav-text">Items</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="purchase.php">
+                        <a href="services.php">
                             <i class='bx bx-printer icon' ></i>
                             <span class="text nav-text">Services</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="customer.php">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
@@ -79,7 +79,7 @@
 
                    
                     <li class="nav-link">
-                        <a href="trackorder.php">
+                        <a href="orders.php">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
