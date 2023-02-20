@@ -1187,14 +1187,14 @@
                 display: inline-flex;
             }
             
-            .home divider {
+            .home .divider {
                 border: 0;
                 border-bottom: 2px solid rgb(70, 70, 70);
                 width: 200%;
                 margin: 20px 0;
             }
             
-            .home .text .name {
+            .home.text .name {
                 font-size: 30px;
                 font-weight: 500;
                 color: #990000;
