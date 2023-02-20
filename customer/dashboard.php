@@ -127,12 +127,12 @@
     <section class="home">
     <header>
             <div class="image-logo">
-                <span class="logo">
+                <span>
                 <img src="../img/upress-logo.png" alt="">
                 </span>
 
                 <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
+                    <span>UNIVERSITY PRESS</span>
                   
                 </div>
             </div>

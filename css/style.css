@@ -1173,11 +1173,11 @@
             
             .home header .logo img {
                 width: 4rem;
-                margin-left: 17rem;
+                margin-left: 370px;
                 border-radius: 6px;
                 vertical-align: middle;
                 display: inline-flex;
-                margin-top: .23rem;
+                margin-top: 1rem;
             }
             
             .home header .image-logo {
@@ -1194,7 +1194,7 @@
                 margin: 20px 0;
             }
             
-            .home .text .name {
+            .home .text {
                 font-size: 30px;
                 font-weight: 500;
                 color: #990000;
