@@ -62,7 +62,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="order.php">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
