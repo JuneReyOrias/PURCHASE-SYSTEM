@@ -109,7 +109,20 @@
     </section>
 
     <section class="home">
-        <div class="text" >UNIVERSITY PRESS</div>
+    <header>
+            <div class="image-logo">
+                <span >
+                <img src="../img/upress-logo.png" >
+                </span>
+
+                <div class="text">
+                    <span class="name">UNIVERSITY PRESS</span>
+                  
+                </div>
+                </div>
+
+           
+        </header>
      
             
 
