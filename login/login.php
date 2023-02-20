@@ -50,11 +50,11 @@ $accounts = array(
                 if($output['role'] == 'customer'){
                    // print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
-                }else{
-                    // header('location: ../user/user-profile.php');
+                }elseif($output['role'] == 'admin'){
+                    header('location: ../admin/dashboard.php');
                     //  header('location: ../admin/dashboard1.php');
                 }
-            }else{
+            }else {
                 //set the error message if account is invalid
                 $error = 'fuckyou hahahah. Try again.';
             }
