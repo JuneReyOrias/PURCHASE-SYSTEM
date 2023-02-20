@@ -125,11 +125,10 @@
         </header>
      
             
-        <hr class="divider">
+        <hr class= "divider">
         <div class="tapnav">
         <a class="active" href="dashboard.php">Home</a>
-        <a href="#contact">Contact</a>
-        <a href='#contact us'>About</a>
+        <a href="order.php">Shop</a>
 </div>
         <div class="home-content">
     <div class="table-container">
