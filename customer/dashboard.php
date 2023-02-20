@@ -130,12 +130,12 @@
                 <span >
                 <img src="../img/upress-logo.png" >
                 </span>
-</div>
+
                 <div class="text">
                     <span class="name">UNIVERSITY PRESS</span>
                   
                 </div>
-            
+                </div>
 
            
         </header>
