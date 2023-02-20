@@ -354,7 +354,7 @@
                 flex-wrap: wrap;
                 padding: 0 20px;
                 margin-bottom: 26px;
-                padding-top: 40px;
+                padding-top: 56px;
             }
             
             .overview-boxes .box {
@@ -1171,7 +1171,7 @@
                 margin-left: 30px;
             }
             
-            .home header .logo img {
+            .home header img {
                 width: 4rem;
                 margin-left: 370px;
                 border-radius: 6px;
@@ -1194,7 +1194,7 @@
                 margin: 20px 0;
             }
             
-            .home .text {
+            .home .text .name {
                 font-size: 30px;
                 font-weight: 500;
                 color: #990000;
