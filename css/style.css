@@ -643,8 +643,7 @@
             /* Style the links inside the navigation bar */
             
             .tapnav a {
-                float: left;
-                justify-items: center;
+                float: right;
                 margin-right: 1rem;
                 color: #990000;
                 text-decoration: none;
