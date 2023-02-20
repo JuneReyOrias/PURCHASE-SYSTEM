@@ -125,7 +125,7 @@
         </header>
      
             
-
+        <hr class="divider">
         <div class="home-content">
     <div class="table-container">
         <div class="table-heading">
