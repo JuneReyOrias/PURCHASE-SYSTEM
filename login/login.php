@@ -54,6 +54,10 @@ $accounts = array(
                     header('location: ../admin/dashboard.php');
                     //  header('location: ../admin/dashboard1.php');
                 }
+                elseif($output['role'] == 'staff'){
+                    header('location: ../staff/dashboard.php');
+                    //  header('location: ../admin/dashboard1.php');
+                }
             }else {
                 //set the error message if account is invalid
                 $error = 'fuckyou hahahah. Try again.';
