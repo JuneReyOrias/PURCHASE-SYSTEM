@@ -142,7 +142,7 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="#home">Home<</a>
+        <a class="active" href="#home">Home</a>
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
