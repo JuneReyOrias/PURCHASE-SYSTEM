@@ -59,7 +59,7 @@
                     <li class="nav-link">
                         <a href="purchase.php">
                             <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Purchase</span>
+                            <span class="text nav-text">Purchases</span>
                         </a>
                     </li>
 
@@ -70,13 +70,6 @@
                         </a>
                     </li>
 
-                   
-                    <li class="nav-link">
-                        <a href="trackorder.php">
-                            <i class='bx bx-map icon' ></i>
-                            <span class="text nav-text">Track Orders</span>
-                        </a>
-                    </li>
 
                 </ul>
             </div>
