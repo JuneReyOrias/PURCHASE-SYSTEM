@@ -645,7 +645,6 @@
             .tapnav a {
                 float: left;
                 justify-items: center;
-                margin-right: 1rem;
                 color: #990000;
                 text-decoration: none;
                 margin-left: 2rem;
@@ -653,7 +652,7 @@
             }
             /* Change the color of links on hover */
             
-            .topnav a:hover {
+            .tpnav a:hover {
                 background-color: #ddd;
                 color: rgb(232, 52, 52);
             }
