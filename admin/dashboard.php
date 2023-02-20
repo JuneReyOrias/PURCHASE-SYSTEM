@@ -65,7 +65,7 @@
 
                     <li class="nav-link">
                         <a href="purchase.php">
-                            <i class='bx bx-services icon' ></i>
+                            <i class='bx bx-hand icon' ></i>
                             <span class="text nav-text">Services</span>
                         </a>
                     </li>
