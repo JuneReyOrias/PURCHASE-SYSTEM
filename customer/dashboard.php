@@ -137,7 +137,7 @@
                 </div>
             </div>
 
-            <i class='bx bx-chevron-right toggle'></i>
+           
         </header>
 
         <hr class= "divider">
