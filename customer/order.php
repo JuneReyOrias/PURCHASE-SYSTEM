@@ -156,7 +156,19 @@
 
                     <div class="box-topic" class="btn-1">
                
-                        <i class='bx bx-cart icon' ></i><span>Printing</span>Printing</div> </br>
+                        
+                    <li class="nav-link">
+                      
+                      <i class='bx bx-box' ></i>
+                      <span class="text nav-text">box</span>
+                  
+              </li>
+              <li class="nav-link">
+                      
+                            <i class='bx bx-box' ></i>
+                            <span class="text nav-text">box</span>
+                        
+                    </li>
                     
                     
                     </div>
