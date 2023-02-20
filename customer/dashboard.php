@@ -132,8 +132,8 @@
                 </span>
 
                 <div class="text">
-                    <span class="name">University</span>
-                    <span class="profession">Press</span>
+                    <span class="name">UNIVERSITY PRESS</span>
+                  
                 </div>
             </div>
 
