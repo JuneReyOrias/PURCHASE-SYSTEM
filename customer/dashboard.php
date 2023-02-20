@@ -128,7 +128,7 @@
     <header>
             <div class="image-logo">
                 <span >
-                <img src="../img/upress-logo.png" alt="">
+                <img src="../img/upress-logo.png" >
                 </span>
 </div>
                 <div class="text">
