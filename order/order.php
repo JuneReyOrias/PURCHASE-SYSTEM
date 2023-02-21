@@ -140,7 +140,7 @@
             <form class="checkbox-form" action="order.php" method="post">
 
             <input type="checkbox" name="Printing" value="Printing">
-            <label for="Printing"> I have a bike</label>
+        
             <input type="checkbox" name="Binding" value="Binding" >
             <input type="checkbox" name="Laminate" value="Laminate">
 
@@ -174,7 +174,7 @@
 toggle.addEventListener("click" , () =>{
     sidebar.classList.toggle("close");
 })
-
+decodeURI                   
 searchBtn.addEventListener("click" , () =>{
     sidebar.classList.remove("close");
 })
