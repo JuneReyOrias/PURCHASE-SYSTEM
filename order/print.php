@@ -149,8 +149,9 @@
         <option value="">Kromekote</option>
 
         <div>
-         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label>
+        
+          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label>
+          <input type="text" name="digitall" placeholder="Qty per type">
 </div>
        
 
