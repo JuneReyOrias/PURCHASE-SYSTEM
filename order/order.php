@@ -137,7 +137,7 @@
         
         <div class="home-content">
     <div class="checkbox-container">              
-            <form class="checkbox-form" action="../printing/print.php" method="post">
+            <form class="checkbox-form" action="../order/printing/print.php" method="post">
               
             <div>
             <input id="checkbox-1" class="checkbox-custom" action="../printing/print.php" name="checkbox-1" type="checkbox">
@@ -153,7 +153,7 @@
          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> Lamination</label>
 </div>
           
-<a class="addFacultybtn button" href="print.php">Add New Faculty</a>    
+<a class="addFacultybtn button" href="../order/printing/print.php">Add New Faculty</a>    
 </form> 
 
                     </div>
