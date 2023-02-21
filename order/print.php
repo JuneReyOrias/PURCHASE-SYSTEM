@@ -148,18 +148,12 @@
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
 
-        <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
-        <select name="Printing type "class="select multiple-select" multiple >
-        
-        <option value="">Digital Color</option>
-        <option value="">Digital Black and White</option>
-        <option value="">Photo Printing</option>
-        <option value="">Rhisograph</option>
-        <option value="">Kromekote</option>
-
-        
-           
+        <div>
+         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label>
+</div>
        
+
 </form> 
                     </div>
                 </div>
