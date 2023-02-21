@@ -139,7 +139,7 @@
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
         <label class="design"for="">Printing type</label>
-        <select name="Printing type class="select multiple-select" multiple >
+        <select name="Printing type "sclass="select multiple-select" multiple >
         <option value="2">--select--</option>
         <option value="">No, I have a print ready file</option>
         <option value="3">Yes, I will require layouting</option>
