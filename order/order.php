@@ -144,10 +144,8 @@
                 <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
             </div>
             <div>
-            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  
+            <input" type="checkbox">
+           
 </div>
 </form>
             <input type="submit" name="formSubmit" value="Submit" />
