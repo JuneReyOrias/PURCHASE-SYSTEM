@@ -154,7 +154,7 @@
 </div>
           
 
-<input class="buttons" type="submit" value="continue" name="continue" tabindex="3" >
+<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </form> 
 
                     </div>
