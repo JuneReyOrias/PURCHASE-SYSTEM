@@ -137,18 +137,21 @@
         
         <div class="home-content">
     <div class="checkbox-container">              
-    <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
-  <label class="form-check-label" for="flexCheckDisabled">
-    Disabled checkbox
-  </label>
+            <form class="checkbox-form" action="order.php" method="post">
+            <div>
+            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+            <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+        </div>
+        <div>
+  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+  <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
 </div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckCheckedDisabled" checked disabled>
-  <label class="form-check-label" for="flexCheckCheckedDisabled">
-    Disabled checked checkbox
-  </label>
+
+    <div>
+         <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+         <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
 </div>
+            </form>
             <input type="submit" name="formSubmit" value="Submit" />
   
                     </div>
