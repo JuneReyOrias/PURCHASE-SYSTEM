@@ -591,6 +591,7 @@
                 vertical-align: middle;
                 margin: 5px;
                 cursor: pointer;
+                text-align: right;
             }
             
             .checkbox-custom+.checkbox-custom-label:before {
@@ -604,7 +605,7 @@
                 height: 10px;
                 padding: 2px;
                 margin-right: 10px;
-                text-align: center;
+                text-align: right;
             }
             
             .checkbox-custom:checked+.checkbox-custom-label:before {
@@ -619,10 +620,6 @@
                 margin: 0px 15px 5px 5px;
             }
             /*checkbox for*/
-            
-            .checkbox-form .check {
-                margin-left: 12px;
-            }
             
             input[type=checkbox] {
                 transform: scale(1.5);
