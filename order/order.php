@@ -162,7 +162,11 @@
                       <span class="text nav-text">box</span>
                   
               </li>
-                    
+              <form action="checkbox-form.php" method="post">
+    Do you need wheelchair access?
+    <input type="checkbox" name="formWheelchair" value="Yes" />
+    <input type="submit" name="formSubmit" value="Submit" />
+</form>
                     
                     </div>
                 </div>
