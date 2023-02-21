@@ -138,8 +138,7 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
-            <label for="checkbox-2" class="checkbox-custom-label">Design</label>    
-        
+        <label for="design required?">Design Required?</label>
         <select class="select">
         <option value="2">Two</option>
         <option value="3">Three</option>
