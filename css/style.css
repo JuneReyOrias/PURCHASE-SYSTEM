@@ -585,6 +585,10 @@
                 margin-left: 12px;
             }
             
+            input[type=checkbox] {
+                transform: scale(1.5);
+            }
+            
             .checkbox-form {
                 max-width: 400px;
                 padding: 30px;
