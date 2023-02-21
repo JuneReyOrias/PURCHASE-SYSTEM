@@ -154,7 +154,7 @@
 </div>
           
 
-<input class="buttons" href="../printing/print.php" type="submit" value="continue" name="continue" tabindex="3">
+<a  class="Continuebtn buttons" href="../printing/print.php" type="submit">Continue</a>
 </form> 
 
                     </div>
