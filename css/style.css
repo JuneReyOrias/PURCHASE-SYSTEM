@@ -357,6 +357,7 @@
                 margin-bottom: 26px;
                 padding-top: 56px;
             }
+            /*delete when check box is accessible*/
             
             .services-boxes .box {
                 display: center;
@@ -577,6 +578,18 @@
             
             label {
                 margin-right: 20px;
+            }
+            /*checkbox for*/
+            
+            .checkbox-container {
+                width: 100%;
+                height: calc(100vh);
+                display: flex;
+                align-items: center;
+                justify-items: center;
+                background-image: url(../img/campus.JPG);
+                background-size: cover;
+                background-position: 0cm;
             }
             
             .side-bar {
