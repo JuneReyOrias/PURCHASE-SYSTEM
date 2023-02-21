@@ -140,7 +140,7 @@
             <form class="checkbox-form" action="print.php" method="post">
               
             <select class="select">
-  <option text="text" name="design required" value="design">Dsign</option>
+  <input text="text" placeholder="design required?" value="design">Dsign</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
   <option value="4">Four</option>
