@@ -150,11 +150,11 @@
 
     <div>
          <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> Lamination</label>
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> amination</label>
 </div>
           
 
-<input class="buttons" action="../printing/print.php" type="submit" value="continue" name="continue" tabindex="3">
+<input class="buttons" type="submit" value="continue" name="continue" tabindex="3">
 </form> 
 
                     </div>
