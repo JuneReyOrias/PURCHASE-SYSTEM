@@ -138,9 +138,9 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
-        <label class="design"for="design required?">Design Required?</label>
-        <select class="select">
-        <option value="2"></option>
+        <label class="design"for="">Printing type</label>
+        <select name="Printing type class="select multiple-select" multiple >
+        <option value="2">--select--</option>
         <option value="">No, I have a print ready file</option>
         <option value="3">Yes, I will require layouting</option>
         <option value="4">My file needs some changes</option>
@@ -158,8 +158,12 @@
     </section>
 
 </nav>
-
-
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+    $(".multiple-select").select2({
+  //maximumSelectionLength: 2
+});
+</script>
 <script>
         const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
