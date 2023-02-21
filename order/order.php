@@ -139,26 +139,15 @@
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
                 <div> 
-                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
-                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
-                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label><br>
+                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label><br>
+                <label for="checkbox-1" class="checkbox-custom-label">First Choice</label><bt></bt>
             </div>
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
-        </div>
-        <div>
-  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
-</div>
-
-    <div>
-         <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-         <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
 </div>
             </form>
-            <input type="submit" name="formSubmit" value="Submit" />
-  
+          
                     </div>
                 </div>
 
