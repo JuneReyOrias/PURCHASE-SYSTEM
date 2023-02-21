@@ -359,20 +359,6 @@
             }
             /*delete when check box is accessible*/
             
-            .services-boxes .box {
-                display: center;
-                align-items: center;
-                justify-content: center;
-                width: calc(170vh/ 3 - 10px);
-                background: #fff;
-                margin-bottom: 1rem;
-                margin-left: 2rem;
-                height: 35vh;
-                padding: 15px 14px;
-                border-radius: 12px;
-                box-shadow: 0 14px 16px #990000;
-            }
-            
             .home-content .overview-boxes {
                 display: flex;
                 align-items: center;
@@ -579,6 +565,19 @@
             label {
                 margin-right: 20px;
             }
+            /*select form*/
+            
+            .select-form {
+                padding: 60px;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 2%;
+                width: 430px;
+                height: 300px;
+                margin-top: 40px;
+                font-size: 30px;
+            }
+            /*order services*/
             
             .buttons {
                 background-color: #78101c;
