@@ -153,9 +153,10 @@
          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> Lamination</label>
 </div>
             </form>
-
-           <input class="buttons" type="submit" value="continue" name="continue" tabindex="3">
+<div>
+<input class="buttons" type="submit" value="continue" name="continue" tabindex="3">
             
+</div>
                     </div>
                 </div>
 
