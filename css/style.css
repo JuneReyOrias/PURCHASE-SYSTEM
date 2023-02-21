@@ -589,6 +589,11 @@
                 transform: scale(1.5);
             }
             
+            .text-box {
+                font-size: 68px;
+                display: inline;
+            }
+            
             .checkbox-form {
                 max-width: 400px;
                 padding: 30px;
