@@ -589,7 +589,7 @@
                 border-radius: 2%;
             }
             
-            .checkbox-form .input,
+            .checkbox-form input,
             select {
                 width: 100%;
                 padding: 10px;
