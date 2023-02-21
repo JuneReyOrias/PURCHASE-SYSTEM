@@ -147,17 +147,17 @@
         <option value="">Photo Printing</option>
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
-<div><label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label></div>
-        <div>
+
         
         
           <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+          <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </div>
        
-<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+
 </form> 
                     </div>
                 </div>
