@@ -599,7 +599,7 @@
                 display: inline-block;
                 background: #fff;
                 border-radius: 5px;
-                border: 2px solid #ddd;
+                border: 2px solid #040404;
                 vertical-align: middle;
                 width: 10px;
                 height: 10px;
@@ -621,8 +621,8 @@
             }
             /*checkbox for*/
             
-            input[type=checkbox-1] {
-                transform: scale(1.5);
+            input[type=checkbox] {
+                transform: scale(2.5);
             }
             
             .text-box {
