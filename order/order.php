@@ -141,16 +141,16 @@
               
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+            <label for="checkbox-1" class="checkbox-custom-label">Printing</label>
         </div>
         <div>
   <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label">Second Choice  <i class='bx bx-cart icon' ></i></label>
+  <label for="checkbox-2" class="checkbox-custom-label">Binding  <i class='bx bx-cart icon' ></i></label>
 </div>
 
     <div>
          <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label">my king</label>
+         <label for="checkbox-3" class="checkbox-custom-label">Lamination</label>
 </div>
             </form>
 
