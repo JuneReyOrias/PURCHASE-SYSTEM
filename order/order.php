@@ -138,14 +138,14 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
-            <h3>Printing</h3>
-             <input class ="check" type="checkbox" name="Printing" value="Printing">
-         
-            <input type="checkbox" name="Binding" value="Binding" >
-            <span class="text-box">Printing</span>  </input>
-            <input type="checkbox" name="Laminate" value="Laminate">
-            <span class="text-box">Printing</span> 
-            
+            <div>
+  <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+  <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+</div>
+<div>
+  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+  <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
+</div>
             </form>
             <input type="submit" name="formSubmit" value="Submit" />
   
