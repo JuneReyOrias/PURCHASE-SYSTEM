@@ -589,6 +589,12 @@
                 transform: scale(1.5);
             }
             
+            .h3 {
+                vertical-align: middle;
+                font-display: flex;
+                margin-left: 23px;
+            }
+            
             .text-box {
                 font-size: 12px;
                 display: inline;
