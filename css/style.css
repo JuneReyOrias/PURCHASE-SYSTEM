@@ -580,20 +580,6 @@
                 margin-right: 20px;
             }
             
-            .checkbox-custom {
-                opacity: 0;
-                position: absolute;
-            }
-            
-            .checkbox-custom,
-            .checkbox-custom-label {
-                display: inline-block;
-                vertical-align: middle;
-                margin: 5px;
-                cursor: pointer;
-                text-align: right;
-            }
-            
             .checkbox-custom+.checkbox-custom-label:before {
                 content: '';
                 display: inline-block;
