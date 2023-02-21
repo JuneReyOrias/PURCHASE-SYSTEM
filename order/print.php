@@ -164,6 +164,7 @@
 <script>
     $(".multiple-select").select2({
     maximumSelectionLength: 2
+    font-size:small
 });
 </script>
 <script>
