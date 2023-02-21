@@ -136,7 +136,7 @@
      
         
         <div class="home-content">
-        <div class="overview-boxes" >
+        <div class="services-boxes" >
             <div class="box">
                 <div class="right-side">
 

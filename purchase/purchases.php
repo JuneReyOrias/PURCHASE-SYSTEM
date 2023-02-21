@@ -128,8 +128,8 @@
             
         <hr class="divider">
         <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
-        <a href="#contact">Contact</a>
+        <a class="active" href="../customer/dashboard.php">Home</a>
+        <a href="../purchase/purchases.php">Shop</a>
         <a href='#contact us'>About</a>
 </div>
         <div class="home-content">
