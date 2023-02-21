@@ -154,7 +154,7 @@
 </div>
             </form>
 
-           <input class="button" type="submit" value="continue" name="continue" tabindex="3">
+           <input class="buttons" type="submit" value="continue" name="continue" tabindex="3">
             
                     </div>
                 </div>
