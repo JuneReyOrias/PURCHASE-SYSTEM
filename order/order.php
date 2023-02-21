@@ -49,7 +49,7 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="dashboard.php">
+                        <a href="../customer/dashboard.php">
                             <i class='bx bxs-dashboard icon' ></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
