@@ -621,7 +621,7 @@
             }
             /*checkbox for*/
             
-            input[type=checkbox] {
+            input[type=checkbox-1] {
                 transform: scale(1.5);
             }
             
