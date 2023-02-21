@@ -136,8 +136,8 @@
      
         
         <div class="home-content">
-    <div class="checkbox-container">              
-            <form class="checkbox-form" action="order.php" method="post">
+    <div class="select-container">              
+            <form class="select-form" action="order.php" method="post">
         <label for="design required?">Design Required?</label>
         <select class="select">
         <option value="2">Two</option>
