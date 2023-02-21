@@ -139,8 +139,8 @@
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
 <div> 
-<label class="design"for="">Quantity</label>
-<input type="text" name="quantity" placeholder=" ">quantity</input>
+<label class="quantity"for="">Quantity</label>
+<input class="qty" type="text" name="quantity" placeholder=" ">quantity</input>
 </div>
             
         <label class="design"for="">Printing type</label>

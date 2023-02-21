@@ -573,6 +573,11 @@
                 font-size: small;
             }
             
+            .qty {
+                width: auto;
+                height: auto;
+            }
+            
             .design {
                 font-size: 20px;
             }
