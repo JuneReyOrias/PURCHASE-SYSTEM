@@ -582,7 +582,8 @@
             
             .checkbox-custom {
                 opacity: 0;
-                position: absolute;
+                position: right;
+                margin-bottom: 234px;
             }
             
             .checkbox-custom,
