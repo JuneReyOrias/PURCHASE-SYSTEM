@@ -141,7 +141,7 @@
               
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
+            <label for="checkbox-1" class="checkbox-custom-label"> <a href="print.php"><i class='bx bx-printer icon' ></i>   Printing</label>
         </div>
         <div>
   <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
