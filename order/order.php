@@ -128,7 +128,7 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
+        <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="../printing/print.php">Shop</a>
         
 </div>
@@ -137,7 +137,7 @@
         
         <div class="home-content">
     <div class="checkbox-container">              
-            <form class="checkbox-form" action="../order/printing/print.php" method="post">
+            <form class="checkbox-form" action="../printing/print.php" method="post">
               
             <div>
             <input id="checkbox-1" class="checkbox-custom" action="../printing/print.php" name="checkbox-1" type="checkbox">
