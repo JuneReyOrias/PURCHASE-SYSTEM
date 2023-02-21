@@ -8,7 +8,8 @@ Class users{
     public $firstname;
     public $lastname;
     public $email;
-    public $role;
+    public $act;
+
 
     protected $db;
 
@@ -18,7 +19,7 @@ Class users{
     }
  
     function login(){
-        $sql = "SELECT * FROM user_acc WHERE username = :email and user_pass = :password" ;
+        $sql = "SELECT * FROM user_acc WHERE user_name = :email and user_pass = :password" ;
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':email', $this->email);
         $query->bindParam(':password', $this->password);
