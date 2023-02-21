@@ -568,7 +568,7 @@
             /*select form*/
             
             .select .multiple-selection {
-                width: 2rem;
+                width: 23px;
                 min-height: auto;
                 font-size: small;
             }
