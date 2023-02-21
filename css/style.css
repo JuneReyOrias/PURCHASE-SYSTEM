@@ -581,15 +581,12 @@
             }
             /*checkbox for*/
             
-            .checkbox-container {
-                width: 100%;
-                height: calc(100vh);
-                display: flex;
-                align-items: center;
-                justify-items: center;
-                background-image: url(../img/campus.JPG);
-                background-size: cover;
-                background-position: 0cm;
+            .checkbox-form {
+                max-width: 400px;
+                padding: 30px;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 2%;
             }
             
             .side-bar {
