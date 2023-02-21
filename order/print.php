@@ -140,7 +140,7 @@
             <form class="select-form" action="order.php" method="post">
    
         <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
-        <select name="Printing type "class="select multiple-select" multiple >
+        <select name="Printing type "class="select" multiple ="multiple">
         
         <option value="">Digital Color</option>
         <option value="">Digital Black and White</option>
