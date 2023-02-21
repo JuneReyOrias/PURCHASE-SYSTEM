@@ -160,7 +160,7 @@
                 </div>
 
             
-                       <a href="..printing/print.php" class="button">Add New Faculty</a>
+                       <a href="../printing/print.php" class="button">Add New Faculty</a>
                
                 
  <div>
