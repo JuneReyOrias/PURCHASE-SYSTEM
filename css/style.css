@@ -641,11 +641,14 @@
             }
             
             .checkbox-form {
-                max-width: 400px;
                 padding: 30px;
                 margin: 0 auto;
                 background-color: white;
                 border-radius: 2%;
+                width: 330px;
+                height: 300px;
+                margin-top: 40px;
+                font-size: 25px;
             }
             
             .checkbox-form input,
