@@ -587,6 +587,8 @@
             
             input[type=checkbox] {
                 transform: scale(1.5);
+                vertical-align: middle;
+                display: inline-flex;
             }
             
             .text-box {
@@ -597,7 +599,6 @@
             .checkbox-form {
                 max-width: 400px;
                 padding: 30px;
-                margin: 0 auto;
                 background-color: white;
                 border-radius: 2%;
             }
@@ -606,7 +607,6 @@
             select {
                 width: 100%;
                 padding: 10px;
-                margin: 8px 0;
                 border-radius: 6px;
                 box-sizing: border-box;
                 border: 1px solid black;
