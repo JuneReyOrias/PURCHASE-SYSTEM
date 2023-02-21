@@ -597,6 +597,7 @@
             .checkbox-form {
                 max-width: 400px;
                 padding: 30px;
+                margin: 0 auto;
                 background-color: white;
                 border-radius: 2%;
             }
