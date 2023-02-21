@@ -141,9 +141,11 @@
         <label class="design"for="">Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         <option value="">--select--</option>
-        <option value="">No, I have a print ready file</option>
-        <option value="3">Yes, I will require layouting</option>
-        <option value="4">My file needs some changes</option>
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
               
 </form> 
                     </div>
