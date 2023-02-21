@@ -157,10 +157,7 @@
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
 </div>
        
-</div>
-       
-<div>
-        
+<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </form> 
                     </div>
                 </div>
