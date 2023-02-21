@@ -567,6 +567,11 @@
             }
             /*select form*/
             
+            .select {
+                width: auto;
+                min-height: auto;
+            }
+            
             .select-form {
                 padding: 60px;
                 margin: 0 auto;
