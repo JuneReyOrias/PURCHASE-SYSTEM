@@ -149,7 +149,7 @@
 
     <div>
          <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>amination</label>
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label>
 </div>
           
 
