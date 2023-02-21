@@ -605,7 +605,7 @@
                 height: 10px;
                 padding: 2px;
                 margin-right: 10px;
-                text-align: right;
+                text-align: left;
             }
             
             .checkbox-custom:checked+.checkbox-custom-label:before {
