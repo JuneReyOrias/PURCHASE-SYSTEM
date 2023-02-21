@@ -568,9 +568,8 @@
             /*select form*/
             
             .select {
-                width: auto;
+                width: 234px;
                 min-height: auto;
-                font-size: 11px;
             }
             
             .design {
