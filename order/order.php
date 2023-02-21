@@ -139,8 +139,8 @@
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
             <div>
-            <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
-            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+            <label for="checkbox-1" class="checkbox-custom-label">First Choice
+            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox"></label>
         
         </div>
         <div>
