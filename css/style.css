@@ -570,6 +570,7 @@
             .select {
                 width: auto;
                 min-height: auto;
+                font-size: 11px;
             }
             
             .design {
