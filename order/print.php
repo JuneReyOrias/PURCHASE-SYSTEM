@@ -140,7 +140,7 @@
             <form class="select-form" action="order.php" method="post">
 <div> 
 <label class="quantity"for="">Quantity</label>
-<input class="qty" type="text" name="quantity" placeholder=" ">quantity</input>
+<input class="qty" type="text" name="quantity" placeholder="ty "></input>
 </div>
             
         <label class="design"for="">Printing type</label>
