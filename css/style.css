@@ -570,6 +570,7 @@
             .select .multiple-selection {
                 width: 2rem;
                 min-height: auto;
+                font-size: small;
             }
             
             .design {
