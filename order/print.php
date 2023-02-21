@@ -148,7 +148,7 @@
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
            <div>
-           <label class="design"for=""><i class='bx bx-printer icon' ></i>Digital</label>
+           <label class="qty"for="">Digital</label>
         <input type="text" name="digital"  placeholder="Quanty"></input>
               
            </div>   
