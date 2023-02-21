@@ -585,9 +585,9 @@
                 color: white;
                 border: none;
                 margin-top: 122px;
-                line-height: 12px;
+                line-height: 16px;
                 width: auto;
-                margin-left: 456px;
+                margin-left: 346px;
             }
             
             .checkbox-custom {
@@ -632,7 +632,7 @@
             /*checkbox for*/
             
             input[type=checkbox] {
-                transform: scale(2.5);
+                transform: scale(3.0);
             }
             
             .text-box {
@@ -641,14 +641,14 @@
             }
             
             .checkbox-form {
-                padding: 30px;
+                padding: 60px;
                 margin: 0 auto;
                 background-color: white;
                 border-radius: 2%;
-                width: 330px;
+                width: 430px;
                 height: 300px;
                 margin-top: 40px;
-                font-size: 25px;
+                font-size: 30px;
             }
             
             .checkbox-form input,
