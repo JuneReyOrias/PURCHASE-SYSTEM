@@ -128,7 +128,7 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="../customer/dashboard.php">Home</a>
+        <a class="active" href="../printing/print.php">Home</a>
         <a href="../printing/print.php">Shop</a>
         
 </div>
