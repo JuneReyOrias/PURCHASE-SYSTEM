@@ -155,7 +155,7 @@
             </form>
 
            <input class="button" type="submit" value="Login" name="login" tabindex="3">
-            <?php
+            
                     </div>
                 </div>
 
