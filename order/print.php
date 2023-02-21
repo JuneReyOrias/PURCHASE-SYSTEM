@@ -147,7 +147,11 @@
         <option value="">Photo Printing</option>
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
-              
+              <div>
+                
+        <label class="design"for=""><i class='bx bx-printer icon' ></i>Digital</label>
+        <input type="text" placeholder="Quanty"></input>
+              </div>
 </form> 
                     </div>
                 </div>
