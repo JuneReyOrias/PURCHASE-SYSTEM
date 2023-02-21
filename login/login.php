@@ -44,7 +44,7 @@ $accounts = array(
             // CREATE -- COLUMN "firstname" "lastname" "role"
             $_SESSION['logged-in'] = $output['username'];
             $_SESSION['fullname'] = $output['firstname'] . ' ' . $output['lastname'];
-            $_SESSION['user_role'] = $output['role'];
+            $_SESSION['user_acc'] = $output['acc'];
 
             //display the appropriate dashboard page for user
                 if($output['acc'] == 'customer'){
