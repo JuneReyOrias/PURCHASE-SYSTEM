@@ -149,8 +149,8 @@
 </div>
 
     <div>
-         <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-         <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
+         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+         <label for="checkbox-3" class="checkbox-custom-label">my king</label>
 </div>
             </form>
           
