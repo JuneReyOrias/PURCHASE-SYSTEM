@@ -138,10 +138,10 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
-            <label for="vehicle1"> I have a bike</label><br>
-            <input type="checkbox" name="Printing" value="" ><br />
-            <input type="checkbox" name="Binding" value="B" >Binding<br />
-            <input type="checkbox" name="Lamination" value="C" >Lamination<br />
+
+            <input type="checkbox" name="Printing" value="Printing" />Printing<br />
+            <input type="checkbox" name="Binding" value="Binding" >Binding<br />
+            <input type="checkbox" name="Laminate" value="Laminate" >Lamination<br />
 
             <input type="submit" name="formSubmit" value="Submit" />
 
