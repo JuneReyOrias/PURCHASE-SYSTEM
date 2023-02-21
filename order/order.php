@@ -153,14 +153,14 @@
          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> Lamination</label>
 </div>
           
-               
+<a class="addFacultybtn button" href="../printing/print.php">Add New Faculty</a>    
 </form> 
 
                     </div>
                 </div>
 
             
-                       <a href="../printing/print.php" class="button">Add New Faculty</a>
+                     
                
                 
  <div>
