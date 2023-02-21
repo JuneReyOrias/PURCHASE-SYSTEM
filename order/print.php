@@ -147,11 +147,19 @@
         <option value="">Photo Printing</option>
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
-</div>
-<div>
-        <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
 
- 
+        <div>
+        <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+</div
+</div>
+           
        
 </form> 
                     </div>
