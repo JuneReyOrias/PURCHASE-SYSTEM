@@ -138,7 +138,7 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
-        <label for="design required?">Design Required?</label>
+        <label class="design"for="design required?">Design Required?</label>
         <select class="select">
         <option value="2">Two</option>
         <option value="3">Three</option>

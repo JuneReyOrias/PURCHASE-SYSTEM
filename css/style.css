@@ -572,6 +572,10 @@
                 min-height: auto;
             }
             
+            .design {
+                font-size: 15px;
+            }
+            
             .select-form {
                 padding: 60px;
                 margin: 0 auto;
