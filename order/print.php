@@ -150,7 +150,7 @@
 </div>
            <div>
            <label class="qty"for="">Digital</label>
-        <input type="text" name="digital"  placeholder="Quanty"></input>
+   
               
            </div>   
        
