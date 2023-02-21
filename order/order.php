@@ -138,17 +138,14 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="print.php" method="post">
-              
-            <select class="select">
-  <option>design</option>
+            <select class="select" multiple>
+  <option value="1">One</option>
   <option value="2">Two</option>
   <option value="3">Three</option>
   <option value="4">Four</option>
   <option value="5">Five</option>
-  <option value="6">Six</option>
-  <option value="7">Seven</option>
-  <option value="8">Eight</option>
 </select>
+<label class="form-label select-label">Design Required?</label>
 
                     </div>
                 </div>
