@@ -141,7 +141,7 @@
         <label class="design"for="design required?">Design Required?</label>
         <select class="select">
         <option value="2"></option>
-        <option value="">No, I have a print ready file = ;</option>
+        <option value="">No, I have a print ready file</option>
         <option value="3">Yes, I will require layouting</option>
         <option value="4">My file needs some changes</option>
               
