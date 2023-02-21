@@ -145,7 +145,7 @@
         </div>
         <div>
   <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
+  <label for="checkbox-2" class="checkbox-custom-label">Second Choice  <i class='bx bx-cart icon' ></i></label>
 </div>
 
     <div>
