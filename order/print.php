@@ -150,7 +150,7 @@
 
         <div>
         
-          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label><br>
+          <hr3>Laminate</hr3>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
 </div>
        
