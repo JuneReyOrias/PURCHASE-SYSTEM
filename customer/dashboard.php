@@ -56,7 +56,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="../purchase/purchase.php">
+                        <a href="../purchase/purchases.php">
                             <i class='bx bx-shopping-bag icon' ></i>
                             <span class="text nav-text">Purchase</span>
                         </a>
