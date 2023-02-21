@@ -132,7 +132,7 @@
         <a href="order.php">Shop</a>
         
 </div>
-        <div class="col1" ><span>Offered Services</span></div>
+        <div class="col1" ><span> Services</span></div>
      
         
         <div class="home-content">
@@ -152,11 +152,11 @@
          <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
          <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i> Lamination</label>
 </div>
-            </form>
-<div>
+          
+
 <input class="buttons" type="submit" value="continue" name="continue" tabindex="3">
-            
-</div>
+</form> 
+
                     </div>
                 </div>
 
