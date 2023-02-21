@@ -136,25 +136,16 @@
      
         
         <div class="home-content">
-        <div class="services-boxes" >
-            <div class="box">
-                <div class="right-side">
+    <div class="checkbox-container">              
+            <form class="checkbox-form" action="order.php" method="post">
 
-                    <div class="box-topic" class="btn-1">
-               
-                        
-             
-                  
-        <form action="checkbox-form.php" method="post">
+            <input type="checkbox" name="Printing" value="A" />Printing<br />
+            <input type="checkbox" name="Binding" value="B" />Binding<br />
+            <input type="checkbox" name="Lamination" value="C" />Lamination<br />
 
-<br />
-<input type="checkbox" name="formDoor[]" value="A" />Acorn Building<br />
-<input type="checkbox" name="formDoor[]" value="B" />Brown Hall<br />
-<input type="checkbox" name="formDoor[]" value="C" />Carnegie Complex<br />
+            <input type="submit" name="formSubmit" value="Submit" />
 
-<input type="submit" name="formSubmit" value="Submit" />
-
-</form>
+            </form>
                     
                     </div>
                 </div>
