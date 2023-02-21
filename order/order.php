@@ -20,9 +20,8 @@
 ?>
     
    
-    </main> -->
+    
    
-
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -57,14 +56,14 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="purchase.php">
+                        <a href="../purchase/purchase.php">
                             <i class='bx bx-shopping-bag icon' ></i>
                             <span class="text nav-text">Purchase</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="order.php">
+                        <a href="../order/order.php">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
@@ -72,7 +71,7 @@
 
                    
                     <li class="nav-link">
-                        <a href="trackorder.php">
+                        <a href="../trackordr/trackorder.php">
                             <i class='bx bx-map icon' ></i>
                             <span class="text nav-text">Track Orders</span>
                         </a>
@@ -80,21 +79,7 @@
 
                 </ul>
             </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
-			<div class="profile-sidebar">
-				<!-- SIDEBAR USERPIC -->
-				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
-          <div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
-					</div>
-				
-				</div>
-		
-				</div>
+
             <div class="bottom-content">
                 <li class="">
                     <a href="../login/login.php">
@@ -119,6 +104,7 @@
         </div>
 
     </nav>
+
 
 
        
