@@ -568,7 +568,7 @@
             /*select form*/
             
             .select {
-                width: 234px;
+                width: auto;
                 min-height: auto;
             }
             
