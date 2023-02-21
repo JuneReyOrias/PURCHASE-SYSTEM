@@ -567,9 +567,19 @@
             }
             /*select form*/
             
-            .select .multiple-selection {
-                width: 12px;
-                min-height: auto;
+            .select2-container--default.select2-container--focus .select2-selection--multiple {
+                border: solid black 1px;
+                outline: 0;
+            }
+            
+            .select2-container--default .select2-selection--multiple {
+                background-color: white;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+                cursor: text;
+                padding-bottom: 5px;
+                padding-right: 5px;
+                position: relative;
                 font-size: small;
             }
             
