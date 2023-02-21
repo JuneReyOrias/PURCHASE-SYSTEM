@@ -7,7 +7,7 @@ Class users{
     public $firstname;
     public $lastname;
     public $email;
-    public $role;
+    public $acc;
 
     protected $db;
 
