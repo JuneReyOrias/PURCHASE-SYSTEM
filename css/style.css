@@ -359,10 +359,10 @@
             }
             
             .services-boxes .box {
-                display: flex;
+                display: center;
                 align-items: center;
                 justify-content: center;
-                width: calc(135vh/ 3 - 10px);
+                width: calc(170vh/ 3 - 10px);
                 background: #fff;
                 margin-bottom: 1rem;
                 margin-left: 2rem;
