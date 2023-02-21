@@ -149,7 +149,7 @@
         <option value="">Kromekote</option>
 
         <div>
-        
+        <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
         
           <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
@@ -159,10 +159,6 @@
        
 <div>
         
-        
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
-</div>
 </form> 
                     </div>
                 </div>
