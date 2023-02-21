@@ -138,9 +138,9 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="print.php" method="post">
-            <label for="checkbox-2" class="checkbox-custom-label">Design Require?</label>    
+            <label for="checkbox-2" class="checkbox-custom-label">Design</label>    
         <select class="select">
-         <option placehoder="design"></option>
+        
         <option value="2">Two</option>
         <option value="3">Three</option>
          <option value="4">Four</option>
