@@ -139,8 +139,7 @@
     <div class="checkbox-container">              
             <form class="checkbox-form" action="order.php" method="post">
             
-           <label>inting <input class ="check" type="checkbox" name="Printing" value="Printing"></label>
-        
+           <input class ="check" type="checkbox" name="Printing" value="Printing"> <span class="text-box">Printing</span>        
             <input type="checkbox" name="Binding" value="Binding" >
             <input type="checkbox" name="Laminate" value="Laminate">
 
