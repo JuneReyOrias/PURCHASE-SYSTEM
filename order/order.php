@@ -154,7 +154,9 @@
 </div>
           
 
-<a  class="Continuebtn buttons" href="../printing/print.php" type="submit">Continue</a>
+?>
+                    <a href="..printing/print.php" class="buttons">Add New Faculty</a>
+                <?php
 </form> 
 
                     </div>
