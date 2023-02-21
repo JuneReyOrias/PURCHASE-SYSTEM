@@ -2,13 +2,13 @@
 require_once '../database/database.php';
 
 Class users{
-
+                                   
     public $username;
     public $password;
     public $firstname;
     public $lastname;
     public $email;
-    public $acc;
+    public $role;
 
     protected $db;
 

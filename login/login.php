@@ -31,30 +31,30 @@ $accounts = array(
         )
      
     );
-    if(isset($_POST['user_name']) && isset($_POST['password'])){
+    if(isset($_POST['username']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
        
         $user= new users;
-        $user -> email = htmlentities($_POST['user_name']); 
+        $user -> email = htmlentities($_POST['username']); 
         $user -> password = htmlentities($_POST['password']); 
 
         $output= $user -> login();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
-            $_SESSION['logged-in'] = $output['user_name'];
+            $_SESSION['logged-in'] = $output['username'];
             $_SESSION['fullname'] = $output['firstname'] . ' ' . $output['lastname'];
-            $_SESSION['user_acc'] = $output['acc'];
+            $_SESSION['user_role'] = $output['role'];
 
             //display the appropriate dashboard page for user
-                if($output['acc'] == 'customer'){
+                if($output['role'] == 'customer'){
                    // print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
-                }elseif($output['acc'] == 'admin'){
+                }elseif($output['role'] == 'admin'){
                     header('location: ../admin/dashboard.php');
                     //  header('location: ../admin/dashboard1.php');
                 }
-                elseif($output['acc'] == 'staff'){
+                elseif($output['role'] == 'staff'){
                     header('location: ../staff/dashboard.php');
                     //  header('location: ../admin/dashboard1.php');
                 }
