@@ -567,6 +567,10 @@
             }
             /*select form*/
             
+            .fc {
+                margin-top: 23px;
+            }
+            
             .select2-container--default.select2-container--focus .select2-selection--multiple {
                 border: solid black 1px;
                 outline: 0;
