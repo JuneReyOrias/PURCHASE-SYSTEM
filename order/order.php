@@ -138,13 +138,23 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="print.php" method="post">
-            <label for="checkbox-2" class="checkbox-custom-label">Design</label>    
-        <select class="select">
-        
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-         <option value="4">Four</option>
+            <div>
+            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+            <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
+        </div>
+        <div>
+  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i>Binding  </label>
+</div>
 
+    <div>
+         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>amination</label>
+</div>
+          
+
+<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+</form>
 </select>
 
                     </div>
