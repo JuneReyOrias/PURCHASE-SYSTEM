@@ -137,7 +137,7 @@
         
         <div class="home-content">
     <div class="checkbox-container">              
-            <form class="checkbox-form" action="order.php" method="post">
+            <form class="checkbox-form" action="../printing/print.php" method="post">
               
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
@@ -154,7 +154,7 @@
 </div>
           
 
-<input class="buttons" action="../printing/print.php" type="submit" value="continue" name="continue" tabindex="3">
+<input class="buttons"  type="submit" value="continue" name="continue" tabindex="3">
 </form> 
 
                     </div>
