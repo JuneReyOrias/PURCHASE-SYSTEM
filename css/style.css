@@ -346,6 +346,17 @@
             .home-section .home-content {
                 position: relative;
             }
+            /*order styles*/
+            
+            .home-content .services-boxes {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding: 0 20px;
+                margin-bottom: 26px;
+                padding-top: 56px;
+            }
             
             .home-content .overview-boxes {
                 display: flex;
