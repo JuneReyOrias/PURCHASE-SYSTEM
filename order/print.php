@@ -150,11 +150,19 @@
 
         <div>
         
-          <hr3>Laminat</hr3>
+        
+          <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
 </div>
        
-
+</div>
+       
+<div>
+        
+        
+        <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
+        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+</div>
 </form> 
                     </div>
                 </div>
