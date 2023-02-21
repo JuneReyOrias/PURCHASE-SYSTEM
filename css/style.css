@@ -582,8 +582,7 @@
             
             .checkbox-custom {
                 opacity: 0;
-                position: right;
-                margin-bottom: 234px;
+                position: absolute;
             }
             
             .checkbox-custom,
@@ -622,7 +621,7 @@
             }
             /*checkbox for*/
             
-            input[type=checkbox] {
+            input[type=checkbox-1] {
                 transform: scale(1.5);
             }
             
