@@ -132,7 +132,7 @@
         <a href="order.php">Shop</a>
         
 </div>
-        <div class="col1" ><spani class='bx bx-printer icon' > Printing</span></div>
+        <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
      
         
         <div class="home-content">
