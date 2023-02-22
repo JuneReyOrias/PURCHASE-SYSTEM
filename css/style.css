@@ -1326,6 +1326,16 @@
                 margin-left: 30px;
             }
             
+            .col {
+                font-size: 30px;
+                font-weight: 500;
+                color: #990000;
+                vertical-align: middle;
+                padding: 12px 60px;
+                display: inline-flex;
+                margin-left: 30px;
+            }
+            
             .home header img {
                 width: 4rem;
                 margin-left: 370px;

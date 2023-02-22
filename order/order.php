@@ -133,7 +133,7 @@
         <a class="order" href="order.php" ><span>></span>Order</a>
         
 </div>
-        <div class="col1" ><span> Services</span></div>
+        <div class="col" ><span> Services</span></div>
      
         
         <div class="home-content">
