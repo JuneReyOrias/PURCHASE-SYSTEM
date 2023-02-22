@@ -139,6 +139,7 @@
         <div class="home-content">
     <div class="checkbox-container">              
             <form class="checkbox-form" action="print.php" method="post">
+            <div class="col1" ><span> Services</span></div>
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
             <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
