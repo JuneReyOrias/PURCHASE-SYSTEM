@@ -607,14 +607,14 @@
             }
             
             .select-form {
-                padding: 60px;
+                padding: 40px;
                 margin: 0 auto;
                 background-color: white;
-                border-radius: 2%;
-                width: 40rem;
+                border-radius: 3%;
+                width: 35rem;
                 height: 35rem;
-                margin-top: 40px;
-                font-size: 30px;
+                margin-top: 7rem;
+                font-size: 15px;
             }
             /*order services*/
             
