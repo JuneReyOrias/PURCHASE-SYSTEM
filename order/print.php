@@ -132,14 +132,14 @@
         <a href="order.php">Shop</a>
         
 </div>
-        <div class="col1" ><span> Services</span></div>
+        <div class="col1" ><i class='bx bx-printer icon' ><span> Printing</span></div>
      
         
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
     
-        <label class="design"for=""><i class='bx bx-printer icon' ></i>Printing type</label>
+        <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Digital Color</option>
