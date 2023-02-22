@@ -799,6 +799,16 @@
                 margin-left: 2rem;
                 font-size: 17px;
             }
+            /* printing tapnav */
+            
+            .tapnav a .order {
+                float: left;
+                justify-items: center;
+                color: #990000;
+                text-decoration: none;
+                margin-left: auto;
+                font-size: 17px;
+            }
             /* Change the color of links on hover */
             
             .tpnav a:hover {
