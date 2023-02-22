@@ -130,6 +130,8 @@
         <div class="tapnav">
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="order.php">Shop</a>
+        <a class="order" href="order.php" >Order</a>
+        <a class="order" href="order.php" >Printing</a>
         
 </div>
         <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
