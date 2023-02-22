@@ -801,7 +801,7 @@
             }
             /* printing tapnav */
             
-            .order {
+            .tapnav .order {
                 float: left;
                 justify-items: center;
                 color: #990000;
