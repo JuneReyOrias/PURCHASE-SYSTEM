@@ -138,7 +138,7 @@
         
         <div class="home-content">
     <div class="checkbox-container">              
-            <form class="checkbox-form" action="print.php" method="post">
+            <form class="checkbox" action="print.php" method="post">
             <div class="col1" ><span> Services</span></div>
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
