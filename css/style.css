@@ -806,7 +806,7 @@
                 justify-items: center;
                 color: #990000;
                 text-decoration: none;
-                margin-left: auto;
+                margin-left: 1rem;
                 font-size: 17px;
             }
             /* Change the color of links on hover */
