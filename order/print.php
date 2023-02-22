@@ -134,13 +134,13 @@
         <a class="order" href="order.php" ><span>></span>Printing</a>
         
 </div>
-        <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
+       
      
         
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
-    
+            <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
