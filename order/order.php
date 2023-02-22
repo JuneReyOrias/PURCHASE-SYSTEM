@@ -130,13 +130,29 @@
         <div class="tapnav">
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a>
+        
         
 </div>
         <div class="col1" ><span> Services</span></div>
      
         
-    
+        <div class="home-content">
+    <div class="checkbox-container">              
+            <form class="checkbox-form" action="print.php" method="post">
+            <div>
+            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+            <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
+        </div>
+        <div>
+  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i>Binding  </label>
+</div>
+
+    <div>
+         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>Lamination</label>
+</div>
+          
 
 <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </form>
