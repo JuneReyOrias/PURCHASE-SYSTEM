@@ -130,6 +130,7 @@
         <div class="tapnav">
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="">Shop</a>
+        <a class="order" href="order.php" ><span>></span>Order</a>
         
 </div>
         <div class="col1" ><span> Services</span></div>
