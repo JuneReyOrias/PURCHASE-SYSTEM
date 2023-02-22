@@ -571,11 +571,8 @@
                 font-size: 30px;
                 font-weight: 500;
                 color: #990000;
-                vertical-align: middle;
-                padding: 12px 60px;
-                display: inline-flex;
-                margin-left: 30px;
-                margin-top: 1rem;
+                display: inherit;
+                margin-left: 11rem;
             }
             /*select form*/
             
