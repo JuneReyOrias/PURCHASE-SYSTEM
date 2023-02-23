@@ -129,7 +129,7 @@
         <a class="active" href="dashboard.php">Home</a>
         <a href="../order/order.php">Shop</a>
 </div>
-        <div class="col1" ><span>Offered Services</span></div>
+        <div class="col1" ><span>Services</span></div>
      
         
         <div class="home-content">
