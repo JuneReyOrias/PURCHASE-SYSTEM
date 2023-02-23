@@ -598,6 +598,10 @@
                 font-size: small;
             }
             
+            .file-folder {
+                align-content: center;
+            }
+            
             .qty {
                 width: auto;
                 height: auto;
