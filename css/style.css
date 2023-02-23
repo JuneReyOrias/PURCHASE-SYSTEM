@@ -598,8 +598,9 @@
                 font-size: small;
             }
             
-            .form-label {
+            .file-folder {
                 align-content: center;
+                width: auto;
             }
             
             .form-control-form-control-sm {
