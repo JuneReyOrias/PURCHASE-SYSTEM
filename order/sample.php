@@ -142,15 +142,13 @@
     <div class="select-container">              
             <form class="select-form" action="order.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Form</span></div>
-
-            <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-            </div>
-            <div class="form-floating">
-             <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-            </div>
+            <div classs="form-floating">
+            <label for="username">Name</label>
+            <input type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label for="password">Email</label>
+            <input type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
+            <label for="password">Contact</label>
+            <input type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
         <label class="design"for=""></i>Printing type</label>
