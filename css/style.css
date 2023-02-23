@@ -577,7 +577,9 @@
             /*select form*/
             
             .fc {
-                margin-top: 23px;
+                margin-top: 10px;
+                height: 30px;
+                width: fit-content;
             }
             
             .select2-container--default.select2-container--focus .select2-selection--multiple {
