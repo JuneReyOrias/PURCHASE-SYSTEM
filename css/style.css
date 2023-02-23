@@ -1359,18 +1359,13 @@
                 vertical-align: middle;
                 display: inline-flex;
                 margin-top: 1rem;
-                position: absolute;
-                left: 50%;
-            }
             }
             
             .home header .image-logo {
+                display: flex;
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
-                margin-left: 400px;
-                position: absolute;
-                left: 50%;
             }
             
             .home .divider {
