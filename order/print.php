@@ -154,10 +154,7 @@
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" /> <br>
         </div>
-        <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
-        <input class="form-control" id="formFileSm" type="file" /> <br>
-        </div>
+    
         
         </div>
 
