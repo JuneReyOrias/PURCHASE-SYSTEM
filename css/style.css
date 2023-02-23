@@ -607,7 +607,8 @@
             }
             
             .form-control {
-                width: 2rem;
+                width: inherit;
+                height: 2.5rem;
             }
             
             .qty {
