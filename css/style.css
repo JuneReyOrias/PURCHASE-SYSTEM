@@ -457,7 +457,7 @@
             /*Edited the body  background*/
             /* header edit and footer added*/
             
-            .header {
+            .header {a  
                 min-height: 100vh;
                 width: 100%;
                 background-image: linear-gradient(rgba(4, 9, 30, 0.7))(rgba(4, 9, 30, 0.7), url("../img/wmsu-campus.jpg"));
@@ -1362,7 +1362,6 @@
             }
             
             .home header .image-logo {
-                display: flex;
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
