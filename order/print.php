@@ -157,11 +157,44 @@
        
         <input class="form-control" id="formFileSm" type="file" /> <br>
         
+       </div>
+       <label class="design"for=""></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+
+        
+          <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+         
+        <div class="file-folder">
        
+        <input class="form-control" id="formFileSm" type="file" /> <br>
+        
+       </div>
+       <label class="design"for=""></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+
+        
+          <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+         
+        <div class="file-folder">
+       
+        <input class="form-control" id="formFileSm" type="file" /> <br>
+        
+       </div>
+        </div>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 
-</div>
-        </div>
 
 </form> 
                     </div>
