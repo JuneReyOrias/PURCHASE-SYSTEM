@@ -602,6 +602,11 @@
                 align-content: center;
             }
             
+            .form-control-form-control-sm {
+                width: auto;
+                margin-left: 5rem;
+            }
+            
             .qty {
                 width: auto;
                 height: auto;
