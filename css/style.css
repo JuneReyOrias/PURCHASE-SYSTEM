@@ -1354,7 +1354,7 @@
             
             .home header img {
                 width: 4rem;
-                margin-left: 470px;
+                margin-left: 370px;
                 border-radius: 6px;
                 vertical-align: middle;
                 display: inline-flex;
@@ -1366,6 +1366,7 @@
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
+                margin-left: 370px;
             }
             
             .home .divider {
