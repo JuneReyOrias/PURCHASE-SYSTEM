@@ -1362,7 +1362,6 @@
             }
             
             .home header .image-logo {
-                display: flex;
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
