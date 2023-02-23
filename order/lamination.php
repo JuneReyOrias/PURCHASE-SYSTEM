@@ -63,7 +63,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="../order/order.php">
+                        <a href="order.php">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
@@ -129,41 +129,70 @@
         <hr class= "divider">
         <div class="tapnav">
         <a class="active" href="../customer/dashboard.php">Home</a>
-        <a href="">Shop</a>
+        <a href="order.php">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a>
+        <a class="order" href="order.php" ><span>></span>Binding</a>
         
 </div>
-        <div class="col" ><span> Services</span></div>
+       
      
         
         <div class="home-content">
-    <div class="checkbox-container">              
-            <form class="checkbox-form" action="print.php" method="post">
-            <div>
-            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
-        </div>
+    <div class="select-container">              
+            <form class="select-form" action="order.php" method="post">
+            <div class="col2" ><spani class='bx bx-printer icon' >Lamination</span></div>
+        <label class="design"for=""></i>Lamination</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+
         <div>
-  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i> <a class="order" href="binding.php" ><span>></span>Binding </a> </label>
-</div>
+        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="form-control" id="formFileSm" type="file" />
+        
 
-    <div>
-         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i><a class="order" href="binding.php" ><span>></span>Lamination </a></label>
-</div>
-          
+        <label class="design"for=""></i>Binding type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
-<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
-</form>
-</select>
+        <div>
+        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="form-control" id="formFileSm" type="file" />
+        <label class="design"for=""></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
+        <div>
+        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="form-control" id="formFileSm" type="file" />
+        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+        </div>
+       
+        </div>
+
+        
+
+
+
+</form> 
                     </div>
                 </div>
 
             
-                     
-               
                 
  <div>
 
@@ -172,8 +201,13 @@
     </section>
 
 </nav>
-
-
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+    $(".multiple-select").select2({
+    maximumSelectionLength: 1
+    
+});
+</script>
 <script>
         const body = document.querySelector('body'),
       sidebar = body.querySelector('nav'),
