@@ -139,7 +139,7 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="lamform.php" method="post">
+            <form class="select-form" action="order.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Lamination</span></div>
         <label class="design"for=""></i>Lamination</label>
         <select name="Printing type "class="select multiple-select" multiple >
