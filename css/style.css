@@ -1359,6 +1359,9 @@
                 vertical-align: middle;
                 display: inline-flex;
                 margin-top: 1rem;
+                position: absolute;
+                left: 50%;
+            }
             }
             
             .home header .image-logo {
