@@ -606,9 +606,8 @@
                 font-size: 12px;
             }
             
-            .form-control-form-control-sm {
-                width: auto;
-                margin-left: 5rem;
+            .form-control {
+                width: 2rem;
             }
             
             .qty {
