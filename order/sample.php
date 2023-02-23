@@ -140,9 +140,9 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
+            <form class="select-form" action="order.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Form</span></div>
-
+            <div classs="form-floating">
             <label for="username">Name</label>
             <input type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
             <label for="password">Email</label>
