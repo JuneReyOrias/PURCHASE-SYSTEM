@@ -1366,6 +1366,8 @@
                 vertical-align: middle;
                 display: inline-flex;
                 margin-left: 400px;
+                position: absolute;
+                left: 50%;
             }
             
             .home .divider {
