@@ -158,10 +158,10 @@
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
-        <option value="">Digital Color</option>
-        <option value="">Digital Black and White</option>
-        <option value="">Photo Printing</option>
-        <option value="">Rhisograph</option>
+        <option value="">Coil Binding</option>
+        <option value="">Soft Bound</option>
+        <option value="">Hard Bound</option>
+        <option value="">Ring Binding</option>
         <option value="">Kromekote</option>
 
         <div>
