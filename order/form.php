@@ -140,7 +140,7 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="order.php" method="post">
+            <form class="select-form" action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Form</span></div>
 
             <label for="username">Name</label>
