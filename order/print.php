@@ -153,7 +153,7 @@
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
-        
+        </div>
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -165,7 +165,7 @@
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
-        <input class="form-control" id="formFileSm" type="file" /> <br>
+        <input class="form-control" id="formFileSm" type="file" />
         </div>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
