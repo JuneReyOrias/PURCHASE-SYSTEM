@@ -158,8 +158,12 @@
           <input class="fc" type="text" name="digitall" placeholder="Qty per type">
           <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </div>
-       
-
+<div>
+<label for="formFileSm" class="form-label">Small file input example</label>
+<input class="form-control form-control-sm" id="formFileSm" type="file" />
+<label for="formFileLg" class="form-label">Large file input example</label>
+<input class="form-control form-control-lg" id="formFileLg" type="file" />
+</div>
 </form> 
                     </div>
                 </div>
