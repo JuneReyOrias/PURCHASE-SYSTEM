@@ -157,7 +157,7 @@
          
         <div class="file-folder">
        
-        <input class="form-control" id="formFileSm" type="file" />
+        <input class="form-control" id="formFileSm" type="file" /> <br>
         
         <input class="form-control" id="formFileLg" type="file" />
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
