@@ -163,10 +163,7 @@
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
           
-        <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
-        <input class="form-control" id="formFileSm" type="file" /> <br>
-        </div>
+        
         </div>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 
