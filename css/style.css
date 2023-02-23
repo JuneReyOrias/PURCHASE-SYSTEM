@@ -1325,6 +1325,15 @@
                 margin-top: 54px;
             }
             
+            .col1 {
+                font-size: 30px;
+                font-weight: 500;
+                color: #990000;
+                padding: 12px;
+                margin-left: 10rem;
+                margin-top: 54px;
+            }
+            
             .home header img {
                 width: 4rem;
                 margin-left: 370px;
