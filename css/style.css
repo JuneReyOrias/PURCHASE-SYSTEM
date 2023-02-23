@@ -1362,6 +1362,7 @@
             }
             
             .home header .image-logo {
+                display: center;
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
