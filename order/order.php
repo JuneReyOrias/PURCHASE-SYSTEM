@@ -150,7 +150,7 @@
 
     <div>
          <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i><a class="order" href="binding.php" ><span>></span>Lamination </a></label>
+         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i><a class="order" href="lamination.php" ><span>Lamination </span></a></label>
 </div>
           
 
