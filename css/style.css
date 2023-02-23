@@ -465,7 +465,6 @@
                 background-size: cover;
                 position: absolute;
                 align-items: center;
-                z-index: inherit;
             }
             
             .logo-name {
