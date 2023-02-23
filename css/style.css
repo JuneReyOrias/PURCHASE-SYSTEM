@@ -1359,6 +1359,7 @@
                 vertical-align: middle;
                 display: inline-flex;
                 margin-top: 1rem;
+                margin-left: 400px;
             }
             
             .home header .image-logo {
@@ -1366,7 +1367,6 @@
                 align-items: center;
                 vertical-align: middle;
                 display: inline-flex;
-                margin-left: 550px;
             }
             
             .home .divider {
