@@ -153,7 +153,7 @@
         
         
           <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
-          <input class="fc" type="text" name="digitall" placeholder="Qty per type"><br>
+          <input class="fc" type="text" name="digitall" placeholder="Qty per type">
          
         <div class="file-folder">
        
