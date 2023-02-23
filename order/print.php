@@ -158,8 +158,7 @@
         
         </div>
 
-        <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
-        <label class="design"for=""></i>Printing type</label>
+
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Digital Color</option>
