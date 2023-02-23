@@ -606,11 +606,12 @@
             }*/
             
             .form-control {
-                width: inherit;
+                width: 13rem;
                 height: 2.5rem;
                 align-content: center;
                 float: right;
                 font-size: 12px;
+                margin-right: 1rem;
             }
             
             .qty {
