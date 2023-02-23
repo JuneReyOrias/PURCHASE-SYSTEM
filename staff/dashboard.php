@@ -42,10 +42,13 @@
         <div class="menu-bar">
             <div class="menu">
 
+<<<<<<< HEAD
                 <li class="search-box">
                     <i class='bx bx-search icon'></i>
                     <input type="text" placeholder="Search...">
                 </li>
+=======
+>>>>>>> 79a6de1e16fd766ae2a0ad36cb46e25b25fc383b
 
                 <ul class="menu-links">
                     <li class="nav-link">

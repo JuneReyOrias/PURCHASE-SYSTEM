@@ -41,10 +41,6 @@
         <div class="menu-bar">
             <div class="menu">
 
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
-                </li>
 
                 <ul class="menu-links">
                     <li class="nav-link">
@@ -145,7 +141,7 @@
         </div>
         <div>
   <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i> <a class="order" href="binding.php" ><span>></span>Binding </a> </label>
+  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i> <a class="order" href="binding.php" ><span></span>Binding </a> </label>
 </div>
 
     <div>
@@ -161,10 +157,7 @@
                     </div>
                 </div>
 
-            
-                     
-               
-                
+
  <div>
 
  </div>
