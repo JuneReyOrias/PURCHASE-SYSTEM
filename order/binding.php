@@ -137,8 +137,6 @@
     <div class="select-container">              
             <form class="select-form" action="bindform.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Binding</span></div>
-        <div class="main-form">
-        <div class="row">
         <label class="design"for=""></i>Binding Type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -149,7 +147,6 @@
         <option value="">Kromekote</option>
 
         <div>
-    
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
         
@@ -197,44 +194,7 @@
  <div>
 
  </div>
- <script src="https://code.jquery.com/jquery-3.6.0.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-
-            $(document).on('click', '.remove-btn', function () {
-                $(this).closest('.col2').remove();
-            });
-            
-            $(document).on('click', '.add-more-form', function () {
-                $('.paste-new-forms').append(' <div class="main-form">\
-                                <div class="row">\
-                                    <div class="col-md-4">\
-                                        <div class="form-group mb-2">\
-                                            <label for="">Name</label>\
-                                            <input type="text" name="name[]" class="form-control" required placeholder="Enter Name">\
-                                        </div>\
-                                    </div>\
-                                    <div class="col-md-4">\
-                                        <div class="form-group mb-2">\
-                                            <label for="">Phone Number</label>\
-                                            <input type="text" name="phone[]" class="form-control" required placeholder="Enter Phone Number">\
-                                        </div>\
-                                    </div>\
-                                    <div class="col-md-4">\
-                                        <div class="form-group mb-2">\
-                                            <br>\
-                                            <button type="button" class="remove-btn btn btn-danger">Remove</button>\
-                                        </div>\
-                                    </div>\
-                                </div>\
-                            </div>');
-            });
-
-        });
-    </script>
-
+          
     </section>
 
 </nav>
