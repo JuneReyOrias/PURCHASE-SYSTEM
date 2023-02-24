@@ -574,6 +574,10 @@
                 display: inherit;
                 margin-left: 11rem;
             }
+            
+            .form-print {
+                height: 12rem;
+            }
             /*select form*/
             
             .fc {
@@ -1359,7 +1363,6 @@
                 vertical-align: middle;
                 display: inline-flex;
                 margin-top: 1rem;
-
             }
             
             .home header .image-logo {

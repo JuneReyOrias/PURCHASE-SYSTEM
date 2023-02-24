@@ -138,15 +138,12 @@
             <form class="select-form" action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Form</span></div>
 
-            <div class="form-floating mb-3 mt-3">
-  <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-  <label for="email">Email</label>
-</div>
-
-<div class="form-floating mt-3 mb-3">
-  <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
-  <label for="pwd">Password</label>
-</div>
+            <label  for="username">Name</label>
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label for="password">Email</label>
+            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
+            <label for="password">Contact</label>
+            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
         <label class="design"for=""></i>Printing type</label>
