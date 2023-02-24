@@ -160,8 +160,8 @@
         <input class="form-control" id="formFileSm" type="file" />
         
 
-            <input list="department" name="department">
-            <datalist id="size">
+            <input class="size" list="department" name="department">
+            <datalist class="size"id="size">
             <option label="size">size</option>
             <option value="CTE">
             <option value="Architecture">
