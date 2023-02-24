@@ -161,7 +161,7 @@
         
 
             <input list="department" name="department">
-            <datalist id="department">
+            <datalist id="department" placeholder="size">
             <option value="CCS">
             <option value="CTE">
             <option value="Architecture">
