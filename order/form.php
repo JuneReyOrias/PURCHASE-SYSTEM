@@ -161,7 +161,9 @@
         
 
             <input class="size" list="size" name="size">
+            
             <datalist class="size"id="size">
+            <option value="">--Please choose an option--</option>
             <option label="size">size</option>
             <option value="CTE">
             <option value="Architecture">
