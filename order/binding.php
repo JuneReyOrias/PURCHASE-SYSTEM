@@ -431,8 +431,8 @@ modeSwitch.addEventListener("click" , () =>{
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="color" list="color" name="size">
-            <datalist class="color"id="size">
+        <input class="color" list="color" name="color">
+            <datalist class="color"id="color">
             <option label="color">Color</option>
             <option value="Red">
             <option value="Yellowt">
