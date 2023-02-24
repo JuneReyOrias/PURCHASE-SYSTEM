@@ -183,14 +183,16 @@
                                     <th>Password</th>
                                     <th>Fistname</th>
                                     <th>LastName</th>
+                                    <th>Email</th>
                                     <th>Role</th>
                                     <th><button type="button" name="add" id="add" class="btn btn-success">+</button></th>
                                 </tr>
                                 <tr>
-                                    <td contenteditable="true" class="username"></td>
+                                    <td contenteditable="true" class="user_name"></td>
                                     <td contenteditable="true" class="password"></td>
                                     <td contenteditable="true" class="firstname"></td>
                                     <td contenteditable="true" class="lastname"></td>
+                                    <td contenteditable="true" class="email"></td>
                                     <td contenteditable="true" class="role"></td>
                                     <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>
                                 </tr>
@@ -213,11 +215,13 @@
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            html_code += "<td contenteditable='true' class='name'></td>";
-            html_code += "<td contenteditable='true' class='email'></td>";
-            html_code += "<td contenteditable='true' class='mobile'></td>";
-            html_code += "<td contenteditable='true' class='message text-start'></td>";
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
+            <td contenteditable="true" class="username"></td>
+              <td contenteditable="true" class="password"></td>
+               <td contenteditable="true" class="firstname"></td>
+               <td contenteditable="true" class="lastname"></td>
+               <td contenteditable="true" class="email"></td>
+                <td contenteditable="true" class="role"></td>
+                <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>   
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
         });
@@ -227,10 +231,13 @@
         });
 
         $('#save').click(function(){
-            var name = [];
+            var username = [];
+            var password= [];
+            var firstname= [];
+            var lastname = [];
             var email = [];
-            var mobile = [];
-            var message = [];
+            var role= [];
+
             
             $('.name').each(function(){
                 name.push($(this).text());
@@ -249,9 +256,9 @@
             });
             
             $.ajax({
-                url:"insert.php",
+                url:"custinsert.php",
                 method:"POST",
-                data:{name:name, email:email, mobile:mobile, message:message},
+                data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
                     alert(data);
                     $("td[contentEditable='true']").text("");
@@ -264,7 +271,7 @@
             });
             function fetch_item_data(){
             $.ajax({
-                url:"fetch.php",
+                url:"custfetch.php",
                 method:"POST",
                     success:function(data){
                         $('#inserted_item_data').html(data);
