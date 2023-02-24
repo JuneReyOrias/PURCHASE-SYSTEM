@@ -215,7 +215,7 @@
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            <td contenteditable="true" class="username"></td>
+            <td contenteditable="true" class="user_name"></td>
               <td contenteditable="true" class="password"></td>
                <td contenteditable="true" class="firstname"></td>
                <td contenteditable="true" class="lastname"></td>
@@ -231,7 +231,7 @@
         });
 
         $('#save').click(function(){
-            var username = [];
+            var user_name = [];
             var password= [];
             var firstname= [];
             var lastname = [];
@@ -239,19 +239,19 @@
             var role= [];
 
             
-            $('.name').each(function(){
+            $('.user_name').each(function(){
                 name.push($(this).text());
             });
             
-            $('.email').each(function(){
+            $('.password').each(function(){
                 email.push($(this).text());
             });
             
-            $('.mobile').each(function(){
+            $('.firstname').each(function(){
                 mobile.push($(this).text());
             });
             
-            $('.message').each(function(){
+            $('.lastname').each(function(){
                 message.push($(this).text());
             });
             
