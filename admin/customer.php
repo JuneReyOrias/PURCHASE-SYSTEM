@@ -155,34 +155,7 @@
      
         
         <div class="home-content">
-        <div class="overview-boxes" >
-            <div class="box">
-                <div class="right-side">
-                    <div class="box-topic" class="btn-1">Printing</div> </br>
-                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
-                    
-                    </div>
-                </div>
-
-                <div class="box">
-                <div class="center">
-                    <div class="box-topic" class="btn-1">Layout</div></br>
-                    <div class="number">The act or process of planning or laying out in detail.</div>
-                    
-                    </div>
-                </div>
-                
-               
-            <div class="box">
-                <div class="left-side">
-                    <div class="box-topic" class="btn-1">Binding</div></br>
-                    <div class="number">A strong covering holding the pages of a book together</div>
-                    
-                    </div>
-                    
-                </div>
-                <div class="container mt-5">
-    <div class="card">
+       <div class="card">
         <div class="card-header">
             <div class="row">
                 <div class="col-md-11">
@@ -231,74 +204,7 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function(){
-        var count = 1;
-        $('#add').click(function(){
-            count = count + 1;
-            var html_code = "<tr id='row"+count+"'>";
-            html_code += "<td contenteditable='true' class='name'></td>";
-            html_code += "<td contenteditable='true' class='email'></td>";
-            html_code += "<td contenteditable='true' class='mobile'></td>";
-            html_code += "<td contenteditable='true' class='message text-start'></td>";
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
-            html_code += "</tr>";  
-            $('#crud_table').append(html_code);
-        });
-
-        $(document).on('click', '.remove', function(){
-             $(this).parent().parent().remove();
-        });
-
-        $('#save').click(function(){
-            var name = [];
-            var email = [];
-            var mobile = [];
-            var message = [];
-            
-            $('.name').each(function(){
-                name.push($(this).text());
-            });
-            
-            $('.email').each(function(){
-                email.push($(this).text());
-            });
-            
-            $('.mobile').each(function(){
-                mobile.push($(this).text());
-            });
-            
-            $('.message').each(function(){
-                message.push($(this).text());
-            });
-            
-            $.ajax({
-                url:"insert.php",
-                method:"POST",
-                data:{name:name, email:email, mobile:mobile, message:message},
-                success:function(data){
-                    alert(data);
-                    $("td[contentEditable='true']").text("");
-                        for(var i=2; i<= count; i++){
-                            $('tr#'+i+'').remove();
-                        }
-                        fetch_item_data();
-                    }
-                });
-            });
-
-        function fetch_item_data(){
-            $.ajax({
-                url:"fetch.php",
-                method:"POST",
-                    success:function(data){
-                        $('#inserted_item_data').html(data);
-                    }
-            })
-        }
-        fetch_item_data();
-    });
-</script>
+                
                 
  <div>
 
