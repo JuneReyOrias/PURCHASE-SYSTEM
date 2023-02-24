@@ -161,8 +161,8 @@
         
 
             <input class="size" list="size" name="size">
-            
-            <datalist class="size"id="size "label="size">
+            <label class="sort">Size</label>
+            <datalist class="size"id="size">
             <option value="">-</option>
             <option label="size">size</option>
             <option value="CTE">
