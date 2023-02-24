@@ -151,8 +151,7 @@
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
-        <div class="col1" ><span>Customer info</span></div>
-     
+      
         
         <div class="home-content">
        <div class="card">
@@ -185,7 +184,7 @@
                                     <th>LastName</th>
                                     <th>Email</th>
                                     <th>Role</th>
-                                    <th><button type="button" name="add" id="add" class="btn btn-success">ADD</button></th>
+                                    <th><button type="button" name="add" id="add" class="btn btn-success">Add</button></th>
                                 </tr>
                                 <tr>
                                     <td contenteditable="true" class="user_name"></td>
@@ -194,7 +193,7 @@
                                     <td contenteditable="true" class="lastname"></td>
                                     <td contenteditable="true" class="email"></td>
                                     <td contenteditable="true" class="role"></td>
-                                    <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>Add</button></td>
+                                    <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>Remove</button></td>
                                 </tr>
                             </table>
                         </div>
