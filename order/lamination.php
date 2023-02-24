@@ -146,7 +146,7 @@
             <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
-        <label class="design"for=""></i>Laminate type</label>
+        <label class="design"for=""></i>Lamination type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Wholepage Only</option>
@@ -165,7 +165,7 @@
             
             </datalist>
         
-        <label class="design"for=""></i>Laminate type</label>
+        <label class="design"for=""></i>Lamination type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Wholepage Only</option>
