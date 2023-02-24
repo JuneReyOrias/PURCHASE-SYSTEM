@@ -178,7 +178,7 @@
         <option value="">Kromekote</option>
 
         <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         <input class="size" list="size" name="size">
             <datalist class="size"id="size">

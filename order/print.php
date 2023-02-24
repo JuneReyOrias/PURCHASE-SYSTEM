@@ -126,7 +126,8 @@
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="order.php">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="order.php" ><span>></span>Printing</a>
+        <a class="order" href="Print.php" ><span>></span>Printing</a>
+        <a class="order" href="order.php" ><span>></span>Form</a>
         
 </div>
        
@@ -134,8 +135,17 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="form.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' > Printing</span></div>
+            <form class="select-form" action="sample.php" method="post">
+            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
+
+            <label  for="username">Name</label>
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label for="password">Email</label>
+            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
+            <label for="password">Contact</label>
+            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            
+
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -148,9 +158,16 @@
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="fc" type="text" name="digitall" placeholder="Size">
         
 
+            <input class="size" list="size" name="size">
+            <datalist class="size"id="size">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
+        
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -161,16 +178,19 @@
         <option value="">Kromekote</option>
 
         <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="fc" type="text" name="digitall" placeholder="Size">
-        
-        <div>
+        <input class="size" list="size" name="size">
+            <datalist class="size"id="size">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
        
         </div>
-
         
 
 
