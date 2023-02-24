@@ -158,8 +158,7 @@
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="fc" type="text" name="digitall" placeholder="Size">  
-</div>
+        <input class="fc" type="text" name="digitall" placeholder="Size">
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
