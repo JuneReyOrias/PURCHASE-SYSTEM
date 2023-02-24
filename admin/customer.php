@@ -188,7 +188,7 @@
                                     <th><button type="button" name="add" id="add" class="btn btn-success">ADD</button></th>
                                 </tr>
                                 <tr>
-                                    <td contenteditable="true" class="username"></td>
+                                    <td contenteditable="true" class="user_name"></td>
                                     <td contenteditable="true" class="password"></td>
                                     <td contenteditable="true" class="firstname"></td>
                                     <td contenteditable="true" class="lastname"></td>
@@ -210,19 +210,22 @@
 </div>
                 
 <script>
-      $(document).ready(function(){
+    $(document).ready(function(){
         var count = 1;
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            html_code += "<td contenteditable='true' class='name'></td>";
-            html_code += "<td contenteditable='true' class='email'></td>";
-            html_code += "<td contenteditable='true' class='mobile'></td>";
-            html_code += "<td contenteditable='true' class='message text-start'></td>";
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
+            html_code += " <td contenteditable="true" class="user_name"></td>";
+            html_code += " <td contenteditable="true" class="password"></td>";
+            html_code +=" <td contenteditable="true" class="firstname"></td>";
+            html_code += " <td contenteditable="true" class="lastname"></td>";
+            html_code +=" <td contenteditable="true" class="email"></td>";
+            html_code += "  <td contenteditable="true" class="role"></td>";
+            html_code += " <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>";
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
         });
+
         $(document).on('click', '.remove', function(){
              $(this).parent().parent().remove();
         });
@@ -237,19 +240,19 @@
 
             
             $('.user_name').each(function(){
-                name.push($(this).text());
+                user_name.push($(this).text());
             });
             
             $('.password').each(function(){
-                email.push($(this).text());
+                password.push($(this).text());
             });
             
             $('.firstname').each(function(){
-                mobile.push($(this).text());
+                firstname.push($(this).text());
             });
             
             $('.lastname').each(function(){
-                message.push($(this).text());
+                lastname.push($(this).text());
             });
             
             $.ajax({
