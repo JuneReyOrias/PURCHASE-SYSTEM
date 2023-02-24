@@ -185,10 +185,10 @@
                                     <th>LastName</th>
                                     <th>Email</th>
                                     <th>Role</th>
-                                    <th><button type="button" name="add" id="add" class="btn btn-success">+</button></th>
+                                    <th><button type="button" name="add" id="add" class="btn btn-success">ADD</button></th>
                                 </tr>
                                 <tr>
-                                    <td contenteditable="true" class="user_name"></td>
+                                    <td contenteditable="true" class="username"></td>
                                     <td contenteditable="true" class="password"></td>
                                     <td contenteditable="true" class="firstname"></td>
                                     <td contenteditable="true" class="lastname"></td>
