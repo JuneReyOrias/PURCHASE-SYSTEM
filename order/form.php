@@ -162,7 +162,7 @@
 
             
             <datalist id="department">
-            <option>Option</option>
+            
             <option value="CCS">
             <option value="CTE">
             <option value="Architecture">
