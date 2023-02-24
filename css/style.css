@@ -819,6 +819,10 @@
             }
             /* printing tapnav */
             
+            .size {
+                width: 7rem;
+            }
+            
             .tapnav .order {
                 float: left;
                 justify-items: center;
