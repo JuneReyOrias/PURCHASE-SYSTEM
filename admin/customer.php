@@ -151,7 +151,7 @@
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
-        <div class="col1" ><span>Offered Services</span></div>
+        <div class="col1" ><span>Customer info</span></div>
      
         
         <div class="home-content">
@@ -159,7 +159,7 @@
         <div class="card-header">
             <div class="row">
                 <div class="col-md-11">
-                    <h2 class="text-center">How to Insert Multiple Rows with Ajax,Jquery in PHP MySQL</h2>        
+                    <h2 class="text-center"> Customer Information </h2>        
                 </div>
                 <div class="col-md-1 mt-2">
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
@@ -173,23 +173,25 @@
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title text-center">Insert Multiple Row</h4>
+                            <h4 class="modal-title text-center">Create Customer Account</h4></h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>mobile</th>
-                                    <th>message</th>
+                                    <th>Username</th>
+                                    <th>Password</th>
+                                    <th>Fistname</th>
+                                    <th>LastName</th>
+                                    <th>Role</th>
                                     <th><button type="button" name="add" id="add" class="btn btn-success">+</button></th>
                                 </tr>
                                 <tr>
-                                    <td contenteditable="true" class="name"></td>
-                                    <td contenteditable="true" class="email"></td>
-                                    <td contenteditable="true" class="mobile"></td>
-                                    <td contenteditable="true" class="message text-start"></td>
+                                    <td contenteditable="true" class="username"></td>
+                                    <td contenteditable="true" class="password"></td>
+                                    <td contenteditable="true" class="firstname"></td>
+                                    <td contenteditable="true" class="lastname"></td>
+                                    <td contenteditable="true" class="role"></td>
                                     <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>
                                 </tr>
                             </table>
@@ -205,7 +207,73 @@
     </div>
 </div>
                 
-                
+<script>
+    $(document).ready(function(){
+        var count = 1;
+        $('#add').click(function(){
+            count = count + 1;
+            var html_code = "<tr id='row"+count+"'>";
+            html_code += "<td contenteditable='true' class='name'></td>";
+            html_code += "<td contenteditable='true' class='email'></td>";
+            html_code += "<td contenteditable='true' class='mobile'></td>";
+            html_code += "<td contenteditable='true' class='message text-start'></td>";
+            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
+            html_code += "</tr>";  
+            $('#crud_table').append(html_code);
+        });
+
+        $(document).on('click', '.remove', function(){
+             $(this).parent().parent().remove();
+        });
+
+        $('#save').click(function(){
+            var name = [];
+            var email = [];
+            var mobile = [];
+            var message = [];
+            
+            $('.name').each(function(){
+                name.push($(this).text());
+            });
+            
+            $('.email').each(function(){
+                email.push($(this).text());
+            });
+            
+            $('.mobile').each(function(){
+                mobile.push($(this).text());
+            });
+            
+            $('.message').each(function(){
+                message.push($(this).text());
+            });
+            
+            $.ajax({
+                url:"insert.php",
+                method:"POST",
+                data:{name:name, email:email, mobile:mobile, message:message},
+                success:function(data){
+                    alert(data);
+                    $("td[contentEditable='true']").text("");
+                        for(var i=2; i<= count; i++){
+                            $('tr#'+i+'').remove();
+                        }
+                        fetch_item_data();
+                    }
+                });
+            });
+            function fetch_item_data(){
+            $.ajax({
+                url:"fetch.php",
+                method:"POST",
+                    success:function(data){
+                        $('#inserted_item_data').html(data);
+                    }
+            })
+        }
+        fetch_item_data();
+    });
+</script>
  <div>
 
  </div>
