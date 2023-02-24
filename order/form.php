@@ -160,16 +160,15 @@
         <input class="form-control" id="formFileSm" type="file" />
         
 
-            
+            <input list="department" name="department">
             <datalist id="department">
-            
             <option value="CCS">
             <option value="CTE">
             <option value="Architecture">
             <option value="CCJE">
             <option value="COE">
-            <option value="CLA">
-        </datalist>
+        <option value="CLA">
+</datalist>
         
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
