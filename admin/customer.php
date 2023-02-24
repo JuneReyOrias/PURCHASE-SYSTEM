@@ -219,7 +219,7 @@
             html_code += "<td contenteditable='true' class='lastname text-start'></td>";
             html_code += "<td contenteditable='true' class='email'></td>";
             html_code += "<td contenteditable='true' class='role'></td>";
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
+            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>Remove</button></td>";   
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
         });
