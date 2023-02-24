@@ -208,20 +208,19 @@
         </div>
     </div>
 </div>
-                
 <script>
     $(document).ready(function(){
         var count = 1;
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            html_code += " <td contenteditable="true" class="user_name"></td>";
-            html_code += " <td contenteditable="true" class="password"></td>";
-            html_code +=" <td contenteditable="true" class="firstname"></td>";
-            html_code += " <td contenteditable="true" class="lastname"></td>";
-            html_code +=" <td contenteditable="true" class="email"></td>";
-            html_code += "  <td contenteditable="true" class="role"></td>";
-            html_code += " <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>";
+            html_code += "<td contenteditable='true' class='name'></td>";
+            html_code += "<td contenteditable='true' class='email'></td>";
+            html_code += "<td contenteditable='true' class='mobile'></td>";
+            html_code += "<td contenteditable='true' class='message text-start'></td>";
+            html_code += "<td contenteditable='true' class='mobile'></td>";
+            html_code += "<td contenteditable='true' class='message text-start'></td>";
+            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
         });
@@ -231,34 +230,31 @@
         });
 
         $('#save').click(function(){
-            var user_name = [];
-            var password= [];
-            var firstname= [];
-            var lastname = [];
+            var name = [];
             var email = [];
-            var role= [];
-
+            var mobile = [];
+            var message = [];
             
-            $('.user_name').each(function(){
-                user_name.push($(this).text());
+            $('.name').each(function(){
+                name.push($(this).text());
             });
             
-            $('.password').each(function(){
-                password.push($(this).text());
+            $('.email').each(function(){
+                email.push($(this).text());
             });
             
-            $('.firstname').each(function(){
-                firstname.push($(this).text());
+            $('.mobile').each(function(){
+                mobile.push($(this).text());
             });
             
-            $('.lastname').each(function(){
-                lastname.push($(this).text());
+            $('.message').each(function(){
+                message.push($(this).text());
             });
             
             $.ajax({
-                url:"custinsert.php",
+                url:"insert.php",
                 method:"POST",
-                data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
+                data:{name:name, email:email, mobile:mobile, message:message},
                 success:function(data){
                     alert(data);
                     $("td[contentEditable='true']").text("");
@@ -269,9 +265,10 @@
                     }
                 });
             });
-            function fetch_item_data(){
+
+        function fetch_item_data(){
             $.ajax({
-                url:"custfetch.php",
+                url:"fetch.php",
                 method:"POST",
                     success:function(data){
                         $('#inserted_item_data').html(data);
