@@ -215,7 +215,7 @@
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            html_code += " <td contenteditable="true" class="user_name"></td>";
+            html_code += " <td contenteditable="true" class="username"></td>";
             html_code += " <td contenteditable="true" class="password"></td>";
             html_code +=" <td contenteditable="true" class="firstname"></td>";
             html_code += " <td contenteditable="true" class="lastname"></td>";
