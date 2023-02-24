@@ -408,16 +408,16 @@ modeSwitch.addEventListener("click" , () =>{
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         
-
-            <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="color">Color</option>
-            <option value="Red">
-            <option value="Yellowt">
-            <option value="Black">
-            <option value="Blue">   
-            <option value="Green">  
-            </datalist>
+        <input class="color" list="color" name="color">
+        
+        <datalist class="color"id="color">
+        <option label="Color">Color</option>
+        <option value="Red">
+        <option value="Yellowt">
+        <option value="Black">
+        <option value="Blue">   
+        <option value="Green">    
+        </datalist>
         
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
@@ -432,7 +432,7 @@ modeSwitch.addEventListener("click" , () =>{
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         <input class="color" list="color" name="color">
-        <label class="design"for=""></i>Color</label>
+        
             <datalist class="color"id="color">
             <option label="Color">Color</option>
             <option value="Red">
