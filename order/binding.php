@@ -302,7 +302,7 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' > Binding Form</span></div>
+            <div class="col2" ><spani class='bx bx-printer icon' > Binding</span></div>
 
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
