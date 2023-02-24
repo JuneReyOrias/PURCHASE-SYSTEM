@@ -376,7 +376,7 @@ modeSwitch.addEventListener("click" , () =>{
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="order.php">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="Print.php" ><span>></span>Printing</a>
+        <a class="order" href="Print.php" ><span>></span>Binding</a>
 
         
 </div>
