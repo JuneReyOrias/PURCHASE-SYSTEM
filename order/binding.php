@@ -137,7 +137,8 @@
     <div class="select-container">              
             <form class="select-form" action="bindform.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Binding</span></div>
-
+        <div class="main-form">
+        <div class="row">
         <label class="design"for=""></i>Binding Type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -148,6 +149,7 @@
         <option value="">Kromekote</option>
 
         <div>
+    
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
         
@@ -206,7 +208,7 @@
             });
             
             $(document).on('click', '.add-more-form', function () {
-                $('.paste-new-forms').append('<div class="main-form mt-3 border-bottom">\
+                $('.paste-new-forms').append(' <div class="main-form">\
                                 <div class="row">\
                                     <div class="col-md-4">\
                                         <div class="form-group mb-2">\
