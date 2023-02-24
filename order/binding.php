@@ -136,7 +136,7 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' > Binding Form</span></div>
+            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
 
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
@@ -146,13 +146,14 @@
             <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
-        <label class="design"for=""></i>Binding type</label>
+        <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
-        <option value="">Coil Binding</option>
-        <option value="">Soft Bound</option>
-        <option value="">Hard Bound</option>
-        <option value="">Ring Binding</option>
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
@@ -161,10 +162,93 @@
 
             <input class="size" list="size" name="size">
             <datalist class="size"id="size">
-            <option label="Color">size</option>
-            <option value="Red">
-            <option value="Black">
-          <?php
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
+        
+        <label class="design"for=""></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+
+        <div>
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
+        <input class="form-control" id="formFileSm" type="file" />
+        <input class="size" list="size" name="size">
+            <datalist class="size"id="size">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
+        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+        </div>
+       
+        </div>
+        
+
+
+
+</form> 
+                    </div>
+                </div>
+
+            
+                
+ <div>
+
+ </div>
+          
+    </section>
+
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script>
+    $(".multiple-select").select2({
+    maximumSelectionLength: 1
+    
+});
+</script>
+<script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+decodeURI                   
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+   
+    <script src="./js/sidebar.js"></script>
+  </body>
+</html>
+<?php
 
     //resume session here to fetch session values
     session_start();
@@ -302,7 +386,7 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' > Binding</span></div>
+            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
 
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
@@ -312,13 +396,14 @@
             <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
-        <label class="design"for=""></i>Binding type</label>
+        <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
-        <option value="">Coil Binding</option>
-        <option value="">Soft Bound</option>
-        <option value="">Hard Bound</option>
-        <option value="">Ring Binding</option>
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
@@ -327,106 +412,20 @@
 
             <input class="size" list="size" name="size">
             <datalist class="size"id="size">
-            <option label="size">Color</option>
-            <option value="Red">
-            <option value="Crimson Red">
-            <option value="Blue">
-            <option value="Yellow">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
             </datalist>
         
-        <label class="design"for=""></i>Binding type</label>
+        <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
-        <option value="">Coil Binding</option>
-        <option value="">Soft Bound</option>
-        <option value="">Hard Bound</option>
-        <option value="">Ring Binding</option>
-        
-
-        <div>
-        <input class="fc" type="text" name="digitall" placeholder="Quantity">
-        <input class="form-control" id="formFileSm" type="file" />
-        <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="size">Color</option>
-            <option value="Red">
-            <option value="Crimson Red">
-            <option value="Blue">
-            <option value="Yellow">
-            </datalist>
-        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
-        </div>
-       
-        </div>
-        
-
-
-
-</form> 
-                    </div>
-                </div>
-
-            
-                
- <div>
-
- </div>
-          
-    </section>
-
-</nav>
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script>
-    $(".multiple-select").select2({
-    maximumSelectionLength: 1
-    
-});
-</script>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-decodeURI                   
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
-
-
-            </datalist>
-        
-        <label class="design"for=""></i>Binding type</label>
-        <select name="Printing type "class="select multiple-select" multiple >
-        
-        <option value="">Coil Binding</option>
-        <option value="">Soft Bound</option>
-        <option value="">Hard Bound</option>
-        <option value="">Ring Binding</option>
-        
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
