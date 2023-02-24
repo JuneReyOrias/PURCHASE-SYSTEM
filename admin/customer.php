@@ -215,9 +215,12 @@
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            html_code += "<td contenteditable='true' class='name'></td>";
-            html_code += "<td contenteditable='true' class='email'></td>";
-            html_code += "<td contenteditable='true' class='mobile'></td>";
+            <td contenteditable="true" class="username"></td>
+                                    <td contenteditable="true" class="password"></td>
+                                    <td contenteditable="true" class="firstname"></td>
+                                    <td contenteditable="true" class="lastname"></td>
+                                    <td contenteditable="true" class="email"></td>
+                                    <td contenteditable="true" class="role"></td>
             html_code += "<td contenteditable='true' class='message text-start'></td>";
             html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
             html_code += "</tr>";  
