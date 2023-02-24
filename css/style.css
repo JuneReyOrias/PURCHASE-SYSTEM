@@ -611,10 +611,10 @@
             
             .form-control {
                 width: 13rem;
-                height: 2.5rem;
+                height: 2rem;
                 align-content: center;
                 float: right;
-                font-size: 12px;
+                font-size: 10px;
                 margin-right: 1rem;
             }
             
