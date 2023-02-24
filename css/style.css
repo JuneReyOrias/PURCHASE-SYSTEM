@@ -581,8 +581,8 @@
             /*select form*/
             
             .fc {
-                margin-top: 10px;
-                height: 2.5em;
+                margin-top: .5rem;
+                height: 2rem;
                 width: fit-content;
             }
             
@@ -625,7 +625,7 @@
             }
             
             .design {
-                font-size: 20px;
+                font-size: 17px;
             }
             
             .select-form {
