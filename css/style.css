@@ -602,7 +602,7 @@
                 font-size: small;
             }
             /*.file-folder {
-                align-content: center;
+                align-content: enter;
                 width: 16rem;
                 height: 12rem;
                 float: right;
@@ -646,8 +646,8 @@
                 border: none;
                 margin-top: 122px;
                 line-height: 16px;
-                width: auto;
-                margin-left: 346px;
+                width: 150px;
+                margin-left: 280px;
                 margin-top: 23px;
             }
             
