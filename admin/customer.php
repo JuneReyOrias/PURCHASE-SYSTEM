@@ -179,12 +179,12 @@
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
-                                    <th>Username</th>
-                                    <th>Password</th>
-                                    <th>Fistname</th>
-                                    <th>LastName</th>
-                                    <th>Email</th>
-                                    <th>Role</th>
+                                    <th>username</th>
+                                    <th>password</th>
+                                    <th>fistname</th>
+                                    <th>fastName</th>
+                                    <th>email</th>
+                                    <th>role</th>
                                     <th><button type="button" name="add" id="add" class="btn btn-success">ADD</button></th>
                                 </tr>
                                 <tr>
@@ -221,7 +221,6 @@
                                     <td contenteditable="true" class="lastname"></td>
                                     <td contenteditable="true" class="email"></td>
                                     <td contenteditable="true" class="role"></td>
-            html_code += "<td contenteditable='true' class='message text-start'></td>";
             html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
