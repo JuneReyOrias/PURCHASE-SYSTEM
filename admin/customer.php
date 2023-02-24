@@ -179,12 +179,12 @@
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
-                                    <th>username</th>
-                                    <th>password</th>
-                                    <th>fistname</th>
-                                    <th>fastName</th>
-                                    <th>email</th>
-                                    <th>role</th>
+                                    <th>Username</th>
+                                    <th>Password</th>
+                                    <th>Fistname</th>
+                                    <th>LastName</th>
+                                    <th>Email</th>
+                                    <th>Role</th>
                                     <th><button type="button" name="add" id="add" class="btn btn-success">ADD</button></th>
                                 </tr>
                                 <tr>
@@ -215,13 +215,13 @@
         $('#add').click(function(){
             count = count + 1;
             var html_code = "<tr id='row"+count+"'>";
-            <td contenteditable="true" class="username"></td>
-                                    <td contenteditable="true" class="password"></td>
-                                    <td contenteditable="true" class="firstname"></td>
-                                    <td contenteditable="true" class="lastname"></td>
-                                    <td contenteditable="true" class="email"></td>
-                                    <td contenteditable="true" class="role"></td>
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>-</button></td>";   
+            html_code += " <td contenteditable="true" class="user_name"></td>";
+            html_code += " <td contenteditable="true" class="password"></td>";
+            html_code +=" <td contenteditable="true" class="firstname"></td>";
+            html_code += " <td contenteditable="true" class="lastname"></td>";
+            html_code +=" <td contenteditable="true" class="email"></td>";
+            html_code += "  <td contenteditable="true" class="role"></td>";
+            html_code += " <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>-</button></td>";
             html_code += "</tr>";  
             $('#crud_table').append(html_code);
         });
@@ -231,31 +231,34 @@
         });
 
         $('#save').click(function(){
-            var name = [];
+            var user_name = [];
+            var password= [];
+            var firstname= [];
+            var lastname = [];
             var email = [];
-            var mobile = [];
-            var message = [];
+            var role= [];
+
             
-            $('.name').each(function(){
+            $('.user_name').each(function(){
                 name.push($(this).text());
             });
             
-            $('.email').each(function(){
+            $('.password').each(function(){
                 email.push($(this).text());
             });
             
-            $('.mobile').each(function(){
+            $('.firstname').each(function(){
                 mobile.push($(this).text());
             });
             
-            $('.message').each(function(){
+            $('.lastname').each(function(){
                 message.push($(this).text());
             });
             
             $.ajax({
-                url:"insert.php",
+                url:"custinsert.php",
                 method:"POST",
-                data:{name:name, email:email, mobile:mobile, message:message},
+                data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
                     alert(data);
                     $("td[contentEditable='true']").text("");
@@ -266,10 +269,9 @@
                     }
                 });
             });
-
-        function fetch_item_data(){
+            function fetch_item_data(){
             $.ajax({
-                url:"fetch.php",
+                url:"custfetch.php",
                 method:"POST",
                     success:function(data){
                         $('#inserted_item_data').html(data);
