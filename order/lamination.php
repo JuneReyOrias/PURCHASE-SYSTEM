@@ -136,7 +136,7 @@
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
+            <div class="col2" ><spani class='bx bx-printer icon' >Lamination</span></div>
 
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
@@ -146,7 +146,7 @@
             <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
-        <label class="design"for=""></i>Printing type</label>
+        <label class="design"for=""></i>Laminate type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Wholepage Only</option>
@@ -165,7 +165,7 @@
             
             </datalist>
         
-        <label class="design"for=""></i>Printing type</label>
+        <label class="design"for=""></i>Laminate type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Wholepage Only</option>
