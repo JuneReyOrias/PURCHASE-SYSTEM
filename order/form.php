@@ -158,15 +158,27 @@
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
+        <label> Department </label></br>
+
+<input list="department" name="department">
+<datalist id="department">
+<option value="CCS">
+<option value="CTE">
+<option value="Architecture">
+<option value="CCJE">
+<option value="COE">
+<option value="CLA">
+</datalist>
         
-        <select name="size "class="select multiple-select" multiple >
-      
+        <label class="design"for=""></i>Printing type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        
+        <option value="">Digital Color</option>
         <option value="">Digital Black and White</option>
         <option value="">Photo Printing</option>
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
-        <label class="design"for=""></i>Printing type</label>
-    
+
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Qty per type">
         <input class="form-control" id="formFileSm" type="file" />
