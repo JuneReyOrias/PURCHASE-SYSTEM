@@ -411,7 +411,7 @@ modeSwitch.addEventListener("click" , () =>{
 
             <input class="size" list="size" name="size">
             <datalist class="size"id="size">
-            <option label="size">Color</option>
+            <option label="color">Color</option>
             <option value="Red">
             <option value="Yellowt">
             <option value="Black">
