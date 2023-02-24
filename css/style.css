@@ -824,6 +824,11 @@
                 height: 2rem;
             }
             
+            .color {
+                width: 7rem;
+                height: 2rem;
+            }
+            
             .tapnav .order {
                 float: left;
                 justify-items: center;
