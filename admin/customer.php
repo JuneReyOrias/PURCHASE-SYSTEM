@@ -151,7 +151,7 @@
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
-      
+<div class="col1" ><span>Customer</span></div>
         
         <div class="home-content">
        <div class="card">
