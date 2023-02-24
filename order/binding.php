@@ -137,6 +137,8 @@
     <div class="select-container">              
             <form class="select-form" action="bindform.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Binding</span></div>
+
+        <a href="javascript:void(0)" class="add-more-form float-end btn btn-primary">ADD MORE</a>
         <label class="design"for=""></i>Binding Type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
@@ -195,6 +197,8 @@
 
  </div>
           
+
+
     </section>
 
 </nav>
