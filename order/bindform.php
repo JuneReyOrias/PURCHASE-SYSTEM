@@ -41,7 +41,6 @@
         <div class="menu-bar">
             <div class="menu">
 
-            
                 <ul class="menu-links">
                     <li class="nav-link">
                         <a href="../customer/dashboard.php">
@@ -127,7 +126,7 @@
         <a class="active" href="../customer/dashboard.php">Home</a>
         <a href="order.php">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="binding.php" ><span>></span>Binding</a>
+        <a class="order" href="Print.php" ><span>></span>Printing</a>
         <a class="order" href="order.php" ><span>></span>Form</a>
         
 </div>
@@ -136,42 +135,57 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="order.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' >Form</span></div>
+            <form class="select-form" action="sample.php" method="post">
+            <div class="col2" ><spani class='bx bx-printer icon' > Binding Form</span></div>
 
-            <label for="username">Name</label>
-            <input type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label  for="username">Name</label>
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
             <label for="password">Email</label>
-            <input type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
+            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
             <label for="password">Contact</label>
-            <input type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
             
 
-            <label class="design"for=""></i>Binding Type</label>
+        <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
         <option value="">Ring Binding</option>
-        <option value="">Kromekote</option>
 
         <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <label class="design"for=""></i>Binding Type</label>
+        
+
+            <input class="size" list="size" name="size">
+            <datalist class="size"id="size">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
+        
+        <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
         <option value="">Ring Binding</option>
-        <option value="">Kromekote</option>
-
+        
 
         <div>
-        <input class="fc" type="text" name="digitall" placeholder="Qty per type">
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
+        <input class="size" list="size" name="size">
+            <datalist class="size"id="size">
+            <option label="size">size</option>
+            <option value="Long">
+            <option value="Short">
+            <option value="A4">
+            </datalist>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
        
