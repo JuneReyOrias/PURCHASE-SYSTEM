@@ -160,7 +160,7 @@
         <input class="form-control" id="formFileSm" type="file" />
         
 
-            <input class="size" list="department" name="department">
+            <input class="size" list="size" name="size">
             <datalist class="size"id="size">
             <option label="size">size</option>
             <option value="CTE">
