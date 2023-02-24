@@ -634,7 +634,7 @@
                 background-color: white;
                 border-radius: 3%;
                 width: 35rem;
-                height: 35rem;
+                height: 38rem;
                 margin-top: 7rem;
                 font-size: 15px;
             }
@@ -644,11 +644,10 @@
                 background-color: #78101c;
                 color: white;
                 border: none;
-                margin-top: 122px;
-                line-height: 16px;
+                line-height: 20px;
                 width: 150px;
-                margin-left: 280px;
-                margin-top: 23px;
+                margin-left: 300px;
+                margin-top: 13px;
             }
             
             .checkbox-custom {
