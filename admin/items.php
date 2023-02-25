@@ -36,7 +36,7 @@ require_once '../database/user.class.php';
             $user -> email = htmlentities($_POST['email']);
           
             $user -> role = htmlentities($_POST['role']);
-            $output= $user -> signup();
+            $output= $user -> create_acc();
       
             if ($output) {
                 // CREATE -- COLUMN "firstname" "lastname" "role"
