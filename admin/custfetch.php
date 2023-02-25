@@ -41,7 +41,7 @@ print_r($obj);
                             <tbody>
                                 <?php
                                     $query = "SELECT * FROM user_acc";
-                                    $statement = $conn->prepare($query);
+                                    $statement = $connection->prepare($query);
                                     $statement->execute();
 
                                     $statement->setFetchMode(PDO::FETCH_OBJ); //PDO::FETCH_ASSOC
