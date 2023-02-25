@@ -1,5 +1,5 @@
 <?php
-require_once '../database/user.class.php';
+require_once '../database/database.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -17,6 +17,7 @@ require_once '../database/user.class.php';
     $dashboard = 'active';
 
     require_once '../includes/header.php';
+    $obj= new Database();
     
 ?>
 <!doctype html>
@@ -38,7 +39,7 @@ require_once '../database/user.class.php';
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+              <a class="nav-link active" aria-current="page" href="createusers.php">Home</a>
             </li>
             <li class="nav-item">
               <a type="button" class="btn btn-primary nav-link active" href="create.php">Add New</a>
@@ -66,14 +67,14 @@ require_once '../database/user.class.php';
 
 
       <?php
-        require_once '../database/database.php';
+       require_once '../database/database.php';
         require_once '../database/user.class.php';
         $sql = "select * from user_acc";
         $result = $connect->query($sql);
         if(!$result){
           die("Invalid query!");
         }
-        while($output=$result->fetch_assoc()){
+        while($rowt=$result->fetch_assoc()){
           echo "
     <tr>
         <th>ID</th>
@@ -84,8 +85,8 @@ require_once '../database/user.class.php';
         <th>email</th>
         <th>role</th>
         <td>
-                  <a class='btn btn-success' href='edit.php?id=$output[id]'>Edit</a>
-                  <a class='btn btn-danger' href='delete.php?id=$output[id]'>Delete</a>
+                  <a class='btn btn-success' href='edit.php?id=$row[id]'>Edit</a>
+                  <a class='btn btn-danger' href='delete.php?id=$row[id]'>Delete</a>
                 </td>
       </tr>
       ";
