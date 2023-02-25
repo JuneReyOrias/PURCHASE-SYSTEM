@@ -1,7 +1,8 @@
 <?php 
+$_SESSION();
 require_once '../database/database.php';
 $obj= new Database();
-print_r($obj);
+
 ?>
 <!doctype html>
 <html lang="en">
