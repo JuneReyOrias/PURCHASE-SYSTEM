@@ -5,6 +5,7 @@
 require_once '../database/database.php';
     ?>
 <?php
+ $connect = mysqli_connect('localhost', 'u151063784_upresswmsuprs', 'LadQw702+&3', 'u151063784_db_upress');
     if(isset($_POST["user_name"]))
     {
         $user_name = $_POST["user_name"];
