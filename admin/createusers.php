@@ -67,8 +67,8 @@ require_once '../database/database.php';
 
 
       <?php
-       require_once '../database/database.php';
-       require_once '../database/users.classS.php';
+       include '../database/database.php';
+       include '../database/users.classS.php';
         $obj = new Database();
         $obj= new users();
         $output= $obj->create_acc();
