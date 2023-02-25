@@ -47,7 +47,7 @@ print_r($obj);
                                             ?>
                                             <tr>
                                                 <td><?= $output->id; ?></td>
-                                                <td><?= $output->user_name; ?></td>
+                                                <td><?= $output->username; ?></td>
                                                 <td><?= $output-> email; ?></td>
                                                 <td><?= $output->phone; ?></td>
                                                 <td><?= $output->course; ?></td>
