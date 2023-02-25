@@ -16,6 +16,12 @@ print_r($obj);
     
     <div class="container">
         <div class="row">
+        <?php if(isset($_SESSION['message'])) : ?>
+                    <h5 class="alert alert-success"><?= $_SESSION['message']; ?></h5>
+                <?php 
+                    unset($_SESSION['message']);
+                    endif; 
+                ?>
             <div class="col-md-12 mt-4">
                 <div class="card">
                     <div class="card-header">
@@ -42,12 +48,12 @@ print_r($obj);
                                     $result = $statement->fetchAll();
                                     if($result)
                                     {
-                                        foreach($result as $output)
+                                        foreach($result as $row)
                                         {
                                             ?>
                                             <tr>
-                                                <td><?= $output->id; ?></td>
-                                                <td><?= $output->username; ?></td>
+                                                <td><?= $row->id; ?></td>
+                                                <td><?= $row->username; ?></td>
                                                 <td><?= $output-> email; ?></td>
                                                 <td><?= $output->phone; ?></td>
                                                 <td><?= $output->course; ?></td>
