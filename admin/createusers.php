@@ -149,42 +149,8 @@ require_once '../database/user.class.php';
     </nav>
 
 
-       
-    </section>
 
-    <section class="home">
-    <header>
-            <div class="image-logo">
-                <span >
-                <img src="../img/upress-logo.png" >
-                </span>
 
-                <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
-                  
-                </div>
-                </div>
-
-           
-        </header>
-   
-        <hr class= "divider">
-        <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
-    
-</div>
-<div class="col1" ><span>Items</span></div>
-        
-        <div class="home-content">
-      
- <div>
-
- </div>
-          
-    </section>
-
-</nav>
-?>
     <div class="home-content">
         <div class="table-container">
             <div class="table-heading">
