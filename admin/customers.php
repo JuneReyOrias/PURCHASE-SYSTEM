@@ -159,7 +159,8 @@
   Launch demo modal
 </button>
 <table class="table table-bordered table-striped" style="margin-top:20px;">
-				<thead>
+			
+<thead>
 					<th>ID</th>
 					<th>Firstname</th>
 					<th>Lastname</th>
@@ -177,15 +178,7 @@
       
     </div>
       
-      <table class="table table-bordered table-striped" style="margin-top:20px;">
-				<thead>
-					<th>ID</th>
-					<th>Firstname</th>
-					<th>Lastname</th>
-					<th>Address</th>
-					<th>Action</th>
-				</thead>
-				<tbody>
+      
       
 
 
