@@ -214,9 +214,7 @@
 		</div>
 	</div>
 </div>
-<?php include('add_modal.php'); ?>
-<script src="jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
+
 
  <div>
 
