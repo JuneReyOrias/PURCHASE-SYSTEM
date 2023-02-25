@@ -51,7 +51,7 @@ require_once '../database/database.php';
                     </div>
                     <div class="card-body">
                         
-                        <form action="addaccount.php" method="POST">
+                        <form action="createusers.php" method="POST">
                             <div class="mb-3">
                                 <label>username</label>
                                 <input type="text" name="fullname" class="form-control" />
