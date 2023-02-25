@@ -162,7 +162,9 @@
         <h5 class="modal-title">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-          
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      
 			<table class="table table-bordered table-striped" style="margin-top:12px;" d>
 				<thead>
 					<th>ID</th>
@@ -175,7 +177,7 @@
 					<th>Action</th>
 				</thead>
 				<tbody>
-
+</div>
 </form>
 				
 
