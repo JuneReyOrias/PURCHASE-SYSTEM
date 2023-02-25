@@ -158,7 +158,15 @@
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Launch demo modal
 </button>
-
+<table class="table table-bordered table-striped" style="margin-top:20px;">
+				<thead>
+					<th>ID</th>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Address</th>
+					<th>Action</th>
+				</thead>
+				<tbody></tbody>
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -166,8 +174,9 @@
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div>
+      
+    </div>
+      
       <table class="table table-bordered table-striped" style="margin-top:20px;">
 				<thead>
 					<th>ID</th>
@@ -177,7 +186,7 @@
 					<th>Action</th>
 				</thead>
 				<tbody>
-      </div>
+      
 
 
       <div class="modal-body">
