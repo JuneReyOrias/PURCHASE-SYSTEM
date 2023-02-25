@@ -4,7 +4,7 @@ session_start();
 
 
 if(isset($_POST['save']))
-{ print_r($_POST['save_student_btn']);
+{ print_r($_POST['save']);
     $user_name = $_POST['user_name'];
     $password = $_POST['paasword'];
     $firstname = $_POST['firstname'];
