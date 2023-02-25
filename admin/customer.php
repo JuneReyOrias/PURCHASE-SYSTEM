@@ -153,48 +153,48 @@
 <div class="col1" ><span>Customer</span></div>
         
         <div class="home-content">
-        <div class="container">
-   <br />
-   <br />
-   <h2 align="center">Ajax Crud on Dynamically Add Remove Input Fields in PHP</h2><br />
-   <div align="right">
-    <button type="button" name="add" id="add" class="btn btn-info">Add</button>
-   </div>
-   <br />
-   <div id="result"></div>
-  </div>
- </body>
-</html>
-
-<div id="dynamic_field_modal" class="modal fade" role="dialog">
- <div class="modal-dialog">
-  <div class="modal-content">
-   <form method="post" id="add_name">
-    <div class="modal-header">
-     <button type="button" class="close" data-dismiss="modal">&times;</button>
-     <h4 class="modal-title">Add Details</h4>
-    </div>
-    <div class="modal-body">
-     <div class="form-group">
-           <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" />
-          </div>
-          <div class="table-responsive">
-           <table class="table" id="dynamic_field">
-
-           </table>
-          </div>
-    </div>
-    <div class="modal-footer">
-     <input type="hidden" name="hidden_id" id="hidden_id" />
-     <input type="hidden" name="action" id="action" value="insert" />
-     <input type="submit" name="submit" id="submit" class="btn btn-info" value="Submit" />
-    </div>
-   </form>
-  </div>
- </div>
-
+        <h2>View Records
+    <a href="add.php" class="btn btn-primary" style="float:right;">Add New Record</a>
+  </h2>
+  <table class="table table-bordered table-striped" id="usersTable">
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+        <?php 
+          $users = $userObj->displayData(); 
+          foreach ($users as $rs) {
+        ?>
+        <tr>
+          <td><?php echo $rs['id'] ?></td>
+          <td><?php echo $rs['name'] ?></td>
+          <td><?php echo $rs['email'] ?></td>
+          <td><?php echo $rs['username'] ?></td>
+          <td>
+            <a href="edit.php?editId=<?php echo $rs['id'] ?>" style="color:green">
+              <i class="fa fa-pencil" aria-hidden="true"></i></a> 
+            <a href="index.php?deleteId=<?php echo $rs['id'] ?>" style="color:red" onclick="confirm('Are you sure want to delete this record')">
+              <i class="fa fa-trash" aria-hidden="true"></i>
+            </a>
+          </td>
+        </tr>
+      <?php } ?>
+    </tbody>
+  </table>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('#usersTable').DataTable();
+} );
+</script>
  <div>
 
  </div>
