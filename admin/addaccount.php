@@ -3,8 +3,8 @@ session_start();
 require_once '../database/database.php';
 
 if(isset($_POST['save_student_btn']))
-{
-    $user_name = $_POST['user_name'];
+{ print_r
+    $username = $_POST['username'];
     $password = $_POST['paasword'];
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
@@ -16,6 +16,7 @@ if(isset($_POST['save_student_btn']))
     $query_run = $connect->prepare($query);
 
     $data = [
+        ':id' => $id,
         ':user_name' => $user_name,
         ':password' => $password,
         ':firstname' => $firstname,
@@ -29,13 +30,13 @@ if(isset($_POST['save_student_btn']))
     if($query_execute)
     {
         $_SESSION['message'] = "Inserted Successfully";
-        header('Location: addaccount.php');
+        header('Location: createusers.php');
         exit(0);
     }
     else
     {
         $_SESSION['message'] = "Not Inserted";
-        header('Location: addaccount.php');
+        header('Location: createusers.php');
         exit(0);
     }
 }
