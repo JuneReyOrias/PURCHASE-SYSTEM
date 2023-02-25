@@ -20,87 +20,71 @@ require_once '../database/database.php';
     $obj_database= new Database();
    
 ?>
-<!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <title>Fetch data from database using pdo in php</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">PHP CRUD OPERATION</a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="createusers.php">Home</a>
-            </li>
-            <li class="nav-item">
-              <a type="button" class="btn btn-primary nav-link active" href="create.php">Add New</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container my-4">
-    <table class="table">
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Username</th>
-        <th>Password</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>email</th>
-        <th>role</th>
-        <th>ACTIONS</th>
-      </tr>
-    </thead>
-    <tbody>
-
-
-
-      <?php
-       include '../database/database.php';
-       include '../database/users.classS.php';
-        $obj = new Database();
-        $obj= new users();
-        $output= $obj->create_acc();
-        $sql = "SELECT * FROM user_acc";
-        $result = $connect->query($sql);
-        if(!$result){
-          die("Invalid query!");
-        }
-        while($rowt=$result->fetch_assoc()){
-          echo "
-    <tr>
-        <th>ID</th>
-        <th>Username</th>
-        <th>Password</th>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>email</th>
-        <th>role</th>
-        <td>
-                  <a class='btn btn-success' href='edit.php?id=$row[id]'>Edit</a>
-                  <a class='btn btn-danger' href='delete.php?id=$row[id]'>Delete</a>
-                </td>
-      </tr>
-      ";
-        }
-      ?>
-    </tbody>
-  </table>
-      </div>
     
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mt-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Fetch data from database using pdo in php </h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>FullName</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Course</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                    $query = "SELECT * FROM user_acc";
+                                    $statement = $conn->prepare($query);
+                                    $statement->execute();
+
+                                    $statement->setFetchMode(PDO::FETCH_OBJ); //PDO::FETCH_ASSOC
+                                    $result = $statement->fetchAll();
+                                    if($result)
+                                    {
+                                        foreach($result as $row)
+                                        {
+                                            ?>
+                                            <tr>
+                                                <td><?= $row->id; ?></td>
+                                              
+                                            </tr>
+                                            <?php
+                                        }
+                                    }
+                                    else
+                                    {
+                                        ?>
+                                        <tr>
+                                            <td colspan="5">No Record Found</td>
+                                        </tr>
+                                        <?php
+                                    }
+                                ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-Footer
