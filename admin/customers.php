@@ -153,12 +153,12 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
-        <form class="forms" action="sample.php" method="post">
+        <form class="select-form" action="sample.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 ">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
           
-			<table class="table table-bordered table-striped" style="margin-top:12px;" >
+			<table class="table table-bordered table-striped" style="margin-top:12px;" d>
 				<thead>
 					<th>ID</th>
 					<th>Firstname</th>
