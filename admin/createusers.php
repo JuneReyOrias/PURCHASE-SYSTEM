@@ -52,39 +52,36 @@ require_once '../database/user.class.php';
     <thead>
       <tr>
         <th>ID</th>
-        <th>NAME</th>
-        <th>EMAIL</th>
-        <th>PHONE</th>
-        <th>JOINING DATE</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>email</th>
+        <th>role</th>
         <th>ACTIONS</th>
       </tr>
     </thead>
     <tbody>
-    <tr>
-        <th>ID</th>
-        <th>NAME</th>
-        <th>EMAIL</th>
-        <th>PHONE</th>
-        <th>JOINING DATE</th>
-        <th>ACTIONS</th>
-      </tr>
+
 
 
       <?php
-        include "connection.php";
-        $sql = "select * from crud2";
+        include "../database/database.php";
+        $sql = "select * from user_acc";
         $result = $conn->query($sql);
         if(!$result){
           die("Invalid query!");
         }
         while($row=$result->fetch_assoc()){
           echo "
-      <tr>
-        <th>$row[id]</th>
-        <td>$row[name]</td>
-        <td>$row[email]</td>
-        <td>$row[phone]</td>
-        <td>$row[join_date]</td>
+    <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Password</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>email</th>
+        <th>role</th>
         <td>
                   <a class='btn btn-success' href='edit.php?id=$row[id]'>Edit</a>
                   <a class='btn btn-danger' href='delete.php?id=$row[id]'>Delete</a>
