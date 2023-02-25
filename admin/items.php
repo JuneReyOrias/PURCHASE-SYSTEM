@@ -163,17 +163,7 @@
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
 
                 </div>
-                <div class="modal">
-                            <table class="table text-center table-striped table-bordered" id="crud_table">
-                                <tr>
-                                    <th>ItemsName</th>
-                                    <th>Itemsid</th>
-                                    <th>ItemsDetails</th>
-                                    <th>Quantity</th>
-                                    <th>Size</th>
-                                    <th>UnitPrices</th>
-                                  
-                                </tr>
+                
             </div>
         </div>
         <div class="card-body">
@@ -186,6 +176,29 @@
                             <h4 class="modal-title text-center">Create Items</h4></h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
+                        </div>
+        <div class="divider-no-border"></div>
+        <table class="table">
+            <thead>
+                <tr>
+                    
+                    <th>Name</th>
+                    <th>Price</th>
+                   
+                    <th class="action">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <th>Name</th>
+                    <th>Price</th>
+                    
+                    <td class="action">
+                        <a class="action-edit" href="#">Edit</a>
+                        <a class="action-delete" href="#">Delete</a>
+                    </td>
+                </tr>
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
