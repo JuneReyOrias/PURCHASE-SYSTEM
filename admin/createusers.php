@@ -73,7 +73,7 @@ require_once '../database/user.class.php';
         if(!$result){
           die("Invalid query!");
         }
-        while($row=$result->fetch_assoc()){
+        while($output=$result->fetch_assoc()){
           echo "
     <tr>
         <th>ID</th>
@@ -84,8 +84,8 @@ require_once '../database/user.class.php';
         <th>email</th>
         <th>role</th>
         <td>
-                  <a class='btn btn-success' href='edit.php?id=$row[id]'>Edit</a>
-                  <a class='btn btn-danger' href='delete.php?id=$row[id]'>Delete</a>
+                  <a class='btn btn-success' href='edit.php?id=$output[id]'>Edit</a>
+                  <a class='btn btn-danger' href='delete.php?id=$output[id]'>Delete</a>
                 </td>
       </tr>
       ";
