@@ -20,65 +20,57 @@ require_once '../database/database.php';
     $obj_database= new Database();
    
 ?>
+<!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Fetch data from database using pdo in php</title>
-  </head>
-  <body>
+    <title>Insert data into database using PDO in PHP</title>
+</head>
+<body>
     
     <div class="container">
         <div class="row">
-            <div class="col-md-12 mt-4">
+            <div class="col-md-8 mt-4">
+
+                <?php if(isset($_SESSION['message'])) : ?>
+                    <h5 class="alert alert-success"><?= $_SESSION['message']; ?></h5>
+                <?php 
+                    unset($_SESSION['message']);
+                    endif; 
+                ?>
+
                 <div class="card">
                     <div class="card-header">
-                        <h3>Fetch data from database using pdo in php </h3>
+                        <h3>Insert data into database using PDO in PHP</h3>
                     </div>
                     <div class="card-body">
-                        <table class="table table-bordered table-striped">
-                            <thead>
-                                <tr>
-                                    <th>ID</th>
-                                    <th>FullName</th>
-                                    <th>Email</th>
-                                    <th>Phone</th>
-                                    <th>Course</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php
-                                    $query = "SELECT * FROM user_acc";
-                                    $statement = $conn->prepare($query);
-                                    $statement->execute();
+                        
+                        <form action="code.php" method="POST">
+                            <div class="mb-3">
+                                <label>Full Name</label>
+                                <input type="text" name="fullname" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>Email</label>
+                                <input type="text" name="email" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>Phone</label>
+                                <input type="text" name="phone" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>Course</label>
+                                <input type="text" name="course" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" name="save_student_btn" class="btn btn-primary">Save Student</button>
+                            </div>
+                        </form>
 
-                                    $statement->setFetchMode(PDO::FETCH_OBJ); //PDO::FETCH_ASSOC
-                                    $result = $statement->fetchAll();
-                                    if($result)
-                                    {
-                                        foreach($result as $row)
-                                        {
-                                            ?>
-                                            <tr>
-                                                <td><?= $row->id; ?></td>
-                                              
-                                            </tr>
-                                            <?php
-                                        }
-                                    }
-                                    else
-                                    {
-                                        ?>
-                                        <tr>
-                                            <td colspan="5">No Record Found</td>
-                                        </tr>
-                                        <?php
-                                    }
-                                ?>
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
@@ -86,5 +78,5 @@ require_once '../database/database.php';
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+</body>
 </html>
