@@ -1,6 +1,7 @@
 <?php
-session_start();
 require_once '../database/database.php';
+session_start();
+
 
 if(isset($_POST['save_student_btn']))
 { print_r($_POST['save_student_btn']);
