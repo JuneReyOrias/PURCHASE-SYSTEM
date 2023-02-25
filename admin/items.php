@@ -177,12 +177,12 @@
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
-                                    <th>Username</th>
-                                    <th>Password</th>
-                                    <th>Firstname</th>
-                                    <th>LastName</th>
-                                    <th>Email</th>
-                                    <th>Role</th>
+                                    <th>ItemsName</th>
+                                    <th>Itemsid</th>
+                                    <th>ItemsDetails</th>
+                                    <th>Quantity</th>
+                                    <th>Size</th>
+                                    <th>UnitPrices</th>
                                     <th><button type="button" name="add" id="add" class="btn btn-success">Add</button></th>
                                 </tr>
                                 <tr>

@@ -66,7 +66,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="customer">
+                        <a href="customer.phpS">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
@@ -91,7 +91,7 @@
 					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
+						<a href="#">Joel Maderal</a>
 					</div>
 				
 				</div>
@@ -147,8 +147,7 @@
         <hr class="divider">
         <div class="tapnav">
         <a class="active" href="dashboard.php">Home</a>
-        <a href="#contact">Contact</a>
-        <a href='#contact us'>About</a>
+        
 </div>
         <div class="home-content">
     <div class="table-container">
