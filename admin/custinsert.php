@@ -3,6 +3,7 @@
 <?php
 
 require_once '../database/database.php';
+require_once '../databse/user.class.php';
     ?>
 <?php
  $connect = mysqli_connect('localhost', 'u151063784_upresswmsuprs', 'LadQw702+&3', 'u151063784_db_upress');
@@ -16,7 +17,7 @@ require_once '../database/database.php';
         $role = $_POST["role"];
         $query = '';
        
-        for($count = 0; $count<count($name); $count++){
+        for($count = 0; $count<count($user_name); $count++){
             $user_name_clean = mysqli_real_escape_string($connect, $user_name[$count]);
             $password_clean = mysqli_real_escape_string($connect, $password[$count]);
             $firstname_clean = mysqli_real_escape_string($connect, $firstname[$count]);
