@@ -69,7 +69,7 @@ require_once '../database/user.class.php';
         require_once '../database/database.php';
         require_once '../database/user.class.php';
         $sql = "select * from user_acc";
-        $result = $conn->query($sql);
+        $result = $connect->query($sql);
         if(!$result){
           die("Invalid query!");
         }
