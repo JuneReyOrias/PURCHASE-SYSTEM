@@ -151,7 +151,7 @@
     
 </div>
 <div class="col1" ><span>Customer</span></div>
-        
+        <form>
        
         <h2>View Records
     <a href="add.php" class="btn btn-primary" style="float:right;">Add New Record</a>
@@ -172,6 +172,7 @@
       </tr>
     </thead>
     <tbody>
+    </form>
         <?php 
           $users = $userObj->displayData(); 
           foreach ($users as $rs) {
