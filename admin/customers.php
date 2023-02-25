@@ -167,6 +167,19 @@
         <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+      <div>
+      <table class="table table-bordered table-striped" style="margin-top:20px;">
+				<thead>
+					<th>ID</th>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Address</th>
+					<th>Action</th>
+				</thead>
+				<tbody>
+      </div>
+
+
       <div class="modal-body">
         ...
       </div>
