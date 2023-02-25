@@ -1,5 +1,5 @@
 <?php
-
+    require_once '../database/database.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -12,7 +12,8 @@
     }
     //if the above code is false then html below will be displayed
 
-   
+   $obj_database= new Database();
+   print_r($obj_database);
     $page_title = 'Upress | Dashboard';
     $dashboard = 'active';
 
