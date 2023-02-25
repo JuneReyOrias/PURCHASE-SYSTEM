@@ -28,7 +28,23 @@ Class users{
         }
      	return $data;
     }
+    function create_acc() {
+        $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`, `lastname`,  `email`,  `role`)
+         VALUES (NULL, :user_name, :user_pass, :firstname, :lastname, :email, :role)";
+        $query=$this->db->connect()->prepare($sql);
 
+        $query->bindParam(':username', $this->username);
+        $query->bindParam(':password', $this->password);
+        $query->bindParam(':firstname', $this->firstname);
+        $query->bindParam(':lastname', $this->lastname);
+        $query->bindParam(':email', $this->email);
+        $query->bindParam(':role', $this->role);
+       
+        if($query->execute()){
+            return "added successfully 1";
+        } 
+        return "error adding ";
+    }
 
 /*    function login(){
         $sql = "SELECT * FROM users WHERE BINARY email = :email AND BINARY password = :password AND type = 'customers';";

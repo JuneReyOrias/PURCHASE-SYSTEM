@@ -21,7 +21,30 @@
 ?>
     
    
-    </main> -->
+    <?php 
+
+ /* print_r($_POST); */
+
+        if(isset($_POST['save'])) {
+            $user= new users;
+            $user -> username = htmlentities($_POST['user_name']); 
+            $user -> password = htmlentities($_POST['password']);
+            $user -> firstname = htmlentities($_POST['firstname']);
+            
+            $user -> lastname = htmlentities($_POST['lastname']);
+        
+            $user -> email = htmlentities($_POST['email']);
+          
+            $user -> role = htmlentities($_POST['role']);
+            $output= $user -> signup();
+      
+            if ($output) {
+                // CREATE -- COLUMN "firstname" "lastname" "role"
+                print_r($output);
+
+            }
+        }
+            ?>
    
 
     <nav class="sidebar close">
@@ -200,7 +223,7 @@
                             </table>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" name="save" id="save" class="btn btn-primary">Save</button>
+                            <button type="button" action ="items.php" name="save" id="save" class="btn btn-primary">Save</button>
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -261,7 +284,7 @@
                 role.push($(this).text());
             });
             $.ajax({
-                url:"custinsert.php",
+                url:"items.php.php",
                 method:"POST",
                 data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
