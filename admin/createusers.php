@@ -21,6 +21,78 @@ require_once '../database/database.php';
     if(isset($_POST['save']))
     { print_r($_POST);
     }
+
+   
+?>
+ <?php
+
+
+if(isset($_POST['save'])) {
+    //Sanitizing the inputs of the users. Mandatory to prevent injections!
+      
+        $user= new users;
+        $user -> username = htmlentities($_POST['user_name']); 
+        $user -> password = htmlentities($_POST['password']);
+        $user -> firstname = htmlentities($_POST['firstname']);
+        $
+        $user -> lastname = htmlentities($_POST['lastname']);
+       
+        $user -> email = htmlentities($_POST['email']);
+       
+        $user -> role = htmlentities($_POST['role']);
+       
+
+        
+      //  `username`, `user_pass`, `firstname`, `middlename`, `lastname`, `suffix`, `email`, `address`, `role`,
+      //   `type`, `sex`, `contactno`
+
+      //   $query->bindParam(':username', $this->username);
+      //   $query->bindParam(':user_pass', $this->password);
+      //   $query->bindParam(':firstname', $this->firstname);
+      //   $query->bindParam(':middlename', $this->middlename);
+      //   $query->bindParam(':lastname', $this->lastname);
+      //   $query->bindParam(':suffix', $this->suffix);
+      //   $query->bindParam(':email', $this->email);
+      //   $query->bindParam(':address', $this->address);
+      //   $query->bindParam(':role', $this->role);
+      //   $query->bindParam(':type', $this->type);
+      //   $query->bindParam(':sex', $this->sex);
+      //   $query->bindParam(':contactNo', $this->contactNo);
+
+        $output= $user -> create_acc();
+
+        if ($output) {
+            // CREATE -- COLUMN "firstname" "lastname" "role"
+            print_r($output);
+
+            $userData = $user -> login();
+
+            if($userData) {
+                 $_SESSION['username'] = $userData['username'];
+            $_SESSION['password'] = $userData['user_pass'];
+            $_SESSION['fullname'] = $userData['firstname'] . ' '.$userData['middlename'] . ' ' . $userData['lastname'] . ' ' .
+           
+            $_SESSION['user_role'] = $userData['role'];
+            $_SESSION['email'] = $userData['email'];
+       
+            $_SESSION['role'] = $userData['role'];
+           
+            if($userData['role'] == 'Admin'){
+              header('location: ../admin/dashboard.php');
+            } else{
+              header('location: ../user/user-profile.php');
+              header('location: ../admin/dashboard1.php');
+          }
+            }
+         
+
+            //display the appropriate dashboard page for user
+       
+            }
+        
+  }
+
+?>
 ?>
 <!doctype html>
 <html lang="en">

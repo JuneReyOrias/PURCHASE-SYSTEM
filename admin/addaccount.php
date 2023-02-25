@@ -14,7 +14,7 @@ if(isset($_POST['save']))
    
 
     $query = "INSERT INTO `user_acc`(`id`, `user_name`, `user_pass`, `firstname`, `lastname`, `email`, `role`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
-    $query_run = $connection->prepare($query);
+    $query_run = $connect->prepare($query);
 
     $data = [
         ':id' => $id,
