@@ -150,14 +150,14 @@
         <a class="active" href="dashboard.php">Home</a>
     
 </div>
-<div class="col1" ><span>Customer</span></div>
+<div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
        <div class="card">
         <div class="card-header">
             <div class="row">
                 <div class="col-md-11">
-                    <h2 class="text-center"> Customer Information </h2>        
+                    <h2 class="text-center"> ITEMS LIST</h2>        
                 </div>
                 <div class="col-md-1 mt-2">
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
@@ -171,7 +171,7 @@
                 <div class="modal-dialog modal-xl">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title text-center">Create Customer Account</h4></h4>
+                            <h4 class="modal-title text-center">Create Items</h4></h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
