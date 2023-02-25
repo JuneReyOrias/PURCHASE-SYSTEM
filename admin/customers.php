@@ -153,8 +153,7 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
-            <div class="form-group">
-        <form class="" action="sample.php" method="post">
+        <form class="cust-form" action="sample.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 ">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>

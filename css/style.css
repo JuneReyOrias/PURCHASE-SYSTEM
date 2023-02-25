@@ -1491,3 +1491,14 @@
             a.action-view {
                 background-color: rgb(97, 96, 94);
             }
+            
+            .cust-form {
+                padding: 40px;
+                margin: 0 auto;
+                background-color: white;
+                border-radius: 3%;
+                width: 45rem;
+                height: 38rem;
+                margin-top: 3rem;
+                font-size: 15px;
+            }
