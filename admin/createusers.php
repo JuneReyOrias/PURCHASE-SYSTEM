@@ -18,7 +18,7 @@ require_once '../database/database.php';
 
     require_once '../includes/header.php';
     $obj_database= new Database();
-    if(isset($_POST['save_student_btn']))
+    if(isset($_POST['save']))
     { print_r($_POST);
     }
 ?>
