@@ -183,7 +183,14 @@
 
 
       <div class="modal-body">
-        ...
+      <thead>
+					<th>ID</th>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Address</th>
+					<th>Action</th>
+				</thead>
+				<tbody></tbody>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
