@@ -18,7 +18,7 @@ require_once '../database/database.php';
 
     require_once '../includes/header.php';
     $obj= new Database();
-    
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -69,7 +69,7 @@ require_once '../database/database.php';
       <?php
        require_once '../database/database.php';
         require_once '../database/user.class.php';
-        $sql = "select * from user_acc";
+        $sql = "SELECT * FROM user_acc";
         $result = $connect->query($sql);
         if(!$result){
           die("Invalid query!");
