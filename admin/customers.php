@@ -155,7 +155,7 @@
         <div class="home-content">
         <form class="select-form" action="sample.php" method="post">
 	<div class="row">
-		<div class="col-sm-8 col-sm-offset-2">
+		<div class="col-sm-8 ">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
           
 			<table class="table table-bordered table-striped" style="margin-top:20px;">
