@@ -41,12 +41,12 @@ $obj= new Database();
                             </thead>
                             <tbody>
                                 <?php
+                                    require_once '../database/databse.php';
                                     $query =" SELECT * FROM `user_acc`";
-                                    $statement = $connection->prepare($query);
+                                    $statement = $connect->prepare($query);
                                     $statement->execute();
 
-                                    $statement->setFetchMode(PDO::FETCH_OBJ); //PDO::FETCH_ASSOC
-                                    $result = $statement->fetchAll();
+                                    
                                     if($result)
                                     {
                                         foreach($result as $row)
