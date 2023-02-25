@@ -152,7 +152,7 @@
 </div>
 <div class="col1" ><span>Customer</span></div>
      
-<div class="container">
+<div class="home">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
