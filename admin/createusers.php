@@ -18,8 +18,8 @@ require_once '../database/database.php';
 
     require_once '../includes/header.php';
     $obj_database= new Database();
-   print_r($obj_database);
-?>
+   
+?>if(isset($_POST['save']))
 <!doctype html>
 <html lang="en">
   <head>
@@ -68,8 +68,10 @@ require_once '../database/database.php';
 
       <?php
        require_once '../database/database.php';
+       require_once '../database/users.classS.php';
         $obj = new Database();
-        print_r($obj);
+        $obj= new users();
+        
         $sql = "SELECT * FROM user_acc";
         $result = $connect->query($sql);
         if(!$result){
