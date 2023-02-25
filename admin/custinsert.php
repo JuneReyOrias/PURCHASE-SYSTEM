@@ -1,39 +1,46 @@
-<?php
-
-    $connect = mysqli_connect("localhost", "root", "", "aatman");
-
-    if(isset($_POST["user_name"]))
-    {
-        $name = $_POST["user_name"];
-        $email = $_POST["pasword"];
-        $mobile = $_POST["firstname"];
-        $message = $_POST["lastname"];
-        $message = $_POST["email"];
-        $message = $_POST["role"];
-        $query = '';
-       
-        for($count = 0; $count<count($name); $count++){
-            $user_name_clean = mysqli_real_escape_string($connect, $user_name[$count]);
-            $password_clean = mysqli_real_escape_string($connect, $password[$count]);
-            $firstname_clean = mysqli_real_escape_string($connect, $firstname[$count]);
-            $lastname_clean = mysqli_real_escape_string($connect, $lastname[$count]);
-            $email_clean = mysqli_real_escape_string($connect, $email[$count]);
-            $role_clean = mysqli_real_escape_string($connect, $role[$count]);
-          
-            if($user_name_clean != '' && $password_clean != '' && $firstname_clean != '' && $lastname_clean != ''&& $email_clean != '' && $role_clean != '' ){
-                $query .= 'INSERT INTO user_acc (user_name, user_pass, firstname, lastname, email, role,) VALUES("'.$user_name_clean.'", "'.$password_clean.'", "'.$firstname_clean .'", "'.$lastname_clean .'", "'.$email_clean .'", "'.$role_clean.'");';
-            }
-        }
-
-        if($query != ''){
-                
-            if(mysqli_multi_query($connect, $query)){
-                echo 'Users Data Inserted successfully';
-            }else{
-                echo 'Error';
-            }
-        }else{
-            echo 'All Fields are Required';
-        }
-    }
-?>
+<!-- Add New -->
+<div class="modal fade" id="addnew" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <center><h4 class="modal-title" id="myModalLabel">Add New</h4></center>
+            </div>
+            <div class="modal-body">
+			<div class="container-fluid">
+			<form method="POST" action="add.php">
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Firstname:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Lastname:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="lastname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-sm-2">
+						<label class="control-label" style="position:relative; top:7px;">Address:</label>
+					</div>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="address">
+					</div>
+				</div>
+            </div> 
+			</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                <button type="submit" name="add" class="btn btn-primary"><span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
+			</form>
+            </div>
+ 
+        </div>
+    </div>
+</div>
