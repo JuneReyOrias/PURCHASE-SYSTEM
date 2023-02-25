@@ -158,7 +158,7 @@
 		<div class="col-sm-8 ">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
           
-			<table class="table table-bordered table-striped" style="margin-top:20px;">
+			<table class="table table-bordered table-striped" style="margin-top:12px;">
 				<thead>
 					<th>ID</th>
 					<th>Firstname</th>
@@ -176,45 +176,7 @@
  </div>
           
     </section>
-	<?php
-						//include our connection
-						include_once('../database/database.php');
- 
-						$database = new Database();
-    					
-						try{	
-						    $sql = 'SELECT * FROM members';
-						    foreach ($db->query($sql) as $row) {
-						    	?>
-						    	<tr>
-						    		<td><?php echo $row['id']; ?></td>
-						    		<td><?php echo $row['firstname']; ?></td>
-						    		<td><?php echo $row['lastname']; ?></td>
-						    		<td><?php echo $row['address']; ?></td>
-						    		<td>
-						    			<a href="#edit_<?php echo $row['id']; ?>" class="btn btn-success btn-sm" data-toggle="modal"><span class="glyphicon glyphicon-edit"></span> Edit</a>
-						    			<a href="#delete_<?php echo $row['id']; ?>" class="btn btn-danger btn-sm" data-toggle="modal"><span class="glyphicon glyphicon-trash"></span> Delete</a>
-						    		</td>
-						    		<?php include('edit_delete_modal.php'); ?>
-						    	</tr>
-						    	<?php 
-						    }
-						}
-						catch(PDOException $e){
-							echo "There is some problem in connection: " . $e->getMessage();
-						}
- 
-						
- 
-					?>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</div>
 
-<script src="jquery.min.js"></script>
-<script src="bootstrap/js/bootstrap.min.js"></script>
 </nav>
 
 
