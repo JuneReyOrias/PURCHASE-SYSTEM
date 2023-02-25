@@ -1,5 +1,6 @@
 <?php
 require_once '../database/database.php';
+require_once '../database/user.class.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -68,7 +69,7 @@ if(isset($_POST['save'])) {
             $userData = $user -> login();
 
             if($userData) {
-                 $_SESSION['username'] = $userData['username'];
+                 $_SESSION['username'] = $userData['user_name'];
             $_SESSION['password'] = $userData['user_pass'];
             $_SESSION['fullname'] = $userData['firstname'] . ' '.$userData['middlename'] . ' ' . $userData['lastname'] . ' ' .
            
