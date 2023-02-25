@@ -152,13 +152,18 @@
 </div>
 <div class="col1" ><span>Customer</span></div>
         
-        <div class="home-content">
+       
         <h2>View Records
     <a href="add.php" class="btn btn-primary" style="float:right;">Add New Record</a>
   </h2>
   <table class="table table-bordered table-striped" id="usersTable">
     <thead>
       <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Username</th>
+        <th>Action</th>
         <th>Id</th>
         <th>Name</th>
         <th>Email</th>
