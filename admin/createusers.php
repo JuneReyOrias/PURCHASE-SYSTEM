@@ -68,7 +68,8 @@ require_once '../database/database.php';
 
       <?php
        require_once '../database/database.php';
-        require_once '../database/user.class.php';
+        $obj = new Database();
+        print_r($obj);
         $sql = "SELECT * FROM user_acc";
         $result = $connect->query($sql);
         if(!$result){

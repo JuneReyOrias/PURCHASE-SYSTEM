@@ -150,7 +150,7 @@ require_once '../database/database.php';
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
+        <a class="active" href="createusers.php">Home</a>
     
 </div>
 <div class="col1" ><span>Items</span></div>
