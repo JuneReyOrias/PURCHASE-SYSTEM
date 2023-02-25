@@ -164,6 +164,9 @@
 					<th>Firstname</th>
 					<th>Lastname</th>
 					<th>Address</th>
+                    <th>Firstname</th>
+					<th>Lastname</th>
+					<th>Address</th>
 					<th>Action</th>
 				</thead>
 				<tbody>
