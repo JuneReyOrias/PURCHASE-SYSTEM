@@ -158,7 +158,7 @@
 		<div class="col-sm-8 ">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
           
-			<table class="table table-bordered table-striped" style="margin-top:12px;">
+			<table class="table table-bordered table-striped" style="margin-top:12px;" style="margin-left:4rem;>
 				<thead>
 					<th>ID</th>
 					<th>Firstname</th>
