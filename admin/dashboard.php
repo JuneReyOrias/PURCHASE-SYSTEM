@@ -69,7 +69,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="customer.php">
+                        <a href="customers.php">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
@@ -147,7 +147,7 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
+        <a class="active" href="addcustomer.php">Home</a>
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
