@@ -254,7 +254,12 @@
             $('.lastname').each(function(){
                 lastname.push($(this).text());
             });
-            
+            $('.email').each(function(){
+                email.push($(this).text());
+            });
+            $('.role').each(function(){
+                role.push($(this).text());
+            });
             $.ajax({
                 url:"custinsert.php",
                 method:"POST",
