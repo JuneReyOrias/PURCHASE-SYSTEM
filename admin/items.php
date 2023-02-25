@@ -1,5 +1,5 @@
 <?php
-require_once '../database/user.class.php';
+
     //resume session here to fetch session values
     session_start();
     /*
@@ -21,30 +21,7 @@ require_once '../database/user.class.php';
 ?>
     
    
-    <?php 
-
- /* print_r($_POST); */
-
-        if(isset($_POST['save'])) {
-            $user= new users;
-            $user -> username = htmlentities($_POST['user_name']); 
-            $user -> password = htmlentities($_POST['password']);
-            $user -> firstname = htmlentities($_POST['firstname']);
-            
-            $user -> lastname = htmlentities($_POST['lastname']);
-        
-            $user -> email = htmlentities($_POST['email']);
-          
-            $user -> role = htmlentities($_POST['role']);
-            $output= $user -> create_acc();
-      
-            if ($output) {
-                // CREATE -- COLUMN "firstname" "lastname" "role"
-                print_r($output);
-
-            }
-        }
-            ?>
+    </main> -->
    
 
     <nav class="sidebar close">
@@ -170,7 +147,7 @@ require_once '../database/user.class.php';
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="createusers.php">Home</a>
+        <a class="active" href="dashboard.php">Home</a>
     
 </div>
 <div class="col1" ><span>Items</span></div>
@@ -223,7 +200,7 @@ require_once '../database/user.class.php';
                             </table>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" action ="items.php" name="save" id="save" class="btn btn-primary">Save</button>
+                            <button type="button" name="save" id="save" class="btn btn-primary">Save</button>
                             <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
@@ -281,10 +258,11 @@ require_once '../database/user.class.php';
                 email.push($(this).text());
             });
             $('.role').each(function(){
-                role.push($(this).text());
+                roel.push($(this).text());
             });
+            
             $.ajax({
-                url:"items.php.",
+                url:"custinsert.php",
                 method:"POST",
                 data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
@@ -299,7 +277,7 @@ require_once '../database/user.class.php';
             });
             function fetch_item_data(){
             $.ajax({
-                url:"c.php",
+                url:"custfetch.php",
                 method:"POST",
                     success:function(data){
                         $('#inserted_item_data').html(data);
