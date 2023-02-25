@@ -30,7 +30,7 @@ Class users{
     }
     function create_acc() {
         $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`, `lastname`,  `email`,  `role`)
-         VALUES (NULL, :user_name, :user_pass, :firstname, :lastname, :email, :role)";
+        VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
         $query=$this->db->connect()->prepare($sql);
 
         $query->bindParam(':username', $this->username);
