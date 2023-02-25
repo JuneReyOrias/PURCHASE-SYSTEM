@@ -261,8 +261,8 @@
                 role.push($(this).text());
             });
             $.ajax({
-                url:"custinsert.php",
-                method:"POST",
+                action:"custinsert.php";
+                method:"POST";
                 data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
                     alert(data);
