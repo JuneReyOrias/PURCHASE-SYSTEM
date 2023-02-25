@@ -1,5 +1,5 @@
 <?php 
-include('../database/database.php');
+require_once '../database/database.php';
 $obj= new Database();
 print_r($obj);
 ?>
@@ -54,9 +54,7 @@ print_r($obj);
                                             <tr>
                                                 <td><?= $row->id; ?></td>
                                                 <td><?= $row->username; ?></td>
-                                                <td><?= $output-> email; ?></td>
-                                                <td><?= $output->phone; ?></td>
-                                                <td><?= $output->course; ?></td>
+                                                
                                             </tr>
                                             <?php
                                         }

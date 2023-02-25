@@ -51,7 +51,7 @@ require_once '../database/database.php';
                         
                         <form action="code.php" method="POST">
                             <div class="mb-3">
-                                <label>Full Name</label>
+                                <label>username</label>
                                 <input type="text" name="fullname" class="form-control" />
                             </div>
                             <div class="mb-3">
