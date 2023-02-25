@@ -54,7 +54,7 @@ require_once '../database/database.php';
                         <form action="createusers.php" method="POST">
                             <div class="mb-3">
                                 <label>username</label>
-                                <input type="text" name="fullname" class="form-control" />
+                                <input type="text" name="user_name" class="form-control" />
                             </div>
                             <div class="mb-3">
                                 <label>password</label>
@@ -66,7 +66,7 @@ require_once '../database/database.php';
                             </div>
                             <div class="mb-3">
                                 <label>Lastname</label>
-                                <input type="text" name="firstname" class="form-control" />
+                                <input type="text" name="lastname" class="form-control" />
                             </div>
                             <div class="mb-3">
                                 <label>Email</label>
