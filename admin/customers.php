@@ -156,6 +156,7 @@
         <form class="select-forms" action="custinsert.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 ">
+        <div class="modal" tabindex="-1">
         <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -178,6 +179,12 @@
 				</thead>
 				<tbody>
 </div>
+<div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </form>
 				
 
