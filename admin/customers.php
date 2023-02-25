@@ -157,18 +157,7 @@
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
-            <?php 
-                session_start();
-                if(isset($_SESSION['message'])){
-                    ?>
-                    <div class="alert alert-info text-center" style="margin-top:20px;">
-                        <?php echo $_SESSION['message']; ?>
-                    </div>
-                    <?php
- 
-                    unset($_SESSION['message']);
-                }
-            ?>
+          
 			<table class="table table-bordered table-striped" style="margin-top:20px;">
 				<thead>
 					<th>ID</th>
