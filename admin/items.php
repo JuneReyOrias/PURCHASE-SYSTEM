@@ -153,9 +153,10 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
-        <form class="select-forms" action="custinsert.php" method="post">
+      
        <div class="card">
         <div class="card-header">
+        <form class="select-forms" action="custinsert.php" method="post">
             <div class="row">
                 <div class="col-md-11">
                     <h2 class="text-center"> ITEMS LIST</h2>        
