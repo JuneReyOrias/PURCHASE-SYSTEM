@@ -17,8 +17,8 @@ require_once '../database/database.php';
     $dashboard = 'active';
 
     require_once '../includes/header.php';
-    $obj= new Database();
-   print_r($obj);
+    $obj_database= new Database();
+   print_r($obj_database);
 ?>
 <!doctype html>
 <html lang="en">
