@@ -284,7 +284,7 @@ require_once '../database/user.class.php';
                 role.push($(this).text());
             });
             $.ajax({
-                url:"items.php.php",
+                url:"items.php.",
                 method:"POST",
                 data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
