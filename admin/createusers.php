@@ -60,6 +60,16 @@ require_once '../database/user.class.php';
       </tr>
     </thead>
     <tbody>
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+        <th>PHONE</th>
+        <th>JOINING DATE</th>
+        <th>ACTIONS</th>
+      </tr>
+
+
       <?php
         include "connection.php";
         $sql = "select * from crud2";
