@@ -30,13 +30,10 @@ require_once '../database/user.class.php';
             <div class="table-heading">
             <form class="select-forms" action="custinsert.php" method="post">
                 <h3 class="table-title">Faculty Profile</h3>
-                <?php
-                    if($_SESSION['role'] == 'admin'){ 
-                ?>
+                
                     <a href="addaccount.php" class="button">Add New Faculty</a>
-                <?php
-                    }
-                ?>
+              
+            
             </div>
             <table class="table">
                 <thead>
