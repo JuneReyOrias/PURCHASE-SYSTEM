@@ -3,7 +3,7 @@ require_once '../database/database.php';
 session_start();
 
 
-if(isset($_POST['save_student_btn']))
+if(isset($_POST['save']))
 { print_r($_POST['save_student_btn']);
     $user_name = $_POST['user_name'];
     $password = $_POST['paasword'];

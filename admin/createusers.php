@@ -78,7 +78,7 @@ require_once '../database/database.php';
                             </div>
                           
                             <div class="mb-3">
-                                <button type="submit" name="save_student_btn" class="btn btn-primary">Save Student</button>
+                                <button type="submit" name="save_" class="btn btn-primary">Save</button>
                             </div>
                         </form>
 
