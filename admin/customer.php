@@ -151,8 +151,7 @@
     
 </div>
 <div class="col1" ><span>Customer</span></div>
-        
-        <div class="home-content">
+     
         <div class="modal" tabindex="-1">
   <div class="modal-dialog">
     <div class="modal-content">
