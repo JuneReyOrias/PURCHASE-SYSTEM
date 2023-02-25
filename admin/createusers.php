@@ -19,7 +19,7 @@ require_once '../database/database.php';
     require_once '../includes/header.php';
     $obj_database= new Database();
    
-?>if(isset($_POST['save']))
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -71,7 +71,7 @@ require_once '../database/database.php';
        require_once '../database/users.classS.php';
         $obj = new Database();
         $obj= new users();
-        
+        $output= $obj->create_acc();
         $sql = "SELECT * FROM user_acc";
         $result = $connect->query($sql);
         if(!$result){
