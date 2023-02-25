@@ -156,6 +156,13 @@
         <form class="select-forms" action="custinsert.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 ">
+        <div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
 			<a href="custinsert.php" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
           
 			<table class="table table-bordered table-striped" style="margin-top:12px;" d>
