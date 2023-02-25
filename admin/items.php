@@ -161,7 +161,19 @@
                 </div>
                 <div class="col-md-1 mt-2">
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
+
                 </div>
+                <div class="modal-body">
+                            <table class="table text-center table-striped table-bordered" id="crud_table">
+                                <tr>
+                                    <th>ItemsName</th>
+                                    <th>Itemsid</th>
+                                    <th>ItemsDetails</th>
+                                    <th>Quantity</th>
+                                    <th>Size</th>
+                                    <th>UnitPrices</th>
+                                    <th><button type="button" name="add" id="add" class="btn btn-success">Add</button></th>
+                                </tr>
             </div>
         </div>
         <div class="card-body">
