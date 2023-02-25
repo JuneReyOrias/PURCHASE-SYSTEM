@@ -1492,13 +1492,13 @@
                 background-color: rgb(97, 96, 94);
             }
             
-            .forms {
+            .home-content .select-form {
                 padding: 40px;
                 margin: 0 auto;
                 background-color: white;
                 border-radius: 3%;
-                width: 45rem;
+                width: 35rem;
                 height: 38rem;
-                margin-top: 3rem;
+                margin-top: 7rem;
                 font-size: 15px;
             }
