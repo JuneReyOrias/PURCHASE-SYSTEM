@@ -171,7 +171,7 @@
                     unset($_SESSION['message']);
                 }
             ?>
-			<table class="table table-bordered table-striped" style="margin-top:20px;">
+			<table class="" style="margin-top:0px;">
 				<thead>
 					<th>ID</th>
 					<th>Firstname</th>
