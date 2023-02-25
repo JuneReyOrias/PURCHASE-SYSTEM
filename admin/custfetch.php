@@ -24,7 +24,7 @@ include('../database/database.php');
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>FullName</th>
+                                    <th>username</th>
                                     <th>Email</th>
                                     <th>Phone</th>
                                     <th>Course</th>
@@ -45,7 +45,10 @@ include('../database/database.php');
                                             ?>
                                             <tr>
                                                 <td><?= $row->id; ?></td>
-                                                
+                                                <td><?= $row->user_name; ?></td>
+                                                <td><?= $row->email; ?></td>
+                                                <td><?= $row->phone; ?></td>
+                                                <td><?= $row->course; ?></td>
                                             </tr>
                                             <?php
                                         }
