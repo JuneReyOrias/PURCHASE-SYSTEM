@@ -25,7 +25,7 @@ require_once '../database/database.php';
    
 ?>
  <?php
-
+print_r($_POST);
 
 if(isset($_POST['save'])) {
     //Sanitizing the inputs of the users. Mandatory to prevent injections!
