@@ -153,6 +153,7 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
+            <div class="form-group">
         <form class="" action="sample.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 ">
