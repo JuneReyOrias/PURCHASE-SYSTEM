@@ -169,7 +169,14 @@
 				<tbody>
 
 </form>
-					<?php
+				
+
+ <div>
+
+ </div>
+          
+    </section>
+	<?php
 						//include our connection
 						include_once('../database/database.php');
  
@@ -208,13 +215,6 @@
 
 <script src="jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
-
- <div>
-
- </div>
-          
-    </section>
-
 </nav>
 
 
