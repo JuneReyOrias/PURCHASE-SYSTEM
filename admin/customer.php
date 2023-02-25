@@ -151,56 +151,25 @@
     
 </div>
 <div class="col1" ><span>Customer</span></div>
-        <form>
-       
-        <h2>View Records
-    <a href="add.php" class="btn btn-primary" style="float:right;">Add New Record</a>
-  </h2>
-  <table class="table table-bordered table-striped" id="usersTable">
-    <thead>
-      <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Username</th>
-        <th>Action</th>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Username</th>
-        <th>Action</th>
-      </tr>
-    </thead>
-    <tbody>
-    </form>
-        <?php 
-          $users = $userObj->displayData(); 
-          foreach ($users as $rs) {
-        ?>
-        <tr>
-          <td><?php echo $rs['id'] ?></td>
-          <td><?php echo $rs['name'] ?></td>
-          <td><?php echo $rs['email'] ?></td>
-          <td><?php echo $rs['username'] ?></td>
-          <td>
-            <a href="edit.php?editId=<?php echo $rs['id'] ?>" style="color:green">
-              <i class="fa fa-pencil" aria-hidden="true"></i></a> 
-            <a href="index.php?deleteId=<?php echo $rs['id'] ?>" style="color:red" onclick="confirm('Are you sure want to delete this record')">
-              <i class="fa fa-trash" aria-hidden="true"></i>
-            </a>
-          </td>
-        </tr>
-      <?php } ?>
-    </tbody>
-  </table>
+        
+        <div class="home-content">
+        <div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-<script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script>
-$(document).ready( function () {
-    $('#usersTable').DataTable();
-} );
-</script>
  <div>
 
  </div>
