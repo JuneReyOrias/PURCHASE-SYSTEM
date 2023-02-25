@@ -4,32 +4,38 @@ require_once '../database/database.php';
 
 if(isset($_POST['save_student_btn']))
 {
-    $fullname = $_POST['fullname'];
+    $user_name = $_POST['user_name'];
+    $password = $_POST['paasword'];
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
     $email = $_POST['email'];
-    $phone = $_POST['phone'];
-    $course = $_POST['course'];
+    $role= $_POST['role'];
+   
 
-    $query = "INSERT INTO students (fullname, email, phone, course) VALUES (:fullname, :email, :phone, :course)";
-    $query_run = $conn->prepare($query);
+    $query = "INSERT INTO `user_acc`(`id`, `user_name`, `user_pass`, `firstname`, `lastname`, `email`, `role`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
+    $query_run = $connect->prepare($query);
 
     $data = [
-        ':fullname' => $fullname,
+        ':user_name' => $user_name,
+        ':password' => $password,
+        ':firstname' => $firstname,
+        ':lastname' => $lastname,
         ':email' => $email,
-        ':phone' => $phone,
-        ':course' => $course,
+        ':role' => $role,
+       
     ];
     $query_execute = $query_run->execute($data);
 
     if($query_execute)
     {
         $_SESSION['message'] = "Inserted Successfully";
-        header('Location: student-add.php');
+        header('Location: addaccount.php');
         exit(0);
     }
     else
     {
         $_SESSION['message'] = "Not Inserted";
-        header('Location: student-add.php');
+        header('Location: addaccount.php');
         exit(0);
     }
 }

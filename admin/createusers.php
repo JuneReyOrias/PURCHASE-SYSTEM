@@ -49,23 +49,32 @@ require_once '../database/database.php';
                     </div>
                     <div class="card-body">
                         
-                        <form action="code.php" method="POST">
+                        <form action="addaccount.php" method="POST">
                             <div class="mb-3">
                                 <label>username</label>
                                 <input type="text" name="fullname" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>password</label>
+                                <input type="text" name="password" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>Firstname</label>
+                                <input type="text" name="firstname" class="form-control" />
+                            </div>
+                            <div class="mb-3">
+                                <label>Lastname</label>
+                                <input type="text" name="firstname" class="form-control" />
                             </div>
                             <div class="mb-3">
                                 <label>Email</label>
                                 <input type="text" name="email" class="form-control" />
                             </div>
                             <div class="mb-3">
-                                <label>Phone</label>
-                                <input type="text" name="phone" class="form-control" />
+                                <label>Role</label>
+                                <input type="text" name="role" class="form-control" />
                             </div>
-                            <div class="mb-3">
-                                <label>Course</label>
-                                <input type="text" name="course" class="form-control" />
-                            </div>
+                          
                             <div class="mb-3">
                                 <button type="submit" name="save_student_btn" class="btn btn-primary">Save Student</button>
                             </div>
