@@ -1,5 +1,7 @@
 <?php 
 include('../database/database.php');
+$obj= new Database();
+print_r($obj);
 ?>
 <!doctype html>
 <html lang="en">
