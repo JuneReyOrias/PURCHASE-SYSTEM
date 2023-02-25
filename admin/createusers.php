@@ -30,9 +30,9 @@ require_once '../database/user.class.php';
             <div class="table-heading">
                 <h3 class="table-title">Faculty Profile</h3>
                 <?php
-                    if($_SESSION['user_type'] == 'admin'){ 
+                    if($_SESSION['role'] == 'admin'){ 
                 ?>
-                    <a href="addfaculty.php" class="button">Add New Faculty</a>
+                    <a href="addaccount.php" class="button">Add New Faculty</a>
                 <?php
                     }
                 ?>
