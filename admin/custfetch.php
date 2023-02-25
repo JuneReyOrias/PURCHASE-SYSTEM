@@ -42,15 +42,15 @@ print_r($obj);
                                     $result = $statement->fetchAll();
                                     if($result)
                                     {
-                                        foreach($result as $row)
+                                        foreach($result as $output)
                                         {
                                             ?>
                                             <tr>
-                                                <td><?= $row->id; ?></td>
-                                                <td><?= $row->user_name; ?></td>
-                                                <td><?= $row->email; ?></td>
-                                                <td><?= $row->phone; ?></td>
-                                                <td><?= $row->course; ?></td>
+                                                <td><?= $output->id; ?></td>
+                                                <td><?= $output->user_name; ?></td>
+                                                <td><?= $output-> email; ?></td>
+                                                <td><?= $output->phone; ?></td>
+                                                <td><?= $output->course; ?></td>
                                             </tr>
                                             <?php
                                         }
