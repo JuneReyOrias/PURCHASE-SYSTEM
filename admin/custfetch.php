@@ -1,5 +1,11 @@
+
 <?php
-    $connect = mysqli_connect("localhost", "root", "", "aatman");
+
+require_once '../database/database.php';
+require_once '../databse/user.class.php';
+    ?>
+<?php
+ $connect = mysqli_connect('localhost', 'u151063784_upresswmsuprs', 'LadQw702+&3', 'u151063784_db_upress');
     $query = "SELECT * FROM user_acc ORDER BY id DESC";
     $result = mysqli_query($connect, $query);
 ?>
