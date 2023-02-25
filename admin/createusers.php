@@ -170,145 +170,13 @@ require_once '../database/user.class.php';
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="createusers.php">Home</a>
+        <a class="active" href="dashboard.php">Home</a>
     
 </div>
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
       
-       <div class="card">
-        <div class="card-header">
-        <form class="select-forms" action="custinsert.php" method="post">
-            <div class="row">
-                <div class="col-md-11">
-                    <h2 class="text-center"> ITEMS LIST</h2>        
-                </div>
-                <div class="col-md-1 mt-2">
-                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
-                </div>
-            </div>
-        </div>
-</form>
-        <div class="card-body">
-            <div id="inserted_item_data" class="mt-2"></div>
-
-            <div class="modal" id="myModal">
-                <div class="modal-dialog modal-xl">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title text-center">Create Items</h4></h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-                        <div class="modal-body">
-                            <table class="table text-center table-striped table-bordered" id="crud_table">
-                                <tr>
-                                    <th>ItemsName</th>
-                                    <th>Itemsid</th>
-                                    <th>ItemsDetails</th>
-                                    <th>Quantity</th>
-                                    <th>Size</th>
-                                    <th>UnitPrices</th>
-                                    <th><button type="button" name="add" id="add" class="btn btn-success">Add</button></th>
-                                </tr>
-                                <tr>
-                                    <td contenteditable="true" class="user_name"></td>
-                                    <td contenteditable="true" class="password"></td>
-                                    <td contenteditable="true" class="firstname"></td>
-                                    <td contenteditable="true" class="lastname"></td>
-                                    <td contenteditable="true" class="email"></td>
-                                    <td contenteditable="true" class="role"></td>
-                                    <td><button type='button' name='remove' data-row='row1' class='btn btn-danger btn-xs remove'>Remove</button></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" action ="items.php" name="save" id="save" class="btn btn-primary">Save</button>
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    $(document).ready(function(){
-        var count = 1;
-        $('#add').click(function(){
-            count = count + 1;
-            var html_code = "<tr id='row"+count+"'>";
-            html_code += "<td contenteditable='true' class='user_name'></td>";
-            html_code += "<td contenteditable='true' class='pasword'></td>";
-            html_code += "<td contenteditable='true' class='firstname'></td>";
-            html_code += "<td contenteditable='true' class='lastname text-start'></td>";
-            html_code += "<td contenteditable='true' class='email'></td>";
-            html_code += "<td contenteditable='true' class='role'></td>";
-            html_code += "<td><button type='button' name='remove' data-row='row"+count+"' class='btn btn-danger btn-xs remove'>Remove</button></td>";   
-            html_code += "</tr>";  
-            $('#crud_table').append(html_code);
-        });
-
-        $(document).on('click', '.remove', function(){
-             $(this).parent().parent().remove();
-        });
-
-        $('#save').click(function(){
-            var user_name = [];
-            var password= [];
-            var firstname= [];
-            var lastname = [];
-            var email = [];
-            var role= [];
-
-            
-            $('.user_name').each(function(){
-                user_name.push($(this).text());
-            });
-            
-            $('.password').each(function(){
-                password.push($(this).text());
-            });
-            
-            $('.firstname').each(function(){
-                firstname.push($(this).text());
-            });
-            
-            $('.lastname').each(function(){
-                lastname.push($(this).text());
-            });
-            $('.email').each(function(){
-                email.push($(this).text());
-            });
-            $('.role').each(function(){
-                role.push($(this).text());
-            });
-            $.ajax({
-                url:"items.php.",
-                method:"POST",
-                data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
-                success:function(data){
-                    alert(data);
-                    $("td[contentEditable='true']").text("");
-                        for(var i=2; i<= count; i++){
-                            $('tr#'+i+'').remove();
-                        }
-                        fetch_item_data();
-                    }
-                });
-            });
-            function fetch_item_data(){
-            $.ajax({
-                url:"c.php",
-                method:"POST",
-                    success:function(data){
-                        $('#inserted_item_data').html(data);
-                    }
-            })
-        }
-        fetch_item_data();
-    });
-</script>
  <div>
 
  </div>
@@ -316,7 +184,82 @@ require_once '../database/user.class.php';
     </section>
 
 </nav>
+?>
+    <div class="home-content">
+        <div class="table-container">
+            <div class="table-heading">
+                <h3 class="table-title">Faculty Profile</h3>
+                <?php
+                    if($_SESSION['user_type'] == 'admin'){ 
+                ?>
+                    <a href="addfaculty.php" class="button">Add New Faculty</a>
+                <?php
+                    }
+                ?>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Academic Rank</th>
+                        <th>Department</th>
+                        <th>Admission Role</th>
+                        <th>Status</th>
+                        <?php
+                            if($_SESSION['user_type'] == 'admin'){ 
+                        ?>
+                            <th class="action">Action</th>
+                        <?php
+                            }
+                        ?>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                        require_once '../classes/faculty.class.php';
 
+                        $users = new users();
+                        //We will now fetch all the records in the array using loop
+                        //use as a counter, not required but suggested for the table
+                        $i = 1;
+                        //loop for each record found in the array
+                        foreach ($faculty->show() as $value){ //start of loop
+                    ?>
+                        <tr>
+                            <!-- always use echo to output PHP values -->
+                            <td><?php echo $i ?></td>
+                            <td><?php echo $value['lastname'] . ', ' . $value['firstname'] ?></td>
+                            <td><?php echo $value['email'] ?></td>
+                            <td><?php echo $value['academic_rank'] ?></td>
+                            <td><?php echo $value['department'] ?></td>
+                            <td><?php echo $value['admission_role'] ?></td>
+                            <td><?php echo $value['status'] ?></td>
+                            <?php
+                                if($_SESSION['user_type'] == 'admin'){ 
+                            ?>
+                                <td>
+                                    <div class="action">
+                                        <a class="action-edit" href="#">Edit</a>
+                                        <a class="action-delete" href="#">Delete</a>
+                                    </div>
+                                </td>
+                            <?php
+                                }
+                            ?>
+                        </tr>
+                    <?php
+                        $i++;
+                    //end of loop
+                    }
+                    ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+?>
 
 <script>
         const body = document.querySelector('body'),
