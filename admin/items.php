@@ -153,10 +153,8 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
-      
        <div class="card">
         <div class="card-header">
-        <form class="select-forms" action="custinsert.php" method="post">
             <div class="row">
                 <div class="col-md-11">
                     <h2 class="text-center"> ITEMS LIST</h2>        
@@ -166,7 +164,6 @@
                 </div>
             </div>
         </div>
-</form>
         <div class="card-body">
             <div id="inserted_item_data" class="mt-2"></div>
 
@@ -253,12 +250,6 @@
             
             $('.lastname').each(function(){
                 lastname.push($(this).text());
-            });
-            $('.email').each(function(){
-                email.push($(this).text());
-            });
-            $('.role').each(function(){
-                roel.push($(this).text());
             });
             
             $.ajax({
