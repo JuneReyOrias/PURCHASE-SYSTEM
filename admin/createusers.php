@@ -66,8 +66,8 @@ require_once '../database/user.class.php';
 
 
       <?php
-        include '../database/database.php';
-        include '../database/user.class.php';
+        require_once '../database/database.php';
+        require_once '../database/user.class.php';
         $sql = "select * from user_acc";
         $result = $conn->query($sql);
         if(!$result){
