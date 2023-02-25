@@ -40,7 +40,7 @@ print_r($obj);
                             </thead>
                             <tbody>
                                 <?php
-                                    $query = "SELECT * FROM user_acc";
+                                    $query =" SELECT * FROM `user_acc`";
                                     $statement = $connection->prepare($query);
                                     $statement->execute();
 
