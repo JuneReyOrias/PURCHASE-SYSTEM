@@ -58,14 +58,14 @@ require_once '../database/user.class.php';
                 </thead>
                 <tbody>
                     <?php
-                        require_once '../classes/faculty.class.php';
+                        require_once '../database/user.class.php';
 
                         $users = new users();
                         //We will now fetch all the records in the array using loop
                         //use as a counter, not required but suggested for the table
                         $i = 1;
                         //loop for each record found in the array
-                        foreach ($faculty->show() as $value){ //start of loop
+                        $output= $user -> login(); //start of loop
                     ?>
                         <tr>
                             <!-- always use echo to output PHP values -->
@@ -92,7 +92,7 @@ require_once '../database/user.class.php';
                     <?php
                         $i++;
                     //end of loop
-                    }
+                    
                     ?>
                 </tbody>
             </table>
