@@ -1,5 +1,5 @@
 <?php
-
+require_once '../database/database.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -17,7 +17,10 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
-    
+    $obj= new Database();
+    if(isset($_POST['save'])){
+    print_r($_POST);
+    }
 ?>
     
    
@@ -253,7 +256,10 @@
             });
             
             $.ajax({
-                url:"custinsert.php",
+                $obj= new Database();
+    if(isset($_POST['save'])){
+    print_r($_POST);
+    }
                 method:"POST",
                 data:{user_name:username, user_pass:password, firstname:firstname, lastname:lastname, email:email, role:role},
                 success:function(data){
