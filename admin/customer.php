@@ -153,7 +153,6 @@
 <div class="col1" ><span>Customer</span></div>
      
 <div class="container">
-	<h1 class="page-header text-center">PHP CRUD Operation using PDO</h1>
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
@@ -161,7 +160,7 @@
                 session_start();
                 if(isset($_SESSION['message'])){
                     ?>
-                    <div class="alert alert-info text-center" style="margin-top:20px;">
+                    <div class="alert alert-info text-center" style="margin-top:10px;">
                         <?php echo $_SESSION['message']; ?>
                     </div>
                     <?php
@@ -180,12 +179,12 @@
 				<tbody>
 					<?php
 						//include our connection
-						include_once('connection.php');
+						include_once('../database/database.php');
  
-						$database = new Connection();
-    					$db = $database->open();
+						$database = new database();
+    				
 						try{	
-						    $sql = 'SELECT * FROM members';
+						    $sql = 'SELECT * FROM user_acc';
 						    foreach ($db->query($sql) as $row) {
 						    	?>
 						    	<tr>
@@ -206,8 +205,7 @@
 							echo "There is some problem in connection: " . $e->getMessage();
 						}
  
-						//close connection
-						$database->close();
+					
  
 					?>
 				</tbody>
