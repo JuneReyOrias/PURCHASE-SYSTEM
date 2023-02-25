@@ -153,6 +153,7 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
+        <form class="select-forms" action="custinsert.php" method="post">
        <div class="card">
         <div class="card-header">
             <div class="row">
@@ -164,6 +165,7 @@
                 </div>
             </div>
         </div>
+</form>
         <div class="card-body">
             <div id="inserted_item_data" class="mt-2"></div>
 
