@@ -18,7 +18,8 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
-    
+    $obj_database= new Database();
+    print_r($obj_database);
 ?>
     
    
