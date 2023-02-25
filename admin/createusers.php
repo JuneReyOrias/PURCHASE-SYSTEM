@@ -123,7 +123,7 @@ if(isset($_POST['save'])) {
                     </div>
                     <div class="card-body">
                         
-                        <form action="addaccount.php" method="POST">
+                        <form action="createusers.php" method="POST">
                             <div class="mb-3">
                                 <label>username</label>
                                 <input type="text" name="user_name" class="form-control" />
