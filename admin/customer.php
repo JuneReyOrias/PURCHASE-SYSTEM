@@ -256,6 +256,4 @@ modeSwitch.addEventListener("click" , () =>{
 
    
     <script src="./js/sidebar.js"></script>
-<?php
-require_once'../include/footer1.php';
-?>
+
