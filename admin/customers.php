@@ -153,7 +153,7 @@
 <div class="col1" ><span>Items</span></div>
         
         <div class="home-content">
-      
+        <form class="select-form" action="sample.php" method="post">
 	<div class="row">
 		<div class="col-sm-8 col-sm-offset-2">
 			<a href="#addnew" class="btn btn-primary" data-toggle="modal"><span class="glyphicon glyphicon-plus"></span> New</a>
@@ -167,6 +167,8 @@
 					<th>Action</th>
 				</thead>
 				<tbody>
+
+</form>
 					<?php
 						//include our connection
 						include_once('../database/database.php');
@@ -206,7 +208,7 @@
 <?php include('add_modal.php'); ?>
 <script src="jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
->
+
  <div>
 
  </div>
