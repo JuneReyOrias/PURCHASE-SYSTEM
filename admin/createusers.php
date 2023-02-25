@@ -18,7 +18,7 @@ require_once '../database/database.php';
 
     require_once '../includes/header.php';
     $obj= new Database();
-
+   print_r($obj);
 ?>
 <!doctype html>
 <html lang="en">
