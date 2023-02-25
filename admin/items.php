@@ -161,9 +161,7 @@
                 </div>
                 <div class="col-md-1 mt-2">
                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa fa-plus-square-o" aria-hidden="true"></i></button>
-
                 </div>
-                
             </div>
         </div>
         <div class="card-body">
@@ -176,29 +174,6 @@
                             <h4 class="modal-title text-center">Create Items</h4></h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
-                        </div>
-        <div class="divider-no-border"></div>
-        <table class="table">
-            <thead>
-                <tr>
-                    
-                    <th>Name</th>
-                    <th>Price</th>
-                   
-                    <th class="action">Action</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    
-                    <th>Name</th>
-                    <th>Price</th>
-                    
-                    <td class="action">
-                        <a class="action-edit" href="#">Edit</a>
-                        <a class="action-delete" href="#">Delete</a>
-                    </td>
-                </tr>
                         <div class="modal-body">
                             <table class="table text-center table-striped table-bordered" id="crud_table">
                                 <tr>
