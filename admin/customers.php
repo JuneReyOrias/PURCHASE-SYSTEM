@@ -182,10 +182,10 @@
 				<tbody>
 					<?php
 						//include our connection
-						include_once('connection.php');
+						include_once('../database/database.php');
  
-						$database = new Connection();
-    					$db = $database->open();
+						$database = new Database();
+    					
 						try{	
 						    $sql = 'SELECT * FROM members';
 						    foreach ($db->query($sql) as $row) {
@@ -208,8 +208,7 @@
 							echo "There is some problem in connection: " . $e->getMessage();
 						}
  
-						//close connection
-						$database->close();
+						
  
 					?>
 				</tbody>
