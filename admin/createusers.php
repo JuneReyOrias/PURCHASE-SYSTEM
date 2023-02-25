@@ -28,6 +28,7 @@ require_once '../database/user.class.php';
     <div class="home-content">
         <div class="table-container">
             <div class="table-heading">
+            <form class="select-forms" action="custinsert.php" method="post">
                 <h3 class="table-title">Faculty Profile</h3>
                 <?php
                     if($_SESSION['role'] == 'admin'){ 
@@ -96,6 +97,7 @@ require_once '../database/user.class.php';
                     ?>
                 </tbody>
             </table>
+                            </form>
         </div>
     </div>
 
