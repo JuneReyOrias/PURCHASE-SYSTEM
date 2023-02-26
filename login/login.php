@@ -33,12 +33,12 @@ $accounts = array(
     );
     if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
-       
+       print_r($user);
         $user= new users;
         $user -> email = htmlentities($_POST['user_name']); 
         $user -> password = htmlentities($_POST['password']); 
 
-        $output= $users -> log_in();
+        $output= $users -> login();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
