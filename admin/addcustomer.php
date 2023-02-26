@@ -137,7 +137,7 @@ if(isset($_POST['submit'])) {
         
          <!--SIGN UP BUTTON-->
         <div class="button">
-          <input type="submit" action="addcustomer.php" name="submit" id="submit" value="Sign Up">
+          <input type="submit" action="addcustomer.php" name="submit" id="submit" value="Submit">
         </div>
         <div class="have-account">
         <p>ALREADY HAVE AN ACCOUNT?<span> <a href="login.php">LOG IN</a></span></p>
