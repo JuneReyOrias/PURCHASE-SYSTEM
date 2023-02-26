@@ -66,7 +66,7 @@ if(isset($_POST['save'])) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
             print_r($output);
 
-            $userData = $users -> login();
+           // $userData = $users -> login();
 
             if($data) {
                  $_SESSION['user_name'] = $data['user_name'];
