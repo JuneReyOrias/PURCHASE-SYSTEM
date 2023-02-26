@@ -60,7 +60,7 @@ if(isset($_POST['save'])) {
       //   $query->bindParam(':sex', $this->sex);
       //   $query->bindParam(':contactNo', $this->contactNo);
 
-        $output= $user ->login();
+        //$output= $user ->();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
