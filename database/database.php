@@ -10,9 +10,8 @@ class Database{
     function connect(){
         try 
 			{
-				$this->connection = new mys("mysql:host=$this->host;dbname=$this->database", 
+				$this->connection = new PDO("mysql:host=$this->host;dbname=$this->database", 
 											$this->username, $this->password);
-                    
 			} 
 			catch (PDOException $e) 
 			{
