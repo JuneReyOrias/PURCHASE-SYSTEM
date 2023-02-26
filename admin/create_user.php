@@ -11,9 +11,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<div class="home-content">
-    <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
+
+ 
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -179,6 +178,8 @@
 
 
     <div class="container">
+    <div class="select-container">              
+            <form class="select-form" action="sample.php" method="post">
         <div class="jumbotron" style="width: 50rem;"style="height: 45rem;">
             <div class="card"  style="width: 50rem;"style="height: 45rem;">>
                 <h2> Customer Information </h2>
@@ -239,7 +240,8 @@
                                 </td>
                             </tr>
                         </tbody>
-                        <?php           
+                        <?php      
+
                     }
                 }
                 else 
@@ -248,6 +250,7 @@
                 }
             ?>
                     </table>
+            </form>
                 </div>
             </div>
 
