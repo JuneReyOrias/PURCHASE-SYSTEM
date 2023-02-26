@@ -20,7 +20,7 @@ require_once '../database/user.class.php';
 
     require_once '../includes/header.php';
     $obj= new Database();
-   print_r($obj)
+  
     
 ?>
 <?php 
@@ -120,6 +120,8 @@ if(isset($_POST['submit'])) {
         <div class="have-account">
         <p>ALREADY HAVE AN ACCOUNT?<span> <a href="login.php">LOG IN</a></span></p>
         </div>
-      </form>
+      </form><br>
+      <h4>
+      </h4>
     </div>
   </div>
