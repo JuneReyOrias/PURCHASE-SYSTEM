@@ -190,7 +190,7 @@
 
     <div class="container">
     <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
+            <form class="select-form"  method="post">
         <div class="jumbotron" style="width: 50rem;"style="height: 45rem;">
             <div class="card"  style="width: 50rem;"style="height: 45rem;">>
                 <h2> Customer Information </h2>
