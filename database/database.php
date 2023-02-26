@@ -23,6 +23,14 @@ class Database{
         return $this->connection;
     }
 
+public function inserRecord($post){
+    //$username=$post['user_name'];
+   // $password=$post['password'];
+   echo 'Function call';
 }
+
+}
+
+
 
 ?>

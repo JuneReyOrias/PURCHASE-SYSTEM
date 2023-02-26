@@ -20,7 +20,7 @@ require_once '../database/user.class.php';
 
     require_once '../includes/header.php';
     $obj= new Database();
-  
+   
     
 ?>
 <?php 
@@ -28,7 +28,7 @@ require_once '../database/user.class.php';
   
 if(isset($_POST['submit'])) {
           //Sanitizing the inputs of the users. Mandatory to prevent injections!
-        print_r($_POST);
+      $obj->inserRecord($_POST);
         
               $user= new users;
               $user -> username = htmlentities($_POST['user_name']); 
