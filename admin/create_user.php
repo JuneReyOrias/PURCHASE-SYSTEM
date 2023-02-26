@@ -199,8 +199,8 @@
                 </div>
             </div>
             
-            <div class="card"style="width: 18rem;">
-                <div class="card-body">
+            <div class="card"  style="width: 50rem;"style="height: 45rem;">
+                <div class="card-body"style="width: 50rem;"style="height: 45rem;">
 
                     <?php
                 $connection = mysqli_connect("localhost","root","");
