@@ -65,7 +65,15 @@ if(isset($_POST['submit'])) {
     <div class="title">Sign Up Form</div>
     
     <div class="content">
+    <!--message-->
+    <?php
+    if(isset($_GET['msg']) AND $_GET['msg']=='inst'){
+        echo '<div class="alert alert-primary" role="alert">
+       Record INSERTED!
+      </div>';
+    }
 
+    ?>
     <!--PERSONAL INFORMATION-->
     <div class="sub-title">Personal Information</div>
       <form action="addcustomer.php" method="post">
