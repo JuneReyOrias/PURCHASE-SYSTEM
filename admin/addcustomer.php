@@ -28,8 +28,8 @@ require_once '../database/user.class.php';
   
 if(isset($_POST['submit'])) {
           //Sanitizing the inputs of the users. Mandatory to prevent injections!
- 
-        $obj->inserRecord($_Post);
+      $obj->inserRecord($_POST);
+        
               $user= new users;
               $user -> username = htmlentities($_POST['user_name']); 
               $user -> password = htmlentities($_POST['user_pass']);
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])) {
       
               $user -> role = htmlentities($_POST['role']);
              
-              $output= $user -> signup();
+              $output= $user ->signup();
       
                
       
