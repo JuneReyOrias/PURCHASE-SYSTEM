@@ -28,7 +28,7 @@ Class users{
         }
      	return $data;
     }
-    function signup() {
+   /* function signup() {
         $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`,  `lastname`, ` `email`,  `role` ) VALUES ( :username, :user_pass, :firstname, :lastname, :email, :role)";
         $query=$this->db->connect()->prepare($sql);
 
@@ -45,7 +45,7 @@ Class users{
         } 
         return "error adding ";
     }
-
+*/
 /*    function login(){
         $sql = "SELECT * FROM users WHERE BINARY email = :email AND BINARY password = :password AND type = 'customers';";
         $query=$this->db->connect()->prepare($sql);
