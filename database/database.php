@@ -30,7 +30,7 @@ public function inserRecord($post){
    $lastname=$post['lastname'];
    $email=$post['email'];
    $role=$post['role'];
-   $sql = "INSERT INTO `user_acc`(`id`, `user_name`, `user_pass`, `firstname`, `lastname`, `email`, `role`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
+   $sql = "INSERT INTO `user_acc`( `user_name`, `user_pass`, `firstname`, `lastname`, `email`, `role`) VALUES ('$username','$password','$firstname','$lastname','$email','$role')";
    $result=$this->connect()->query($sql);
    if($result){
     header('location: addcustomer.php?msg=');
