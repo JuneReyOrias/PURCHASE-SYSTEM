@@ -38,7 +38,7 @@ $accounts = array(
         $users -> email = htmlentities($_POST['user_name']); 
         $users -> password = htmlentities($_POST['password']); 
 
-        $output= $users ->signin($_POST);
+        $output= $users ->signin();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
