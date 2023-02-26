@@ -20,7 +20,7 @@ require_once '../database/user.class.php';
 
     require_once '../includes/header.php';
     $obj= new Database();
-   
+   print_r($obj)
     
 ?>
 <?php 
