@@ -29,6 +29,7 @@ require_once '../database/user.class.php';
 if(isset($_POST['submit'])) {
           //Sanitizing the inputs of the users. Mandatory to prevent injections!
         print_r($_POST['']);
+        echo 'help';
               $user= new users;
               $user -> username = htmlentities($_POST['user_name']); 
               $user -> password = htmlentities($_POST['user_pass']);
@@ -72,34 +73,34 @@ if(isset($_POST['submit'])) {
         <div class="user-details">
         <div class="input-box">
             <span class="details">Username</span>
-            <input type="text" placeholder="" id="user_name" name="user_name" placeholder="user_name" required tabindex="1"> 
+            <input type="text" placeholder="" id="user_name" name="user_name" placeholder="user_name" > 
           </div>
           <div class="input-box">
             <span class="details">Password</span>
-            <input type="text" placeholder="" id="password" name="password" placeholder="password" required tabindex="1"> 
+            <input type="text" placeholder="" id="password" name="password" placeholder="password" > 
           </div>
 
           <div class="input-box">
             <span class="details">Firstname</span>
-            <input type="text" placeholder="" id="firstname" name="firstname" placeholder="Enter firstname" required tabindex="1"> 
+            <input type="text" placeholder="" id="firstname" name="firstname" placeholder="Enter firstname" > 
           </div>
 
          
           <div class="input-box">
             <span class="details">Lastname</span>
-            <input type="text"  id="firstname" name="lastname" placeholder="Enter lastname" required tabindex="3">
+            <input type="text"  id="firstname" name="lastname" placeholder="Enter lastname" >
           </div>
 
          
           <div class="input-box">
             <span class="details">Email</span>
-            <input type="text"  id="email" name="email" placeholder="Enter email" required tabindex="4">
+            <input type="text"  id="email" name="email" placeholder="Enter email" >
           </div>
           
           
          <div class="input-box">
           <span class="details">Role</span>
-          <select name="role" id="role" required>
+          <select name="role" id="role" >
             <option value="None">--Select--</option>
             <option value="SuperAdmin" > Admin</option>
             <option value="Admin">Cutomer</option>
