@@ -18,7 +18,7 @@ Class users{
         $this->db = new database();
     }
  
-    function login(){
+    function login($_POST){
         $sql = "SELECT * FROM users WHERE user_name = :email and password = :password" ;
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':email', $this->email);
