@@ -26,23 +26,6 @@ class Database{
 
    
    
-public function inserRecord($post){
-    $username=$post['user_name'];
-   $password=$post['password'];
-   $firstname=$post['firstname'];
-   $lastname=$post['lastname'];
-   $email=$post['email'];
-   $role=$post['role'];
-   $sql = "INSERT INTO `user_acc`( `user_name`, `user_pass`, `firstname`, `lastname`, `email`, `role`) VALUES (user_name'','','','','','')";
-   $result=$this->connect()->query($sql);
-   if($result){
-    header('location: addcustomer.php?msg=');
-
-   }else{
-    echo "Error".$sql."<br".$this->connection;
-}
-
-}
 
 }
 
