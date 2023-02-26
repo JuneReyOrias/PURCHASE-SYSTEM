@@ -60,25 +60,25 @@ if(isset($_POST['save'])) {
       //   $query->bindParam(':sex', $this->sex);
       //   $query->bindParam(':contactNo', $this->contactNo);
 
-        $output= $user -> create_acc();
+        $output= $user ->signup();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
             print_r($output);
 
-            $userData = $user -> login();
+            $userData = $users -> login();
 
-            if($userData) {
-                 $_SESSION['username'] = $userData['user_name'];
-            $_SESSION['password'] = $userData['user_pass'];
-            $_SESSION['fullname'] = $userData['firstname'] . ' '.$userData['middlename'] . ' ' . $userData['lastname'] . ' ' .
+            if($data) {
+                 $_SESSION['user_name'] = $data['user_name'];
+            $_SESSION['password'] = $data['user_pass'];
+            $_SESSION['fullname'] = $data['firstname'] . ' '.$dataa['middlename'] . ' ' . $data['lastname'] . ' ' .
            
-            $_SESSION['user_role'] = $userData['role'];
-            $_SESSION['email'] = $userData['email'];
+            $_SESSION['user_role'] = $dataa['role'];
+            $_SESSION['email'] = $$data['email'];
        
-            $_SESSION['role'] = $userData['role'];
+            $_SESSION['role'] = $$dataa['role'];
            
-            if($userData['role'] == 'Admin'){
+            if($data['role'] == 'Admin'){
               header('location: ../admin/dashboard.php');
             } else{
               header('location: ../user/user-profile.php');
