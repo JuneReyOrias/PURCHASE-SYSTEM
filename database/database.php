@@ -17,10 +17,11 @@ class Database{
 			{
 				echo "Connection error " . $e->getMessage();
 			} {
-                echo " Connected " ;
+             
+        return $this->connection;
 
             }
-        return $this->connection;
+     
     }
 
 public function inserRecord($post){
