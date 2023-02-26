@@ -10,17 +10,16 @@ class Database{
     function connect(){
         try 
 			{
-				$this->connection = new mysqli("mysql:host=$this->host;dbname=$this->database", 
+				$this->connection = new mys("mysql:host=$this->host;dbname=$this->database", 
 											$this->username, $this->password);
-              if($this->connection->connect_error){
-                echo 'Connection Failed';
-                
-               }else{
-                echo 'Connected';
-               }
-
-            }
-        }
+                    
+			} 
+			catch (PDOException $e) 
+			{
+				echo "Connection error " . $e->getMessage();
+			}
+        return $this->connection;
+    }
 
 }
 
