@@ -34,11 +34,11 @@ $accounts = array(
     if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
        
-        $users= new users;
-        $users -> email = htmlentities($_POST['user_name']); 
-        $users -> password = htmlentities($_POST['password']); 
+        $user= new users;
+        $user -> email = htmlentities($_POST['user_name']); 
+        $user -> password = htmlentities($_POST['password']); 
 
-        $output= $users ->signin();
+        $output= $users -> signin();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
@@ -60,7 +60,7 @@ $accounts = array(
                 }
             }else {
                 //set the error message if account is invalid
-                $error = 'fuckyou hahahah. Try again.';
+                $error = 'INVALID password/username Try again.';
             }
 
             }
