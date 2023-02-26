@@ -42,35 +42,13 @@ if(isset($_POST['submit'])) {
              
               $output= $user -> create_acc();
       
-              if ($output) {
-                  // CREATE -- COLUMN "firstname" "lastname" "role"
-                  print_r($output);
-
-                  $userData = $user -> login();
-
-                  if($userData) {
-                       $_SESSION['username'] = $userData['username'];
-                  $_SESSION['password'] = $userData['user_pass'];
-                  $_SESSION['fullname'] = $userData['firstname']  . ' ' . $userData['lastname'] . ' ' .
-                  $_SESSION['user_role'] = $userData['role'];
-                  $_SESSION['email'] = $userData['email'];
-                 
-                 
-            
-                  if($userData['role'] == 'admin'){
-                    header('location: ../admin/dashboard.php');
-                  } else{
-                    header('location: ../user/user-profile.php');
-                    header('location: ../admin/dashboard1.php');
-                }
-                  }
                
       
                   //display the appropriate dashboard page for user
              
                   }
               
-        }
+        
   
 
 
