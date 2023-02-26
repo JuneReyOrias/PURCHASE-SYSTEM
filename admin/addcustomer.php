@@ -41,7 +41,7 @@ if(isset($_POST['submit'])) {
       
               $user -> role = htmlentities($_POST['role']);
              
-              $output= $user -> create_acc();
+              $output= $user -> signup();
       
                
       
