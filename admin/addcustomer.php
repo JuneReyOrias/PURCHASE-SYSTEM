@@ -31,7 +31,7 @@ if(isset($_POST['submit'])) {
         print_r($_POST['submit']);
               $user= new users;
               $user -> username = htmlentities($_POST['user_name']); 
-              $user -> password = htmlentities($_POST['password']);
+              $user -> password = htmlentities($_POST['user_pass']);
               $user -> firstname = htmlentities($_POST['firstname']);
 
               $user -> lastname = htmlentities($_POST['lastname']);
