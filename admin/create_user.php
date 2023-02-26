@@ -251,7 +251,7 @@
                 </div>
             </div>
 
-</form>
+
         </div>
     </div>
 
@@ -349,7 +349,7 @@
     </script>
 
 
-
+</form>
  </div>
           
     </section>
