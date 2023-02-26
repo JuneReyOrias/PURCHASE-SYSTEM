@@ -28,8 +28,8 @@ require_once '../database/user.class.php';
   
 if(isset($_POST['submit'])) {
           //Sanitizing the inputs of the users. Mandatory to prevent injections!
-        print_r($_POST['']);
-        echo 'help';
+        print_r($_POST);
+        
               $user= new users;
               $user -> username = htmlentities($_POST['user_name']); 
               $user -> password = htmlentities($_POST['user_pass']);
