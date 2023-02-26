@@ -57,7 +57,7 @@ if(isset($_POST['submit'])) {
                  
                  
             
-                  if($userData['role'] == 'Admin'){
+                  if($userData['role'] == 'admin'){
                     header('location: ../admin/dashboard.php');
                   } else{
                     header('location: ../user/user-profile.php');
