@@ -407,7 +407,7 @@
             .home divider {
                 border: 0;
                 border-bottom: 1px rgb(70, 70, 70);
-                width: 200%;
+                width: 500%;
                 margin-bottom: 40px 0;
             }
             
@@ -574,16 +574,12 @@
                 display: inherit;
                 margin-left: 11rem;
             }
-            
-            .form-print {
-                height: 2rem;
-            }
             /*select form*/
             
             .fc {
-                margin-top: .5rem;
-                height: 2rem;
-                width: 7rem;
+                margin-top: 10px;
+                height: 2.5em;
+                width: fit-content;
             }
             
             .select2-container--default.select2-container--focus .select2-selection--multiple {
@@ -602,7 +598,7 @@
                 font-size: small;
             }
             /*.file-folder {
-                align-content: enter;
+                align-content: center;
                 width: 16rem;
                 height: 12rem;
                 float: right;
@@ -611,10 +607,10 @@
             
             .form-control {
                 width: 13rem;
-                height: 2rem;
+                height: 2.5rem;
                 align-content: center;
                 float: right;
-                font-size: 10px;
+                font-size: 12px;
                 margin-right: 1rem;
             }
             
@@ -625,7 +621,7 @@
             }
             
             .design {
-                font-size: 17px;
+                font-size: 20px;
             }
             
             .select-form {
@@ -634,7 +630,7 @@
                 background-color: white;
                 border-radius: 3%;
                 width: 35rem;
-                height: 38rem;
+                height: 35rem;
                 margin-top: 7rem;
                 font-size: 15px;
             }
@@ -644,10 +640,11 @@
                 background-color: #78101c;
                 color: white;
                 border: none;
-                line-height: 20px;
-                width: 150px;
-                margin-left: 300px;
-                margin-top: 13px;
+                margin-top: 122px;
+                line-height: 16px;
+                width: auto;
+                margin-left: 346px;
+                margin-top: 23px;
             }
             
             .checkbox-custom {
@@ -818,17 +815,6 @@
                 font-size: 17px;
             }
             /* printing tapnav */
-            
-            .size {
-                width: 7rem;
-                height: 2rem;
-            }
-            
-            .color {
-                width: 7rem;
-                font-size: 10px;
-                height: 2rem;
-            }
             
             .tapnav .order {
                 float: left;
@@ -1490,16 +1476,4 @@
             
             a.action-view {
                 background-color: rgb(97, 96, 94);
-            }
-            
-            .select-forms {
-                padding: 30px;
-                background-color: white;
-                border-radius: 3%;
-                width: 45rem;
-                height: 18rem;
-                margin-top: 1rem;
-                font-size: 15px;
-                margin-top: 12px;
-                margin-left: 14rem;
             }
