@@ -29,8 +29,7 @@ Class users{
      	return $data;
     }
     function signup() {
-        $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`,  `lastname`, ` `email`,  `role` ) VALUES (, :username, :user_pass, :firstname, :lastname, :email, :role
-        :sex, :contactNo)";
+        $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`,  `lastname`, ` `email`,  `role` ) VALUES ( :username, :user_pass, :firstname, :lastname, :email, :role)";
         $query=$this->db->connect()->prepare($sql);
 
         $query->bindParam(':user_name', $this->username);
