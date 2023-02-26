@@ -33,8 +33,8 @@ Class users{
         VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
         $query=$this->db->connect()->prepare($sql);
 
-        $query->bindParam(':username', $this->username);
-        $query->bindParam(':password', $this->password);
+        $query->bindParam(':user_name', $this->username);
+        $query->bindParam(':user_pass', $this->password);
         $query->bindParam(':firstname', $this->firstname);
         $query->bindParam(':lastname', $this->lastname);
         $query->bindParam(':email', $this->email);
@@ -42,6 +42,7 @@ Class users{
        
         if($query->execute()){
             return "added successfully 1";
+    
         } 
         return "error adding ";
     }
