@@ -29,9 +29,9 @@ Class users{
      	return $data;
     }
     function signup() {
-        $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`, `lastname`,  `email`,  `role`)
-        VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')";
-        $query=$this->db->connect()->prepare($sql);
+        $sql = "INSERT INTO `user_acc` (`id`, `user_name`, `user_pass`, `firstname`,  `lastname`, ` `email`,  `role` ) VALUES (, :username, :user_pass, :firstname, :lastname, :email, :role
+        :sex, :contactNo)";
+        s$query=$this->db->connect()->prepare($sql);
 
         $query->bindParam(':user_name', $this->username);
         $query->bindParam(':user_pass', $this->password);
