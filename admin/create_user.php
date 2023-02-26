@@ -190,6 +190,7 @@
             <div class="card">
                 <h2> Customer Information </h2>
             </div>
+            
             <div class="card">
                 <div class="card-body">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
@@ -197,8 +198,8 @@
                     </button>
                 </div>
             </div>
-
-            <div class="card">
+            
+            <div class="card"style="width: 18rem;">
                 <div class="card-body">
 
                     <?php
