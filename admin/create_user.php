@@ -186,7 +186,7 @@
 
 
     <div class="container">
-        <div class="jumbotron" style="width: 1rem;"style="height: 1rem;">
+        <div class="jumbotron" style="width: 50rem;"style="height: 45rem;">
             <div class="card">
                 <h2> Customer Information </h2>
             </div>
