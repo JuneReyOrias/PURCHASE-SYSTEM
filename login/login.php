@@ -38,7 +38,7 @@ $accounts = array(
         $user -> email = htmlentities($_POST['user_name']); 
         $user -> password = htmlentities($_POST['password']); 
 
-        $output= $users -> login();
+        $output= $user -> login();
 
         if ($output) {
             // CREATE -- COLUMN "firstname" "lastname" "role"
@@ -60,7 +60,7 @@ $accounts = array(
                 }
             }else {
                 //set the error message if account is invalid
-                $error = 'Wrong username/password. Try again.';
+                $error = 'fuckyou hahahah. Try again.';
             }
 
             }
@@ -92,7 +92,7 @@ $accounts = array(
   
  
     
-//users log in
+
 ?>
     <div class="login-container">
         <form class="login-form" action="login.php" method="post">
