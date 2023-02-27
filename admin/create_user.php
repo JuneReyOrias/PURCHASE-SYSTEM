@@ -193,7 +193,7 @@
 
                     <?php
                 $connection = mysqli_connect("localhost","root","");
-                $db = mysqli_select_db($connection, 'db_upress');
+                $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
                 $query = "SELECT * FROM users";
                 $query_run = mysqli_query($connection, $query);
