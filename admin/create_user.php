@@ -20,7 +20,7 @@
 ?>
     
    
-    </main> -->
+    
    
 
     <nav class="sidebar close">

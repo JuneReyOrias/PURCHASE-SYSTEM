@@ -20,7 +20,7 @@
 ?>
     
    
-    </main> -->
+
    
 
     <nav class="sidebar close">
@@ -138,7 +138,7 @@
         <hr class= "divider">
         <div class="tapnav">
         <a class="active" href="account.php">Home</a>
-        <a href="indexk.php">Contact</a>
+     
         <a href='create_user.php'>CreateUsers</a>
 </div>
 
