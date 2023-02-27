@@ -176,19 +176,28 @@
 
                         <div class="form-group">
                             <label> Password </label>
-                            <input type="text" name="password" id="password" class="form-control"
+                            <input type="text" name="user_pass" id="user_pass" class="form-control"
                                 placeholder="Enter Password">
                         </div>
 
                         <div class="form-group">
-                            <label> Fullname </label>
-                            <input type="text" name="fullname" id="fullname" class="form-control"
+                            <label> Firstname </label>
+                            <input type="text" name="firstname" id="firstname" class="form-control"
+                                placeholder="Enter Firstname">
+                        </div>
+                        <div class="form-group">
+                            <label> lastname </label>
+                            <input type="text" name="lastname" id="lastname" class="form-control"
+                                placeholder="Enter Lastname">
+                        </div>
+                        <div class="form-group">
+                            <label> Email </label>
+                            <input type="text" name="email" id="email" class="form-control"
                                 placeholder="Enter Fullname">
                         </div>
-
                         <div class="form-group">
                             <label> role </label>
-                            <input type="text" name="contact" id="contact" class="form-control"
+                            <input type="text" name="role" id="role" class="form-control"
                                 placeholder="Enter Role">
                         </div>
                     </div>
@@ -221,23 +230,26 @@
                         <input type="hidden" name="update_id" id="update_id">
 
                         <div class="form-group">
-                            <label>Username </label>
-                            <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
-                        </div>
-
-                        <div class="form-group">
                             <label> Password </label>
-                            <input type="text" name="password" id="password" class="form-control"
+                            <input type="text" name="user_pass" id="user_pass" class="form-control"
                                 placeholder="Enter Password">
                         </div>
 
                         <div class="form-group">
-                            <label> Fullname </label>
-                            <input type="text" name="fullname" id="fullname" class="form-control"
+                            <label> Firstname </label>
+                            <input type="text" name="firstname" id="firstname" class="form-control"
+                                placeholder="Enter Firstname">
+                        </div>
+                        <div class="form-group">
+                            <label> lastname </label>
+                            <input type="text" name="lastname" id="lastname" class="form-control"
+                                placeholder="Enter Lastname">
+                        </div>
+                        <div class="form-group">
+                            <label> Email </label>
+                            <input type="text" name="email" id="email" class="form-control"
                                 placeholder="Enter Fullname">
                         </div>
-
                         <div class="form-group">
                             <label> role </label>
                             <input type="text" name="role" id="role" class="form-control"
@@ -346,7 +358,9 @@
                                 <th scope="col"> ID</th>
                                 <th scope="col">Username </th>
                                 <th scope="col">Password </th>
-                                <th scope="col">Fullname </th>
+                                <th scope="col">Firstname </th>
+                                <th scope="col"> Lastname </th>
+                                <th scope="col"> Email </th>
                                 <th scope="col"> Role </th>
                                 <th scope="col"> VIEW </th>
                                 <th scope="col"> EDIT </th>
@@ -363,8 +377,10 @@
                             <tr class="text-dark" >
                                 <td > <?php echo $row['id']; ?> </td>
                                 <td> <?php echo $row['user_name']; ?> </td>
-                                <td> <?php echo $row['password']; ?> </td>
-                                <td> <?php echo $row['fullname']; ?> </td>
+                                <td> <?php echo $row['user_pass']; ?> </td>
+                                <td> <?php echo $row['firstname']; ?> </td>
+                                <td> <?php echo $row['lastname']; ?> </td>
+                                <td> <?php echo $row['email']; ?> </td>
                                 <td> <?php echo $row['role']; ?> </td>
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
@@ -479,9 +495,11 @@
 
                 $('#update_id').val(data[0]);
                 $('#user_name').val(data[1]);
-                $('#password').val(data[2]);
-                $('#fullname').val(data[3]);
-                $('#role').val(data[4]);
+                $('#user_pass').val(data[2]);
+                $('#firstname').val(data[3]);
+                $('#lastname').val(data[4]);
+                $('#email').val(data[5]);
+                $('#role').val(data[6]);
             });
         });
     </script>
