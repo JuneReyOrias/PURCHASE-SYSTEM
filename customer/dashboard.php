@@ -75,6 +75,21 @@ require_once '../includes/header.php';
 
             </ul>
         </div>
+        <div class="container">
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
+          <div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						<a href="#">Joe Maderal</a>
+					</div>
+				
+				</div>
+
+
 
         <div class="bottom-content">
             <li class="">
