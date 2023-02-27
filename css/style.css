@@ -1380,14 +1380,18 @@
                 background-color: rgb(97, 96, 94);
             }
             
-            .select-forms {
-                padding: 30px;
-                background-color: white;
-                border-radius: 3%;
-                width: 45rem;
-                height: 18rem;
-                margin-top: 1rem;
-                font-size: 15px;
-                margin-top: 12px;
-                margin-left: 14rem;
+            .form-control {
+                margin-top: 0.6rem;
+                display: block;
+                width: 13rem;
+                height: 2.rem;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 0.25rem;
+                transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             }
