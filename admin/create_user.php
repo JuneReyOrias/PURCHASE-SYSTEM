@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,8 +11,6 @@
 </head>
 <body>
 
-
- 
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -179,13 +176,10 @@
 
 
     <div class="container">
-    <div class="select-container">              
-            <form class="select-form"  method="post">
-        <div class="jumbotron" style="width: 50rem;"style="height: 45rem;">
-            <div class="card"  style="width: 50rem;"style="height: 45rem;">>
+        <div class="jumbotron">
+            <div class="card">
                 <h2> Customer Information </h2>
             </div>
-            
             <div class="card">
                 <div class="card-body">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
@@ -193,9 +187,9 @@
                     </button>
                 </div>
             </div>
-            
-            <div class="card"  style="width: 50rem;"style="height: 45rem;">
-                <div class="card-body"style="width: 50rem;"style="height: 45rem;">
+
+            <div class="card">
+                <div class="card-body">
 
                     <?php
                 $connection = mysqli_connect("localhost","root","");
@@ -241,8 +235,7 @@
                                 </td>
                             </tr>
                         </tbody>
-                        <?php      
-
+                        <?php           
                     }
                 }
                 else 
@@ -251,7 +244,6 @@
                 }
             ?>
                     </table>
-            </form>
                 </div>
             </div>
 
@@ -352,43 +344,5 @@
         });
     </script>
 
-
-</form>
- </div>
-          
-    </section>
-
-</nav>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
+    </body>
+    </html>
