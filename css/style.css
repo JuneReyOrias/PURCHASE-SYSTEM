@@ -896,6 +896,42 @@
                 }
             }
             
+            @media screen and (max-width:968px) {
+                .first {
+                    text-align: center;
+                }
+                .first h4::after {
+                    left: 30%;
+                }
+            }
+            
+            @media screen and (max-width:768x) {
+                .third {
+                    text-align: center;
+                }
+                .third h4::after {
+                    left: 30% !important;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .first {
+                    text-align: center;
+                }
+                .first h4::after {
+                    left: 30%;
+                }
+            }
+            
+            @media screen and (max-width:480x) {
+                .third {
+                    text-align: center;
+                }
+                .third h4::after {
+                    left: 30% !important;
+                }
+            }
+            
             .margin {
                 margin-left: 20px;
             }
