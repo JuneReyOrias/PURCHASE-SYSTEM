@@ -1524,13 +1524,13 @@
                 transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             }
             
-            .home-content .select-container {
+            .home-content {
                 position: absolute;
                 top: 0;
                 top: 0;
                 left: 250px;
-                height: 100vh;
+                height: 10vh;
                 width: calc(100% - 250px);
-                background-color: var(--body-color);
+                background-color: greenyellow;
                 transition: var(--tran-05);
             }
