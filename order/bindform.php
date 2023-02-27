@@ -148,7 +148,7 @@
 
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        <option >Coil Binding</option>
+        <option value="None">Coil Binding</option>
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
