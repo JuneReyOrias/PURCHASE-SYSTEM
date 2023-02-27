@@ -71,7 +71,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="account.php">
+                        <a href="customers.php">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
