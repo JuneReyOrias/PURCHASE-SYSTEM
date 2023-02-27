@@ -458,6 +458,12 @@
                 width: 7rem;
             }
             
+            .form-control {
+                margin-top: .5rem;
+                height: 2rem;
+                width: 7rem;
+            }
+            
             .select2-container--default.select2-container--focus .select2-selection--multiple {
                 border: solid black 1px;
                 outline: 0;
