@@ -352,7 +352,7 @@
                 $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-light">
+                    <table id="datatableid" class="table table-bordered table-dark"">
                         <thead>
                             <tr>
                                 <th scope="col"> ID</th>
