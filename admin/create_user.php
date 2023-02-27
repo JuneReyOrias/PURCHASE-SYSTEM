@@ -352,7 +352,7 @@
                 $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark"">
+                    <table id="datatableid" class="table table-bordered table-dark">
                         <thead>
                             <tr>
                                 <th scope="col"> ID</th>
@@ -374,7 +374,7 @@
                     {
             ?>
                         <tbody>
-                            <tr class="text-dark" >
+                            <tr>
                                 <td > <?php echo $row['id']; ?> </td>
                                 <td> <?php echo $row['user_name']; ?> </td>
                                 <td> <?php echo $row['user_pass']; ?> </td>
