@@ -75,9 +75,7 @@ require_once '../includes/header.php';
 
             </ul>
         </div>
-        <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
+   
 			<div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
@@ -88,8 +86,7 @@ require_once '../includes/header.php';
 					</div>
 				
 				</div>
-                </div>
-                </div>
+            
 
 
         <div class="bottom-content">
