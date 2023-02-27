@@ -346,12 +346,12 @@
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col"> ID</th>
-                                <th scope="col">Username </th>
-                                <th scope="col">Password </th>
-                                <th scope="col">Firstname </th>
-                                <th scope="col"> Lastname </th>
-                                <th scope="col"> Email </th>
-                                <th scope="col"> Role </th>
+                                <th scope="col">ItemName </th>
+                                <th scope="col">Services </th>
+                                <th scope="col">Unit_Prices </th>
+                                <th scope="col"> Quantity </th>
+                                <th scope="col"> Types </th>
+                                <th scope="col"> Size </th>
                                 <th scope="col"> VIEW </th>
                                 <th scope="col"> EDIT </th>
                                 <th scope="col"> DELETE </th>
