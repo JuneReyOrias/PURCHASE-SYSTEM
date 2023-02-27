@@ -333,13 +333,13 @@
             <div class="card">
                 <div class="card-body">
 
-                    <?php
+                    <!---
                 $connection = mysqli_connect("localhost","root","");
                 $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
                 $query = "SELECT * FROM users";
                 $query_run = mysqli_query($connection, $query);
-            ?>
+            ?>--->
                     <table id="datatableid" class="table table-bordered table-dark">
                         <thead>
                             <tr>
