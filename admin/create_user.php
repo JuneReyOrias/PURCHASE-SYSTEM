@@ -1,15 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> PHP CRUD with Bootstrap Modal </title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
-</head>
-<body>
+    //resume session here to fetch session values
+    session_start();
+    /*
+        if user is not login then redirect to login page,
+        this is to prevent users from accessing pages that requires
+        authentication such as the dashboard
+    */
+    if (!isset($_SESSION['logged-in'])){
+        header('location: ../login/login.php');
+    }
+    //if the above code is false then html below will be displayed
+
+   
+    $page_title = 'Upress | Dashboard';
+    $dashboard = 'active';
+
+    require_once '../includes/header.php';
+?>
+    
+   
+    </main> -->
+   
+
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                <img src="../img/upress-logo.png" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">University</span>
+                    <span class="profession">Press</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='bx bxs-dashboard icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                        
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="items.php">
+                            <i class='bx bx-shopping-bag icon' ></i>
+                            <span class="text nav-text">Items</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="services.php">
+                            <i class='bx bx-printer icon' ></i>
+                            <span class="text nav-text">Services</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="account.php">
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">Customer</span>
+                        </a>
+                    </li>
+
+                   
+                    <li class="nav-link">
+                        <a href="orders.php">
+                            <i class='bx bx-cart icon' ></i>
+                            <span class="text nav-text">Orders</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="container">
+    <div class="row profile">
+		<div class="col-md-3">
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
+          <div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						<a href="#">Joe Maderal</a>
+					</div>
+				
+				</div>
+		
+				</div>
+            <div class="bottom-content">
+                <li class="">
+                    <a href="../login/login.php">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+
+    </nav>
+       
+    </section>
+
+    <section class="home">
+    <header>
+            <div class="image-logo">
+                <span >
+                <img src="../img/upress-logo.png" >
+                </span>
+
+                <div class="text">
+                    <span class="name">UNIVERSITY PRESS</span>
+                  
+                </div>
+                </div>
+
+           
+        </header>
+   
+        <hr class= "divider">
+        <div class="tapnav">
+        <a class="active" href="account.php">Home</a>
+        <a href="indexk.php">Contact</a>
+        <a href='create_user.php'>CreateUsers</a>
+</div>
+
 
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -17,7 +159,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add Student Data </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create Account </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -27,23 +169,27 @@
 
                     <div class="modal-body">
                         <div class="form-group">
-                            <label> First Name </label>
-                            <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
+                        <label>Username </label>
+                            <input type="text" name="user_name" id="user_name" class="form-control"
+                                placeholder="Enter UserName">
                         </div>
 
                         <div class="form-group">
-                            <label> Last Name </label>
-                            <input type="text" name="lname" class="form-control" placeholder="Enter Last Name">
+                            <label> Password </label>
+                            <input type="text" name="password" id="password" class="form-control"
+                                placeholder="Enter Password">
                         </div>
 
                         <div class="form-group">
-                            <label> Course </label>
-                            <input type="text" name="course" class="form-control" placeholder="Enter Course">
+                            <label> Fullname </label>
+                            <input type="text" name="fullname" id="fullname" class="form-control"
+                                placeholder="Enter Fullname">
                         </div>
 
                         <div class="form-group">
-                            <label> Phone Number </label>
-                            <input type="number" name="contact" class="form-control" placeholder="Enter Phone Number">
+                            <label> role </label>
+                            <input type="text" name="contact" id="contact" class="form-control"
+                                placeholder="Enter Role">
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -62,7 +208,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Edit Student Data </h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> Edit Customer Accounts </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -75,27 +221,27 @@
                         <input type="hidden" name="update_id" id="update_id">
 
                         <div class="form-group">
-                            <label> First Name </label>
-                            <input type="text" name="fname" id="fname" class="form-control"
-                                placeholder="Enter First Name">
+                            <label>Username </label>
+                            <input type="text" name="user_name" id="user_name" class="form-control"
+                                placeholder="Enter UserName">
                         </div>
 
                         <div class="form-group">
-                            <label> Last Name </label>
-                            <input type="text" name="lname" id="lname" class="form-control"
-                                placeholder="Enter Last Name">
+                            <label> Password </label>
+                            <input type="text" name="password" id="password" class="form-control"
+                                placeholder="Enter Password">
                         </div>
 
                         <div class="form-group">
-                            <label> Course </label>
-                            <input type="text" name="course" id="course" class="form-control"
-                                placeholder="Enter Course">
+                            <label> Fullname </label>
+                            <input type="text" name="fullname" id="fullname" class="form-control"
+                                placeholder="Enter Fullname">
                         </div>
 
                         <div class="form-group">
-                            <label> Phone Number </label>
-                            <input type="text" name="contact" id="contact" class="form-control"
-                                placeholder="Enter Phone Number">
+                            <label> role </label>
+                            <input type="text" name="role" id="role" class="form-control"
+                                placeholder="Enter Role">
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -114,7 +260,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Delete Student Data </h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> Delete Account </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -126,7 +272,7 @@
 
                         <input type="hidden" name="delete_id" id="delete_id">
 
-                        <h4> Do you want to Delete this Data ??</h4>
+                        <h4> Do you want to Delete this Account ??</h4>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"> NO </button>
@@ -145,7 +291,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> View Student Data </h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> View Customer Accounts </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -158,7 +304,7 @@
                         <input type="text" name="view_id" id="view_id">
 
                         <!-- <p id="fname"> </p> -->
-                        <h4 id="fname"> <?php echo ''; ?> </h4>
+                        <h4 id="user_name"> <?php echo ''; ?> </h4>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"> CLOSE </button>
@@ -174,7 +320,7 @@
     <div class="container">
         <div class="jumbotron">
             <div class="card">
-                <h2> PHP CRUD Bootstrap MODAL (POP UP Modal) </h2>
+                <h2> Customer Information </h2>
             </div>
             <div class="card">
                 <div class="card-body">
@@ -189,19 +335,19 @@
 
                     <?php
                 $connection = mysqli_connect("localhost","root","");
-                $db = mysqli_select_db($connection, 'phpcrud');
+                $db = mysqli_select_db($connection, 'db_upress');
 
-                $query = "SELECT * FROM student";
+                $query = "SELECT * FROM users";
                 $query_run = mysqli_query($connection, $query);
             ?>
                     <table id="datatableid" class="table table-bordered table-dark">
                         <thead>
                             <tr>
                                 <th scope="col"> ID</th>
-                                <th scope="col">First Name</th>
-                                <th scope="col">Last Name </th>
-                                <th scope="col"> Course </th>
-                                <th scope="col"> Contact </th>
+                                <th scope="col">Username </th>
+                                <th scope="col">Password </th>
+                                <th scope="col">Fullname </th>
+                                <th scope="col"> Role </th>
                                 <th scope="col"> VIEW </th>
                                 <th scope="col"> EDIT </th>
                                 <th scope="col"> DELETE </th>
@@ -214,12 +360,12 @@
                     {
             ?>
                         <tbody>
-                            <tr>
-                                <td> <?php echo $row['id']; ?> </td>
-                                <td> <?php echo $row['fname']; ?> </td>
-                                <td> <?php echo $row['lname']; ?> </td>
-                                <td> <?php echo $row['course']; ?> </td>
-                                <td> <?php echo $row['contact']; ?> </td>
+                            <tr class="text-dark" >
+                                <td > <?php echo $row['id']; ?> </td>
+                                <td> <?php echo $row['user_name']; ?> </td>
+                                <td> <?php echo $row['password']; ?> </td>
+                                <td> <?php echo $row['fullname']; ?> </td>
+                                <td> <?php echo $row['role']; ?> </td>
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
                                 </td>
@@ -332,14 +478,51 @@
                 console.log(data);
 
                 $('#update_id').val(data[0]);
-                $('#fname').val(data[1]);
-                $('#lname').val(data[2]);
-                $('#course').val(data[3]);
-                $('#contact').val(data[4]);
+                $('#user_name').val(data[1]);
+                $('#password').val(data[2]);
+                $('#fullname').val(data[3]);
+                $('#role').val(data[4]);
             });
         });
     </script>
 
 
-</body>
+
+ </div>
+          
+    </section>
+
+</nav>
+<script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+   
+    <script src="./js/sidebar.js"></script>
+  </body>
 </html>

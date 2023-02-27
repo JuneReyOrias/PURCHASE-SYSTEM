@@ -150,6 +150,8 @@
                     
                     <th>Name</th>
                     <th>Price</th>
+                    <th>Name</th>
+                    <th>Price</th>
                    
                     <th class="action">Action</th>
                 </tr>
@@ -190,6 +192,76 @@
         </table>
     </div>
 </div>
+<div class="card">
+                <h2> Customer Information </h2>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
+                        ADD DATA
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+
+                    <?php
+                $connection = mysqli_connect("localhost","root","");
+                $db = mysqli_select_db($connection, 'db_upress');
+
+                $query = "SELECT * FROM users";
+                $query_run = mysqli_query($connection, $query);
+            ?>
+                    <table id="datatableid" class="table table-bordered table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col"> ID</th>
+                                <th scope="col">Username </th>
+                                <th scope="col">Password </th>
+                                <th scope="col">Fullname </th>
+                                <th scope="col"> Role </th>
+                                <th scope="col"> VIEW </th>
+                                <th scope="col"> EDIT </th>
+                                <th scope="col"> DELETE </th>
+                            </tr>
+                        </thead>
+                        <?php
+                if($query_run)
+                {
+                    foreach($query_run as $row)
+                    {
+            ?>
+                        <tbody>
+                            <tr class="text-dark" >
+                                <td > <?php echo $row['id']; ?> </td>
+                                <td> <?php echo $row['user_name']; ?> </td>
+                                <td> <?php echo $row['password']; ?> </td>
+                                <td> <?php echo $row['fullname']; ?> </td>
+                                <td> <?php echo $row['role']; ?> </td>
+                                <td>
+                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <?php           
+                    }
+                }
+                else 
+                {
+                    echo "No Record Found";
+                }
+            ?>
+                    </table>
+                </div>
+            </div>
+
 
 
               
