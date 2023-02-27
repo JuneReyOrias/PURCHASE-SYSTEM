@@ -337,7 +337,7 @@
             <div class="card">
                 <div class="card-body">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
-                        ADD DATA
+                        ADD New User
                     </button>
                 </div>
             </div>
