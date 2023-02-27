@@ -458,10 +458,11 @@
                 width: 7rem;
             }
             
-            .select-form .form-control {
+            .home-content .form-control {
                 margin-top: .5rem;
                 height: 2rem;
                 width: 7rem;
+                float: right;
             }
             
             .select2-container--default.select2-container--focus .select2-selection--multiple {
