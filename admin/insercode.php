@@ -13,10 +13,10 @@ if(isset($_POST['insertdata']))
     $email = $_POST['email'];
     $role = $_POST['role'];
 
-    $sql = "INSERT INTO user_acc (`user_name`,`user_pass`,`firstname`, `lastname`, `email`,`role`) VALUES ('$user_name','$user_pass','$firstname','$lastname', '$email', '$role')";
-    $sql_run = mysqli_query($connection, $sql);
+    $query = "INSERT INTO user_acc (`user_name`,`user_pass`,`firstname`, `lastname`, `email`,`role`) VALUES ('$user_name','$user_pass','$firstname','$lastname', '$email', '$role')";
+    $query_run = mysqli_query($connection, $query);
 
-    if($sql_run)
+    if($query_run)
     {
         echo '<script> alert("Data Saved"); </script>';
         header('Location: create_user.php');
