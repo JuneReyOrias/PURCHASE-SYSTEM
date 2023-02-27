@@ -458,7 +458,7 @@
                 width: 7rem;
             }
             
-            .home-content .form-control {
+            .home-content #formFileSmform.form-control {
                 display: block;
                 width: 10%;
                 height: 23px;
