@@ -21,8 +21,7 @@
 ?>
     
    
-    </main> -->
-   
+    
 
     <nav class="sidebar close">
         <header>
@@ -85,9 +84,7 @@
 
                 </ul>
             </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
+         
 			<div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
@@ -108,17 +105,8 @@
                     </a>
                 </li>
 
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
+              
+                  
                 
             </div>
         </div>
