@@ -148,7 +148,7 @@
 
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        <option value="None">Coil Binding</option>
+        <option >Coil Binding</option>
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
@@ -156,7 +156,7 @@
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
-        <input class="fc" id="formFileSm" type="file" />
+        <input class="form-control" id="formFileSm" type="file" />
         
 
             <input class="size" list="size" name="size">
@@ -178,7 +178,7 @@
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
-        <input class="fc" id="formFileSm" type="file" />
+        <input class="form-control" id="formFileSm" type="file" />
         <input class="size" list="size" name="size">
             <datalist class="size"id="size">
             <option label="size">size</option>
