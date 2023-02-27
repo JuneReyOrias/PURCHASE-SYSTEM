@@ -1027,16 +1027,16 @@
                     text-align: center;
                 }
                 .first h4::after {
-                    left: 40%;
+                    left: 30%;
                 }
             }
             
-            @media screen and (max-width:1000px) {
+            @media screen and (max-width:1200px) {
                 .third {
                     text-align: center;
                 }
                 .third h4::after {
-                    left: 40% !important;
+                    left: 30% !important;
                 }
             }
             
