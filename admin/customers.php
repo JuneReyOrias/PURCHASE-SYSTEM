@@ -66,7 +66,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="customer.phpS">
+                        <a href="customers.php">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
@@ -82,9 +82,7 @@
 
                 </ul>
             </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
+     
 			<div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
@@ -104,19 +102,7 @@
                         <i class='bx bx-log-out icon' ></i>
                         <span class="text nav-text">Logout</span>
                     </a>
-                </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
+         
                 
             </div>
         </div>
@@ -147,6 +133,7 @@
         <hr class="divider">
         <div class="tapnav">
         <a class="active" href="dashboard.php">Home</a>
+        <a class="active" href="create_user.php">Create User</a>
         
 </div>
         <div class="home-content">
