@@ -1419,7 +1419,7 @@
             
             .sidebar.close~.home {
                 left: 78px;
-                height: 150vh;
+                height: 170vh;
                 width: calc(100% - 78px);
             }
             
