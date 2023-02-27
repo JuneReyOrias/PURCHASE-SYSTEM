@@ -458,12 +458,12 @@
                 width: 7rem;
             }
             
-            .select-form .form-control {
+            .form-control {
                 display: block;
                 width: 100%;
-                height: calc(2.25rem + 2px);
+                height: 23px;
                 padding: .375rem .75rem;
-                font-size: 1rem;
+                font-size: .6rem;
                 font-weight: 400;
                 line-height: 1.5;
                 color: #495057;
