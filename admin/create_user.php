@@ -346,11 +346,11 @@
                 <div class="card-body">
 
                 <?php
-                $connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
+                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
                 $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
-                $query = "SELECT * FROM user_acc";
-                $query_run = mysqli_query($connection, $query);
+                $sql = "SELECT * FROM user_acc";
+                $query_run = mysqli_query($connection, $sqlS);
             ?>
                     <table id="datatableid" class="table table-bordered table-dark">
                         <thead>
@@ -368,7 +368,7 @@
                             </tr>
                         </thead>
                         <?php
-                if($query_run)
+                if($sql_run)
                 {
                     foreach($query_run as $row)
                     {
