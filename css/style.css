@@ -1380,7 +1380,7 @@
                 background-color: rgb(97, 96, 94);
             }
             
-            .form-control {
+            .select-form #formFileSm.form-control {
                 margin-top: 0.6rem;
                 display: block;
                 width: 13rem;
