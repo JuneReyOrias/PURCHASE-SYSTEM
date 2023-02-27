@@ -334,7 +334,8 @@
                 <div class="card-body">
 
                 <?php
-                 $obj= new Database();
+                $connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
+                $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
                 $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
