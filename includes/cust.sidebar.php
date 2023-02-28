@@ -29,11 +29,12 @@ require_once '../includes/header.php';
             <span class="image">
             <img src="../img/upress-logo.png" alt="">
             </span>
-            <hr class="divider"></div>
+            <hr class="divider">
             <div class="text logo-text">
                 <span class="name">University</span>
                 <span class="profession">Press</span>
             </div>
+            <hr class="divider">
         </div>
 
         <i class='bx bx-chevron-right toggle'></i>
