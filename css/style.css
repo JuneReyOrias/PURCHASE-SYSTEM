@@ -269,7 +269,7 @@
                 padding: 0 20px;
                 margin-bottom: 26px;
                 padding-top: 56px;
-                margin-left: 3rem;
+                margin-left: 0;
             }
             
             .overview-boxes .box {
@@ -1043,7 +1043,7 @@
             }
             
             .sidebar.close {
-                width: 88px;
+                width: 72px;
             }
             /* ===== Reusable code - Here ===== */
             
@@ -1301,7 +1301,7 @@
             }
             
             .home {
-                position: absolute;
+                position: lef;
                 top: 0;
                 top: 0;
                 right: 250px;
