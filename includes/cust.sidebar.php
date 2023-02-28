@@ -105,13 +105,7 @@ require_once '../includes/header.php';
 
 </nav>
 
-<section>
-    <div class="home">
-        <hr class="divider">
 
-    </div>
-
-</section>
 
 </nav>
 
