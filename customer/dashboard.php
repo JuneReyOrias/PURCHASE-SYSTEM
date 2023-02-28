@@ -20,7 +20,7 @@ require_once '../includes/header.php';
 require_once '../includes/cust.sidebar.php';
 ?>
 
-<section class="home-dash ms-5 ms-5"style="background-color: var(--body-color)position:absolute; z-index:1;
+<section class="home-dash ms-5 ms-5"style="background-color: var(--body-color)position:absolute; z-index:-1;
 left:25px; " >
 <div>
         <header>
