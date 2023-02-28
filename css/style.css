@@ -689,6 +689,13 @@
                 }
             }
             
+            @media (min-width: 1024px) {
+                .home-content .checkbox-form {
+                    width: 30%;
+                    height: 30;
+                }
+            }
+            
             @media (max-width: 780px) {
                 .home-content .checkbox-form {
                     width: 430px;
