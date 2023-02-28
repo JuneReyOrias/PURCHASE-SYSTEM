@@ -82,7 +82,7 @@ left:25px; " >
   </div>
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" style="margin-left:12rem">
       <img src="https://www.makeitactive.com/images/2018/03/11/printing.jpg" class="d-block w-90" alt="...">
     </div>
     <div class="carousel-item">
