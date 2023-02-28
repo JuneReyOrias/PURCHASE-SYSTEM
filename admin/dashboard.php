@@ -19,13 +19,14 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
+<section class="dash-home">
         <header>
             <div class="image-logo">
                 <span >
                 <img src="../img/upress-logo.png" >
                 </span>
 
-                <div class="text">
+                <div class="text-center">
                     <span class="name">UNIVERSITY PRESS</span>
                   
                 </div>
@@ -77,4 +78,4 @@
  </div>
           
 
-
+ </section>
