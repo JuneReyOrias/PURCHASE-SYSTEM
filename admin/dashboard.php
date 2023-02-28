@@ -19,6 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
+<section><
 <div>
         <header>
            
@@ -80,4 +81,4 @@
 
  </div>
           
-
+</section>
