@@ -52,7 +52,31 @@ left:25px; " >
         
      
        
-<div class="row">
+<div class="row1"></div>
+  <div class="col-sm-2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+       
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="row2">
+  <div class="col-sm-2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+       
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+ </div>
+ <div class="row1"></div>
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
