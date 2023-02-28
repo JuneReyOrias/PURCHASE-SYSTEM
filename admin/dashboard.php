@@ -50,7 +50,7 @@
         
         <div class="home-content">
         <div class="overview-boxes" >
-            <div class="box ">
+            <div class="box ms-5 ">
                 <div class="right-side">
                     <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
                     <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
