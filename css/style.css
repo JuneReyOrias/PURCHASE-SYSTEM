@@ -222,7 +222,13 @@
             
             @media (max-width: 320px) {
                 .home-dash hr.divider {
-                    width: 40%;
+                    width: 30%;
+                }
+            }
+            
+            @media (max-width: 420px) {
+                .home-dash hr.divider {
+                    width: 30%;
                 }
             }
             
