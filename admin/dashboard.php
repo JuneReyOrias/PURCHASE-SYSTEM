@@ -29,7 +29,7 @@ left:22px;" >
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 </span>
 
-                <div class="text-center fs-2" style= "color: #990000;">
+                <div class="text-center fs-1" style= "color: #990000;">
                     <span class="text-center">UNIVERSITY PRESS</span>
                   
                 </div>
