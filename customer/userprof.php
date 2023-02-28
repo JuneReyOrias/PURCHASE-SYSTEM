@@ -50,56 +50,32 @@ left:25px; " >
 
 
 
+<hr class= "divider">
+        <div class="tapnav">
+        <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
+        <a href="#adprofile.php">Admin</a>
+        <a href='#contact us'>Hola!</a><br>
+        <div class="ser-center fs-2 " >
+
+        <span></span></div> 
+</div>
+</div>
 
 
-<section class="h-100 gradient-custom-2">
-  <div class="container py-5 h-100">
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <div class="col col-lg-9 col-xl-7">
-        <div class="card">
-          <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
-            <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
-              <img src="../img/maderal.jpg"
-                alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
-                style="width: 150px; z-index: 1">
-              <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark"
-                style="z-index: 1;">
-                Edit profile
-              </button>
-            </div>
-            <div class="ms-3" style="margin-top: 130px;">
-              <h5>Joe Maderal</h5>
-              <p>Philippines </p>
-            </div>
-          </div>
-          <div class="p-4 text-black" style="background-color: #f8f9fa;">
-            <div class="d-flex justify-content-end text-center py-1">
-              <div>
-                <p class="mb-1 h5">253M</p>
-                <p class="small text-muted mb-0">Photos</p>
-              </div>
-              <div class="px-3">
-                <p class="mb-1 h5">1026M</p>
-                <p class="small text-muted mb-0">Followers</p>
-              </div>
-              <div>
-                <p class="mb-1 h5">478m</p>
-                <p class="small text-muted mb-0">Following</p>
-              </div>
-            </div>
-          </div>
-          <div class="card-body p-4 text-black">
-            <div class="mb-5">
-              <p class="lead fw-normal mb-1">About</p>
-              <div class="p-4" style="background-color: #f8f9fa;">
-                <p class="font-italic mb-1">Web Developer</p>
-                <p class="font-italic mb-1">Lives in New Zamboanga  City</p>
-                <p class="font-italic mb-0">Choreographer</p>
-              </div>
-            </div>
-           
-        </div>
-      </div>
     </div>
-  </div>
-</section>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src="../img/maderal.jpg" alt="avatar"
+              class="rounded-circle img-fluid" style="width: 150px;">
+            <h5 class="my-3">Admin Joe M</h5>
+            <p class="text-muted mb-1">Staff head</p>
+            <p class="text-muted mb-4">Putik Zamboanga City, Philippines</p>
+            <div class="d-flex justify-content-center mb-2">
+              <button type="button" class="btn btn-primary">Follow</button>
+              <button type="button" class="btn btn-outline-primary ms-1">Message</button>
+            </div>
+          </div>
+        </div>
