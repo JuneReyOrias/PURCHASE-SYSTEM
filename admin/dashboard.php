@@ -42,7 +42,7 @@
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
-        <div class="ser-center fs-2 sty" style="  margin-top: 60px;"><span>Offered Services</span></div>
+        <div class="ser-center fs-2 sty" style="  margin-top: 40x;"><span>Services</span></div>
      
         
         <div class="home-content">
