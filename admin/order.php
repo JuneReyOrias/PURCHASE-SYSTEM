@@ -45,7 +45,7 @@ left:25px;" >
         <a href='create_user.php'>CreateUsers</a>
         <div class="ser-center fs-2 " >
 
-        <span>Create Items </span></div> 
+        <span>Customers</span></div> 
 </div>
 </div>
 
@@ -230,7 +230,7 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Purchase </h2>
+                <h2> Customer Orders </h2>
            
 
 
