@@ -1532,3 +1532,21 @@
             table.table-fit tfoot td {
                 width: auto !important;
             }
+            
+            @media (min-width: 768px) {
+                .container {
+                    max-width: 720px;
+                }
+            }
+            
+            @media (min-width: 420px) {
+                .container {
+                    max-width: 340px;
+                }
+            }
+            
+            @media (min-width: 320px) {
+                .container {
+                    max-width: 300px;
+                }
+            }
