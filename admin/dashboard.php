@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5 "style="height: 12rem;
+<section class="home-dash ms-5 "style="height: 160vh;
     width: 100%;background-color: var(--body-color);
 left:25px;" >
 <div>
