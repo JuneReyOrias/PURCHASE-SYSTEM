@@ -1123,6 +1123,7 @@
                 display: flex;
                 align-items: center;
                 margin-top: 10px;
+                margin-right: 12px;
             }
             
             .sidebar header .image,
