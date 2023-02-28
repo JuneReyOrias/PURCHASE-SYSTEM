@@ -29,7 +29,7 @@ require_once '../includes/header.php';
             <span class="image">
             <img src="../img/upress-logo.png" alt="">
             </span>
-            <div class="hr"></div>
+            <hr class="divider"></div>
             <div class="text logo-text">
                 <span class="name">University</span>
                 <span class="profession">Press</span>
