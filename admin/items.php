@@ -228,8 +228,7 @@ left:25px;" >
 
 
     <div class="container">
-        <div class="jumbotron">
-            <div class="card">
+      
                 <h2> Create Items </h2>
             </div>
             <div class="card">
@@ -336,24 +335,7 @@ left:25px;" >
     </script>
 
 
-    <script>
-        $(document).ready(function () {
 
-            $('#datatableid').DataTable({
-                "pagingType": "full_numbers",
-                "lengthMenu": [
-                    [10, 25, 50, -1],
-                    [10, 25, 50, "All"]
-                ],
-                responsive: true,
-                language: {
-                    search: "_INPUT_",
-                    searchPlaceholder: "Search Your Data",
-                }
-            });
-
-        });
-    </script>
 
     <script>
         $(document).ready(function () {
