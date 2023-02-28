@@ -85,7 +85,7 @@ require_once '../includes/header.php';
 					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
+						<a href="../customer/userprof.php">Joe Maderal</a>
 					</div>
 				
 				</div>
