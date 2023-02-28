@@ -361,7 +361,7 @@
              :root {
                 /*coolorsd*/
                 --body-color: #;
-                --sidebar-color: #990000;
+                --sidebar-color: #;
                 --primary-color: #;
                 --primary-color-light: #;
                 --toggle-color: #;
@@ -1039,7 +1039,6 @@
                 padding: 10px 14px;
                 background: var(--sidebar-color);
                 transition: var(--tran-05);
-                z-index: 100;
             }
             
             .sidebar.close {
