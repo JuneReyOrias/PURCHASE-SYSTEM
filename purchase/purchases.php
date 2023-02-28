@@ -231,8 +231,7 @@ left:25px; " >
 
 
     <div class="container">
-        <div class="jumbotron">
-            <div class="card">
+       
                 <h2> Customer Information </h2>
             </div>
             <div class="card">
@@ -263,9 +262,8 @@ left:25px; " >
                                 <th scope="col"> Lastname </th>
                                 <th scope="col"> Email </th>
                                 <th scope="col"> Role </th>
-                                <th scope="col"> VIEW </th>
-                                <th scope="col"> EDIT </th>
-                                <th scope="col"> DELETE </th>
+                                <th scope="col"> Action</th>
+                                
                             </tr>
                         </thead>
                         <?php
