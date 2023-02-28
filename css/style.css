@@ -819,9 +819,8 @@
             }
             /* Add a black background color to the top navigation */
             
-            .topnav {
-                background-color: gray;
-                overflow: hidden;
+            .tapnav {
+                margin-left: 5rem;
             }
             /* Style the links inside the navigation bar */
             
