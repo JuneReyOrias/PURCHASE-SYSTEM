@@ -53,8 +53,10 @@ left:25px; " >
      
         
         <div class="home-content">
-    <div class="checkbox-container">              
-            <form class="checkbox-form" action="print.php" method="post">
+            <div class="card">
+    <div class="checkbox-container">  
+
+            <form  action="print.php" method="post">
             <div>
             <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
             <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
