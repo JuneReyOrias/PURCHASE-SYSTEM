@@ -27,7 +27,7 @@
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="...">
                 </span>
 
-                <div class="text-center">
+                <div class="text-center fs-2">
                     <span class="text-center">UNIVERSITY PRESS</span>
                   
                 </div>
