@@ -220,6 +220,12 @@
                 }
             }
             
+            @media (max-width: 480px) {
+                .home-dash hr.divider {
+                    width: 50%;
+                }
+            }
+            
             .activity .activity-data {
                 display: flex;
             }
