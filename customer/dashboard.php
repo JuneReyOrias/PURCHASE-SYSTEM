@@ -29,7 +29,7 @@ left:25px;" >
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
-
+                <hr class= "divider">
                   
                 </div>
                
@@ -37,7 +37,7 @@ left:25px;" >
            
         </header>
    
-        <hr class= "divider">
+     
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="#contact">Contact</a>
