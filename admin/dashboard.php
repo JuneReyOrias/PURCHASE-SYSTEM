@@ -47,9 +47,9 @@
         
         <div class="home-content">
         <div class="overview-boxes" >
-        <div class="text-center fs-2 " >
-         <span>Services</span></div>
-</div>  
+        <div class="tex-center fs-2 " >
+        
+ <span>Services</span></div> 
             <div class="box">
                 <div class="right-side">
                     <div class="box-topic" class="btn-1">Printing</div> </br>
