@@ -284,12 +284,7 @@ left:25px; " >
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
                                 </td>
-                                <td>
-                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                </td>
-                                <td>
-                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
-                                </td>
+                               
                             </tr>
                         </tbody>
                         <?php           
