@@ -20,7 +20,7 @@ require_once '../includes/header.php';
 require_once '../includes/cust.sidebar.php';
 ?>
 
-<section class="home-dash ms-5 ms-5"style="background-color: var(--body-color); transition: var(--tran-05);
+<section class="home-dash ms-5 ms-5"style="height:38rem;background-color: var(--body-color); transition: var(--tran-05);
 left:25px; " >
 <div>
         <header>
@@ -48,10 +48,10 @@ left:25px; " >
 </div>
 </div>
        
-        
+
         <div class="home-content">
         <div class="overview-boxes ms-lg-5" >
-            <div class="box ms-lg-5 " style= "margin-left:23px">
+            <div class="box ms-lg-5 "         style= "margin-left:23px">
                 <div class="right-side">
                     <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
                     <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>

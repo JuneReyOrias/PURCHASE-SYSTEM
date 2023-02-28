@@ -46,9 +46,9 @@ left:25px; " >
    
       
         <div class="tapnav">
-        <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+        <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a><br>
+        <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
 
         
        
