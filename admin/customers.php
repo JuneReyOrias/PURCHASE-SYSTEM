@@ -43,9 +43,10 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
+        <a href='customer.php'>Customers</a>
         <div class="ser-center fs-2 " >
 
-        <span>Create Items </span></div> 
+        <span>Customers </span></div> 
 </div>
 </div>
 

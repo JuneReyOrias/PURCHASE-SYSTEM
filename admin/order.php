@@ -43,9 +43,10 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
+        <a href='order.php'>Order</a>
         <div class="ser-center fs-2 " >
 
-        <span>Customers</span></div> 
+        <span></span></div> 
 </div>
 </div>
 
@@ -230,7 +231,7 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Customer Orders </h2>
+                <h2>  Orders </h2>
            
 
 
