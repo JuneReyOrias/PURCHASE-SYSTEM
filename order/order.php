@@ -53,7 +53,7 @@ left:25px; " >
      
         
             <div class="home-content">
-            <div class="card">
+            <div class="card ms-3">
            
                 </div>
 
