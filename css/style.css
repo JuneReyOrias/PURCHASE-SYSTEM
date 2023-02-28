@@ -307,6 +307,17 @@
                 font-size: 12px;
             }
             
+            .home-dash {
+                position: absolute;
+                top: 0;
+                top: 0;
+                left: 250px;
+                height: 100vh;
+                width: calc(100% - 250px);
+                background-color: var(--body-color);
+                transition: var(--tran-05);
+            }
+            
             .home .divider {
                 border: 0;
                 border-bottom: 1px rgb(70, 70, 70);
