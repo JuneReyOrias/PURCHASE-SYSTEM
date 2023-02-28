@@ -52,7 +52,7 @@ left:25px; " >
         
      
        
-<div class="row">
+<div class="row1">
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
