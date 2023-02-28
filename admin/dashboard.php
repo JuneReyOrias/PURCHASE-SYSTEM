@@ -79,36 +79,6 @@ left:25px;" >
                 </div>
 
                 
-
-    
- </div>
- <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://www.ldproducts.com/blog/wp-content/uploads/2016/09/bigstock-Printing-Process-Offset-Ink-Co-127618946.jpg " class="d-block w-100 z-index-1" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="https://www.action-mailing.com/wp-content/uploads/2019/03/large-format-digital-printing.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item" data-bs-interval="3000 ">
-      <img src="https://dotprint.lk/wp-content/uploads/2021/05/Binding-Serices-1.jpg" class="d-block w-100" alt="https://cf.shopee.ph/file/1c742d7f15af87faa71f5fbe92fdea89.">
-    </div>
-
-    <div class="carousel-item"data-bs-interval="4000">
-      <img src="https://www.printinlondon.co.uk/wp-content/uploads/2020/05/laminating-services-London.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<div>
     
 
     </div>
