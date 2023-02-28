@@ -224,6 +224,9 @@
                 .home-dash hr.divider {
                     width: 50%;
                 }
+                .home-dash {
+                    width: 40;
+                }
             }
             
             @media (max-width: 420px) {
