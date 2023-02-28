@@ -52,7 +52,7 @@ left:25px; " >
      
 <div class="row">
   <div class="col-sm-3">
-    <div class="card"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+    <div class="card"style=" margin-top:3rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Printing</h5>
       
@@ -61,7 +61,7 @@ left:25px; " >
     </div>
   </div>
   <div class="col-sm-3">
-    <div class="card"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+    <div class="card"style="   margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
     
