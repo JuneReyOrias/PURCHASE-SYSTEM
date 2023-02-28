@@ -21,18 +21,16 @@
 ?>
 
         <header>
-            <div class="image-logo-center">
+           <div>
                 <span >
               
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="...">
                 </span>
 
-                <div class="text-center">
-                    <span class="name">UNIVERSITY PRESS</span>
+                    <span class="text-center">UNIVERSITY PRESS</span>
                   
                 </div>
-                </div>
-
+            
            
         </header>
    
