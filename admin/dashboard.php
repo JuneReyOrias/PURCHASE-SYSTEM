@@ -19,11 +19,12 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="dash-home">
+
         <header>
             <div class="image-logo-center">
                 <span >
-                <img src="../img/upress-logo.png" >
+              
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="...">
                 </span>
 
                 <div class="text-center">
@@ -78,4 +79,3 @@
  </div>
           
 
- </section>
