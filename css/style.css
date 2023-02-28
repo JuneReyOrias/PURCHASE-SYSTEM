@@ -1118,6 +1118,11 @@
                 border-radius: 6px;
             }
             
+            .home-dash .img {
+                width: 30px;
+                border-radius: 6px;
+            }
+            
             .sidebar header .toggle {
                 position: absolute;
                 top: 50%;
