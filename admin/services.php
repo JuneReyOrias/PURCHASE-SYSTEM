@@ -43,7 +43,7 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
-        <a href='services.php'>Services</a>
+        <a href='services.php'>Services</a><br>
         <div class="ser-center fs-2 " >
 
         <span>Create Items </span></div> 
@@ -113,7 +113,7 @@ left:25px;" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Edit Customer Accounts </h5>
+                    <h5 class="modal-title" href="../customer/userprof.php"id="exampleModalLabel"> Edit Customer Accounts </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
