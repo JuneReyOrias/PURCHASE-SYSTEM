@@ -223,8 +223,7 @@
             @media (max-width: 310px) {
                 .home-dash hr.divider {
                     width: 50%;
-                    margin-left: -7rem;
-                    margin-right: 8rem;
+                    margin-left: -9rem;
                 }
                 .home-dash {
                     width: 100%;
