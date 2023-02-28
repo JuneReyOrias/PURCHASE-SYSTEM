@@ -53,7 +53,10 @@ left:25px; " >
      
         
             <div class="home-content">
-            <div class="card ms-3">
+            <div class="card ms-3 " style="margin-left:10rem">
+            <div class="box">
+                
+            </div>
            
                 </div>
 
