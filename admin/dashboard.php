@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<div>
+ <div class="dashy-home">
         <header>
            
                 <span >
@@ -48,7 +48,7 @@
 </div>
        
         
-        <div class="home-content">
+    
         <div class="overview-boxes ms-lg-5" >
             <div class="box ms-lg-5 " style= "margin-left:23px">
                 <div class="right-side">
