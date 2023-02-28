@@ -52,9 +52,9 @@ left:25px; " >
         
      
         
-      
+            <div class="home-content">
             <div class="card">
-    <div class="checkbox-container">  
+            <div class="checkbox-container">  
 
             <form  action="print.php" method="post">
             <div>
