@@ -19,7 +19,32 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-      
+        <header>
+            <div class="image-logo">
+                <span >
+                <img src="../img/upress-logo.png" >
+                </span>
+
+                <div class="text">
+                    <span class="name">UNIVERSITY PRESS</span>
+                  
+                </div>
+                </div>
+
+           
+        </header>
+   
+        <hr class= "divider">
+        <div class="tapnav">
+        <a class="active" href="addcustomer.php">Home</a>
+        <a href="#contact">Contact</a>
+        <a href='#contact us'>About</a>
+</div>
+        <div class="col1" ><span>Offered Services</span></div>
+     
+        
+        <div class="home-content">
+        <div class="overview-boxes" >
   
             <div class="box">
                 <div class="right-side">
