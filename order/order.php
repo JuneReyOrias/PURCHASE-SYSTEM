@@ -23,7 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
+    <section class="home-dash ms-5 ms-5"style="height:180vh;width:120%;background-color: var(--body-color); transition: var(--tran-05);
 left:25px; " >
 <div>
         <header>
