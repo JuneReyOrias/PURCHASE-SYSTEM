@@ -44,7 +44,7 @@ left:25px;" >
         <a href='#contact us'>About</a><br>
         <div class="ser-center fs-2 " >
 
-        <span>Services</span></div> 
+        <span></span></div> 
 </div>
 </div>
        
