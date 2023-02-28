@@ -51,7 +51,7 @@ left:25px; " >
 
         
 <div class="row">
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Printing</h5>
@@ -60,7 +60,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
@@ -69,7 +69,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-4">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
