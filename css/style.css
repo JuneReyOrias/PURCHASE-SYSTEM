@@ -1559,3 +1559,12 @@
                     font-size: 12px;
                 }
             }
+            
+            @media (min-width: 1200px) {
+                .container {
+                    max-width: 300px;
+                }
+                .thead {
+                    font-size: 12px;
+                }
+            }
