@@ -52,7 +52,7 @@ left:25px; " >
         
      
         
-        <div class="home-content">
+      
             <div class="card">
     <div class="checkbox-container">  
 
