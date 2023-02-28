@@ -66,7 +66,7 @@
 					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
+						<a href="#">Admin</a>
 					</div>
 				
 				</div>

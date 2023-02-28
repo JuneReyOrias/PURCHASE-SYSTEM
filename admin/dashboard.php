@@ -40,7 +40,7 @@ left:25px;" >
         <hr class= "divider">
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
-        <a href="#contact">Contact</a>
+        <a href="#contact">Admin</a>
         <a href='#contact us'>About</a><br>
         <div class="ser-center fs-2 " >
 
@@ -77,6 +77,31 @@ left:25px;" >
                     
                 </div>
 
+                <div class="box">
+                <div class="center">
+                    <div class="box-topic" class="btn-1">Layout</div></br>
+                    <div class="number">The act or process of planning or laying out in detail.</div>
+                    
+                    </div>
+                </div>
+                
+               
+            <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+                <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
                 </div>
 
                 
