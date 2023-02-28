@@ -97,7 +97,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-1" style="margin-top:2rem;">
+  <div class="col-sm-3" style="margin-top:2rem;">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Printing and Layout</h5>
