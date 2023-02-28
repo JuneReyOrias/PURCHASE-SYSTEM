@@ -1353,11 +1353,6 @@
                 left: 20px;
             }
             
-            .home-dash {
-                background-color: var(--body-color);
-                transition: var(--tran-05);
-            }
-            
             .col {
                 font-size: 30px;
                 font-weight: 500;
