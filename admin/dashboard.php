@@ -21,7 +21,7 @@
 ?>
 <section class="dash-home">
         <header>
-            <div class="image-logo">
+            <div class="image-logo-center">
                 <span >
                 <img src="../img/upress-logo.png" >
                 </span>
