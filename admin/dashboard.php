@@ -96,7 +96,7 @@ left:25px;" >
       <img src="https://www.action-mailing.com/wp-content/uploads/2019/03/large-format-digital-printing.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="3000 ">
-      <img src="https://cf.shopee.ph/file/1c742d7f15af87faa71f5fbe92fdea89" class="d-block w-100" alt="https://cf.shopee.ph/file/1c742d7f15af87faa71f5fbe92fdea89.">
+      <img src="https://dotprint.lk/wp-content/uploads/2021/05/Binding-Serices-1.jpg" class="d-block w-100" alt="https://cf.shopee.ph/file/1c742d7f15af87faa71f5fbe92fdea89.">
     </div>
 
     <div class="carousel-item"data-bs-interval="4000">
