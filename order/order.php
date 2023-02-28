@@ -87,24 +87,8 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-3" style="margin-top:2rem; margin-left:-69px">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Printing and Lamination</h5>
-    
-        <a href="#" class="btn btn-primary">Continue</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3" style="margin-top:2rem;">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Printing and Layout</h5>
-    
-        <a href="#" class="btn btn-primary">Continue</a>
-      </div>
-    </div>
-  </div>
+ 
+
 </div>
           
     </section>
