@@ -90,7 +90,7 @@ left:22px;" >
  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://www.ldproducts.com/blog/wp-content/uploads/2016/09/bigstock-Printing-Process-Offset-Ink-Co-127618946.jpg "width="40" height="60" class="d-block w-100" alt="...">
+      <img src="https://www.ldproducts.com/blog/wp-content/uploads/2016/09/bigstock-Printing-Process-Offset-Ink-Co-127618946.jpg "width="30" height="160" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="..." class="d-block w-90" alt="...">
