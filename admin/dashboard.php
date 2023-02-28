@@ -25,7 +25,7 @@ left:22px;" >
         <header>
 
 
-                <div class="text-center" style= "color: #990000; width:3rem; heigth:2rem">
+                <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center">UNIVERSITY PRESS</span>
 
