@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-
+<div>
         <header>
            
                 <span >
@@ -41,6 +41,7 @@
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
+
 </div>
         <div class="ser-center fs-2 sty" style="  margin-top: 40x;"><span>Services</span></div>
      
