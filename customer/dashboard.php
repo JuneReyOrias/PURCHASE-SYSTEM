@@ -71,7 +71,7 @@ left:25px; " >
   </div>
   <div class="col-sm-3">
     <div class="card">
-      <div class="card-body"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;" >
+      <div class="card-body"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;" >
         <h5 class="card-title">Lamination</h5>
         <a href="#" class="btn btn-primary">467</a>
         <a href="#" class="btn btn-primary">467</a><br>
