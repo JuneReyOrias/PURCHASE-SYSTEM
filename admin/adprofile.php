@@ -40,7 +40,7 @@ left:25px;" >
         <hr class= "divider">
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
-        <a href="#contact">Admin</a>
+        <a href="#adprofile.php">Admin</a>
         <a href='#contact us'>Hola!</a><br>
         <div class="ser-center fs-2 " >
 
