@@ -17,6 +17,8 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
+    require_once '../includes/cust.sidebar.php';
+
 ?>
     
   
