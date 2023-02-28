@@ -23,10 +23,10 @@
 left:22px;" >
 <div>
         <header>
-           
+   
                 <span >
               
-                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="...">
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" style="width:6rem;"alt="...">
                 </span>
 
                 <div class="text-center fs-2" style= "color: #990000;">
