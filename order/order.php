@@ -52,7 +52,7 @@ left:25px; " >
         
      
         
-div class="main">
+<div class="main">
   <h1>Responsive Card Grid Layout</h1>
   <ul class="cards">
     <li class="cards_item">
