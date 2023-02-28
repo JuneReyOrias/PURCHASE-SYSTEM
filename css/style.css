@@ -1323,14 +1323,6 @@
                 display: inline-flex;
             }
             
-            .home-dash .divider {
-                border: 0;
-                border-bottom: 2px solid rgb(70, 70, 70);
-                width: 30%;
-                margin: 20px 0;
-                margin-left: 23rem;
-            }
-            
             .home .text .name {
                 font-size: 30px;
                 font-weight: 500;
