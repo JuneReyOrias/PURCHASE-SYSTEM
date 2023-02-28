@@ -79,12 +79,7 @@ left:25px;" >
                 </div>
 
                 
- <div>
-    
 
- </div>
-   
- <div>
     
  </div>
  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -112,5 +107,13 @@ left:25px;" >
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<div>
+    
+
+    </div>
+      
+    <div><
+        /div>
 </section>
 
