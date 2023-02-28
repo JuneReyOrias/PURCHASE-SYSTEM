@@ -93,7 +93,7 @@ left:22px;" >
       <img src="https://www.ldproducts.com/blog/wp-content/uploads/2016/09/bigstock-Printing-Process-Offset-Ink-Co-127618946.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="..." class="d-block w-90" alt="...">
     </div>
     <div class="carousel-item">
       <img src="..." class="d-block w-100" alt="...">
