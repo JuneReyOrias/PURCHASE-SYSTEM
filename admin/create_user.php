@@ -225,21 +225,15 @@ left:25px;" >
     </div>
 
 
-    <div class="container">
-        <div class="jumbotron">
             <div class="card">
-                <h2> Customer Information </h2>
-            </div>
-            <div class="card">
-                <div class="card-body">
+               
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
                         ADD New User
                     </button>
                 </div>
-            </div>
+          
 
-            <div class="card">
-                <div class="card-body">
+           
 
                 <?php
                 $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
@@ -248,7 +242,7 @@ left:25px;" >
                 $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
                             <tr>
                                 <th scope="col"> ID</th>
@@ -334,24 +328,7 @@ left:25px;" >
     </script>
 
 
-    <script>
-        $(document).ready(function () {
 
-            $('#datatableid').DataTable({
-                "pagingType": "full_numbers",
-                "lengthMenu": [
-                    [10, 25, 50, -1],
-                    [10, 25, 50, "All"]
-                ],
-                responsive: true,
-                language: {
-                    search: "_INPUT_",
-                    searchPlaceholder: "Search Your Data",
-                }
-            });
-
-        });
-    </script>
 
     <script>
         $(document).ready(function () {
