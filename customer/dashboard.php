@@ -21,7 +21,7 @@ require_once '../includes/cust.sidebar.php';
 ?>
 
 <section class="home-dash ms-5 "style="background-color: var(--body-color);
-left:25px;" >
+left:29px;" >
 <div>
         <header>
 
