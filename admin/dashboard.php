@@ -24,7 +24,7 @@ left:22px;" >
 <div>
         <header>
    
-                <span class=" img">
+                <span class=" img d-sm-flex">
               
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 </span>
