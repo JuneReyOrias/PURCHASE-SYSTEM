@@ -53,6 +53,7 @@ left:25px; " >
      
         
 <div class="home-content">
+    <div class="card"><
         <div class="overview-boxes ms-lg-5" >
             <div class="box ms-lg-5 "         style= "margin-left:23px">
                 <div class="right-side">
