@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section><
+<section class="home-dash">
 <div>
         <header>
            
