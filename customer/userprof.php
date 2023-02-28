@@ -71,7 +71,7 @@ left:25px; " >
             <img src="../img/maderal.jpg" alt="avatar"
               class="rounded-circle img-fluid" style="width: 150px;">
             <h5 class="my-3">Admin Joe M</h5>
-            <p class="text-muted mb-1">Staff head</p>
+            <p class="text-muted mb-1">Customer</p>
             <p class="text-muted mb-4">Putik Zamboanga City, Philippines</p>
             <div class="d-flex justify-content-center mb-2">
               <button type="button" class="btn btn-primary">Follow</button>
