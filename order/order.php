@@ -79,7 +79,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-5">
+  <div class="col-sm-5 top-7">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
