@@ -231,15 +231,14 @@ left:25px;" >
               
          
             <div class="card">
-                <div class="card-body">
+                
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
                         Add New Items
                     </button>
                 </div>
             </div>
 
-            <div class="card">
-                <div class="card-body">
+      
 
                 <?php
                 $connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
