@@ -63,7 +63,7 @@
 			<div class="profile-sidebar">
 				<!-- SIDEBAR USERPIC -->
 				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
+					<img class ="rounded-circle img-fluid" href="../admin/adprofile.php"src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
 						<a href="../admin/adprofile.php">Admin</a>
