@@ -47,10 +47,10 @@
         
         <div class="home-content">
         <div class="overview-boxes" >
-        <div class="ser-center fs-2 sty" style="  margin-top: 40x;">
+        <div class="ser-center fs-2 " >
         
           <span>Services</span></div>
-</div>
+</div>  
             <div class="box">
                 <div class="right-side">
                     <div class="box-topic" class="btn-1">Printing</div> </br>
