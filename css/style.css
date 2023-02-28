@@ -1501,14 +1501,3 @@
                 position: absolute;
                 justify-content: center;
             }
-            
-            .card {
-                position: relative;
-                margin-left: 14rem;
-                display: flex;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                width: max-content;
-                height: max-content;
-                min-width: 0;
-            }
