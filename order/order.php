@@ -78,7 +78,7 @@ left:25px; " >
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
-  </div>
+  </div><br>
   <div class="col-sm-2" style="margin-top:2rem;">
     <div class="card">
       <div class="card-body">
