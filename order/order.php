@@ -55,49 +55,57 @@ left:25px; " >
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
+        <h5 class="card-title">Printing</h5>
       
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
+        <h5 class="card-title">Binding</h5>
     
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
+        <h5 class="card-title">Lamination</h5>
     
-        <a href="#" class="btn btn-primary">Go somewhere</a><br>
+        <a href="#" class="btn btn-primary">Continue</a><br>
       </div>
     </div>
   </div>
   <div class="col-sm-4" style="margin-top:2rem;">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
+        <h5 class="card-title">Printing and Binding</h5>
     
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
   <div class="col-sm-1" style="margin-top:2rem;">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
+        <h5 class="card-title">Printing and Lamination</h5>
     
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <a href="#" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
-  
+  <div class="col-sm-1" style="margin-top:2rem;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Printing and Layout</h5>
+    
+        <a href="#" class="btn btn-primary">Continue</a>
+      </div>
+    </div>
+  </div>
 </div>
           
     </section>
