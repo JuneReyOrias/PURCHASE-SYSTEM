@@ -1505,6 +1505,20 @@
             .card {
                 position: relative;
                 margin-left: 14rem;
-                height: max-content;
+                display: flex;
+                -ms-flex-direction: column;
+                flex-direction: column;
                 width: max-content;
+                height: max-content;
+                min-width: 0;
+                word-wrap: break-word;
+                background-color: #fff;
+                background-clip: border-box;
+                border: 1px solid rgba(0, 0, 0, .125);
+                border-radius: 0.25rem;
+                align-items: center;
+                justify-content: center;
+                width: calc(135vh/ 3 - 10px);
+                background: #fff;
+                padding: 15px 14px;
             }
