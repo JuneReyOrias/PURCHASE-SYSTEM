@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash">
+<section class="home-dash bg-gradient" >
 <div>
         <header>
            
