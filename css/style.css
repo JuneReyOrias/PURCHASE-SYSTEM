@@ -1495,13 +1495,6 @@
                 transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             }
             
-            .home-content {
-                width: 10%;
-                height: 10vh;
-                position: absolute;
-                justify-content: center;
-            }
-            
             .card {
                 position: relative;
                 margin-left: 7rem;
