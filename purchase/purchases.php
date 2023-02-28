@@ -232,15 +232,8 @@ left:25px; " >
 
     <div class="container">
        
-                <h2> Customer Information </h2>
-            </div>
-            <div class="card">
-               
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
-                        ADD New User
-                    </button>
-                </div>
-            </div>
+                <h2> Purchase </h2>
+           
 
 
 
@@ -248,20 +241,20 @@ left:25px; " >
                 $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
                 $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
-                $query = "SELECT * FROM user_acc";
+                $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
                     <table id="datatableid" class="table table-bordered table-dark">
                         <thead>
                             <tr>
-                                <th scope="col"> ID</th>
-                                <th scope="col">Username </th>
-                                <th scope="col">Password </th>
-                                <th scope="col">Firstname </th>
-                                <th scope="col"> Lastname </th>
-                                <th scope="col"> Email </th>
-                                <th scope="col"> Role </th>
-                                <th scope="col"> Action</th>
+                                <th scope="col">OrderId</th>
+                                <th scope="col">OrderDate </th>
+                                <th scope="col">BuyerId </th>
+                                <th scope="col">requireDate </th>
+                                <th scope="col">Expe_deliverDate</th>
+                                <th scope="col">paymentId </th>
+                                <th scope="col"> Status </th>
+                                
                                 
                             </tr>
                         </thead>
@@ -273,16 +266,14 @@ left:25px; " >
             ?>
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['id']; ?> </td>
-                                <td> <?php echo $row['user_name']; ?> </td>
-                                <td> <?php echo $row['user_pass']; ?> </td>
-                                <td> <?php echo $row['firstname']; ?> </td>
-                                <td> <?php echo $row['lastname']; ?> </td>
-                                <td> <?php echo $row['email']; ?> </td>
-                                <td> <?php echo $row['role']; ?> </td>
-                                <td>
-                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
-                                </td>
+                                <td > <?php echo $row['ordr_id']; ?> </td>
+                                <td> <?php echo $row['ordr_date']; ?> </td>
+                                <td> <?php echo $row['buyer_id']; ?> </td>
+                                <td> <?php echo $row['req_date']; ?> </td>
+                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
+                                <td> <?php echo $row['payment_id']; ?> </td>
+                                <td> <?php echo $row['status']; ?> </td>
+                              
                                
                             </tr>
                         </tbody>
