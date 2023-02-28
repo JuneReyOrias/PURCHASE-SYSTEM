@@ -52,7 +52,7 @@ left:25px; " >
         
      
        
-<div class="row1"></div>
+<div class="row"></div>
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
@@ -62,7 +62,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="row2">
+  <div class="row">
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
@@ -76,7 +76,7 @@ left:25px; " >
   </div>
 </div>
  </div>
- <div class="row1"></div>
+ <div class="row"></div>
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
@@ -86,7 +86,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="row2">
+  <div class="row">
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
