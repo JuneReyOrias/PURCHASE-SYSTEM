@@ -66,7 +66,7 @@
 					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
           <div class="profile-usertitle">
 					<div class="profile-usertitle-name">
-						<a href="../admin/profile.php">Admin</a>
+						<a href="../admin/adprofile.php">Admin</a>
 					</div>
 				
 				</div>
