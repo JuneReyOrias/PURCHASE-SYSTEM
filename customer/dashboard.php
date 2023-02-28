@@ -78,29 +78,8 @@ left:25px; " >
       </div>
     </div>
   </div> 
-    </div>
+  
   </div>
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner"style="margin-left:4rem width:234px; height:50vh">
-    <div class="carousel-item active" style="margin-left:12rem ">
-      <img src="https://www.makeitactive.com/images/2018/03/11/printing.jpg" class="d-block w-100" style="margin-left:4rem width:234px; height:50vh;"alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbViIaXAca9Qe5soOlacLLwQdl42Z7BJS-TPcFvWPGYGMTIMOdJkf7bQEe2w3M0bhd3Q&usqp=CAU" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSW2JIWtrDq8Pq_ahT5MYalaDymg6fNlWZxw&usqp=CAU" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
 </section>
 
