@@ -42,7 +42,7 @@
         <a href="#contact">Contact</a>
         <a href='#contact us'>About</a>
 </div>
-        <div class="ser-center fs-2 mt-2" ><span>Offered Services</span></div>
+        <div class="ser-center fs-2 mt-4" ><span>Offered Services</span></div>
      
         
         <div class="home-content">
