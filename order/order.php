@@ -62,7 +62,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-2">
+  <div class="col-sm-3">
     <div class="card2">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
