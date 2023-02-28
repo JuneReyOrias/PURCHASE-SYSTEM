@@ -1523,3 +1523,8 @@
                 border-radius: 0.25rem;
                 transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             }
+            
+            .dash-home {
+                margin-left: 12rem;
+                justify-content: center;
+            }
