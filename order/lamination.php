@@ -44,8 +44,8 @@ left:25px; " >
         <div class="tapnav">
         <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a><br>
-        <a class="order" href="order.php" ><span>></span>Printing</a><br>
+        <a class="order" href="order.php" ><span>></span>Order</a>
+        <a class="order" href="order.php" ><span>></span>Lamination</a><br>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " >Services</span></div> 
 </div>
@@ -128,37 +128,3 @@ left:25px; " >
     maximumSelectionLength: 1
     
 });
-</script>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-decodeURI                   
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
