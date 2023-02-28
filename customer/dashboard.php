@@ -66,7 +66,7 @@ left:25px; " >
         <h5 class="card-title">Binding</h5>
         <a href="#" class="btn btn-primary">467</a>
         <a href="#" class="btn btn-primary">567</a>
-      </div
+</div>
     </div>
   </div>
   <div class="col-sm-3">
