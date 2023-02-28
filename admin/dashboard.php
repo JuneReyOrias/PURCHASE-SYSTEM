@@ -26,7 +26,7 @@ left:22px;" >
    
                 <span class=" img d-sm-flex">
               
-                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
+                <img src="/img/upress-logo.png" class="rounded mx-auto" alt="UPRESS">
                 </span>
 
                 <div class="text-center fs-2" style= "color: #990000;">
