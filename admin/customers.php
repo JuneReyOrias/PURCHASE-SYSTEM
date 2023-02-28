@@ -51,6 +51,7 @@ left:25px;" >
 
 
 
+      
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -227,39 +228,33 @@ left:25px;" >
     </div>
 
 
-    <div class="container">
-              
-         
-            <div class="card">
-                
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
-                        Add New Items
-                    </button>
-                </div>
-            </div>
+    <div class="container" >
+       
+                <h2> Purchase </h2>
+           
 
-      
+
 
                 <?php
-                $connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
+                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
                 $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
-                $query = "SELECT * FROM user_acc";
+                $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-responsive"class="table table-responsive">
-                        <thead class="thead-dark">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
+                        <thead>
                             <tr>
-                                <th scope="col"> ID</th>
-                                <th scope="col">ItemName </th>
-                                <th scope="col">Services </th>
-                                <th scope="col">Unit_Prices </th>
-                                <th scope="col"> Quantity </th>
-                                <th scope="col"> Types </th>
-                                <th scope="col"> Size </th>
-                                <th scope="col"> VIEW </th>
-                                <th scope="col"> EDIT </th>
-                                <th scope="col"> DELETE </th>
+                                <th scope="col">OrderId</th>
+                                <th scope="col">OrderDate </th>
+                                <th scope="col">BuyerId </th>
+                                <th scope="col">requireDate </th>
+                                <th scope="col">Expe_deliverDate</th>
+                                <th scope="col">paymentId </th>
+                                <th scope="col"> Action </th>
+                                <th scope="col"> Action </th>
+                                
+                                
                             </tr>
                         </thead>
                         <?php
@@ -270,22 +265,21 @@ left:25px;" >
             ?>
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['id']; ?> </td>
-                                <td> <?php echo $row['user_name']; ?> </td>
-                                <td> <?php echo $row['user_pass']; ?> </td>
-                                <td> <?php echo $row['firstname']; ?> </td>
-                                <td> <?php echo $row['lastname']; ?> </td>
-                                <td> <?php echo $row['email']; ?> </td>
-                                <td> <?php echo $row['role']; ?> </td>
+                                <td > <?php echo $row['ordr_id']; ?> </td>
+                                <td> <?php echo $row['ordr_date']; ?> </td>
+                                <td> <?php echo $row['buyer_id']; ?> </td>
+                                <td> <?php echo $row['req_date']; ?> </td>
+                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
+                                <td> <?php echo $row['payment_id']; ?> </td>
+                              
+                              
+                             
                                 <td>
-                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
+                                    <button type="button" class="btn btn-success editbtn"> Approved  </button>
                                 </td>
                                 <td>
-                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                </td>
-                                <td>
-                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
-                                </td>
+                                    <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
+                                </td>  
                             </tr>
                         </tbody>
                         <?php           
@@ -333,7 +327,24 @@ left:25px;" >
     </script>
 
 
+   <!-- <script>
+        $(document).ready(function () {
 
+            $('#datatableid').DataTable({
+                "pagingType": "full_numbers",
+                "lengthMenu": [
+                    [10, 25, 50, -1],
+                    [10, 25, 50, "All"]
+                ],
+                responsive: true,
+                language: {
+                    search: "_INPUT_",
+                    searchPlaceholder: "Search Your Data",
+                }
+            });
+
+        });
+    </script>-->
 
     <script>
         $(document).ready(function () {
@@ -384,41 +395,4 @@ left:25px;" >
 
 
 
- </div>
-          
-    </section>
-
-</nav>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
+ 
