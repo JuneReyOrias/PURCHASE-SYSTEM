@@ -684,7 +684,7 @@
             
             @media (max-width: 1024px) {
                 .home-content .checkbox-form {
-                    width: 430px;
+                    width: 100%;
                     height: 300px;
                 }
             }
@@ -698,7 +698,7 @@
             
             @media (max-width: 780px) {
                 .home-content .checkbox-form {
-                    width: 430px;
+                    width: 100%;
                     height: 300px;
                 }
             }
@@ -1495,7 +1495,9 @@
                 transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
             }
             
-            .dash-home {
-                margin-left: 12rem;
+            .home-dash {
+                width: 100%;
+                height: 100vh;
+                position: absolute;
                 justify-content: center;
             }
