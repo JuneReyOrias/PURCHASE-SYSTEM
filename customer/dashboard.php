@@ -20,7 +20,8 @@ require_once '../includes/header.php';
 require_once '../includes/cust.sidebar.php';
 ?>
 
-<section class="home-dash ms-5 ms-5"></section>
+<section class="home-dash ms-5 ms-5"style="background-color: var(--body-color); transition: var(--tran-05);
+left:25px; " >
 <div>
         <header>
 
@@ -28,7 +29,7 @@ require_once '../includes/cust.sidebar.php';
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
-               
+               <hr class="divider"
                   
                 </div>
                
