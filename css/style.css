@@ -342,6 +342,13 @@
                 margin-left: 6.34rem;
             }
             
+            .rounded mx-auto d-block {
+                vertical-align: middle;
+                border-style: none;
+                width: 6rem;
+                display: inline-block;
+            }
+            
             img {
                 vertical-align: middle;
                 border-style: none;
