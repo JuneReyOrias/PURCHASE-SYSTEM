@@ -19,107 +19,35 @@
     require_once '../includes/header.php';
 ?>
     
-   
-    
-   
-    <nav class="sidebar close">
-        <header>
-            <div class="image-text">
-                <span class="image">
-                <img src="../img/upress-logo.png" alt="">
-                </span>
-
-                <div class="text logo-text">
-                    <span class="name">University</span>
-                    <span class="profession">Press</span>
-                </div>
-            </div>
-
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="../customer/dashboard.php">
-                            <i class='bx bxs-dashboard icon' ></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                        
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../purchase/purchases.php">
-                            <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Purchase</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../order/order.php">
-                            <i class='bx bx-cart icon' ></i>
-                            <span class="text nav-text">Orders</span>
-                        </a>
-                    </li>
-
-                   
-                    <li class="nav-link">
-                        <a href="../trackordr/trackorder.php">
-                            <i class='bx bx-map icon' ></i>
-                            <span class="text nav-text">Track Orders</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="bottom-content">
-                <li class="">
-                    <a href="../login/login.php">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
-                    </a>
-                </li>
-
-               
-                
-            </div>
-        </div>
-
-    </nav>
-
-
-
-       
+  
     </section>
 
-    <section class="home">
-    <header>
-            <div class="image-logo">
-                <span >
-                <img src="../img/upress-logo.png" >
-                </span>
+    <section class="home-dash ms-5 ms-5"style="background-color: var(--body-color); transition: var(--tran-05);
+left:25px; " >
+<div>
+        <header>
 
-                <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
+
+                <div class="text-center" style= "color: #990000;">
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
+                <span class="text-center fs-1">UNIVERSITY PRESS</span>
+               <hr class="divider">
                   
                 </div>
-                </div>
+               
 
            
         </header>
    
-        <hr class= "divider">
+      
         <div class="tapnav">
-        <a class="active" href="../customer/dashboard.php">Home</a>
+        <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a>
-        
+        <a class="order" href="order.php" ><span>></span>Order</a><br><br>
+        <div class="ser-center fs-2 " >
+             <span>Services</span></div> 
 </div>
-        <div class="col" ><span> Services</span></div>
+        
      
         
         <div class="home-content">
@@ -154,39 +82,3 @@
           
     </section>
 
-</nav>
-
-
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-decodeURI                   
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
