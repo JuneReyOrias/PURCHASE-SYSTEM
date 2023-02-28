@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5"style=" background-color: var(--body-color); margin-left:2rem;" >
+<section class="home-dash ms-5"style=" background-color: var(--body-color) margin-left:2rem;" >
 <div>
         <header>
            
