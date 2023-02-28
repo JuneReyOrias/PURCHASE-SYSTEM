@@ -56,7 +56,7 @@ left:25px; " >
       <div class="card-body">
         <h5 class="card-title">Printing</h5>
       
-        <a href="#" class="btn btn-primary">Continue</a>
+        <a href="print.php" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ left:25px; " >
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
     
-        <a href="#" class="btn btn-primary">Continue</a>
+        <a href="binding.php" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
@@ -74,7 +74,7 @@ left:25px; " >
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
     
-        <a href="#" class="btn btn-primary">Continue</a><br>
+        <a href="lamination.php" class="btn btn-primary">Continue</a><br>
       </div>
     </div>
   </div>

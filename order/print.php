@@ -45,6 +45,7 @@ left:25px; " >
         <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a><br>
+        <a class="order" href="order.php" ><span>></span>Printing</a><br>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " >Services</span></div> 
 </div>
