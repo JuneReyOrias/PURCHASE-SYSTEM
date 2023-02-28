@@ -45,7 +45,7 @@ left:25px;" >
         <a href='create_user.php'>CreateUsers</a>
         <div class="ser-center fs-2 " >
 
-        <span></span></div> 
+        <span>Create Items </span></div> 
 </div>
 </div>
 
@@ -228,9 +228,8 @@ left:25px;" >
 
 
     <div class="container">
-      
-                <h2> Create Items </h2>
-            </div>
+              
+         
             <div class="card">
                 <div class="card-body">
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
