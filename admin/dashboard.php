@@ -23,14 +23,12 @@
 left:22px;" >
 <div>
         <header>
-   
-                <span class=" img d-sm-flex">
-              
-                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
-                </span>
+
 
                 <div class="text-center fs-1" style= "color: #990000;">
-                    <span class="text-center">UNIVERSITY PRESS</span>
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
+                <span class="text-center">UNIVERSITY PRESS</span>
+
                   
                 </div>
                
