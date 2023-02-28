@@ -83,7 +83,7 @@ left:25px; " >
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner"style="margin-left:4rem width:234px; height:50vh">
     <div class="carousel-item active" style="margin-left:12rem ">
-      <img src="https://www.makeitactive.com/images/2018/03/11/printing.jpg" class="d-block w-100" alt="...">
+      <img src="https://www.makeitactive.com/images/2018/03/11/printing.jpg" class="d-block w-100" style="margin-left:4rem width:234px; height:50vh;"alt="...">
     </div>
     <div class="carousel-item">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbViIaXAca9Qe5soOlacLLwQdl42Z7BJS-TPcFvWPGYGMTIMOdJkf7bQEe2w3M0bhd3Q&usqp=CAU" class="d-block w-100" alt="...">
