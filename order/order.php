@@ -63,26 +63,6 @@ left:25px; " >
                     </div>
                 </div>
 
-            <div class="checkbox-container"> 
-
-
-            <form  action="print.php" method="post">
-            <div>
-            <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
-            <label for="checkbox-1" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i>   Printing</label>
-        </div>
-        <div>
-  <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-  <label for="checkbox-2" class="checkbox-custom-label"><i class='bx bx-book icon' ></i> <a class="order" href="binding.php" ><span></span>Binding </a> </label>
-</div>
-
-    <div>
-         <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-         <label for="checkbox-3" class="checkbox-custom-label"><i class='bx bx-printer icon' ></i><a class="order" href="lamination.php" ><span>Lamination </span></a></label>
-</div>
-          
-
-<input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
 </form>
 </select>
 
