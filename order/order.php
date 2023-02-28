@@ -88,7 +88,7 @@ left:25px; " >
       </div>
     </div>
   </div>
-  <div class="col-sm-3" style="margin-top:2rem; margin-left:-60px">
+  <div class="col-sm-3" style="margin-top:2rem; margin-left:-64px">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Printing and Lamination</h5>
