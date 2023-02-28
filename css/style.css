@@ -327,10 +327,10 @@
                 font-size: 12px;
             }
             
-            .home .divider {
+            .text .divider {
                 border: 0;
                 border-bottom: 1px rgb(70, 70, 70);
-                width: 200%;
+                width: 20%;
                 margin-bottom: 40px 0;
             }
             
