@@ -52,7 +52,7 @@ left:25px; " >
         
      
        
- <div class="row"        >
+
   <div class="col-sm-2">
     <div class="card">
       <div class="card-body">
@@ -62,7 +62,15 @@ left:25px; " >
       </div>
     </div>
   </div>
-  
+  <div class="col-sm-2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+       
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
     </div>
   </div>
 </div>
