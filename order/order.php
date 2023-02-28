@@ -24,7 +24,7 @@
   
     </section>
 
-    <section class="home-dash ms-5 ms-5"style="height:36rem;background-color: var(--body-color); transition: var(--tran-05);
+    <section class="home-dash ms-5 ms-5"style="height:38rem;background-color: var(--body-color); transition: var(--tran-05);
 left:25px; " >
 <div>
         <header>
