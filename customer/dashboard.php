@@ -64,7 +64,7 @@ left:25px; " >
     <div class="card"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;" >
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
-        <a href="#" class="btn btn-primary">467</a><
+        <a href="#" class="btn btn-primary">467</a>
         <a href="#" class="btn btn-primary">567</a>
       </div
     </div>
