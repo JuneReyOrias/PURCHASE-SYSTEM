@@ -230,7 +230,7 @@ left:25px; " >
     </div>
 
 
-    <div class="container">
+    <div class="container" >
        
                 <h2> Purchase </h2>
            
@@ -244,7 +244,7 @@ left:25px; " >
                 $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">>
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
