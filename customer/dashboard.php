@@ -50,42 +50,35 @@ left:25px; " >
        
 
         
-
-        <div class="overview-boxes ms-lg-5" >
-            <div class="box ms-lg-5 " style= "margin-left:23px">
-                <div class="right-side">
-                    <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
-                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
-                    
-                    </div>
-                </div>
-
-                <div class="box">
-                <div class="center">
-                    <div class="box-topic" class="btn-1">Layout</div></br>
-                    <div class="number">The act or process of planning or laying out in detail.</div>
-                    
-                    </div>
-                </div>
-                
-               
-            <div class="box">
-                <div class="left-side">
-                    <div class="box-topic" class="btn-1">Binding</div></br>
-                    <div class="number">A strong covering holding the pages of a book together</div>
-                    
-                    </div>
-                    
-                </div>
-
-                </div>
-
-                
-    
-
-    </div>
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Printing</h5>
       
-    <div></div>
+        <a href="#" class="btn btn-primary">Continue</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Binding</h5>
+    
+        <a href="#" class="btn btn-primary">Continue</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Lamination</h5>
+    
+        <a href="#" class="btn btn-primary">Continue</a><br>
+      </div>
+    </div>
+  </div>
+
 </section>
 
 
