@@ -1107,7 +1107,7 @@
                 height: 100%;
                 width: 250px;
                 padding: 10px 14px;
-                background: var(--sidebar-color#990000);
+                color: var(--sidebar-color#990000);
                 transition: var(--tran-05);
                 z-index: 100;
             }
@@ -1123,7 +1123,6 @@
                 display: flex;
                 align-items: center;
                 margin-top: 10px;
-                margin-right: 12px;
             }
             
             .sidebar header .image,
