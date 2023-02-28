@@ -1537,16 +1537,25 @@
                 .container {
                     max-width: 720px;
                 }
+                .thead {
+                    font-size: 12px;
+                }
             }
             
             @media (min-width: 420px) {
                 .container {
                     max-width: 340px;
                 }
+                .thead {
+                    font-size: 12px;
+                }
             }
             
             @media (min-width: 320px) {
                 .container {
                     max-width: 300px;
+                }
+                .thead {
+                    font-size: 12px;
                 }
             }
