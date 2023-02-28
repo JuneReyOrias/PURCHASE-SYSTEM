@@ -37,7 +37,7 @@ left:25px;" >
            
         </header>
    
-       
+        <hr class= "divider">
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="#contact">Contact</a>
