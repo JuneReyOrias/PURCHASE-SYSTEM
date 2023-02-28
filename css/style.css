@@ -1535,7 +1535,8 @@
             
             @media (min-width: 768px) {
                 .container {
-                    max-width: 720px;
+                    max-width: 480px;
+                    max-height: 100vh;
                 }
                 .thead {
                     font-size: 12px;
@@ -1545,6 +1546,7 @@
             @media (min-width: 420px) {
                 .container {
                     max-width: 340px;
+                    max-height: 100vh;
                 }
                 .thead {
                     font-size: 12px;
@@ -1554,6 +1556,7 @@
             @media (min-width: 320px) {
                 .container {
                     max-width: 300px;
+                    max-height: 100vh;
                 }
                 .thead {
                     font-size: 12px;
@@ -1563,6 +1566,7 @@
             @media (min-width: 1200px) {
                 .container {
                     max-width: 300px;
+                    max-height: 100vh;
                 }
                 .thead {
                     font-size: 12px;
