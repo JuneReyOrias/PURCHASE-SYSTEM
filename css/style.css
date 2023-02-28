@@ -1323,11 +1323,12 @@
                 display: inline-flex;
             }
             
-            .home .divider {
+            .home-dash .divider {
                 border: 0;
                 border-bottom: 2px solid rgb(70, 70, 70);
-                width: 100%;
+                width: 30%;
                 margin: 20px 0;
+                margin-left: 23rem;
             }
             
             .home .text .name {
