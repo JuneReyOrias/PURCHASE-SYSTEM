@@ -40,7 +40,7 @@
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="#contact">Contact</a>
-        <a href='#contact us'>About</a>
+        <a href='#contact us'>About</a><br>
 
 </div>
         <div class="ser-center fs-2 sty" style="  margin-top: 40x;"><span>Services</span></div>
