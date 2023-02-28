@@ -17,130 +17,38 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
+    require_once '../includes/sidebar.php';
 ?>
-    
-   
-
-   
-
-    <nav class="sidebar close">
+<section class="home-dash ms-5 "style="height: 160vh;
+    width: 100%;background-color: var(--body-color);
+left:25px;" >
+<div>
         <header>
-            <div class="image-text">
-                <span class="image">
-                <img src="../img/upress-logo.png" alt="">
-                </span>
 
-                <div class="text logo-text">
-                    <span class="name">University</span>
-                    <span class="profession">Press</span>
-                </div>
-            </div>
 
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
+                <div class="text-center" style= "color: #990000;">
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
+                <span class="text-center fs-1">UNIVERSITY PRESS</span>
 
-        <div class="menu-bar">
-            <div class="menu">
-
-                <li class="search-box">
-                    <i class='bx bx-search icon'></i>
-                    <input type="text" placeholder="Search...">
-                </li>
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="#">
-                            <i class='bx bxs-dashboard icon' ></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                        
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="items.php">
-                            <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Items</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="services.php">
-                            <i class='bx bx-printer icon' ></i>
-                            <span class="text nav-text">Services</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="customers.php">
-                            <i class='bx bx-user icon' ></i>
-                            <span class="text nav-text">Customer</span>
-                        </a>
-                    </li>
-
-                   
-                    <li class="nav-link">
-                        <a href="orders.php">
-                            <i class='bx bx-cart icon' ></i>
-                            <span class="text nav-text">Orders</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
-			<div class="profile-sidebar">
-				<!-- SIDEBAR USERPIC -->
-				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
-          <div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
-					</div>
-				
-				</div>
-		
-				</div>
-            <div class="bottom-content">
-                <li class="">
-                    <a href="../login/login.php">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
-                    </a>
-                </li>
-
-        
-                
-            </div>
-        </div>
-
-    </nav>
-       
-    </section>
-
-    <section class="home">
-    <header>
-            <div class="image-logo">
-                <span >
-                <img src="../img/upress-logo.png" >
-                </span>
-
-                <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
                   
                 </div>
-                </div>
+               
 
            
         </header>
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="active" href="account.php">Home</a>
-     
+        <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
+        <a href="#contact">Admin</a>
+        <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
+        <div class="ser-center fs-2 " >
+
+        <span></span></div> 
 </div>
+</div>
+
 
 
     <!-- Modal -->

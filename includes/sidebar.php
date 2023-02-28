@@ -21,7 +21,7 @@
 
                 <ul class="menu-links">
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="../admin/dashboard.php">
                             <i class='bx bxs-dashboard icon' ></i>
                             <span class="text nav-text">Dashboard</span>
                         </a>
@@ -29,7 +29,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="addcustomer.php">
+                        <a href="../admin/items.php">
                             <i class='bx bx-shopping-bag icon' ></i>
                             <span class="text nav-text">Items</span>
                         </a>
@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="customers.php">
+                        <a href="../admin/customers.php">
                             <i class='bx bx-user icon' ></i>
                             <span class="text nav-text">Customer</span>
                         </a>
@@ -51,7 +51,7 @@
 
                    
                     <li class="nav-link">
-                        <a href="orders.php">
+                        <a href="../admin/orders.php">
                             <i class='bx bx-cart icon' ></i>
                             <span class="text nav-text">Orders</span>
                         </a>
