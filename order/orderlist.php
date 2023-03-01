@@ -48,8 +48,8 @@ left:25px; " >
         <div class="tapnav">
         <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a><br>
-        <a class="order" href="binding.php" ><span>></span>BindingForm</a><br>
+        <a class="order" href="order.php" ><span></span>Order</a>
+        <a class="order" href="binding.php" ><span></span>BindingForm</a>
         <a class="order" href="orderlist.php" ><span>></span>OrderList</a><br>
 
         
@@ -282,8 +282,8 @@ left:25px; " >
     Action
   </button>
   <div class="dropdown-menu">
-    <a type="button" class="dropdown-sucsess" href="#">Edit</a>
-    <a type="button" class="dropdown-danger" href="#">Delete</a>
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
    
   </div>
 </div>
