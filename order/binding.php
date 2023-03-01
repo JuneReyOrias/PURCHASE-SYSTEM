@@ -104,12 +104,12 @@ left:25px; " >
         <input class="color" list="color" name="color">
         
             <datalist class="color"id="color">
-            <option label="Color">Color</option>
-            <option value="Red">
-            <option value="Yellowt">
-            <option value="Black">
-            <option value="Blue">   
-            <option value="Green">    
+            <option selected>Color</option>
+            <option value="Red">Red</option>
+            <option value="Yellow">Yeloow</option>
+            <option value="Black">Black</option>
+            <option value="Blue"> Blue</option>
+            <option value="Green">Green</option>
             </datalist>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
