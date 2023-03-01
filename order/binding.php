@@ -45,7 +45,7 @@ left:25px; " >
         <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="order.php" ><span>></span>Binding</a><br>
+        <a class="order" href="binding.php" ><span>></span>BindingForm</a><br>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " ></span></div> 
 </div>
@@ -62,8 +62,8 @@ left:25px; " >
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
             <label for="email">Email</label>
             <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
-            <label for="password">Contact</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            <label for="contact">Contact</label>
+            <input class="form-print" type="contact" id="" name="contact" placeholder="Contact" required tabindex="2">
             
 
         <label class="design"for=""></i>Binding type</label>
