@@ -101,12 +101,12 @@ left:25px; " >
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="color" list="color" name="color">
+        <input class="color" placeholder="Input Color" list="color" name="color">
         
             <select class="color"id="color">
             <option selected>Color</option>
             <option value="">Red</option>
-            <option value="">Yeloow</option>
+            <option value="">Yellow</option>
             <option value="">Black</option>
             <option value=""> Blue</option>
             <option value="">Green</option>
