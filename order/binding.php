@@ -105,11 +105,11 @@ left:25px; " >
         
             <select class="color"id="color">
             <option selected>Color</option>
-            <option value="Red">Red</option>
-            <option value="Yellow">Yeloow</option>
-            <option value="Black">Black</option>
-            <option value="Blue"> Blue</option>
-            <option value="Green">Green</option>
+            <option value="">Red</option>
+            <option value="">Yeloow</option>
+            <option value="">Black</option>
+            <option value=""> Blue</option>
+            <option value="">Green</option>
 </select>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
