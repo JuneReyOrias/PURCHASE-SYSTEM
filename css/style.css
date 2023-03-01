@@ -82,30 +82,6 @@
                 margin: 0 30px;
             }
             
-            .top .search-box input {
-                position: absolute;
-                border: 1px solid var(--border-color);
-                background-color: var(--panel-color);
-                padding: 0 25px 0 50px;
-                border-radius: 5px;
-                height: 100%;
-                width: 100%;
-                color: var(--text-color);
-                font-size: 15px;
-                font-weight: 400;
-                outline: none;
-            }
-            
-            .top .search-box i {
-                position: absolute;
-                left: 15px;
-                font-size: 22px;
-                z-index: 10;
-                top: 50%;
-                transform: translateY(-50%);
-                color: var(--black-light-color);
-            }
-            
             .top img {
                 width: 40px;
                 border-radius: 50%;
@@ -157,6 +133,28 @@
                 padding: 15px 20px;
                 background-color: var(--box1-color);
                 transition: var(--tran-05);
+            }
+            
+            @media (max-width: 1200px) {
+                nav {
+                    width: 73px;
+                }
+            }
+            
+            @media (max-width: 310px) {
+                .home-dash hr.divider {
+                    width: 50%;
+                    margin-left: -17rem;
+                }
+                .home-dash {
+                    width: 100%;
+                }
+            }
+            
+            @media (max-width: 420px) {
+                .home-dash hr.divider {
+                    width: 30%;
+                }
             }
             
             .boxes .box i {
@@ -283,6 +281,27 @@
             .overview-boxes .box-topic {
                 font-size: 16px;
                 font-weight: 500;
+            }
+            
+            @media (max-width: 1024px) {
+                .dash-content .boxes .box {
+                    width: calc(100% / 2 - 15px);
+                    margin-top: 15px;
+                }
+            }
+            
+            @media (max-width: 780px) {
+                .dash-content .boxes .box {
+                    width: calc(100% / 2 - 15px);
+                    margin-top: 15px;
+                }
+            }
+            
+            @media (max-width: 560px) {
+                .dash-content .boxes .box {
+                    width: 100%;
+                    min-height: 80vh;
+                }
             }
             
             .approved {
