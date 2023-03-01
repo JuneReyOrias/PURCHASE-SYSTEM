@@ -275,9 +275,17 @@ left:25px; " >
                                 <td> <?php echo $row['payment_id']; ?> </td>
                                 <td> <?php echo $row['status']; ?> </td>
                                 <td>
-                                    <button type="button" class="btn btn-info viewbtn btn-sm "> VIEW </button>
-                                    <button type="button" class="btn btn-success editbtn btn-sm"> EDIT </button>
-                                    <button type="button" class="btn btn-danger deletebtn btn-sm"> DELETE </button>
+                                   <!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-info dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Edit</a></li>
+    <li><a class="dropdown-item" href="#">Delete/a></li>
+   
+  </ul>
+</div>
                                 </td>
                                
                             </tr>
