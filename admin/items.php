@@ -258,9 +258,8 @@ left:25px;" >
                                 <th scope="col"> Quantity </th>
                                 <th scope="col"> Types </th>
                                 <th scope="col"> Size </th>
-                                <th scope="col"> VIEW </th>
-                                <th scope="col"> EDIT </th>
-                                <th scope="col"> DELETE </th>
+                                <th scope="col"> Action </th>
+                                
                             </tr>
                         </thead>
                         <?php
@@ -280,13 +279,10 @@ left:25px;" >
                                 <td> <?php echo $row['role']; ?> </td>
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
-                                </td>
-                                <td>
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                </td>
-                                <td>
                                     <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
                                 </td>
+                              
                             </tr>
                         </tbody>
                         <?php           
