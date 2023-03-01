@@ -48,7 +48,7 @@ left:25px; " >
     <a class="order" href="order.php" ><span>></span>Order</a>
     <a class="order" href="order.php" ><span>></span>Printing</a><br>
     <div class="ser-center fs-2 " >
-         <span class="ser-center fs-2 " >Services</span></div> 
+         <span class="ser-center fs-2 " ></span></div> 
 </div> 
         
         <div class="home-content">
