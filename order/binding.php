@@ -109,7 +109,7 @@ left:25px; " >
             <option value="Green"> Blue</option>
             <option value="Green"> Green</option>
 </select>
-        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+        <input class="buttons" href="orderlist.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
        
         </div>
