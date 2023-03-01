@@ -78,16 +78,15 @@ left:25px; " >
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         
-        <input class="color" list="color" name="color">
+        <input class="color" placeholder="Input Color" list="color" name="color">
         
-        <datalist class="color"id="color">
-        <option label="Color">Color</option>
-        <option value="Red">
-        <option value="Yellowt">
-        <option value="Black">
-        <option value="Blue">   
-        <option value="Green">    
-        </datalist>
+        <select class="color"id="color">
+        <option selected>Color</option>
+        <option value="">Red</option>
+        <option value="">Yellow</option>
+        <option value="">Black</option>
+        <option value=""> Blue</option>
+        <option value="">Green</option>
         
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
