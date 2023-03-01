@@ -88,7 +88,7 @@ left:25px; " >
         <option value="Blue"> Blue</option>  
         <option value="Green">Green</option>  
 </select>
-        
+        <div>
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
