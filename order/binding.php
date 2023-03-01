@@ -68,7 +68,7 @@ left:25px; " >
 
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        
+        <option selected>Binding Type</option>
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
@@ -78,7 +78,7 @@ left:25px; " >
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         
-        <input class="color" placeholder="Input Color" list="color" name="color">
+        <input class="color" id="color" placeholder="Input Color" list="color" name="color">
         <select class="color"id="color">
         
         <option selected>Color</option>
@@ -91,17 +91,15 @@ left:25px; " >
         <div>
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        
-        <option value="">Digital Color</option>
-        <option value="">Digital Black and White</option>
-        <option value="">Photo Printing</option>
-        <option value="">Rhisograph</option>
-        <option value="">Kromekote</option>
+        <option value="">Coil Binding</option>
+        <option value="">Soft Bound</option>
+        <option value="">Hard Bound</option>
+        <option value="">Ring Binding</option>
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="color" placeholder="Input Color" list="color" name="color">
+        <input class="color" id="color" placeholder="Input Color" list="color" name="color">
         
             <select class="color"id="color">
             <option selected>Color</option>
