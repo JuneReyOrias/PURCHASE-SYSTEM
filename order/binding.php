@@ -79,22 +79,24 @@ left:25px; " >
         <input class="form-control" id="formFileSm" type="file" />
         
         <input class="color" placeholder="Input Color" list="color" name="color">
-        
         <select class="color"id="color">
+        
         <option selected>Color</option>
-        <option value="">Red</option>
-        <option value="">Yellow</option>
-        <option value="">Black</option>
-        <option value=""> Blue</option>
-        <option value="">Green</option>
-</div>
+        <option value="Red">Red</option>
+        <option value="Yellowt">Yellow</option>
+        <option value="Black"> Black</option>
+        <option value="Blue"> Blue</option>  
+        <option value="Green">Green</option>  
+</select>
+        
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
-        <option value="">Coil Binding</option>
-        <option value="">Soft Bound</option>
-        <option value="">Hard Bound</option>
-        <option value="">Ring Binding</option>
+        <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
 
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
@@ -103,11 +105,11 @@ left:25px; " >
         
             <select class="color"id="color">
             <option selected>Color</option>
-            <option value="">Red</option>
-            <option value="">Yellow</option>
-            <option value="">Black</option>
-            <option value=""> Blue</option>
-            <option value="">Green</option>
+            <option value="Green"> Red</option>
+            <option value="Green"> Yellow</option>
+            <option value="Green"> Black</option>
+            <option value="Green"> Blue</option>
+            <option value="Green"> Green</option>
 </select>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
