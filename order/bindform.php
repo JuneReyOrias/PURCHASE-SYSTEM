@@ -141,9 +141,9 @@
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" >
             <label for="password">Email</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" >
+            <input class="form-print" type="email" id="emaill" name="email" placeholder="Enter email" >
             <label for="password">Contact</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" >
+            <input class="form-print" type="contact" id="contact" name="contact" placeholder="Contact" >
             
 
         <label class="design"for=""></i>Binding type</label>
