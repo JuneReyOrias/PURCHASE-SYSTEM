@@ -282,11 +282,9 @@ left:25px; " >
     Action
   </button>
   <div class="dropdown-menu">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-    <div class="dropdown-divider"></div>
-    <a class="dropdown-item" href="#">Separated link</a>
+    <a type="button" class="dropdown-sucsess" href="#">Edit</a>
+    <a type="button" class="dropdown-danger" href="#">Delete</a>
+   
   </div>
 </div>
                                 </td>
