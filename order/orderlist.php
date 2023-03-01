@@ -305,7 +305,7 @@ left:25px; " >
             </div>
 
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-  <button class="btn btn-primary me-md-2" type="button">Button</button>
+  <button class="btn btn-primary btn-lg me-md-2" type="button">Button</button>
 
 </div>
 
