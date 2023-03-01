@@ -139,11 +139,11 @@
             <div class="col2" ><spani class='bx bx-printer icon' > Binding Form</span></div>
 
             <label  for="username">Name</label>
-            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" >
             <label for="password">Email</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
+            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" >
             <label for="password">Contact</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" >
             
 
         <label class="design"for=""></i>Binding type</label>
@@ -186,7 +186,7 @@
             <option value="Short">
             <option value="A4">
             </datalist>
-        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" >
         </div>
        
         </div>
