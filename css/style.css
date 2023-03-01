@@ -214,28 +214,6 @@
                 width: 100%;
             }
             
-            @media (max-width: 1200px) {
-                nav {
-                    width: 73px;
-                }
-            }
-            
-            @media (max-width: 310px) {
-                .home-dash hr.divider {
-                    width: 50%;
-                    margin-left: -17rem;
-                }
-                .home-dash {
-                    width: 100%;
-                }
-            }
-            
-            @media (max-width: 420px) {
-                .home-dash hr.divider {
-                    width: 30%;
-                }
-            }
-            
             .activity .activity-data {
                 display: flex;
             }
@@ -305,26 +283,6 @@
             .overview-boxes .box-topic {
                 font-size: 16px;
                 font-weight: 500;
-            }
-            
-            @media (max-width: 1024px) {
-                .dash-content .boxes .box {
-                    width: calc(100% / 2 - 15px);
-                    margin-top: 15px;
-                }
-            }
-            
-            @media (max-width: 780px) {
-                .dash-content .boxes .box {
-                    width: calc(100% / 2 - 15px);
-                    margin-top: 15px;
-                }
-            }
-            
-            @media (max-width: 560px) {
-                .dash-content .boxes .box {
-                    width: 100%;
-                }
             }
             
             .approved {
@@ -682,34 +640,6 @@
                 font-weight: 500;
             }
             
-            @media (max-width: 1024px) {
-                .home-content .checkbox-form {
-                    width: 100%;
-                    height: 300px;
-                }
-            }
-            
-            @media (min-width: 1024px) {
-                .home-content .checkbox-form {
-                    width: 30%;
-                    height: 30;
-                }
-            }
-            
-            @media (max-width: 780px) {
-                .home-content .checkbox-form {
-                    width: 100%;
-                    height: 300px;
-                }
-            }
-            
-            @media (max-width: 320px) {
-                .home-content .checkbox-form {
-                    width: 430px;
-                    height: 300px;
-                }
-            }
-            
             .side-bar {
                 position: fixed;
                 width: 250px;
@@ -992,24 +922,6 @@
                 color: #fff;
                 transition: 0.2s;
                 text-shadow: 1px 1px 20px rgba(0, 0, 0, 1);
-            }
-            
-            @media screen and (max-width:1000px) {
-                .first {
-                    text-align: center;
-                }
-                .first h4::after {
-                    left: 30%;
-                }
-            }
-            
-            @media screen and (max-width:1200px) {
-                .third {
-                    text-align: center;
-                }
-                .third h4::after {
-                    left: 30% !important;
-                }
             }
             
             .margin {
@@ -1516,44 +1428,4 @@
                 background-clip: border-box;
                 border: 1px solid rgba(0, 0, 0, .125);
                 border-radius: 0.25rem;
-            }
-            
-            @media (min-width: 768px) {
-                .container {
-                    max-width: 480px;
-                    max-height: 100vh;
-                }
-                .thead {
-                    font-size: 12px;
-                }
-            }
-            
-            @media (min-width: 420px) {
-                .container {
-                    max-width: 340px;
-                    max-height: 100vh;
-                }
-                .thead {
-                    font-size: 12px;
-                }
-            }
-            
-            @media (min-width: 320px) {
-                .container {
-                    max-width: 300px;
-                    max-height: 100vh;
-                }
-                .thead {
-                    font-size: 12px;
-                }
-            }
-            
-            @media (min-width: 1200px) {
-                .container {
-                    max-width: 300px;
-                    max-height: 100vh;
-                }
-                .thead {
-                    font-size: 12px;
-                }
             }
