@@ -278,7 +278,7 @@ left:25px; " >
                                    <!-- Example single danger button -->
                                    <div class="btn-group">
                                    <div class="btn-group">
-  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Action
   </button>
   <div class="dropdown-menu">
