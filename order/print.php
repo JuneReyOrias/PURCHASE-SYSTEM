@@ -57,10 +57,10 @@ left:25px; " >
 
             <label  for="username">Name</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
-            <label for="password">Email</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
-            <label for="password">Contact</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            <label for="email">Email</label>
+            <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
+            <label for="contact">Contact</label>
+            <input class="form-print" type="contact" id="contact" name="contact" placeholder="Contact" required tabindex="2">
             
 
         <label class="design"for=""></i>Printing type</label>
