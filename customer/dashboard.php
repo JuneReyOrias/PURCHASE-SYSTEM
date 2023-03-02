@@ -39,7 +39,8 @@ left:25px; " >
    
      
         <div class="tapnav">
-        <a class="lefte ms-lg-3" href="addcustomer.php">Home</a></br>
+        <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+        <a class="lefte ms-lg-3" href="order.php">Shop</a><br>
         <div class="ser-center fs-2 " >
 
         <span class="text-center fs-1">Services</span></div> 
