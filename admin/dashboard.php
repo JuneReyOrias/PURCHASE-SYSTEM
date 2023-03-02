@@ -19,9 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5 "style="height: 160vh;
-    width: 100%;background-color: var(--body-color);
-left:25px;" >
+<section class="home-dash ms-5" >
 <div>
         <header>
 
@@ -47,7 +45,8 @@ left:25px;" >
         <span></span></div> 
 </div>
 </div>
-       
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
         
         <div class="home-content">
         <div class="overview-boxes ms-lg-5" >
