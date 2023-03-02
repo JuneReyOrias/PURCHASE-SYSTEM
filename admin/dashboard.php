@@ -76,23 +76,6 @@
                     
                 </div>
 
-                <div class="box">
-                <div class="left-side">
-                    <div class="box-topic" class="btn-1">Binding</div></br>
-                    <div class="number">A strong covering holding the pages of a book together</div>
-                    
-                    </div>
-                    
-                </div>
-
-                <div class="box">
-                <div class="left-side">
-                    <div class="box-topic" class="btn-1">Binding</div></br>
-                    <div class="number">A strong covering holding the pages of a book together</div>
-                    
-                    </div>
-                    
-                </div>
 
 
     </div>
