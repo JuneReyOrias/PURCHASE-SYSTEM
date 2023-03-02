@@ -80,8 +80,8 @@ left:25px; " >
             <input class="size" placeholder="Input Size"list="size" name="size">
             <select class="size"id="size">
             <option selected>size</option>
-            <option value="A4">
-            <option value="Letter">
+            <option value="A4">A4</option>
+            <option value="Letter">Letter</option>
             
 </select>
         <label class="design"for=""></i>Lamination type</label>
@@ -97,8 +97,8 @@ left:25px; " >
         <input class="size" placeholder="Input Size"list="size" name="size">
             <select class="size"id="size">
             <option selected>size</option>
-            <option value="A4">
-            <option value="Letter">
+            <option value="A4">A4</option>
+            <option value="Letter">letter</option>
            
 </selected>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
