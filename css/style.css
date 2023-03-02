@@ -497,7 +497,7 @@
                 .fc {
                     margin-top: 10px;
                     height: 2.5em;
-                    width: fit-content;
+                    width: 5.3rem;
                 }
                 
                 #formFileSmform.form-control {
@@ -555,7 +555,7 @@
                 }
                 
                 .design {
-                    font-size: 20px;
+                    font-size: 18px;
                 }
                 
                 .select-form {
@@ -581,7 +581,6 @@
                     line-height: 16px;
                     width: auto;
                     margin-left: 346px;
-                    margin-top: 23px;
                     line-height: 20px;
                     width: 150px;
                     margin-left: 300px;
@@ -766,8 +765,8 @@
                 }
                 
                 .color {
-                    width: 7rem;
-                    font-size: 10px;
+                    width: 5rem;
+                    font-size: 11px;
                     height: 2.2rem;
                 }
                 
