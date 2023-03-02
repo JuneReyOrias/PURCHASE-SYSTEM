@@ -50,7 +50,7 @@
         <a class="order" href="order.php" >Order</a>
         <a class="order" href="binding.php" >PrintingForm</a>
     
-        <a class="order" href="orderlist.php" ><span>></span>POrderList</a><br>
+        <a class="order" href="orderlist.php" ><span>></span>OrderList</a><br>
 
         </div>
 <body class="human " style="background-color: var(--body-color);
