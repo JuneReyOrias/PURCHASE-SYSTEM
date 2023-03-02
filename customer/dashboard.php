@@ -47,7 +47,7 @@ left:25px; " >
         <span class="text-center fs-1">Services</span></div> 
 </div>
 </div>
-       
+       <body class="human bg-secondary">
 
         
 <div class="row">
@@ -105,7 +105,7 @@ left:25px; " >
   </div> 
   
   </div>
-
+</body>
 </section>
 
 
