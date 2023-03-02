@@ -481,7 +481,7 @@
                 }
                 
                 label {
-                    margin-right: 20px;
+                    margin-right: 18px;
                 }
                 /*printing text*/
                 
@@ -757,7 +757,8 @@
                 /* printing tapnav */
                 
                 .size {
-                    width: 7rem;
+                    width: 5rem;
+                    font-size: 11px;
                     height: 2.2rem;
                 }
                 

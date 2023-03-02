@@ -44,8 +44,8 @@ left:25px; " >
         <div class="tapnav">
         <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="orderlist.php" ><span>></span>BindingForm</a><br>
+        <a class="order" href="order.php" >Order</a>
+        <a class="order" href="orderlist.php" ><span>></span>BindingForm</a>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " ></span></div> 
 </div>
