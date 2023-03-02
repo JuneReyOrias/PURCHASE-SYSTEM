@@ -20,7 +20,7 @@ require_once '../includes/header.php';
 require_once '../includes/cust.sidebar.php';
 ?>
 
-<section class="home-dash ms-5 ms-5"style="height:160vh; width:120%; background-color: var(--body-color); transition: var(--tran-05);
+<section class="home-dash ms-5 ms-5"style="height:1vh; width:120%; background-color: var(--body-color); transition: var(--tran-05);
 left:25px; " >
 <div>
         <header>
@@ -41,7 +41,7 @@ left:25px; " >
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
 
-        <a href="#contact">Shop</a>
+        <a href="#contact">Shop</a><br>
        
 
         <span class="text-center fs-1">Services</span></div> 
