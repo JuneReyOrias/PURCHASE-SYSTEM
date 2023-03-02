@@ -49,15 +49,7 @@
     transition: var(--tran-05);">
         
         <div class="home-content">
-        <div class="overview-boxes ms-lg-5" >
-            <div class="box ms-lg-5 " style= "margin-left:23px;">
-                <div class="right-side">
-                    <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
-                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
-                    
-                    </div>
-                </div>
-                <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
   <div class="carousel-indicators">
     <button
       type="button"
@@ -100,6 +92,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+                    </div>
+                    
+                </div>
                 
 
     <div>
