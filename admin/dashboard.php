@@ -94,7 +94,9 @@
                     
                 </div>
 
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="cards-wrapper">
@@ -191,8 +193,6 @@
     </a>
   </div>
 
-    </div>
-      
-    <div></div>
+    <div>
 </section>
 
