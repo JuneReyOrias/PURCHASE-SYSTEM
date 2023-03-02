@@ -77,6 +77,7 @@
       </div>
     </div>
     <div class="carousel-item">
+    <div class="carousel-item active">
       <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
@@ -84,6 +85,7 @@
       </div>
     </div>
     <div class="carousel-item">
+    <div class="carousel-item active">
       <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
