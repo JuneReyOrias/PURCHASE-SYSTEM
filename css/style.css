@@ -45,7 +45,7 @@
             }
             
             nav.close~.dashboard {
-                left: 50px;
+                left: 73px;
                 width: calc(100% - 73px);
             }
             
@@ -323,8 +323,12 @@
             .home-dash hr.divider {
                 border: 0;
                 border-bottom: 1px rgb(70, 70, 70);
+<<<<<<< HEAD
+                width: 500%;
+=======
                 width: 70%;
                 margin-left: 6rem;
+>>>>>>> 7e0aa3e155c45ecdad1b93da12cae73658731db6
                 margin-bottom: 40px 0;
             }
             
@@ -491,16 +495,12 @@
                 display: inherit;
                 margin-left: 11rem;
             }
-            
-            .form-print {
-                height: 2rem;
-            }
             /*select form*/
             
             .fc {
-                margin-top: .5rem;
-                height: 2rem;
-                width: 7rem;
+                margin-top: 10px;
+                height: 2.5em;
+                width: fit-content;
             }
             
             #formFileSmform.form-control {
@@ -535,7 +535,7 @@
                 font-size: small;
             }
             /*.file-folder {
-                align-content: enter;
+                align-content: center;
                 width: 16rem;
                 height: 12rem;
                 float: right;
@@ -544,10 +544,10 @@
             
             .form-control {
                 width: 13rem;
-                height: 2rem;
+                height: 2.5rem;
                 align-content: center;
                 float: right;
-                font-size: 10px;
+                font-size: 12px;
                 margin-right: 1rem;
             }
             
@@ -558,7 +558,7 @@
             }
             
             .design {
-                font-size: 17px;
+                font-size: 20px;
             }
             
             .select-form {
@@ -566,9 +566,15 @@
                 margin: 0 auto;
                 background-color: white;
                 border-radius: 3%;
+<<<<<<< HEAD
+                width: 35rem;
+                height: 35rem;
+                margin-top: 7rem;
+=======
                 width: 38rem;
                 height: 38rem;
                 margin-top: 5rem;
+>>>>>>> 7e0aa3e155c45ecdad1b93da12cae73658731db6
                 font-size: 15px;
             }
             /*order services*/
@@ -577,9 +583,17 @@
                 background-color: #78101c;
                 color: white;
                 border: none;
+<<<<<<< HEAD
+                margin-top: 122px;
+                line-height: 16px;
+                width: auto;
+                margin-left: 346px;
+                margin-top: 23px;
+=======
                 line-height: 20px;
                 width: 150px;
                 margin-left: 300px;
+>>>>>>> 7e0aa3e155c45ecdad1b93da12cae73658731db6
             }
             
             .checkbox-custom {
@@ -755,6 +769,8 @@
             }
             /* printing tapnav */
             
+<<<<<<< HEAD
+=======
             .size {
                 width: 7rem;
                 height: 2rem;
@@ -766,6 +782,7 @@
                 height: 2.2rem;
             }
             
+>>>>>>> 7e0aa3e155c45ecdad1b93da12cae73658731db6
             .tapnav .order {
                 float: left;
                 justify-items: center;
@@ -1407,6 +1424,8 @@
             
             a.action-view {
                 background-color: rgb(97, 96, 94);
+<<<<<<< HEAD
+=======
             }
             
             .select-form #formFileSm.form-control {
@@ -1446,4 +1465,5 @@
                 background-clip: border-box;
                 border: 1px solid rgba(0, 0, 0, .125);
                 border-radius: 0.25rem;
+>>>>>>> 7e0aa3e155c45ecdad1b93da12cae73658731db6
             }
