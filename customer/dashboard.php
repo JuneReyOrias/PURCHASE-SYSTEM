@@ -42,10 +42,7 @@ left:25px; " >
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
 
         <a href="#contact">Shop</a>
-        <a href='#contact us'>About</a><br>
-
-        <a class="lefte ms-lg-3" href="order.php">Shop</a><br>
-        <div class="ser-center fs-2 " >
+       
 
         <span class="text-center fs-1">Services</span></div> 
 </div>
