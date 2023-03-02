@@ -99,7 +99,7 @@
       <div class="carousel-item active">
         <div class="cards-wrapper">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="https://api.metroprint.ph/storage/product-preset-categories/BRkxWdbRwdANmOQ/preset-176b19bbba339323fbe9ee3698d718ac.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -107,7 +107,7 @@
           </div>
         </div>
         <div class="card d-none d-md-block">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -115,7 +115,7 @@
           </div>
         </div>
         <div class="card d-none d-md-block">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="https://api.metroprint.ph/storage/product-preset-categories/koRr5VBxXDYaOJM/preset-042e2a8be2727c2d8f1fe87fa04473c4.webp" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -127,7 +127,7 @@
       <div class="carousel-item">
         <div class="cards-wrapper">
           <div class="card">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://api.metroprint.ph/storage/product-preset-categories/koRr5VBxXDYaOJM/preset-042e2a8be2727c2d8f1fe87fa04473c4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -135,7 +135,7 @@
             </div>
           </div>
           <div class="card d-none d-md-block">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://api.metroprint.ph/storage/product-preset-categories/koRr5VBxXDYaOJM/preset-042e2a8be2727c2d8f1fe87fa04473c4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -143,7 +143,7 @@
             </div>
           </div>
           <div class="card d-none d-md-block">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="https://api.metroprint.ph/storage/product-preset-categories/koRr5VBxXDYaOJM/preset-042e2a8be2727c2d8f1fe87fa04473c4.webp" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
