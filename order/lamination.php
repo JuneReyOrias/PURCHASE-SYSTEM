@@ -77,17 +77,16 @@ left:25px; " >
         <input class="form-control" id="formFileSm" type="file" />
         
 
-        <input class="size" placeholder="Input Size"list="size" name="size">
+            <input class="size" placeholder="Input Size"list="size" name="size">
             <select class="size"id="size">
             <option selected>size</option>
             <option value="A4">
             <option value="Letter">
             
-            </datalist>
+</select>
         
         <label class="design"for=""></i>Lamination type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        
         <option value="">Wholepage Only</option>
      
 
@@ -100,7 +99,7 @@ left:25px; " >
             <option value="A4">
             <option value="Letter">
            
-            </datalist>
+</selected>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
        
