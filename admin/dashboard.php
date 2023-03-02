@@ -45,7 +45,10 @@
         <span></span></div> 
 </div>
 </div>
-<!-- Carousel wrapper -->
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
+        
+        <!-- Carousel wrapper -->
 <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
   <!-- Indicators -->
   <div class="carousel-indicators">
@@ -110,3 +113,5 @@
   </button>
 </div>
 <!-- Carousel wrapper -->
+</section>
+
