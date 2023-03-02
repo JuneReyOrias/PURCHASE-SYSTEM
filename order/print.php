@@ -24,7 +24,7 @@ require_once '../includes/cust.sidebar.php';
 
 
 
-<section class="home-dash ms-5 ms-5"style="height:220vh;width:130%;background-color: var(--body-color); transition: var(--tran-05);
+<section class="home-dash ms-5 ms-5"style="
 left:25px; " >
 <div>
     <header>
