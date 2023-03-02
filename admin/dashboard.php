@@ -45,16 +45,11 @@
         <span></span></div> 
 </div>
 </div>
-<body class="human " style="background-color: var(--body-color);
-    transition: var(--tran-05);">
-    ]
-                
-
-    <div id="carouselExampleCaptions" class="carousel slide" data-mdb-ride="carousel">
+<div id="carouselExampleTouch" class="carousel slide" data-mdb-touch="false">
   <div class="carousel-indicators">
     <button
       type="button"
-      data-mdb-target="#carouselExampleCaptions"
+      data-mdb-target="#carouselExampleTouch"
       data-mdb-slide-to="0"
       class="active"
       aria-current="true"
@@ -62,13 +57,13 @@
     ></button>
     <button
       type="button"
-      data-mdb-target="#carouselExampleCaptions"
+      data-mdb-target="#carouselExampleTouch"
       data-mdb-slide-to="1"
       aria-label="Slide 2"
     ></button>
     <button
       type="button"
-      data-mdb-target="#carouselExampleCaptions"
+      data-mdb-target="#carouselExampleTouch"
       data-mdb-slide-to="2"
       aria-label="Slide 3"
     ></button>
@@ -96,14 +91,12 @@
       </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleTouch" data-mdb-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</section>
-
