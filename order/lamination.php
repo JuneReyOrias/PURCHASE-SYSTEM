@@ -54,8 +54,8 @@ left:25px; " >
      
         
         <div class="home-content">
-    <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
+    <div class="select-container-md">              
+            <form class="select-form md-center"  action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Lamination</span></div>
 
             <label  for="username">Name</label>
