@@ -40,11 +40,15 @@ left:25px; " >
      
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+<<<<<<< HEAD
         <a href="#contact">Shop</a>
         <a href='#contact us'>About</a><br>
+=======
+        <a class="lefte ms-lg-3" href="order.php">Shop</a><br>
+>>>>>>> 1362fbb5780a924fc391fea454cfc4c3c68f00ce
         <div class="ser-center fs-2 " >
 
-        <span>Services</span></div> 
+        <span class="text-center fs-1">Services</span></div> 
 </div>
 </div>
        
@@ -69,7 +73,32 @@ left:25px; " >
 </div>
     </div>
   </div>
+  <div class="col-sm-5">
+    <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+      <div class="card-body" >
+        <h5 class="card-title">Lamination</h5>
+        <a href="#" class="btn btn-primary">467</a>
+        <a href="#" class="btn btn-primary">467</a><br>
+      </div>
+    </div>
+  </div> 
   <div class="col-sm-3">
+    <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+      <div class="card-body" >
+        <h5 class="card-title">Lamination</h5>
+        <a href="#" class="btn btn-primary">467</a>
+        <a href="#" class="btn btn-primary">467</a><br>
+      </div>
+    </div>
+  </div>   <div class="col-sm-3">
+    <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+      <div class="card-body" >
+        <h5 class="card-title">Lamination</h5>
+        <a href="#" class="btn btn-primary">467</a>
+        <a href="#" class="btn btn-primary">467</a><br>
+      </div>
+    </div>
+  </div>   <div class="col-sm-3">
     <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body" >
         <h5 class="card-title">Lamination</h5>
