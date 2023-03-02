@@ -77,9 +77,9 @@ left:25px; " >
         <input class="form-control" id="formFileSm" type="file" />
         
 
-            <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="size">size</option>
+        <input class="size" placeholder="Input Size"list="size" name="size">
+            <select class="size"id="size">
+            <option selected>size</option>
             <option value="A4">
             <option value="Letter">
             
@@ -94,9 +94,9 @@ left:25px; " >
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="size">size</option>
+        <input class="size" placeholder="Input Size"list="size" name="size">
+            <select class="size"id="size">
+            <option selected>size</option>
             <option value="A4">
             <option value="Letter">
            
