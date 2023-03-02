@@ -27,8 +27,7 @@
        
  
 
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+    <section class="home-dash ms-5 ms-5">
 <div>
         <header>
 
@@ -44,12 +43,14 @@ left:25px; " >
            
         </header>
    
-      
+
         <div class="tapnav">
         <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
-
+        </div>
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
         
        
     <!-- Modal -->
@@ -237,7 +238,7 @@ left:25px; " >
 
                 <?php
                 $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
+                $db = mysqli_select_db($connection, 'u151063784_upressprs');
 
                 $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);

@@ -27,8 +27,7 @@
        
  
 
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+    <section class="home-dash ms-5 ms-5">
 <div>
         <header>
 
@@ -46,13 +45,15 @@ left:25px; " >
    
       
         <div class="tapnav">
-        <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
+         <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span></span>Order</a>
         <a class="order" href="binding.php" ><span></span>BindingForm</a>
         <a class="order" href="orderlist.php" ><span>></span>OrderList</a><br>
 
-        
+        </div>
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);"> 
        
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
