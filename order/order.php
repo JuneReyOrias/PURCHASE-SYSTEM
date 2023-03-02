@@ -23,7 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"></section>
+    <section class="home-dash ms-5 ms-5"style="left:25px;">
         <header>
 
 
