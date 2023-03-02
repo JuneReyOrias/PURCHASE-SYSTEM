@@ -76,29 +76,24 @@
                     
                 </div>
 
+                <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
 
-  <div class="col-sm-3">
-    <div class="card"style="  margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:16rem; width:30rem;">
-      <div class="card-body">
-        <h5 class="card-title">Lamination</h5>
-    
-        <a href="lamination.php" class="btn btn-primary">Continue</a><br>
-      </div>
-    </div>
-  </div>
+                <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
 
-  <div class="col-sm-3">
-    <div class="card"style="  margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:16rem; width:30rem;">
-      <div class="card-body">
-        <h5 class="card-title">Lamination</h5>
-        <table>
-            <th></th>
-</table>
-    
-        <a></a><br>
-      </div>
-    </div>
-  </div>
 
     </div>
       
