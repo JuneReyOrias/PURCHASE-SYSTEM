@@ -77,7 +77,7 @@
                 </div>
 
 
-  <div class="col-sm-3">
+  <div class="col-sm-1">
     <div class="card"style="  margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:16rem; width:30rem;">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
@@ -87,7 +87,7 @@
     </div>
   </div>
 
-  <div class="col-sm-3">
+  <div class="col-sm-1">
     <div class="card"style="  margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:16rem; width:30rem;">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
