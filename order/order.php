@@ -23,9 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"style="height:220vh;width:130%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
-<div>
+    <section class="home-dash ms-5 ms-5"></section>
         <header>
 
 
@@ -49,7 +47,9 @@ left:25px; " >
              <span class="ser-center fs-2 " >Services</span></div> 
 </div>
         
-     
+</div>
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
 <div class="row">
   <div class="col-sm-3">
     <div class="card"style=" margin-top:3rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">

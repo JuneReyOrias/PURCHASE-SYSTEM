@@ -23,8 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"style="height:220vh;width:130%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+    <section class="home-dash ms-5 ms-5" >
 <div>
         <header>
 
@@ -50,7 +49,9 @@ left:25px; " >
              <span class="ser-center fs-2 " >Services</span></div> 
 </div>
        
-       
+
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
      
         
         <div class="home-content">
