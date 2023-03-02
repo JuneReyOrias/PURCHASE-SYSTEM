@@ -77,14 +77,13 @@ left:25px; " >
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         
-
-            <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="size">size</option>
-            <option value="Long">
-            <option value="Short">
-            <option value="A4">
-            </datalist>
+        <input class="size" placeholder="Input Size" list="size" name="size">
+            <select class="size"id="size">
+            <option selected>Size</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+</select>
         
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
@@ -98,13 +97,13 @@ left:25px; " >
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="size" list="size" name="size">
-            <datalist class="size"id="size">
-            <option label="size">size</option>
-            <option value="Long">
-            <option value="Short">
-            <option value="A4">
-            </datalist>
+        <input class="size" placeholder="Input Size" list="size" name="size">
+            <select class="size"id="size">
+            <option selected>Size</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+</select>
         <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
        
