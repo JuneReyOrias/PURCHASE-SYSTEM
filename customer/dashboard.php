@@ -47,7 +47,8 @@ left:25px; " >
         <span class="text-center fs-1">Services</span></div> 
 </div>
 </div>
-       <body class="human bg-secondary">
+       <body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
 
         
 <div class="row">
