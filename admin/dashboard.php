@@ -113,7 +113,7 @@
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
     
-        <a href="lamination.php" class="btn btn-primary">Continue</a><br>
+        <a></a><br>
       </div>
     </div>
   </div>
