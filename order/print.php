@@ -49,7 +49,8 @@ left:25px; " >
     <a class="order" href="print.php" ><span>></span>PrintingForm</a>
    
 </div> 
-        
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">  
         <div class="home-content">
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
