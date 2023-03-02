@@ -17,18 +17,11 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
-    require_once '../includes/cust.sidebar.php';
+    require_once '../includes/sidebar.php';
 ?>
-    
-   
-
-
-
-       
- 
-
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+<section class="home-dash ms-5 "style="height: 160vh;
+    width: 100%;background-color: var(--body-color);
+left:25px;" >
 <div>
         <header>
 
@@ -36,7 +29,7 @@ left:25px; " >
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
-               <hr class="divider">
+
                   
                 </div>
                
@@ -44,14 +37,22 @@ left:25px; " >
            
         </header>
    
-      
+        <hr class= "divider">
         <div class="tapnav">
-        <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
-        <a href="">Shop</a>
-        <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
+        <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
+        <a href="#contact">Admin</a>
+        <a href='#contact us'>Hola!</a>
+        <a href='create_user.php'>CreateUsers</a>
+        <a href='order.php'>Order</a>
+        <div class="ser-center fs-2 " >
 
-        
-       
+        <span></span></div> 
+</div>
+</div>
+
+
+
+      
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -230,7 +231,7 @@ left:25px; " >
 
     <div class="container" >
        
-                <h2> Purchase </h2>
+                <h2>  Orders </h2>
            
 
 
@@ -251,7 +252,8 @@ left:25px; " >
                                 <th scope="col">requireDate </th>
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
-                                <th scope="col"> Status </th>
+                                <th scope="col"> Action </th>
+                                <th scope="col"> Action </th>
                                 
                                 
                             </tr>
@@ -270,9 +272,15 @@ left:25px; " >
                                 <td> <?php echo $row['req_date']; ?> </td>
                                 <td> <?php echo $row['exp_deliver_date']; ?> </td>
                                 <td> <?php echo $row['payment_id']; ?> </td>
-                                <td> <?php echo $row['status']; ?> </td>
                               
-                               
+                              
+                             
+                                <td>
+                                    <button type="button" class="btn btn-success editbtn"> Approved  </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
+                                </td>  
                             </tr>
                         </tbody>
                         <?php           

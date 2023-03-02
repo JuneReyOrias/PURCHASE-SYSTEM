@@ -135,20 +135,20 @@
         
         <div class="home-content">
     <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
+            <form class="select-form" action="orderlist.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' > Binding Form</span></div>
 
             <label  for="username">Name</label>
-            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
-            <label for="password">Email</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Enter email" required tabindex="2">
-            <label for="password">Contact</label>
-            <input class="form-print" type="password" id="password" name="password" placeholder="Contact" required tabindex="2">
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" >
+            <label for="email">Email</label>
+            <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" >
+            <label for="contact">Contact</label>
+            <input class="form-print" type="contact" id="contact" name="contact" placeholder="Contact" >
             
 
         <label class="design"for=""></i>Binding type</label>
         <select name="Printing type "class="select multiple-select" multiple >
-        
+        <option >Coil Binding</option>
         <option value="">Coil Binding</option>
         <option value="">Soft Bound</option>
         <option value="">Hard Bound</option>
@@ -186,7 +186,7 @@
             <option value="Short">
             <option value="A4">
             </datalist>
-        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
+        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" >
         </div>
        
         </div>

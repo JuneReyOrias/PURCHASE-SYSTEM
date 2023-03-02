@@ -1,215 +1,91 @@
 <?php
 
-    //resume session here to fetch session values
-    session_start();
-    /*
-        if user is not login then redirect to login page,
-        this is to prevent users from accessing pages that requires
-        authentication such as the dashboard
-    */
-    if (!isset($_SESSION['logged-in'])){
-        header('location: ../login/login.php');
-    }
-    //if the above code is false then html below will be displayed
+//resume session here to fetch session values
+session_start();
+/*
+    if user is not login then redirect to login page,
+    this is to prevent users from accessing pages that requires
+    authentication such as the dashboard
+*/
+if (!isset($_SESSION['logged-in'])){
+    header('location: ../login/login.php');
+}
+//if the above code is false then html below will be displayed
 
-   
-    $page_title = 'Upress | Dashboard';
-    $dashboard = 'active';
 
-    require_once '../includes/header.php';
+$page_title = 'Upress | Dashboard';
+$dashboard = 'active';
+
+require_once '../includes/header.php';
+require_once '../includes/cust.sidebar.php';
 ?>
-    
-   
-    </main> -->
-   
-    <nav class="sidebar close">
+
+<section class="home-dash ms-5 ms-5"style="height:160vh; width:120%; background-color: var(--body-color); transition: var(--tran-05);
+left:25px; " >
+<div>
         <header>
-            <div class="image-text">
-                <span class="image">
-                <img src="../img/upress-logo.png" alt="">
-                </span>
 
-                <div class="text logo-text">
-                    <span class="name">University</span>
-                    <span class="profession">Press</span>
-                </div>
-            </div>
 
-            <i class='bx bx-chevron-right toggle'></i>
-        </header>
-
-        <div class="menu-bar">
-            <div class="menu">
-
-            
-
-                <ul class="menu-links">
-                    <li class="nav-link">
-                        <a href="../customer/dashboard.php">
-                            <i class='bx bxs-dashboard icon' ></i>
-                            <span class="text nav-text">Dashboard</span>
-                        </a>
-                        
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../purchase/purchases.php">
-                            <i class='bx bx-shopping-bag icon' ></i>
-                            <span class="text nav-text">Purchase</span>
-                        </a>
-                    </li>
-
-                    <li class="nav-link">
-                        <a href="../order/order.php">
-                            <i class='bx bx-cart icon' ></i>
-                            <span class="text nav-text">Orders</span>
-                        </a>
-                    </li>
-
-                   
-                    <li class="nav-link">
-                        <a href="../trackordr/trackorder.php">
-                            <i class='bx bx-map icon' ></i>
-                            <span class="text nav-text">Track Orders</span>
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-            <div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
-			<div class="profile-sidebar">
-				<!-- SIDEBAR USERPIC -->
-				<div class="profile-userpic">
-					<img class ="rounded-circle img-fluid" src="../img/maderal.jpg" class="img-responsive" alt="">
-          <div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						<a href="#">Joe Maderal</a>
-					</div>
-				
-				</div>
-		
-				</div>
-            <div class="bottom-content">
-                <li class="">
-                    <a href="../login/login.php">
-                        <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
-                    </a>
-                </li>
-
-                <li class="mode">
-                    <div class="sun-moon">
-                        <i class='bx bx-moon icon moon'></i>
-                        <i class='bx bx-sun icon sun'></i>
-                    </div>
-                    <span class="mode-text text">Dark mode</span>
-
-                    <div class="toggle-switch">
-                        <span class="switch"></span>
-                    </div>
-                </li>
-                
-            </div>
-        </div>
-
-    </nav>
-
-       
-    </section>
-
-    <section class="home">
-    <header>
-            <div class="image-logo">
-                <span >
-                <img src="../img/upress-logo.png" >
-                </span>
-
-                <div class="text">
-                    <span class="name">UNIVERSITY PRESS</span>
+                <div class="text-center" style= "color: #990000;">
+                <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
+                <span class="text-center fs-1">UNIVERSITY PRESS</span>
+               <hr class="divider">
                   
                 </div>
-                </div>
+               
 
            
         </header>
    
-        <hr class= "divider">
-        <div class="tapnav">
-        <a class="active" href="dashboard.php">Home</a>
-        <a href="../order/order.php">Shop</a>
-</div>
-        <div class="col1" ><span>Services</span></div>
      
+        <div class="tapnav">
+        <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+        <a href="#contact">Contact</a>
+        <a href='#contact us'>About</a><br>
+        <div class="ser-center fs-2 " >
+
+        <span>Services</span></div> 
+</div>
+</div>
+       
+
         
-        <div class="home-content">
-        <div class="overview-boxes" >
-            <div class="box">
-                <div class="right-side">
-                    <div class="box-topic" class="btn-1">Printing</div> </br>
-                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
-                    
-                    </div>
-                </div>
+<div class="row">
+  <div class="col-sm-3">
+    <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;" >
+      <div class="card-body">
+        <h5 class="card-title">Printing</h5>
+        <a href="#" class="btn btn-primary">1243</a>
+        <a href="#" class="btn btn-primary">1134</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card"style="  margin-top:2rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;" >
+      <div class="card-body">
+        <h5 class="card-title">Binding</h5>
+        <a href="#" class="btn btn-primary">467</a>
+        <a href="#" class="btn btn-primary">567</a>
+</div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card"style=" margin-top:2rem; box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
+      <div class="card-body" >
+        <h5 class="card-title">Lamination</h5>
+        <a href="#" class="btn btn-primary">467</a>
+        <a href="#" class="btn btn-primary">467</a><br>
+      </div>
+    </div>
+  </div> 
+  
+  </div>
 
-                <div class="box">
-                <div class="center">
-                    <div class="box-topic" class="btn-1">Layout</div></br>
-                    <div class="number">The act or process of planning or laying out in detail.</div>
-                    
-                    </div>
-                </div>
-                
-               
-            <div class="box">
-                <div class="left-side">
-                    <div class="box-topic" class="btn-1">Binding</div></br>
-                    <div class="number">A strong covering holding the pages of a book together</div>
-                    
-                    </div>
-                    
-                </div>
-                
- <div>
-
- </div>
-          
-    </section>
-
-</nav>
+</section>
 
 
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
 
 
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
 
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
 
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
 
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>

@@ -17,18 +17,11 @@
     $dashboard = 'active';
 
     require_once '../includes/header.php';
-    require_once '../includes/cust.sidebar.php';
+    require_once '../includes/sidebar.php';
 ?>
-    
-   
-
-
-
-       
- 
-
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+<section class="home-dash ms-5 "style="height: 160vh;
+    width: 100%;background-color: var(--body-color);
+left:25px;" >
 <div>
         <header>
 
@@ -36,7 +29,7 @@ left:25px; " >
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
-               <hr class="divider">
+
                   
                 </div>
                
@@ -44,14 +37,18 @@ left:25px; " >
            
         </header>
    
-      
+        <hr class= "divider">
         <div class="tapnav">
-        <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
-        <a href="">Shop</a>
-        <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
+        <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
+        <a href="#contact">Admin</a>
+        <a href='#contact us'>Hola!</a>
+        <a href='create_user.php'>CreateUsers</a>
+        <div class="ser-center fs-2 " >
 
-        
-       
+        <span>Customer Info</span></div> 
+</div>
+
+
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
@@ -228,32 +225,36 @@ left:25px; " >
     </div>
 
 
-    <div class="container" >
-       
-                <h2> Purchase </h2>
+            <div class="card">
+               
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
+                        ADD New User
+                    </button>
+                </div>
+          
+
            
-
-
 
                 <?php
                 $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
                 $db = mysqli_select_db($connection, 'u151063784_db_upress');
 
-                $query = "SELECT * FROM purchase_order";
+                $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
             ?>
                     <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
                             <tr>
-                                <th scope="col">OrderId</th>
-                                <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
-                                <th scope="col">requireDate </th>
-                                <th scope="col">Expe_deliverDate</th>
-                                <th scope="col">paymentId </th>
-                                <th scope="col"> Status </th>
-                                
-                                
+                                <th scope="col"> ID</th>
+                                <th scope="col">Username </th>
+                                <th scope="col">Password </th>
+                                <th scope="col">Firstname </th>
+                                <th scope="col"> Lastname </th>
+                                <th scope="col"> Email </th>
+                                <th scope="col"> Role </th>
+                                <th scope="col"> VIEW </th>
+                                <th scope="col"> EDIT </th>
+                                <th scope="col"> DELETE </th>
                             </tr>
                         </thead>
                         <?php
@@ -264,15 +265,22 @@ left:25px; " >
             ?>
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['ordr_id']; ?> </td>
-                                <td> <?php echo $row['ordr_date']; ?> </td>
-                                <td> <?php echo $row['buyer_id']; ?> </td>
-                                <td> <?php echo $row['req_date']; ?> </td>
-                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
-                                <td> <?php echo $row['payment_id']; ?> </td>
-                                <td> <?php echo $row['status']; ?> </td>
-                              
-                               
+                                <td > <?php echo $row['id']; ?> </td>
+                                <td> <?php echo $row['user_name']; ?> </td>
+                                <td> <?php echo $row['user_pass']; ?> </td>
+                                <td> <?php echo $row['firstname']; ?> </td>
+                                <td> <?php echo $row['lastname']; ?> </td>
+                                <td> <?php echo $row['email']; ?> </td>
+                                <td> <?php echo $row['role']; ?> </td>
+                                <td>
+                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
+                                </td>
                             </tr>
                         </tbody>
                         <?php           
@@ -320,24 +328,7 @@ left:25px; " >
     </script>
 
 
-   <!-- <script>
-        $(document).ready(function () {
 
-            $('#datatableid').DataTable({
-                "pagingType": "full_numbers",
-                "lengthMenu": [
-                    [10, 25, 50, -1],
-                    [10, 25, 50, "All"]
-                ],
-                responsive: true,
-                language: {
-                    search: "_INPUT_",
-                    searchPlaceholder: "Search Your Data",
-                }
-            });
-
-        });
-    </script>-->
 
     <script>
         $(document).ready(function () {
@@ -388,4 +379,41 @@ left:25px; " >
 
 
 
- 
+ </div>
+          
+    </section>
+
+</nav>
+<script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+   
+    <script src="./js/sidebar.js"></script>
+  </body>
+</html>

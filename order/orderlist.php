@@ -48,7 +48,9 @@ left:25px; " >
         <div class="tapnav">
         <  <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
+        <a class="order" href="order.php" ><span></span>Order</a>
+        <a class="order" href="binding.php" ><span></span>BindingForm</a>
+        <a class="order" href="orderlist.php" ><span>></span>OrderList</a><br>
 
         
        
@@ -230,10 +232,10 @@ left:25px; " >
 
     <div class="container" >
        
-                <h2> Purchase </h2>
+                <h2> orderlist </h2>
            
 
-
+              
 
                 <?php
                 $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
@@ -252,6 +254,7 @@ left:25px; " >
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
                                 <th scope="col"> Status </th>
+                                <th scope="col"> Action</th>
                                 
                                 
                             </tr>
@@ -271,10 +274,24 @@ left:25px; " >
                                 <td> <?php echo $row['exp_deliver_date']; ?> </td>
                                 <td> <?php echo $row['payment_id']; ?> </td>
                                 <td> <?php echo $row['status']; ?> </td>
-                              
+                                <td>
+                                   <!-- Example single danger button -->
+                                   <div class="btn-group">
+                                   <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+   
+  </div>
+</div>
+                                </td>
                                
                             </tr>
                         </tbody>
+                        
                         <?php           
                     }
                 }
@@ -287,6 +304,10 @@ left:25px; " >
                 </div>
             </div>
 
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary btn-lg me-md-2" type="button">Button</button>
+
+</div>
 
         </div>
     </div>
