@@ -112,6 +112,9 @@
     <div class="card"style="  margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:16rem; width:19rem;">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
+        <table>
+            <th>1</th>
+        </table>
     
         <a></a><br>
       </div>
