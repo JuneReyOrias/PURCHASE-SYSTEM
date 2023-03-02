@@ -84,10 +84,11 @@ left:25px; " >
             <option value="Letter">
             
 </select>
-        
         <label class="design"for=""></i>Lamination type</label>
         <select name="Printing type "class="select multiple-select" multiple >
+        
         <option value="">Wholepage Only</option>
+
      
 
         <div>
