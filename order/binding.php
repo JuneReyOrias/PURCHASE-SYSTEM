@@ -42,7 +42,7 @@ left:25px; " >
    
       
         <div class="tapnav">
-       <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+       <a class="lefte ms-lg-3" href="dashboaard.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" >Order</a>
         <a class="order" href="orderlist.php" ><span>></span>BindingForm</a>
