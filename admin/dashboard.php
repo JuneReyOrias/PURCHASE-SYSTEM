@@ -89,7 +89,7 @@
 <section>
 <div class="container style=margin-left:10rem;">
 
-<h2>TOP Services</h2>
+<h2 class="text-center">TOP Services</h2>
 <div id="myCarousel" class="carousel slide"style="width:80%; height:50vh;margin-left:50px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
@@ -134,7 +134,7 @@
       </button>
   </div>
  
-<h2> Products</h2>
+<h2 class="text-center"> Products</h2>
 <div id="myCarousel" class="carousel slide float-md-center"style="width:80%; height:50vh;margin-left:50px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
