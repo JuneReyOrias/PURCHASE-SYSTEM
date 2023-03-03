@@ -323,10 +323,8 @@
                 .home-dash hr.divider {
                     border: 0;
                     border-bottom: 1px rgb(70, 70, 70);
-                    width: 500%;
                     width: 70%;
-                    margin-left: 6rem;
-                    margin-bottom: 40px 0;
+                    margin-left: 10rem;
                 }
                 
                 .login-container img {
@@ -722,7 +720,7 @@
                 /* Add a black background color to the top navigation */
                 
                 .tapnav {
-                    margin-left: 5rem;
+                    margin-left: 8rem;
                 }
                 /* Style the links inside the navigation bar */
                 
