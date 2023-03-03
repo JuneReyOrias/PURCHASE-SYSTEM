@@ -52,7 +52,7 @@
    
 
 
-    <div class="multi-carousel-inner">
+    <div class="multi-carousel-inner"style="margin-left:20rem;">
         <div class="multi-carousel-item">
             <div class="card m-2">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
@@ -61,10 +61,7 @@
                     <p class="card-text">Plan B</p>
                     <ul class="list-unstyled list-inline my-2">
                         <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                        
                     </ul>
                     <p class="price mb-0">9,99 $</p>
                 </div>
@@ -79,9 +76,7 @@
                     <ul class="list-unstyled list-inline my-2">
                         <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
                         <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="far fa-star"></i></li>
+                      
                     </ul>
                     <p class="price mb-0">14,99 $</p>
                 </div>
