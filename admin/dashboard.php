@@ -48,44 +48,99 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
-   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+   <!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<title>Responsive Card Slider in HTML CSS & JavaScript with Swiperjs</title>-->
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container swiper">
+      <div class="slide-container">
+        <div class="card-wrapper swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/fullDev.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile1.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">David Cardlos</h3>
+                <h4 class="job">Full Stack Developer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/photographer.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile2.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Siliana Ramis</h3>
+                <h4 class="job">Photographer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/dataAna.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile3.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Richard Bond</h3>
+                <h4 class="job">Data Analyst</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/appDev.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile4.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">Priase</h3>
+                <h4 class="job">App Developer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-box">
+              <!--<img src="images/showImg/blogger.jpg" alt="" />-->
+            </div>
+            <div class="profile-details">
+              <!--<img src="images/profile/profile5.jpg" alt="" />-->
+              <div class="name-job">
+                <h3 class="name">James Laze</h3>
+                <h4 class="job">Blogger</h4>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="swiper-button-next swiper-navBtn"></div>
+      <div class="swiper-button-prev swiper-navBtn"></div>
+      <div class="swiper-pagination"></div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+    <script src="js/swiper-bundle.min.js">
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
+
+
 
 
 
