@@ -48,7 +48,7 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
-
+<div claas="home-container">
 
 <!-- Carousel wrapper -->
 <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
