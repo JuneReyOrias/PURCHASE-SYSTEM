@@ -55,7 +55,7 @@
   <div id="myCarousel" class="carousel slide"style="width:40%; margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators"style="width:50%;float:center;">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"style="width:50%;"></li>
+      <li data-target="#myCarousel" data-slide-to="0" ></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
