@@ -60,7 +60,7 @@
 <body>
 
 <div class="container">
-<div classs="row">
+<div classs="row ms-3">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
