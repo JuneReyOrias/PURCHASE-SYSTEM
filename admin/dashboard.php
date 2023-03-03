@@ -60,7 +60,7 @@
 <body>
 
 <div class="container-fluid fixed-left position-r-0">
-  <div class="row ms-lg-4">
+  <div class="row ms-3">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
