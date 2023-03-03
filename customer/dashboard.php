@@ -85,8 +85,8 @@ require_once '../includes/cust.sidebar.php';
 </div>
 
 
-</section>
-<section>
+
+
 <div class="container style=margin-left:10rem;">
 
 <h2 class="text-center">TOP Services</h2>
