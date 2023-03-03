@@ -58,55 +58,70 @@
     <div class="select-container">              
             <form class="select-form" action="orderlist.php" method="post">
             <div class="col2" ><spani class='bx bx-book icon' ><span>Binding Form</span></div>
-
-            <form class="row g-3 needs-validation" novalidate>
-  <div class="col-md-4">
-    <div class="form-outline">
+            <div class="form-outline">
       <input type="text" class="form-control" id="validationCustom01" value="Mark" required />
       <label for="validationCustom01" class="form-label">First name</label>
       <div class="valid-feedback">Looks good!</div>
     </div>
-  </div>
-  <div class="col-md-4">
-    <div class="form-outline">
-      <input type="text" class="form-control" id="validationCustom02" value="Otto" required />
-      <label for="validationCustom02" class="form-label">Last name</label>
-      <div class="valid-feedback">Looks good!</div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="input-group form-outline">
-      <span class="input-group-text" id="inputGroupPrepend">@</span>
-      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required />
-      <label for="validationCustomUsername" class="form-label">Username</label>
-      <div class="invalid-feedback">Please choose a username.</div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="form-outline">
-      <input type="text" class="form-control" id="validationCustom03" required />
-      <label for="validationCustom03" class="form-label">City</label>
-      <div class="invalid-feedback">Please provide a valid city.</div>
-    </div>
-  </div>
-  <div class="col-md-6">
-    <div class="form-outline">
-      <input type="text" class="form-control" id="validationCustom05" required />
-      <label for="validationCustom05" class="form-label">Zip</label>
-      <div class="invalid-feedback">Please provide a valid zip.</div>
-    </div>
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
-      <label class="form-check-label" for="invalidCheck">Agree to terms and conditions</label>
-      <div class="invalid-feedback">You must agree before submitting.</div>
-    </div>
-  </div>
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
-  </div>
-</form>
+            <label  for="username">Name</label>
+            <input class="form-print sm-1" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label for="email">Email</label>
+            <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
+            <label for="contact">Contact</label>
+            <input class="form-print" type="contact" id="" name="contact" placeholder="Contact" required tabindex="2">
+            
+
+        <label class="design"for=""></i>Binding type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        <option selected>Binding Type</option>
+        <option value="">Coil Binding</option>
+        <option value="">Soft Bound</option>
+        <option value="">Hard Bound</option>
+        <option value="">Ring Binding</option>
+
+        <div>
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
+        <input class="form-control" id="formFileSm" type="file" />
+        
+        <input class="color" id="color" placeholder="Input Color" list="color" name="color">
+        <select class="color"id="color">
+        
+        <option selected>Color</option>
+        <option value="Red">Red</option>
+        <option value="Yellowt">Yellow</option>
+        <option value="Black"> Black</option>
+        <option value="Blue"> Blue</option>  
+        <option value="Green">Green</option>  
+</select>
+        <div>
+        <label class="design"for=""></i>Binding type</label>
+        <select name="Printing type "class="select multiple-select" multiple >
+        <option value="">Coil Binding</option>
+        <option value="">Soft Bound</option>
+        <option value="">Hard Bound</option>
+        <option value="">Ring Binding</option>
+
+        <div>
+        <input class="fc" type="text" name="digitall" placeholder="Quantity">
+        <input class="form-control" id="formFileSm" type="file" />
+        <input class="color" id="color" placeholder="Input Color" list="color" name="color">
+        
+            <select class="color"id="color">
+            <option selected>Color</option>
+            <option value="Green"> Red</option>
+            <option value="Green"> Yellow</option>
+            <option value="Green"> Black</option>
+            <option value="Green"> Blue</option>
+            <option value="Green"> Green</option>
+</select>
+        <input class="buttons" href="orderlist.php" type="submit" value="continue" name="continue" tabindex="3" >
+        </div>
+       
+        </div>
+        
+
+
+
 </form> 
                     </div>
                 </div>
