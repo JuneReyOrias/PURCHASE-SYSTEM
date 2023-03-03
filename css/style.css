@@ -498,6 +498,11 @@
                     width: 5.3rem;
                 }
                 
+                .form-print {
+                    height: 1rem;
+                    width: 17rem;
+                }
+                
                 #formFileSmform.form-control {
                     display: block;
                     width: 10%;
