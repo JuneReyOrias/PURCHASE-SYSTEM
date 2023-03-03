@@ -101,7 +101,7 @@
   </div>
 
 
-<div class="card ms-5"style="width:100%;margin-left:100vh;">
+<div class="card ms-5"style="width:50%;margin-left:100vh;">
   <div id="myCarousel" class="carousel slide float-md-center"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators"style="width:50%;float:center;">
