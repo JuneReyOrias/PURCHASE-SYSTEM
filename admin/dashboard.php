@@ -48,7 +48,36 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
+   <div>
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
 
+            <!--Carousel item 1-->
+            <div class="item active">
+                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/ej-manuel.png" alt="buffalo-skyline" width="640" height="360" />
+                <div class="carousel-caption">
+                    <h4>First Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
+
+            <!--Carousel item 2-->
+            <div class="item">
+                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/image3.jpg" width="640" height="360" />
+                <div class="carousel-caption">
+                    <h4>Second Thumbnail label</h4>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
+
+            <!--Carousel item 3-->
+            <div class="item">
+                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/images.jpg" alt="the-buzz-img3" width="640" height="360" >
+                <div class="carousel-caption">
+                    <h4>Third Thumbnail label</h4>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                </div>
+            </div>
    
 
 
