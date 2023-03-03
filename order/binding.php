@@ -46,7 +46,7 @@
         <a class="order" href="order.php" >Order</a>
         <a class="order" href="orderlist.php" ><span>></span>BindingForm</a>
         <div class="ser-center fs-2 " >
-             <span class="ser-center fs-2 " ></span></div> 
+            > 
 </div>
 </div>
 <body class="human " style="background-color: var(--body-color);
