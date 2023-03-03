@@ -19,7 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5"style="left:25px;" >
+<section class="home-dash ms-5 "style="left:25px;" >
 <div>
         <header>
 
@@ -37,14 +37,11 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+        <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="#contact">Admin</a>
-        <a href='#contact us'>Hola!</a><br>
-        <div class="ser-center fs-2 " >
+        <a href='#contact us'>Hola!</a>
+        
 
-        <span></span></div> 
-</div>
-</div>
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
 </body>
