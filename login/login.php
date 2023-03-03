@@ -99,7 +99,7 @@ $accounts = array(
             <!--<div class="logo-details" img src="../img/wmsu-logo.png">
                <a img src="../img/../img/wmsu-logo.png"></a> -->
                <div class="image-text">
-                <span class="image">  
+                <span class="image justify-content-center">  
                     <img src="../img/upress-logo.png" alt=""></span>
                
             </div>
