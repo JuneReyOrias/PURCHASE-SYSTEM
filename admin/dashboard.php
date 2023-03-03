@@ -48,7 +48,57 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
         
-        <div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
+        <div class="home-content">
+        <div class="overview-boxes ms-lg-5" >
+            <div class="box ms-lg-5 " style= "margin-left:23px;">
+                <div class="right-side">
+                    <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
+                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
+                    
+                    </div>
+                </div>
+
+                <div class="box">
+                <div class="center">
+                    <div class="box-topic" class="btn-1">Layout</div></br>
+                    <div class="number">The act or process of planning or laying out in detail.</div>
+                    
+                    </div>
+                </div>
+                
+               
+            <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div class="box justify-content-center">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+                
+
+    <div>
+</section>
+
+<div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
     <div class="d-flex justify-content-center m-2 mb-3">
         <button class="carousel-control-prev btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="prev">
             <i class="fas fa-angle-left fa-lg"></i>
@@ -216,7 +266,4 @@
 Related resources
          
 Also, if you want to support our friends from Tailwind Elements you can also check out the Tailwind carousel documentation.
-
-
-</section>
 
