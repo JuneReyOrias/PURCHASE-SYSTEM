@@ -60,7 +60,7 @@
 <body>
 
 <div class="container style=margin-left:10rem;">
-<div classs="row ms-3">
+
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%; margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
@@ -112,8 +112,7 @@
 
 
 
-   <div class="custuom-grid-cell">
-    <div class="row-center" style="position:right">
+    
 <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
