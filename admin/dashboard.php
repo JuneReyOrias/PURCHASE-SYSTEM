@@ -104,7 +104,7 @@
 
     
 <h2>Carousel Example</h2>
-  <div id="myCarousel" class="carousel slide"style="width:40%;margin-left:50px;" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide float-end"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators"style="width:50%;float:center;">
       <li data-target="#myCarousel" data-slide-to="0" class="active"style="width:50%;"></li>
