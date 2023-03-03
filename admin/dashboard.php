@@ -112,8 +112,8 @@
 
 
    
-<div class="container-fluid fixex-right">
-    <div class="row">
+<div class="container-fluid fixed-top position-r-0">
+  <div class="row">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
