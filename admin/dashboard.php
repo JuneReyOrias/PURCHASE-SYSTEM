@@ -47,7 +47,7 @@
 </div>
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05); ">
-</body>
+
 <div class="card-group ">
   <div class="card">
     <img class="card-img-top" src="https://api.metroprint.ph/storage/product-preset-categories/OAQ9pd7BeD31Poe/preset-394bed0faadce20ef547ced4275be82b.webp" alt="Card image cap">
