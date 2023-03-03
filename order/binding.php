@@ -57,7 +57,7 @@
         
     <div class="select-container">              
             <form class="select-form" action="orderlist.php" method="post">
-            <div class="col2" ><spani class='bx bx-book icon' >Binding Form</span></div>
+            <div class="col2" ><spani class='bx bx-book icon' ><span>Binding Form</span></div>
 
             <label  for="username">Name</label>
             <input class="form-print sm-1" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
