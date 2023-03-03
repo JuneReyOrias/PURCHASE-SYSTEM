@@ -150,9 +150,6 @@
     </a>
   </div>
 </div>
-
-
-</section>
 <div class="multi-carousel" data-mdb-interval="3000" data-mdb-items="5">
     <div class="d-flex justify-content-center m-2 mb-3">
         <button class="carousel-control-prev btn btn-pink btn-floating mx-3" type="button" tabindex="0" data-mdb-slide="prev">
@@ -180,3 +177,6 @@
                 </div>
             </div>
         </div>
+
+
+</section>
