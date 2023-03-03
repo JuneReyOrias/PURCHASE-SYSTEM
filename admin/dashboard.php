@@ -109,6 +109,8 @@
         </button>
     </div>
     <div class="conatainer">
+    <div class="row">
+  <div class="col-sm-3">
     <div class="multi-carousel-inner">
         <div class="multi-carousel-item">
             <div class="card m-2">
@@ -125,6 +127,8 @@
                     </ul>
                     <p class="price mb-0">9,99 $</p>
                 </div>
+                <div class="row">
+  <div class="col-sm-3">
                 <div class="multi-carousel-inner">
         <div class="multi-carousel-item">
             <div class="card m-2">
