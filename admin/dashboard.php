@@ -166,7 +166,6 @@
 
 </div>
 
-</body>
-</html>
+
 </body>
 </section>
