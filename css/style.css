@@ -1433,3 +1433,9 @@
                 border: 1px solid rgba(0, 0, 0, .125);
                 border-radius: 0.25rem;
             }
+            
+            color {
+                width: 7rem;
+                font-size: 11px;
+                height: 2.2rem;
+            }
