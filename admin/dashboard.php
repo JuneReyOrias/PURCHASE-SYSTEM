@@ -90,7 +90,7 @@
 <div class="container style=margin-left:10rem;">
 
 <h2 class="text-center">TOP Services</h2>
-<div id="myCarousel" class="carousel slide"style="width:80%; height:40vh;margin-left:80px;" data-ride="carousel">
+<div id="myCarousel" class="carousel slide"style="width:80%; height:50vh;margin-left:80px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
     <li data-target="#myCarousel" data-slide-to="0" ></li>
@@ -104,24 +104,24 @@
     <div class="item active">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:100%;height:50vh;">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+        <h3>Printing</h3>
+        <p>Price</p>
       </div>
     </div>
 
     <div class="item">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Chicago" style="width:100%;height:50vh">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>Binding</h3>
+        <p>Price</p>
       </div>
     </div>
   
     <div class="item">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="New York"style="width:100%;height:50vh">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3>Printing and Layout</h3>
+        <p>Price</p>
       </div>
     </div>
 
@@ -135,7 +135,7 @@
   </div>
  
 <h2 class="text-center"> Products</h2>
-<div id="myCarousel" class="carousel slide float-md-center"style="width:80%; height:40vh;margin-left:80px;" data-ride="carousel">
+<div id="myCarousel" class="carousel slide float-md-center"style="width:80%; height:50vh;margin-left:80px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
     <li data-target="#myCarousel" data-slide-to="0" class="active"style="width:50%;"></li>
@@ -149,24 +149,24 @@
     <div class="item active">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:100%;height:50vh">
       <div class="carousel-caption">
-        <h3>Los Angeles</h3>
-        <p>LA is always so much fun!</p>
+        <h3>MUGs</h3>
+        <p>Price!</p>
       </div>
     </div>
 
     <div class="item">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Chicago" style="width:100%;height:50vh">
       <div class="carousel-caption">
-        <h3>Chicago</h3>
-        <p>Thank you, Chicago!</p>
+        <h3>Lanyard</h3>
+        <p>Price</p>
       </div>
     </div>
   
     <div class="item">
       <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="New York"style="width:100%;height:50vh">
       <div class="carousel-caption">
-        <h3>New York</h3>
-        <p>We love the Big Apple!</p>
+        <h3>ID Holder</h3>
+        <p>Price</p>
       </div>
     </div>
 
