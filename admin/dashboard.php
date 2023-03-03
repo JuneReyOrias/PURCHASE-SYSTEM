@@ -45,7 +45,7 @@
         <span></span></div> 
 </div>
 </div>
-<body class="human " style="background-color: var(--body-color) height;70vh;
+<body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
 
