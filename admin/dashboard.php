@@ -48,36 +48,71 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
-   <div>
-    <div id="myCarousel" class="carousel slide">
-        <div class="carousel-inner">
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-            <!--Carousel item 1-->
-            <div class="item active">
-                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/ej-manuel.png" alt="buffalo-skyline" width="640" height="360" />
-                <div class="carousel-caption">
-                    <h4>First Thumbnail label</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-            </div>
+<div class="container">
+  <h2>Carousel Example</h2>
+  <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators"style="width:50%;float:center;">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"style="width:50%;"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-            <!--Carousel item 2-->
-            <div class="item">
-                <img src="https://api.metroprint.ph/storage/product-preset-categories/PEnaYVabqL3wR91/preset-dd804abf49cf0e65a92931efaf7a42e0.webp" width="640" height="360" />
-                <div class="carousel-caption">
-                    <h4>Second Thumbnail label</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-            </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner"style="width:100%;height:100vh">
 
-            <!--Carousel item 3-->
-            <div class="item">
-                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/images.jpg" alt="the-buzz-img3" width="640" height="360" >
-                <div class="carousel-caption">
-                    <h4>Third Thumbnail label</h4>
-                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                </div>
-            </div>
+      <div class="item active">
+        <img src="la.jpg" alt="Los Angeles" style="width:100%;height:100vh">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>LA is always so much fun!</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="chicago.jpg" alt="Chicago" style="width:100%;height:100vh">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="ny.jpg" alt="New York"style="width:100%;height:100vh">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>
    
 
 
