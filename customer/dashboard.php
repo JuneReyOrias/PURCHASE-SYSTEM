@@ -92,7 +92,7 @@ require_once '../includes/cust.sidebar.php';
 <div class="container style=margin-left:10rem;">
 
 <h2 class="text-center">TOP Services</h2>
-<div id="myCarousel" class="carousel slide"style="width:80%; height:50vh;margin-left:100px;" data-ride="carousel">
+<div id="myCarousel" class="carousel slide-center"style="width:80%; height:50vh;margin-left:100px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
     <li data-target="#myCarousel" data-slide-to="0" ></li>
