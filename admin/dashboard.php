@@ -59,7 +59,7 @@
 </head>
 <body>
 
-<div class="container-fluid fixed">
+<div class="container">
   <div class="row">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
