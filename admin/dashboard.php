@@ -48,23 +48,32 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05); ">
 </body>
-<div class="conatainer">
- 
- <div class="multi-carousel-inner float-" style="width: 18rem;;" >
-     <div class="multi-carousel-item">
-         <div class="card m-2"style="width: 12rem;">
-             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
-             <div class="card-body">
-                 <h5 class="card-title">Moda</h5>
-                 <p class="card-text">Plan B</p>
-               
-                 <p class="price mb-0">9,99 $</p>
-             </div>
-   
-         </div>
-     </div>
-         </div>
-     </div>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
 
 <div class="container style=margin-left:10rem;">
 
