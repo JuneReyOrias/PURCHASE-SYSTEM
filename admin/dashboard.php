@@ -48,6 +48,42 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05); ">
 </body>
+<div class="conatainer">
+ 
+ <div class="multi-carousel-inner float-end">
+     <div class="multi-carousel-item">
+         <div class="card m-2">
+             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
+             <div class="card-body">
+                 <h5 class="card-title">Moda</h5>
+                 <p class="card-text">Plan B</p>
+                 <ul class="list-unstyled list-inline my-2">
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                 </ul>
+                 <p class="price mb-0">9,99 $</p>
+             </div>
+   
+             <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
+             <div class="card-body">
+                 <h5 class="card-title">Moda</h5>
+                 <p class="card-text">Plan B</p>
+                 <ul class="list-unstyled list-inline my-2">
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
+                     <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
+                 </ul>
+                 <p class="price mb-0">9,99 $</p>
+             </div>
+         </div>
+     </div>
+         </div>
+     </div>
 
 <div class="container style=margin-left:10rem;">
 
@@ -108,43 +144,7 @@
             <i class="fas fa-angle-right fa-lg"></i>
         </button>
     </div>
-    <div class="conatainer">
- 
-    <div class="multi-carousel-inner float-end">
-        <div class="multi-carousel-item">
-            <div class="card m-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
-                <div class="card-body">
-                    <h5 class="card-title">Moda</h5>
-                    <p class="card-text">Plan B</p>
-                    <ul class="list-unstyled list-inline my-2">
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                    </ul>
-                    <p class="price mb-0">9,99 $</p>
-                </div>
-      
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
-                <div class="card-body">
-                    <h5 class="card-title">Moda</h5>
-                    <p class="card-text">Plan B</p>
-                    <ul class="list-unstyled list-inline my-2">
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star-half-alt"></i></li>
-                    </ul>
-                    <p class="price mb-0">9,99 $</p>
-                </div>
-            </div>
-        </div>
-            </div>
-        </div>
-
+   
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide float-md-center"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
