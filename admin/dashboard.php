@@ -90,6 +90,6 @@
       <div class="swiper-pagination"></div>
    </div>
 
-</section>
+
 </body>
 </section>
