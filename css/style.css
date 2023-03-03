@@ -1112,7 +1112,7 @@
                 }
                 
                 .sidebar .menu {
-                    margin-top: 38px;
+                    margin-top: -63px;
                     margin-left: -39px;
                 }
                 
@@ -1167,7 +1167,7 @@
                     height: calc(100% - 55px);
                     display: flex;
                     flex-direction: column;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     overflow-y: scroll;
                 }
                 
