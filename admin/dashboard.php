@@ -60,7 +60,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container ms-5">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
@@ -113,8 +113,6 @@
 
 
    
-
-  <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators"style="width:50%;float:center;">
       <li data-target="#myCarousel" data-slide-to="0" class="active"style="width:50%;"></li>
