@@ -59,7 +59,7 @@
 </head>
 <body>
 
-<div class="custuom-grid-cell">
+<div class="container">
 <div classs="row ms-3">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
@@ -112,8 +112,8 @@
 
 
 
-  <div class="custuom-grid-cell">
-    <div class="row ms-3">
+   <div class="custuom-grid-cell">
+    <div class="row-center">
 <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
