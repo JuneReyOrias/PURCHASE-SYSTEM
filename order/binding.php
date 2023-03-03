@@ -23,7 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"style="left:25px;">
+    <section class="home-dash "style="left:25px;">
 <div>
         <header>
 
@@ -54,7 +54,7 @@
        
      
         
-        <div class="home-content">
+        
     <div class="select-container">              
             <form class="select-form" action="orderlist.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Binding Form</span></div>
