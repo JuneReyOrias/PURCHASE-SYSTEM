@@ -80,7 +80,7 @@
         <input class="form-control" id="formFileSm" type="file" />
         
         <input class="color" id="color" placeholder="Input Color" list="color" name="color">
-        <select class="color"id="color">
+        <select class="ume"id="color">
         
         <option selected>Color</option>
         <option value="Red">Red</option>

@@ -1,4 +1,4 @@
-                /* Googlefonts */
+            /* Googlefonts */
                 /* **Prifile */
                 
                 .profile {
@@ -1433,3 +1433,11 @@
                     border: 1px solid rgba(0, 0, 0, .125);
                     border-radius: 0.25rem;
                 }
+                
+                .ume {
+                    width: 5rem;
+                    font-size: 11px;
+                    height: 2.2rem;
+                    margin-top: 3rem;
+                }
+            }
