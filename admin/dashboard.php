@@ -46,7 +46,7 @@
 </div>
 </div>
 <body class="human " style="background-color: var(--body-color);
-    transition: var(--tran-05);">
+    transition: var(--tran-05); margin-left:29px;">
 </body>
 
 <div class="container style=margin-left:10rem;">
