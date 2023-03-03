@@ -60,7 +60,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3"style="margin-left:8rem;">
+  <div class="col-sm-3">
     <div class="card"style="   margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
@@ -78,7 +78,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4" style="margin-top:2rem;">
+  <div class="col-sm-4" style="margin-top:8rem;">
     <div class="card"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Printing and Binding</h5>
