@@ -50,10 +50,6 @@
    
 
 
-
-
-</body>
-</section>
 <!-- Carousel wrapper -->
 <div id="carouselMultiItemExample" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
   <!-- Controls -->
@@ -281,7 +277,5 @@
   <!-- Inner -->
 </div>
 <!-- Carousel wrapper -->
-Related resources
-                  
-Also, if you want to support our friends from Tailwind Elements you can also check out the Testimonials documentation.
-
+</body>
+</section>
