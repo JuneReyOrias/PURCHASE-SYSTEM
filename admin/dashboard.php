@@ -60,7 +60,7 @@
     </div>  
 
 
-    <div class="multi-carousel-inner"style="margin-left:20rem;">
+    <div class="multi-carousel-inner"style="margin-left:10rem;">
         <div class="multi-carousel-item">
             <div class="card m-2">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-        <div class="multi-carousel-item">
+        <div class="multi-carousel-item"style="margin-left:-34rem;">
             <div class="card m-2">
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Card image cap" />
                 <div class="card-body">
