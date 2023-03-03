@@ -40,9 +40,7 @@ require_once '../includes/cust.sidebar.php';
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a class="lefte ms-lg-3" href="order.php">Shop</a><br>
-        <div class="ser-center fs-2 " > 
-
-
+        <div class="tex-center " > 
         <span class="text-center fs-1">Services</span></div> 
 </div>
 </div>
