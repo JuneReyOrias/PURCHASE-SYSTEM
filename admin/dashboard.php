@@ -59,7 +59,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container style=margin-left:10rem;">
 <div classs="row ms-3">
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
