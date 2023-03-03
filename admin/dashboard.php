@@ -111,25 +111,11 @@
   </div>
 </div>
 
-</body>
-</html>
+
    
 
 
 
-</body>
-</section>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
 
 <div class="container">
   <h2>Carousel Example</h2>
@@ -161,7 +147,7 @@
       </div>
     
       <div class="item">
-        <img src="ny.jpg" alt="New York"style="width:100%;height:60vh">
+        <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="New York"style="width:100%;height:60vh">
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>We love the Big Apple!</p>
