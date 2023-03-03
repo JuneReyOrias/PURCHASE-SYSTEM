@@ -50,7 +50,7 @@
 </body>
 <div class="conatainer">
  
- <div class="multi-carousel-inner float-end" >
+ <div class="multi-carousel-inner float-end" style="margin-right:23px;" >
      <div class="multi-carousel-item">
          <div class="card m-2">
              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
