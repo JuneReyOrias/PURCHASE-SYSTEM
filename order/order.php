@@ -23,7 +23,7 @@
     
   
 
-    <section class="home-dash ms-5 ms-5"style="left:25px;">
+    <section class="home-dash ms-5 "style="left:25px;">
         <header>
 
 
@@ -60,7 +60,7 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
+  <div class="col-sm-3"style="margin-left:8rem;">
     <div class="card"style="   margin-top:3rem;box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
