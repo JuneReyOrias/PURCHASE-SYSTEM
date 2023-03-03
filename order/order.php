@@ -81,7 +81,7 @@
   <div class="col-sm-4" style="margin-top:2rem; margin-left:8rem;">
     <div class="card"style="  box-shadow: 0 14px 16px #990000;border-radius: 12px; height:10rem;">
       <div class="card-body">
-        <h5 class="card-title">Printing and Binding</h5>
+        <h5 class="card-title">Printing and Layout</h5>
     
         <a href="#" class="btn btn-primary">Continue</a>
       </div>
