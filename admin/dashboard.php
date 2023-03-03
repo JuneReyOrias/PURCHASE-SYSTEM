@@ -48,134 +48,48 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
    
-   <!DOCTYPE html>
-<!-- Coding by CodingLab | www.codinglabweb.com -->
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--<title>Responsive Card Slider in HTML CSS & JavaScript with Swiperjs</title>-->
 
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+   
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <div class="container swiper">
-      <div class="slide-container">
-        <div class="card-wrapper swiper-wrapper">
-          <div class="card swiper-slide">
-            <div class="image-box">
-              <!--<img src="images/showImg/fullDev.jpg" alt="" />-->
+<!-- Home Section Start  -->
+<section class="home">
+
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <!-- PHSI Carousel Start -->
+         <?php 
+         require_once 'classes/carousel_model.php';
+         $carousel = new Carousel();
+         //We will now fetch all the records in the array using loop
+         //use as a counter, not required but suggested for the table
+         $i = 1;
+         //loop for each record found in the array
+         foreach ($carousel->fetchAllRecords() as $value) { //start of loop
+         $carousel_img = $value['filename'];
+         $caousel_head = $value['carousel_title'];
+         $carousel_body = $value['carousel_content'] ;
+         ?>
+         <section class="swiper-slide slide"  style="background: url('uploads/<?php echo $carousel_img; ?>') no-repeat;">
+            <div class="content" id="unesco_content">
+               <h3><?php echo $value['carousel_title'] ?></h3>
+               <p><?php echo $value['carousel_content'] ?></p>
+               <!--<a href="#" class="btn">Read more</a> -->
             </div>
-            <div class="profile-details">
-              <!--<img src="images/profile/profile1.jpg" alt="" />-->
-              <div class="name-job">
-                <h3 class="name">David Cardlos</h3>
-                <h4 class="job">Full Stack Developer</h4>
-              </div>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-box">
-              <!--<img src="images/showImg/photographer.jpg" alt="" />-->
-            </div>
-            <div class="profile-details">
-              <!--<img src="images/profile/profile2.jpg" alt="" />-->
-              <div class="name-job">
-                <h3 class="name">Siliana Ramis</h3>
-                <h4 class="job">Photographer</h4>
-              </div>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-box">
-              <!--<img src="images/showImg/dataAna.jpg" alt="" />-->
-            </div>
-            <div class="profile-details">
-              <!--<img src="images/profile/profile3.jpg" alt="" />-->
-              <div class="name-job">
-                <h3 class="name">Richard Bond</h3>
-                <h4 class="job">Data Analyst</h4>
-              </div>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-box">
-              <!--<img src="images/showImg/appDev.jpg" alt="" />-->
-            </div>
-            <div class="profile-details">
-              <!--<img src="images/profile/profile4.jpg" alt="" />-->
-              <div class="name-job">
-                <h3 class="name">Priase</h3>
-                <h4 class="job">App Developer</h4>
-              </div>
-            </div>
-          </div>
-          <div class="card swiper-slide">
-            <div class="image-box">
-              <!--<img src="images/showImg/blogger.jpg" alt="" />-->
-            </div>
-            <div class="profile-details">
-              <!--<img src="images/profile/profile5.jpg" alt="" />-->
-              <div class="name-job">
-                <h3 class="name">James Laze</h3>
-                <h4 class="job">Blogger</h4>
-              </div>
-            </div>
-          </div>
-        </div>
+         </section>
+         <?php
+         $i++;
+      }
+      //end loop
+  ?>
+         <!-- PHSI Carousel End -->
       </div>
-      <div class="swiper-button-next swiper-navBtn"></div>
-      <div class="swiper-button-prev swiper-navBtn"></div>
+      <!--Next/Prev Carousel Button-->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!--Current Carousel 3 dots-->
       <div class="swiper-pagination"></div>
-    </div>
-<script>
-var swiper = new Swiper(".slide-container", {
-    slidesPerView: 4,
-    spaceBetween: 20,
-    sliderPerGroup: 4,
-    loop: true,
-    centerSlide: "true",
-    fade: "true",
-    grabCursor: "true",
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        dynamicBullets: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
+   </div>
 
-    breakpoints: {
-        0: {
-            slidesPerView: 1,
-        },
-        520: {
-            slidesPerView: 2,
-        },
-        768: {
-            slidesPerView: 3,
-        },
-        1000: {
-            slidesPerView: 4,
-        },
-    },
-});</script>
- 
-    <script src="./js/sidebar.js"></script>
-    
-  </body>
-</html>
-
-
-
-
-
+</section>
 </body>
 </section>
