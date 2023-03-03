@@ -37,7 +37,7 @@
    
         <hr class= "divider">
         <div class="tapnav">
-        <a class="lefte ms-lg-4" style="margin-left:8rem;"href="addcustomer.php">Home</a>
+        <a class="lefte ms-lg-4" style="left:5rem;"href="addcustomer.php">Home</a>
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a><br>
         <div class="ser-center fs-2 " >
