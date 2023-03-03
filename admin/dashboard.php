@@ -63,7 +63,7 @@
 
             <!--Carousel item 2-->
             <div class="item">
-                <img src="http://localhost:6054/wp-content/themes/BLANK-Theme/images/material/image3.jpg" width="640" height="360" />
+                <img src="https://api.metroprint.ph/storage/product-preset-categories/PEnaYVabqL3wR91/preset-dd804abf49cf0e65a92931efaf7a42e0.webp" width="640" height="360" />
                 <div class="carousel-caption">
                     <h4>Second Thumbnail label</h4>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
