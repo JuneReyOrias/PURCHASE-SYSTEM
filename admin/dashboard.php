@@ -134,8 +134,8 @@
       <div class="swiper-pagination"></div>
     </div>
 
-    <script src="js/swiper-bundle.min.js">
-    <script src="js/script.js"></script>
+ 
+    <script src="./js/sidebar.js"></script>
     
   </body>
 </html>
