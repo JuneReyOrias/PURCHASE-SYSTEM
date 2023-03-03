@@ -113,7 +113,8 @@
 
 
    
-
+<div class="container">
+  <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators"style="width:50%;float:center;">
