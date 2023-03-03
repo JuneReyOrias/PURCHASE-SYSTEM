@@ -108,6 +108,7 @@
             <i class="fas fa-angle-right fa-lg"></i>
         </button>
     </div>
+    <div class="conatainer">
     <div class="multi-carousel-inner">
         <div class="multi-carousel-item">
             <div class="card m-2">
