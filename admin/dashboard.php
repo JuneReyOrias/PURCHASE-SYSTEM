@@ -90,7 +90,7 @@
 <div class="container style=margin-left:10rem;">
 
 <h2>Carousel Example</h2>
-<div id="myCarousel" class="carousel slide"style="width:90%; margin-left:50px;" data-ride="carousel">
+<div id="myCarousel" class="carousel slide"style="width:100%; margin-left:50px;" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators"style="width:50%;float:center;">
     <li data-target="#myCarousel" data-slide-to="0" ></li>
@@ -102,7 +102,7 @@
   <div class="carousel-inner"style="width:100%;height:50vh">
 
     <div class="item active">
-      <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:100%;height:50vh">
+      <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:100%;height:30vh">
       <div class="carousel-caption">
         <h3>Los Angeles</h3>
         <p>LA is always so much fun!</p>
