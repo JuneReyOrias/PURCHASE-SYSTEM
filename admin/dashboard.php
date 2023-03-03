@@ -50,9 +50,9 @@
 </body>
 <div class="conatainer">
  
- <div class="multi-carousel-inner float-end" style="width:40%;">
+ <div class="multi-carousel-inner float-end" >
      <div class="multi-carousel-item">
-         <div class="card m-2">
+         <div class="card m-2"style="width:40%;">
              <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
              <div class="card-body">
                  <h5 class="card-title">Moda</h5>
