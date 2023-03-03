@@ -57,10 +57,10 @@
         
     <div class="select-container">              
             <form class="select-form" action="orderlist.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' >Binding Form</span></div>
+            <div class="col2" ><spani class='bx bx-book icon' >Binding Form</span></div>
 
             <label  for="username">Name</label>
-            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <input class="form-print sm-1" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
             <label for="email">Email</label>
             <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
             <label for="contact">Contact</label>
