@@ -109,8 +109,7 @@
         </button>
     </div>
     <div class="conatainer">
-    <div class="row">
-  <div class="col-sm-3">
+ 
     <div class="multi-carousel-inner">
         <div class="multi-carousel-item">
             <div class="card m-2">
@@ -149,7 +148,7 @@
         </div>
             </div>
         </div>
-<div>
+
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide float-md-center"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
