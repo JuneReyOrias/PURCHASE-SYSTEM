@@ -74,7 +74,7 @@
     <div class="carousel-inner"style="width:100%;height:50vh">
 
       <div class="item active">
-        <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:80%;height:50vh">
+        <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="Los Angeles" style="width:100%;height:50vh">
         <div class="carousel-caption">
           <h3>Los Angeles</h3>
           <p>LA is always so much fun!</p>
