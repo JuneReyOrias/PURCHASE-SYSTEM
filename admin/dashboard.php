@@ -74,18 +74,19 @@
                     <p class="price mb-0">9,99 $</p>
                 </div>
             </div>
-        </div>
-        <div class="multi-carousel-item"style="margin-left:-194rem;">
+            
+    <div class="multi-carousel-inner"style="margin-left:10rem;">
+        <div class="multi-carousel-item">
             <div class="card m-2">
-                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(1).jpg" alt="Card image cap" />
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
                 <div class="card-body">
-                    <h5 class="card-title">Indie City</h5>
-                    <p class="card-text">Pixies</p>
+                    <h5 class="card-title">Moda</h5>
+                    <p class="card-text">Plan B</p>
                     <ul class="list-unstyled list-inline my-2">
                         <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                        <li class="list-inline-item mx-0"><i class="fas fa-star"></i></li>
-                      
+                        
                     </ul>
-                    <p class="price mb-0">14,99 $</p>
+                    <p class="price mb-0">9,99 $</p>
                 </div>
-       
+            </div>
+        
