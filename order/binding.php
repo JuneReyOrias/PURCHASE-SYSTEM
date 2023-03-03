@@ -79,7 +79,7 @@
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
         
-        <input class="color" id="color" placeholder="Input Color" list="color" name="color">
+        <input class="color" id="color" placeholder="Input Color" list="color" name="color"><br>
         <select class="ume"id="color">
         
         <option selected>Color</option>
