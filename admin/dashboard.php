@@ -109,10 +109,10 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
 
 
-   <div class="float-right">
+
+   
     <div class="row ms-3">
 <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide"style="width:40%;float:center;" data-ride="carousel">
@@ -164,7 +164,7 @@
   </div>
 </div>
 
-
+</div>
 
 </body>
 </html>
