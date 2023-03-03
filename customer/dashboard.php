@@ -41,7 +41,7 @@ require_once '../includes/cust.sidebar.php';
         <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
         <a class="lefte ms-lg-3" href="order.php">Shop</a><br>
         <div class="tex-center " > 
-        <span class="text-center fs-1">Services</span></div> 
+        <h2 class="text-center">Services</h2>
 </div>
 </div>
        <body class="human " style="background-color: var(--body-color);
