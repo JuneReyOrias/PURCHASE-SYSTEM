@@ -130,9 +130,8 @@
       
                 <div class="multi-carousel-inner">
         <div class="multi-carousel-item">
-            <div class="card m-3">
-            <div class="row">
-                <div class="col-sm-3">
+            <div class="card m-2">
+                
                 <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Square/img(4).jpg" alt="Card image cap" />
                 <div class="card-body">
                     <h5 class="card-title">Moda</h5>
@@ -150,7 +149,7 @@
         </div>
             </div>
         </div>
-
+<div>
   <h2>Carousel Example</h2>
   <div id="myCarousel" class="carousel slide float-md-center"style="width:40%;margin-left:50px;" data-ride="carousel">
     <!-- Indicators -->
