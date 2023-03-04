@@ -84,7 +84,7 @@
             <option value="A4">A4</option>
             <option value="Letter">Letter</option>
             
-</select>
+</select><br>
         <label class="design"for=""></i>Lamination type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
