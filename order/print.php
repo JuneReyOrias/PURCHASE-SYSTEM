@@ -84,7 +84,7 @@ left:25px; " >
             <option value="Short">Short</option>
             <option value="A4">A4</option>
 </select>
-
+<div>
         <label class="design"for=""></i>Printing type</label>
         <select name="Printing type "class="select multiple-select" multiple >
         
