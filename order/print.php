@@ -76,8 +76,8 @@ left:25px; " >
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <div>
-        <input class="size" placeholder="Input Size" list="size" name="size">
+    
+        <input class="size" placeholder="Input Size" list="size" name="size"><br>
             <select class="size"id="size">
             <option selected>Size</option>
             <option value="Long">Long</option>
