@@ -51,7 +51,7 @@ left:25px; " >
 </div> 
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">  
-        <div class="home-content">
+        
     <div class="select-container">              
             <form class="select-form" action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
