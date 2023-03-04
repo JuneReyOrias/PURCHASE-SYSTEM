@@ -271,8 +271,7 @@
                                 <td> <?php echo $row['buyer_id']; ?> </td>
                                 <td> <?php echo $row['req_date']; ?> </td>
                                 <td> <?php echo $row['exp_deliver_date']; ?> </td>
-                                <td> <?php echo $row['payment_id']; ?> </td>
-                                <td> <?php echo $row['status']; ?> </td>
+                                
                                 <td>
                                    <!-- Example single danger button -->
                                    <div class="btn-group">
