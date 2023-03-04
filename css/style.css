@@ -578,10 +578,10 @@
                 background-color: #78101c;
                 color: white;
                 border: none;
-                margin-left: 330px;
-                line-height: 20px;
-                width: 150px;
-                margin-top: 1rem;
+                margin-left: 300px;
+                line-height: 18px;
+                width: 140px;
+                margin-top: .5rem;
             }
             
             .checkbox-custom {
