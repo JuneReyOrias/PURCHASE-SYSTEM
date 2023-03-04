@@ -46,7 +46,7 @@ left:25px; " >
     <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
     <a href="">Shop</a>
     <a class="order" href="order.php" >Order</a>
-    <a class="order" href="print.php" ><span>></span>PrintingForm</a>
+    <a class="order" href="orderlist.php" ><span>></span>PrintingForm</a>
    
 </div> 
 <body class="human " style="background-color: var(--body-color);

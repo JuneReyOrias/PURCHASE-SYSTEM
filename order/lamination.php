@@ -41,10 +41,10 @@
    
       
         <div class="tapnav">
-        <  <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+        <  <a class="lefte ms-lg-3" href="../customer/dashboard.php">Home</a>
         <a href="">Shop</a>
-        <a class="order" href="order.php" ><span>></span>Order</a>
-        <a class="order" href="order.php" ><span>></span>Lamination</a><br>
+        <a class="order" href="order.php" ><span></span>Order</a>
+        <a class="order" href="orderlist.php" ><span>></span>Lamination</a><br>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " >Services</span></div> 
 </div>

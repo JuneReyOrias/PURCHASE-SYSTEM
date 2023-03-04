@@ -40,7 +40,7 @@
    
       
         <div class="tapnav">
-       <a class="lefte ms-lg-3" href="addcustomer.php">Home</a>
+       <a class="lefte ms-lg-3" href="../customer/dashboard.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a><br>
         <div class="ser-center fs-2 " >
