@@ -249,12 +249,10 @@
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
-                                <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
-                                <th scope="col">requireDate </th>
-                                <th scope="col">Expe_deliverDate</th>
-                                <th scope="col">paymentId </th>
-                                <th scope="col"> Status </th>
+                                <th scope="col">ProductId </th>
+                                <th scope="col">UnitPrice </th>
+                                <th scope="col">Quantity </th>
+                                <th scope="col">ServiceId</th>
                                 <th scope="col"> Action</th>
                                 
                                 
