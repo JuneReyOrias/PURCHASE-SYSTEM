@@ -237,7 +237,7 @@
 
 
                 <?php
-                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
+                $connection = mysqli_connect('localhost','u151063784_upress','c#0DVuCD');
                 $db = mysqli_select_db($connection, 'u151063784_upressprs');
 
                 $query = "SELECT * FROM purchase_order";
