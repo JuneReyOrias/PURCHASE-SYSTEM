@@ -302,7 +302,7 @@
                 </div>
             </div>
 
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
   <button class="btn btn-primary btn-lg me-md-2" type="button">Button</button>
 
 </div>
