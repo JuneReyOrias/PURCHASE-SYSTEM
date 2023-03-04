@@ -54,7 +54,7 @@
     transition: var(--tran-05);">
      
         
-        <div class="home-content">
+        
     <div class="select-container-md">              
             <form class="select-form form-control-md"  action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Lamination</span></div>
@@ -78,7 +78,7 @@
         <input class="form-control" id="formFileSm" type="file" />
         
 
-            <input class="size" placeholder="Input Size"list="size" name="size">
+            <input class="size" placeholder="Input Size"list="size" name="size"><br>
             <select class="size"id="size">
             <option selected>size</option>
             <option value="A4">A4</option>
@@ -95,7 +95,7 @@
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
-        <input class="size" placeholder="Input Size"list="size" name="size">
+        <input class="size" placeholder="Input Size"list="size" name="size"><br>
             <select class="size"id="size">
             <option selected>size</option>
             <option value="A4">A4</option>
