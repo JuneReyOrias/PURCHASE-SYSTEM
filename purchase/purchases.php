@@ -248,7 +248,7 @@
                             <tr>
                                 <th scope="col">OrderId</th>
                                 <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
+                                <th scope="col">StaffId </th>
                                 <th scope="col">requireDate </th>
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
@@ -265,11 +265,11 @@
             ?>
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['ordr_id']; ?> </td>
-                                <td> <?php echo $row['ordr_date']; ?> </td>
-                                <td> <?php echo $row['buyer_id']; ?> </td>
-                                <td> <?php echo $row['req_date']; ?> </td>
-                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
+                                <td > <?php echo $row['order_id']; ?> </td>
+                                <td> <?php echo $row['order_date']; ?> </td>
+                                <td> <?php echo $row['staff_id']; ?> </td>
+                                <td> <?php echo $row['required_date']; ?> </td>
+                                <td> <?php echo $row['exp_dlv_date']; ?> </td>
                                 <td> <?php echo $row['payment_id']; ?> </td>
                                 <td> <?php echo $row['status']; ?> </td>
                               
