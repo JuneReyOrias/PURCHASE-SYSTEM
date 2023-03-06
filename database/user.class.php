@@ -10,7 +10,7 @@ Class users{
     public $email;
     public $contactNo;
     public $role;
-
+    public $id;
 
     protected $db;
 
@@ -38,7 +38,7 @@ Class users{
         
         $result = $query->fetchAll(PDO::FETCH_ASSOC);
         return $result;
-    }
+
 }
 function add(){
     $sql = "INSERT INTO user(user_name, user_pass, lastname, firstname, email, contact_no, role) VALUES 
@@ -49,7 +49,7 @@ function add(){
     $query->bindParam(':user_pass', $this->password);
     $query->bindParam(':lastname', $this->lastname);
     $query->bindParam(':firstname', $this->firstname);
-    $query->bindParam(':email', $this->enail);
+    $query->bindParam(':email', $this->email);
     $query->bindParam(':contact_no', $this->contactNo);
     $query->bindParam(':role', $this->role);
     

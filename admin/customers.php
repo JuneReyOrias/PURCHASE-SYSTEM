@@ -237,11 +237,11 @@ left:25px;" >
 
 
                 <?php
-                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
+               $user= new Users();
+               $userdata= $user->show();
+               $i=1;
+               foreach($userdata as $user)
 
-                $query = "SELECT * FROM purchase_order";
-                $query_run = mysqli_query($connection, $query);
             ?>
                     <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
