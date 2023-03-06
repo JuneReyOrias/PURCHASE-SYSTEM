@@ -135,6 +135,28 @@
                 transition: var(--tran-05);
             }
             
+            @media (max-width: 1200px) {
+                nav {
+                    width: 73px;
+                }
+            }
+            
+            @media (max-width: 310px) {
+                .home-dash hr.divider {
+                    width: 50%;
+                    margin-left: -17rem;
+                }
+                .home-dash {
+                    width: 100%;
+                }
+            }
+            
+            @media (max-width: 420px) {
+                .home-dash hr.divider {
+                    width: 30%;
+                }
+            }
+            
             .boxes .box i {
                 font-size: 35px;
                 color: var(--text-color);
