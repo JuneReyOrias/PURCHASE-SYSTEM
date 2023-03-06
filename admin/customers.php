@@ -264,7 +264,7 @@ left:25px;" >
                         <tbody>
                             <tr>
                                 <td><?php echo $i; ?></td>
-                                <td > <?php echo $user['ordr_id']; ?> </td>
+                                <td > <?php echo $user['user_name']; ?> </td>
                                 <td> <?php echo $user['ordr_date']; ?> </td>
                                 <td> <?php echo $user['buyer_id']; ?> </td>
                                 <td> <?php echo $user['req_date']; ?> </td>
