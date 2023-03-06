@@ -236,13 +236,7 @@ left:25px;" >
 
 
 
-                <?php
-               $user= new Users();
-               $userdata= $user->show();
-               $i=1;
-               foreach($userdata as $user)
-
-            ?>
+        
                     <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
                             <tr>
@@ -259,19 +253,23 @@ left:25px;" >
                             </tr>
                         </thead>
                         <?php
-                if($query_run)
-                {
-                    foreach($query_run as $row)
-                    {
-            ?>
+                  
+                  $user= new Users();
+                  $userdata= $user->show();
+                  $i=1;
+                  foreach($userdata as $user){
+   
+               ?>
+        
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['ordr_id']; ?> </td>
-                                <td> <?php echo $row['ordr_date']; ?> </td>
-                                <td> <?php echo $row['buyer_id']; ?> </td>
-                                <td> <?php echo $row['req_date']; ?> </td>
-                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
-                                <td> <?php echo $row['payment_id']; ?> </td>
+                                <td><?php echo $i; ?></td>
+                                <td > <?php echo $user['ordr_id']; ?> </td>
+                                <td> <?php echo $user['ordr_date']; ?> </td>
+                                <td> <?php echo $user['buyer_id']; ?> </td>
+                                <td> <?php echo $user['req_date']; ?> </td>
+                                <td> <?php echo $user['exp_deliver_date']; ?> </td>
+                                <td> <?php echo $user['payment_id']; ?> </td>
                               
                               
                              
@@ -283,14 +281,7 @@ left:25px;" >
                                 </td>  
                             </tr>
                         </tbody>
-                        <?php           
-                    }
-                }
-                else 
-                {
-                    echo "No Record Found";
-                }
-            ?>
+                        <?php $i++; } ?>
                     </table>
                 </div>
             </div>
