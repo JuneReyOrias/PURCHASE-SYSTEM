@@ -1,5 +1,5 @@
 <?php 
-require_once '../database/database.php';
+require_once 'database.php';
 
 Class users{
                                    
@@ -8,6 +8,7 @@ Class users{
     public $firstname;
     public $lastname;
     public $email;
+    public $contactNo;
     public $role;
 
 
@@ -29,6 +30,50 @@ Class users{
      	return $data;
     }
 
+    function show(){
+        $sql = "SELECT * FROM user;";
+        
+        $query=$this->db->connect()->prepare($sql);
+        $query->execute();
+        
+        $result = $query->fetchAll(PDO::FETCH_ASSOC);
+        return $result;
+    }
+}
+function add(){
+    $sql = "INSERT INTO user(user_name, user_pass, lastname, firstname, email, contact_no, role) VALUES 
+    (:user_name, :user_pass, :lastname, :firstname, :email, :contact_no, :role);";
+
+    $query=$this->db->connect()->prepare($sql);
+    $query->bindParam(':user_name', $this->username);
+    $query->bindParam(':user_pass', $this->password);
+    $query->bindParam(':lastname', $this->lastname);
+    $query->bindParam(':firstname', $this->firstname);
+    $query->bindParam(':email', $this->enail);
+    $query->bindParam(':contact_no', $this->contactNo);
+    $query->bindParam(':role', $this->role);
+    
+    if($query->execute()){
+        return true;
+    }
+    else{
+        return false;
+    }	
+}
+
+function delete(){
+    $sql = "DELETE FROM user WHERE id=:id";
+
+    $query=$this->db->connect()->prepare($sql);
+    $query->bindParam(':id', $this->id);
+
+    if($query->execute()){
+        return true;
+    }
+    else{
+        return false;
+    }	
+}
 
 /*    function login(){
         $sql = "SELECT * FROM users WHERE BINARY email = :email AND BINARY password = :password AND type = 'customers';";

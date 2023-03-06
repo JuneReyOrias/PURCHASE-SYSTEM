@@ -4,7 +4,7 @@ require_once 'database.class.php';
 
 class Purchase {
     public $orderID;
-    public $orderdate;
+    public $orderDate;
     public $customerId;
     public $staffId;
     public $status;
@@ -21,9 +21,14 @@ class Purchase {
         try {
             $sql = "INSERT INTO purchase_order (order_id, order_date, customer_id, status, required_date, exp_dlv_date, payment_id) VALUES (:order_id, :order_date, :customer_id, :status, :required_date, :exp_dlv_date, payment_id)";
             $stmt = $this->db->connect()->prepare($sql);
-            $stmt->bindParam(':fee_type', $this->feeType);
-            $stmt->bindParam(':fee_name', $this->feeName);
-            $stmt->bindParam(':fee_amount', $this->feeAmount);
+            $stmt->bindParam(':oder_id', $this->orderID);
+            $stmt->bindParam(':oder_date', $this->orderDate);
+            $stmt->bindParam(':customer_id', $this->customerId);
+            $stmt->bindParam(':status', $this->status);
+            $stmt->bindParam(':required_date', $this->requiredDate);
+            $stmt->bindParam(':exp_dlv_date', $this->expe_dlvDate);
+            $stmt->bindParam(':paymet_id', $this->paymentId);
+            
             $stmt->execute();
             return true;
         } catch (PDOException $e) {
