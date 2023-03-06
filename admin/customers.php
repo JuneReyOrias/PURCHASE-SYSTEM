@@ -1,5 +1,5 @@
 <?php
-
+   require_once 'database/user.class.php';
     //resume session here to fetch session values
     session_start();
     /*
