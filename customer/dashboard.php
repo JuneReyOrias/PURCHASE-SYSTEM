@@ -45,7 +45,7 @@ require_once '../includes/cust.sidebar.php';
 </div>
 </div>
        <body class="human " style="background-color: var(--body-color);
-    transition: var(--tran-05);">
+    transition: var(--tran-05); flex-wrap: nowrap;">
 
  
 <div class="card-group" style="margin-right:70px; margin-top:3rem; margin-left:5rem; flex-wrap: nowrap;">
