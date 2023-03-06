@@ -48,7 +48,7 @@ require_once '../includes/cust.sidebar.php';
     transition: var(--tran-05);">
 
  
-<div class="card-group" style="margin-right:70px; margin-top:3rem; margin-left:5rem;">
+<div class="card-group" style="margin-right:70px; margin-top:3rem; margin-left:5rem; flex-wrap: nowrap;">
   <div class="card">
     <img class="card-img-top" src="https://api.metroprint.ph/storage/product-preset-categories/OAQ9pd7BeD31Poe/preset-394bed0faadce20ef547ced4275be82b.webp" alt="Card image cap">
     <div class="card-body">
