@@ -10,7 +10,7 @@ class Purchase {
     public $status;
     public $requiredDate;
     public $expe_dlvDate;
-    public $payment;
+    public $paymentId;
     protected $db;
 
     function __construct() {
@@ -19,7 +19,7 @@ class Purchase {
 
     function createFee() {
         try {
-            $sql = "INSERT INTO fee (fee_type, fee_name, fee_amount) VALUES (:fee_type, :fee_name, :fee_amount)";
+            $sql = "INSERT INTO purchase_order (order_id, order_date, customer_id, status, required_date, exp_dlv_date, payment_id) VALUES (:order_id, :order_date, :customer_id, :status, :required_date, :exp_dlv_date, payment_id)";
             $stmt = $this->db->connect()->prepare($sql);
             $stmt->bindParam(':fee_type', $this->feeType);
             $stmt->bindParam(':fee_name', $this->feeName);
