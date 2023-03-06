@@ -48,14 +48,14 @@ require_once '../includes/cust.sidebar.php';
     transition: var(--tran-05); flex-wrap: nowrap;">
 
  
-<div class="card-group" style="margin-right:70px; margin-top:3rem; margin-left:5rem;">
-  <div class="card">
-    <img class="card-img-top" src="https://api.metroprint.ph/storage/product-preset-categories/OAQ9pd7BeD31Poe/preset-394bed0faadce20ef547ced4275be82b.webp" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Printing</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
+<div class="card-group" style="margin-right:70px; margin-top:3rem; margin-left:5rem; ">
+    <div class="card">
+      <img class="card-img-top" src="https://api.metroprint.ph/storage/product-preset-categories/OAQ9pd7BeD31Poe/preset-394bed0faadce20ef547ced4275be82b.webp" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Printing</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
   </div>
   <div class="card">
     <img class="card-img-top" src="https://api.metroprint.ph/storage/product-preset-categories/OAQ9pd7BeD31Poe/preset-394bed0faadce20ef547ced4275be82b.webp" alt="Card image cap">
@@ -162,13 +162,6 @@ require_once '../includes/cust.sidebar.php';
       </div>
     </div>
   
-    <div class="item">
-      <img src="https://api.metroprint.ph/storage/product-preset-categories/GKlRbDv5lLrBa2p/preset-1c1876ceb4829ddef89befa5b773e544.webp" alt="New York"style="width:100%;height:50vh">
-      <div class="carousel-caption">
-        <h3>ID Holder</h3>
-        <p>Price</p>
-      </div>
-    </div>
 
   </div>
 
