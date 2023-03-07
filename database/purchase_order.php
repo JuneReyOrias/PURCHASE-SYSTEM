@@ -17,11 +17,10 @@ class Purchase {
         $this->db = new Database();
     }
 
-    function createFee() {
+    function createpurchase() {
         try {
             $sql = "INSERT INTO purchase_order (order_id, order_date, customer_id, status, required_date, exp_dlv_date, payment_id) VALUES (:order_id, :order_date, :customer_id, :status, :required_date, :exp_dlv_date, payment_id)";
             $stmt = $this->db->connect()->prepare($sql);
-            $stmt->bindParam(':oder_id', $this->orderID);
             $stmt->bindParam(':oder_date', $this->orderDate);
             $stmt->bindParam(':customer_id', $this->customerId);
             $stmt->bindParam(':status', $this->status);
@@ -38,14 +37,14 @@ class Purchase {
     }
 
     function get($fee_id) {
-        $stmt = $this->db->connect()->prepare("SELECT * FROM fee WHERE fee_id = :fee_id");
-        $stmt->bindParam(":fee_id", $fee_id);
+        $stmt = $this->db->connect()->prepare("SELECT * FROM purchase_order WHERE id = :id");
+        $stmt->bindParam(":id", $id);
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
     function show(){
-        $sql = "SELECT * FROM fee ORDER BY fee.fee_id ASC";
+        $sql = "SELECT * FROM purchase_order ORDER BY id ASC";
         $query=$this->db->connect()->prepare($sql);
         if($query->execute()){
             $data = $query->fetchAll();
@@ -57,7 +56,7 @@ class Purchase {
         $sql = "DELETE FROM fee WHERE fee_id=:fee_id";
 
         $query=$this->db->connect()->prepare($sql);
-        $query->bindParam(':fee_id', $this->feeID);
+        $query->bindParam(':fee_id', $this->ID);
 
         if($query->execute()){
             return true;
