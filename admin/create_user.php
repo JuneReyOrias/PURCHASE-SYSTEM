@@ -388,7 +388,7 @@ left:25px;" >
                             $userdata= $user->show();
                             
                             foreach($userdata as $user)
-                                {
+                                
                         ?>
 
           
@@ -410,7 +410,7 @@ left:25px;" >
                                 </td>
                             </tr>
                         </tbody>
-                        <?php }  ?>
+                        <?php  ?>
 
           
                     </table>
