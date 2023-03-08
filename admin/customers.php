@@ -238,7 +238,7 @@ left:25px;" >
 
 
         
-                    <table  class="table table-bordered  table-responsive">
+                    <table  class="table table-bordered  table-responsive"style="margin-left:34px;">
                         <thead class=" table-dark">
                             <tr>
                                 <th scope="col">OrderId</th>
