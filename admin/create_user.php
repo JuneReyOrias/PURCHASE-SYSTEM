@@ -44,9 +44,9 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
-        <div class="ser-center fs-2 " ><br>
+        <div class="ser-center fs-2 "style="margin-left: 35px;" ><br>
 
-        <span style="margin-top: 500px;">Customer Info</span></div> 
+        <span style="margin-left: 35px;">Customer Info</span></div> 
 </div>
 
 
