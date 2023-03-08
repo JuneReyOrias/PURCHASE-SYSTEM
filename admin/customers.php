@@ -47,7 +47,7 @@ left:25px;" >
         <a href='customer.php'>Customers</a>
         <div class="ser-center fs-2 " ><br>
 
-        <span>Customers </span></div> 
+        <span> </span></div> 
 </div>
 </div>
 
@@ -232,7 +232,7 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Purchase </h2>
+                <h2> Customer Purchase </h2>
            
 
 
