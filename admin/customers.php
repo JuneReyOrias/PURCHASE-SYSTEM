@@ -232,13 +232,13 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Customer Purchase </h2>
+                <h2> Ctomer Purchase </h2>
            
 
 
 
         
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
@@ -247,6 +247,7 @@ left:25px;" >
                                 <th scope="col">requireDate </th>
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
+                                <th scope="col"> Action </th>
                                 <th scope="col"> Action </th>
                                 
                                 
@@ -270,18 +271,15 @@ left:25px;" >
                                 <td> <?php echo $user['req_date']; ?> </td>
                                 <td> <?php echo $user['exp_deliver_date']; ?> </td>
                                 <td> <?php echo $user['payment_id']; ?> </td>
+                              
+                              
+                             
                                 <td>
-                                   <!-- Example single danger button -->
-                                   <div class="btn-group">
-                                   <div class="btn-group">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
-    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
-   
-  </div> 
+                                    <button type="button" class="btn btn-success editbtn"> Approved  </button>
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
+                                </td>  
                             </tr>
                         </tbody>
                         <?php $i++; } ?>
