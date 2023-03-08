@@ -238,7 +238,7 @@ left:25px;" >
 
 
         
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive" style>
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
@@ -247,7 +247,7 @@ left:25px;" >
                                 <th scope="col">requireDate </th>
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
-                                <th scope="col"> Action </th>
+                                
                                 <th scope="col"> Action </th>
                                 
                                 
