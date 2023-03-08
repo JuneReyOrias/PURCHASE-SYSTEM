@@ -91,6 +91,11 @@ left:25px;" >
                                 placeholder="Enter Fullname">
                         </div>
                         <div class="form-group">
+                            <label> ContactNo </label>
+                            <input type="text" name="contact_no" id="contact_no" class="form-control"
+                                placeholder="Enter ContactNo">
+                        </div>
+                        <div class="form-group">
                             <label> role </label>
                             <input type="text" name="role" id="role" class="form-control"
                                 placeholder="Enter Role">
@@ -143,7 +148,12 @@ left:25px;" >
                         <div class="form-group">
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
+                                placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label> ContactNo </label>
+                            <input type="text" name="contact_no" id="contact_no" class="form-control"
+                                placeholder="Enter ContactNo">
                         </div>
                         <div class="form-group">
                             <label> role </label>
