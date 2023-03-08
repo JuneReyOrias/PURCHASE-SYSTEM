@@ -44,9 +44,9 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
-        <div class="ser-center fs-2 " >
+        <div class="ser-center fs-2 " ><br>
 
-        <span>Customer Info</span></div> 
+        <span style="margin-top: 12px;">Customer Info</span></div> 
 </div>
 
 
@@ -228,14 +228,14 @@ left:25px;" >
 
             <div class="card">
                
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 35px;">
                         ADD New User
                     </button>
                 </div>
           
 
         
-                    <table id="datatableid" class="table table-bordered table-responsive"class="table table-responsive">
+                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:40px;">
                         <thead class="table-dark ">
                             <tr>
                                 <th scope="col"> ID</th>
@@ -246,7 +246,6 @@ left:25px;" >
                                 <th scope="col"> Email </th>
                                  <th scope="col"> Contact </th>
                                 <th scope="col"> Role </th>
-                                <th scope="col"> Action</th>
                                 <th scope="col"> Action</th>
                              
                             </tr>
