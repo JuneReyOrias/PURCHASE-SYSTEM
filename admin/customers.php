@@ -248,7 +248,6 @@ left:25px;" >
                                 <th scope="col">Expe_deliverDate</th>
                                 <th scope="col">paymentId </th>
                                 <th scope="col"> Action </th>
-                                <th scope="col"> Action </th>
                                 
                                 
                             </tr>
