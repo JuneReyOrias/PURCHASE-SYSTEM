@@ -232,14 +232,14 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Ctomer Purchase </h2>
+                <h2> Customer Purchase </h2>
            
 
 
 
         
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">OrderId</th>
                                 <th scope="col">OrderDate </th>
