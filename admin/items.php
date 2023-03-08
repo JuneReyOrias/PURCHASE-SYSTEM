@@ -228,12 +228,9 @@ left:25px;" >
     </div>
 
 
-    <div class="container">
-              
-         
-            <div class="card">
-                
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
+    <div style="margin-left: 35px;">
+                    <h2 style="margin-left: 40rem;"> Create New Items </h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
                         Add New Items
                     </button>
                 </div>
