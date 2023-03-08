@@ -275,11 +275,10 @@ left:25px;" >
                               
                              
                                 <td>
-                                    <button type="button" class="btn btn-success editbtn"> Approved  </button>
-                                </td>
-                                <td>
+                                    <button type="button" class="btn btn-success editbtn g-sm-1"> Approved  </button>
                                     <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
-                                </td>  
+                                </td>
+                               
                             </tr>
                         </tbody>
                         <?php $i++; } ?>
