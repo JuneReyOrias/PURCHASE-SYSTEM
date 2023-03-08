@@ -38,7 +38,7 @@ class Purchase {
 
     function get($fee_id) {
         $stmt = $this->db->connect()->prepare("SELECT * FROM purchase_order WHERE id = :id");
-        $stmt->bindParam(":id", $id);
+        $stmt->bindParam(":id", $Id);
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
@@ -53,10 +53,10 @@ class Purchase {
     }
 
     function delete(){
-        $sql = "DELETE FROM fee WHERE fee_id=:fee_id";
+        $sql = "DELETE FROM purchase_oder WHERE order_id=:order_id";
 
         $query=$this->db->connect()->prepare($sql);
-        $query->bindParam(':fee_id', $this->ID);
+        $query->bindParam(':order_id', $this->orderID);
 
         if($query->execute()){
             return true;
