@@ -226,7 +226,7 @@ left:25px;" >
     </div>
 
 
-            <div>
+            <div style="margin-left: 35px;">
                
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 35px;">
                         ADD New User
@@ -235,7 +235,7 @@ left:25px;" >
           
 
         
-                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:40px;">
+                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:50px;">
                         <thead class="table-dark ">
                             <tr>
                                 <th scope="col"> ID</th>
