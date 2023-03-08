@@ -263,7 +263,7 @@ left:25px;" >
                                 <td> <?php echo $user['firstname']; ?> </td>
                                 <td> <?php echo $user['lastname']; ?> </td>
                                 <td> <?php echo $user['email']; ?> </td>
-                                <td> <?php echo $user['contact']; ?> </td>
+                                <td> <?php echo $user['contact_no']; ?> </td>
                                 <td> <?php echo $user['role']; ?> </td>
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
