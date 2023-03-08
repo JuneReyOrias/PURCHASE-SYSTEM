@@ -46,7 +46,7 @@ left:25px;" >
         <a href='items.php'>Items</a><br>
         <div class="ser-center fs-2 " >
 
-        <span>Create Items </span></div> 
+       
 </div>
 </div>
 
