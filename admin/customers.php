@@ -232,13 +232,13 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2 style="margin-left: 27px;"> Customer Purchase </h2>
+                <h2 style="margin-left: 35px;"> Customer Purchase </h2>
            
 
 
 
         
-                    <table  class="table table-bordered  table-responsive"style="margin-left:34px;">
+                    <table  class="table table-bordered  table-responsive"style="margin-left:40px;">
                         <thead class=" table-dark">
                             <tr>
                                 <th scope="col">OrderId</th>
