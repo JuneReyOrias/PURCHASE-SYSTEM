@@ -245,7 +245,7 @@ left:25px;" >
                 $query = "SELECT * FROM user_acc";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-responsive"class="table table-responsive">
+                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col"> ID</th>
