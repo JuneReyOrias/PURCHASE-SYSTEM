@@ -233,15 +233,7 @@ left:25px;" >
                 </div>
           
 
-           
-
-                <?php
-                $user= new Users();
-                $userdata= $user->show();
-                
-                foreach($userdata as $user)
-                    {
-            ?>
+        
                     <table id="datatableid" class="table table-bordered table-responsive"class="table table-responsive">
                         <thead class="table-dark ">
                             <tr>
@@ -258,9 +250,16 @@ left:25px;" >
                              
                             </tr>
                         </thead>
-                        <?php
+                        
+                         <?php
+                            $user= new Users();
+                            $userdata= $user->show();
+                            
+                            foreach($userdata as $user)
+                                {
+                        ?>
 
-            ?>
+          
                         <tbody>
                             <tr>
                                 <td > <?php echo $user['id']; ?> </td>
@@ -280,7 +279,7 @@ left:25px;" >
                             </tr>
                         </tbody>
                         <?php   
-                                
+
              }
            
             ?>
