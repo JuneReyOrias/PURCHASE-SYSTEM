@@ -262,7 +262,7 @@ left:25px;" >
           
                         <tbody>
                             <tr>
-
+                            <td > <?php echo $user['user_name']; ?> </td>
                                 <td > <?php echo $user['id']; ?> </td>
                                 <td> <?php echo $user['user_name']; ?> </td>
                                 <td> <?php echo $user['user_pass']; ?> </td>
