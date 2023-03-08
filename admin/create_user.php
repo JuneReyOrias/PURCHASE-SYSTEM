@@ -236,14 +236,13 @@ left:25px;" >
            
 
                 <?php
-                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
-
-                $query = "SELECT * FROM user_acc";
-                $query_run = mysqli_query($connection, $query);
+                $user= new Users();
+                $userdata= $user->show();
+                
+                foreach($userdata as $user){
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
+                    <table id="datatableid" class="table table-bordered table-responsive"class="table table-responsive">
+                        <thead class="table-dark ">
                             <tr>
                                 <th scope="col"> ID</th>
                                 <th scope="col">Username </th>
@@ -251,34 +250,30 @@ left:25px;" >
                                 <th scope="col">Firstname </th>
                                 <th scope="col"> Lastname </th>
                                 <th scope="col"> Email </th>
+                                 <th scope="col"> Contact </th>
                                 <th scope="col"> Role </th>
-                                <th scope="col"> VIEW </th>
-                                <th scope="col"> EDIT </th>
-                                <th scope="col"> DELETE </th>
+                                <th scope="col"> Action</th>
+                                <th scope="col"> Action</th>
+                             
                             </tr>
                         </thead>
                         <?php
-                if($query_run)
-                {
-                    foreach($query_run as $row)
-                    {
+
             ?>
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['id']; ?> </td>
-                                <td> <?php echo $row['user_name']; ?> </td>
-                                <td> <?php echo $row['user_pass']; ?> </td>
-                                <td> <?php echo $row['firstname']; ?> </td>
-                                <td> <?php echo $row['lastname']; ?> </td>
-                                <td> <?php echo $row['email']; ?> </td>
-                                <td> <?php echo $row['role']; ?> </td>
+                                <td > <?php echo $user['id']; ?> </td>
+                                <td> <?php echo $user['user_name']; ?> </td>
+                                <td> <?php echo $user['user_pass']; ?> </td>
+                                <td> <?php echo $user['firstname']; ?> </td>
+                                <td> <?php echo $user['lastname']; ?> </td>
+                                <td> <?php echo $user['email']; ?> </td>
+                                <td> <?php echo $user['contact']; ?> </td>
+                                <td> <?php echo $user['role']; ?> </td>
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
-                                </td>
-                                <td>
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                </td>
-                                <td>
+                                
                                     <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
                                 </td>
                             </tr>
