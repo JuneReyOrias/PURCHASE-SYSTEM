@@ -238,7 +238,7 @@ left:25px;" >
 
 
         
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive" style>
+                    <table id="datatableid" class="table-bordered table-light" style >
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
@@ -271,9 +271,6 @@ left:25px;" >
                                 <td> <?php echo $user['req_date']; ?> </td>
                                 <td> <?php echo $user['exp_deliver_date']; ?> </td>
                                 <td> <?php echo $user['payment_id']; ?> </td>
-                              
-                              
-                             
                                 <td>
                                     <button type="button" class="btn btn-success editbtn d-sm-flex"> Approved  </button>
                                     <button type="button" class="btn btn-danger deletebtn d-sm-flex"> Disapproved </button>
