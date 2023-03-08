@@ -228,7 +228,7 @@ left:25px;" >
 
             <div style="margin-left: 35px;">
                
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 35px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 60px;">
                         ADD New User
                     </button>
                 </div>
