@@ -275,8 +275,8 @@ left:25px;" >
                               
                              
                                 <td>
-                                    <button type="button" class="btn btn-success editbtn g-sm-table"> Approved  </button>
-                                    <button type="button" class="btn btn-danger deletebtn d-sm-table"> Disapproved </button>
+                                    <button type="button" class="btn btn-success editbtn d-sm-flex"> Approved  </button>
+                                    <button type="button" class="btn btn-danger deletebtn d-sm-flex"> Disapproved </button>
                                 </td>
                                
                             </tr>
