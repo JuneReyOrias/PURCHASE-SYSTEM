@@ -238,7 +238,7 @@ left:25px;" >
 
 
         
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
+                    <table id="datatableid" class="table table-bordered table-dark table-responsive">
                         <thead>
                             <tr>
                                 <th scope="col">OrderId</th>
