@@ -1,8 +1,7 @@
 <?php
 require_once '../database/user.class.php';
 
-if(isset($_POST['insertdata']))
-{
+
    $user= new Users;
    $user->add();
     if($query_run)
@@ -14,6 +13,6 @@ if(isset($_POST['insertdata']))
     {
         echo '<script> alert("Data Not Saved"); </script>';
     }
-}
+
 
 ?>
