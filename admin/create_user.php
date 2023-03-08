@@ -46,7 +46,7 @@ left:25px;" >
         <a href='create_user.php'>CreateUsers</a>
         <div class="ser-center fs-2 " ><br>
 
-        <span style="margin-top: 12px;">Customer Info</span></div> 
+        <span style="margin-top: 500px;">Customer Info</span></div> 
 </div>
 
 
@@ -228,7 +228,7 @@ left:25px;" >
 
             <div style="margin-left: 35px;">
                
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 130px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
                         ADD New User
                     </button>
                 </div>
