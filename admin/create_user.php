@@ -60,7 +60,23 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="insertcode.php" method="POST">
+                <form <?php
+{
+   $user= new Users();
+
+   $user->add();
+    if($query_run)
+    {
+        echo '<script> alert("Data Saved"); </script>';
+        header('Location: create_user.php');
+    }
+    else
+    {
+        echo '<script> alert("Data Not Saved"); </script>';
+    }
+}
+
+?>method="POST">
 
                     <div class="modal-body">
                         <div class="form-group">
