@@ -231,7 +231,7 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2>  Orders </h2>
+                <h2 style="margin-left: 40rem;">  Orders </h2>
            
 
 
@@ -243,7 +243,7 @@ left:25px;" >
                 $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-responsive">
+                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left: 40px;">
                         <thead class="table-dark" >
                             <tr>
                                 <th scope="col">OrderId</th>
