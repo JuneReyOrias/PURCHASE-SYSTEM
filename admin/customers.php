@@ -232,7 +232,7 @@ left:25px;" >
 
     <div class="container" >
        
-                <h2> Customer Purchase </h2>
+                <h2 style="margin-left: 27px;"> Customer Purchase </h2>
            
 
 
