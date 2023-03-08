@@ -1,12 +1,9 @@
 <?php
-require_once '../database/database.php';
-require_once '../database/user.class.php';
-
-if(isset($_POST['insert']))
+ require_once '../database/user.class.php';
 {
    $user= new Users();
 
-   $user->add();
+  $create= $user->add();
     if($query_run)
     {
         echo '<script> alert("Data Saved"); </script>';
