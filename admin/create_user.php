@@ -43,7 +43,7 @@ left:25px;" >
         <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
-        <a href='create_user.php'>CreateUsers</a>
+        <a href='create_user.php'>CreateUsers</a><br>
      
 </div>
 
@@ -225,7 +225,7 @@ left:25px;" >
 
 
             <div style="margin-left: 35px;">
-            <h2 style="margin-left: 40rem;"> Customer Purchase </h2>
+            <h2 style="margin-left: 40rem;"> Customer Info </h2>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
                         ADD New User
                     </button>
