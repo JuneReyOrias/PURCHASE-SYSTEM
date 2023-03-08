@@ -44,7 +44,7 @@ left:25px;" >
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
         <a href='order.php'>Order</a>
-        <div class="ser-center fs-2 " >
+        <div class="ser-center fs-2 " ><br>
 
         <span></span></div> 
 </div>
@@ -243,8 +243,8 @@ left:25px;" >
                 $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
+                    <table id="datatableid" class="table table-bordered table-responsive">
+                        <thead class="table-dark" >
                             <tr>
                                 <th scope="col">OrderId</th>
                                 <th scope="col">OrderDate </th>
