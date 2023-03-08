@@ -257,7 +257,7 @@ left:25px;" >
                   
                   $user= new Users();
                   $userdata= $user->show();
-                  $i=1;
+                  
                   foreach($userdata as $user){
    
                ?>
@@ -282,7 +282,7 @@ left:25px;" >
                                 </td>  
                             </tr>
                         </tbody>
-                        <?php $i++; } ?>
+                        <?php } ?>
                     </table>
                 </div>
             </div>
