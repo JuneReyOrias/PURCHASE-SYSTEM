@@ -262,6 +262,7 @@ left:25px;" >
           
                         <tbody>
                             <tr>
+
                                 <td > <?php echo $user['id']; ?> </td>
                                 <td> <?php echo $user['user_name']; ?> </td>
                                 <td> <?php echo $user['user_pass']; ?> </td>
@@ -273,16 +274,13 @@ left:25px;" >
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                
                                     <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
                                 </td>
                             </tr>
                         </tbody>
-                        <?php   
+                        <?php }  ?>
 
-             }
-           
-            ?>
+          
                     </table>
                 </div>
             </div>
