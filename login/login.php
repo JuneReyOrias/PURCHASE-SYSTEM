@@ -24,7 +24,7 @@ $page_title = 'UPRESS -dasboard';
 
             //display the appropriate dashboard page for user
                 if($output['role'] == 'customer'){
-                   // print_r($_SESSION);
+                    print_r($_SESSION);
                     header('location: ../customer/dashboard.php');
                 }elseif($output['role'] == 'admin'){
                     header('location: ../admin/dashboard.php');
