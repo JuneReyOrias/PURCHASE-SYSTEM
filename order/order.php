@@ -92,7 +92,7 @@
       <div class="card-body">
         <h5 class="card-title">Printing and Binding</h5>
     
-        <a href="#" class="btn btn-primary">Continue</a>
+        <a href="invoices.php" class="btn btn-primary">Continue</a>
       </div>
     </div>
   </div>
