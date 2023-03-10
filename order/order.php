@@ -41,7 +41,7 @@
       
         <div class="tapnav">
        <a class="lefte ms-lg-3" href="../customer/dashboard.php">Home</a>
-        <a href="">Shop</a>
+        <a href="invoices.php">Shop</a>
         <a class="order" href="order.php" ><span>></span>Order</a><br>
         <div class="ser-center fs-2 " >
              <span class="ser-center fs-2 " >Services</span></div> 
