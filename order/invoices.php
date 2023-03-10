@@ -54,8 +54,15 @@
         </div>
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);"> 
-       
-  <div>
-    <input type="text" name="orderid" placeholder="">
-  </div>
-  
+  <div class="select-container">              
+            <form class="select-form" action="sample.php" method="post">
+            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
+
+            <label  for="username">Name</label>
+            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <label for="email">Email</label>
+            <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
+            <label for="contact">Contact</label>
+            <input class="form-print" type="contact" id="contact" name="contact" placeholder="Contact" required tabindex="2">
+            
+</div>
