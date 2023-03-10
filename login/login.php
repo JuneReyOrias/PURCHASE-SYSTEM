@@ -6,31 +6,7 @@ session_start();
 $page_title = 'UPRESS -dasboard';
 ?>
 <?php
-//creating an array for list of users can login to the system
-$accounts = array(
-        "user1" => array(
-            "firstname" => 'joe',
-            "lastname" => 'Maderal',
-            "type" => 'customer',
-            "username" => 'maderal',
-            "password" => 'maderal'
-        ),
-        "user2" => array(
-            "firstname" => 'Jaydee',
-            "lastname" => 'Ballho',
-            "type" => 'customer',
-            "username" => 'jaydee',
-            "password" => 'jaydee'
-        ),
-        "user3" => array(
-            "firstname" => 'Chelsea',
-            "lastname" => 'Alboroto',
-            "type" => 'customer',
-            "username" => 'chelsea',
-            "password" => 'alboroto'
-        )
-     
-    );
+
     if(isset($_POST['user_name']) && isset($_POST['password'])){
         //Sanitizing the inputs of the users. Mandatory to prevent injections!
        
