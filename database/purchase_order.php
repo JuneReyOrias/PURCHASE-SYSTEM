@@ -2,7 +2,7 @@
 
 require_once 'database.class.php';
 
-class Purchase {
+class Purchase { 
     public $orderID;
     public $orderDate;
     public $customerId;
