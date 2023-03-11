@@ -13,7 +13,7 @@ if (!isset($_SESSION['logged-in'])){
 //if the above code is false then html below will be displayed
 
 
-$page_title = 'Upress | Dashboard';
+$page_title = 'UPRESS | Dashboard';
 $dashboard = 'active';
 
 require_once '../includes/header.php';
