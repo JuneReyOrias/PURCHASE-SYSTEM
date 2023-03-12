@@ -55,7 +55,7 @@ require_once '../includes/header.php';
                 </li>
 
                 <li class="nav-link">
-                    <a href="../purchase/purchases.php">
+                    <a href="../purchase/purchase.php">
                         <i class='bx bx-shopping-bag icon' ></i>
                         <span class="text nav-text">Purchase</span>
                     </a>
