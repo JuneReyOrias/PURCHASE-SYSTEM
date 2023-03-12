@@ -54,7 +54,7 @@
         </div>
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);"> 
-                <form class="select-form" action="sample.php" method="post">
+                <form action="sample.php" method="post">
             <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
 
             <label  for="username">Name</label>
