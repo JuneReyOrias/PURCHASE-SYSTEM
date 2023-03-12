@@ -63,7 +63,7 @@
   <div class="col-sm-3">
     <div class="card"style="   margin-top:3rem;border-radius: 12px; height:10rem;">
       <div class="card-body">
-        <h5 class="card-title">Bindin</h5>
+        <h5 class="card-title">Binding</h5>
     
         <a href="binding.php" class="btn btn-primary">Continue</a>
       </div>
