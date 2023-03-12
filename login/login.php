@@ -81,9 +81,9 @@ $page_title = 'UPRESS -dasboard';
             </div>
             <hr class="divider">
             <label for="username">Username</label>
-            <input type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
+            <input type="text" id="user_name" name="user_name" placeholder="Enter Username" required tabindex="1">
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter password" required tabindex="2">
+            <input type="password" id="password" name="password" placeholder="Enter Password" required tabindex="2">
             <input class="button" type="submit" value="Login" name="login" tabindex="3">
             <?php
                 //Display the error message if there is any.
