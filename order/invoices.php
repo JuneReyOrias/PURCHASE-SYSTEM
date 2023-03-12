@@ -57,7 +57,7 @@
                <div class="select-container">
             <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
 
-            <label  for="username">Name</label>
+            <label  for="username">N</label>
             <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
             <label for="email">Email</label>
             <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
