@@ -11,6 +11,7 @@ class Purchase {
     public $requiredDate;
     public $expe_dlvDate;
     public $paymentId;
+    public $Id;
     protected $db;
 
     function __construct() {
@@ -36,7 +37,7 @@ class Purchase {
         }
     }
 
-    function get($fee_id) {
+    function get() {
         $stmt = $this->db->connect()->prepare("SELECT * FROM purchase_order WHERE id = :id");
         $stmt->bindParam(":id", $Id);
         $stmt->execute();
