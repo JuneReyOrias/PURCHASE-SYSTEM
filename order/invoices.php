@@ -62,8 +62,8 @@
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
                                     <input  style="width:200px; " type="text" placeholder="COLLEGE OF NURSING"></th>
-                                    <th > <label>Month:</label>
-                                    <input  style="width:200px; " type="text" placeholder="MARCH 2023"></th>
+                                    <th > <label>Email:</label>
+                                    <input  style="width:200px; " type="text" placeholder="enter email"></th>
                                
                               
                                 
@@ -75,8 +75,23 @@
                               
                             <th > <label>Type of Jobs:</label>
                                     <input  style="width:200px; " type="text" placeholder="Printing"></th>
-                                    <th > <label>riv.no:</label>
-                                    <input  style="width:200px; " type="text" value="Printing"></th>
+                                    <th > <label>Contact_No.:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Uploadfile():</label>
+                            <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></th>
+                                    <th > <label>Contact_No.:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
                                 
                            
                                
@@ -113,11 +128,11 @@
                            <option value="">Kromekote</option>
                         </select></td>
                         <td> <select class=""id="size">
-         
+                        <option selected>--Select--</option>
             <option value="Long">Long</option>
             <option value="Short">Short</option>
             <option value="A4">A4</option>
-</select></td>
+                        </select></td>
                                 <td>
                                     <div class="col-md-5 align-content-lg-center ">
                                     <div class="input-group-center" style="width:80px; ">
@@ -179,7 +194,7 @@
                            <option value="">Kromekote</option>
                         </select></td>
                         <td> <select class=""id="size">
-         
+                        <option selected>--Select--</option>
             <option value="Long">Long</option>
             <option value="Short">Short</option>
             <option value="A4">A4</option>
@@ -245,7 +260,7 @@
                            <option value="">Kromekote</option>
                         </select></td>
                         <td> <select class=""id="size">
-         
+                        <option selected>--Select--</option>
             <option value="Long">Long</option>
             <option value="Short">Short</option>
             <option value="A4">A4</option>
