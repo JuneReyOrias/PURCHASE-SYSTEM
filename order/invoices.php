@@ -140,7 +140,7 @@
                         </tbody>
 </table><br>
        
-                <table  class="table table-bordered table-responsive-sm">
+                <table  class="table table-bordered table-responsive">
                         <thead class="text-center">
                             <tr>
                                 <th scope="col">Date</th>
