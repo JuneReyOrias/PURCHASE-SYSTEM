@@ -105,7 +105,7 @@
 
 <tbody>
                             <tr>
-                                <td> <div class="mb-3">
+                                <td> <div class="file-sm">
     <input type="file" class="form-control" aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
