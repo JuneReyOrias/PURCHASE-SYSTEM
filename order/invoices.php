@@ -58,7 +58,7 @@
 
  
        
-                <table  class="table table-bordered table-responsive">
+                <table  class="table-sm table-bordered table-responsive">
                         <thead class="text-center">
                             <tr>
                                 <th scope="col">Date</th>
