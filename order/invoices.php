@@ -103,6 +103,7 @@
                 <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
+                                <th>Uploadfile</th>
                                 <th scope="col">Type of Printing</th>
                                 <th scope="col">Size</th>
                                 <th scope="col">Qty </th>
@@ -118,6 +119,10 @@
 
 <tbody>
                             <tr>
+                                <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
                                 <td>
                                      <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
@@ -184,6 +189,10 @@
                       
 <tbody>
                             <tr>
+                            <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
                             <td>
                                      <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
@@ -250,6 +259,10 @@
                         
 <tbody>
                             <tr>
+                            <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
                             <td>
                                      <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
