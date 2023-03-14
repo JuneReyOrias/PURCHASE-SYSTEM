@@ -103,7 +103,15 @@
 
 <tbody>
                             <tr>
-                                <td>       <select class="size"id="size">
+                                <td>       <select class="printing-type"id="size">
+            <option selected>Size</option>
+            <option value="">Digital Color</option>
+        <option value="">Digital Black and White</option>
+        <option value="">Photo Printing</option>
+        <option value="">Rhisograph</option>
+        <option value="">Kromekote</option>
+</select></td>
+                        <td> <select class="size"id="size">
             <option selected>Size</option>
             <option value="Long">Long</option>
             <option value="Short">Short</option>
