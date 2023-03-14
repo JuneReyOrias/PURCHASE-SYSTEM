@@ -112,7 +112,7 @@
                           <option value="">Rhisograph</option>
                            <option value="">Kromekote</option>
                         </select></td>
-                        <td> <select class="size"id="size">
+                        <td> <select class=""id="size">
          
             <option value="Long">Long</option>
             <option value="Short">Short</option>
@@ -178,7 +178,7 @@
                           <option value="">Rhisograph</option>
                            <option value="">Kromekote</option>
                         </select></td>
-                        <td> <select class="size"id="size">
+                        <td> <select class=""id="size">
          
             <option value="Long">Long</option>
             <option value="Short">Short</option>
@@ -244,7 +244,7 @@
                           <option value="">Rhisograph</option>
                            <option value="">Kromekote</option>
                         </select></td>
-                        <td> <select class="size"id="size">
+                        <td> <select class=""id="size">
          
             <option value="Long">Long</option>
             <option value="Short">Short</option>
