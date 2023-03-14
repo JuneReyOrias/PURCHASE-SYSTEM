@@ -313,12 +313,26 @@
                             </tr>
                         </tbody>
                         </table>
-       
+                        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
+                        <thead class="table-light " >
+                            <tr class="text-dark ">
+                                <th > <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+  <button class="btn btn-primary me-md-2" type="button">Continues</button>
+</div>></th>
+                                    <th > <label>Email:</label>
+                                    <input  style="width:200px; " type="text" placeholder="enter email"></th>
+                               
+                              
+                                
+                                
+                            </tr>
+                        </thead>
+
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
   <button class="btn btn-primary me-md-2" type="button">Continues</button>
 </div>
 <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
         </div>
-        
+
 
  
