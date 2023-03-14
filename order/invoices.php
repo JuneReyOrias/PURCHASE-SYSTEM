@@ -88,7 +88,8 @@
                 <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
-                                <th scope="col">Date</th>
+                                <th scope="col">Type of Printing</th>
+                                <th scope="col">Size</th>
                                 <th scope="col">Qty </th>
                                 <th scope="col">Unit </th>
                                 <th scope="col">Description</th>
@@ -102,7 +103,14 @@
 
 <tbody>
                             <tr>
-                                <td  scope="row">Description </td>
+                                <td>     <select name="Printing type "class="select multiple-select" multiple >
+        
+                                          <option value="">Digital Color</option>
+                                          <option value="">Digital Black and White</option>
+                                          <option value="">Photo Printing</option>
+                                       <option value="">Rhisograph</option>
+                                       <option value="">Kromekote</option>
+                                     </select></td>
                                 <td>
                                     <div class="col-md-5 align-content-lg-center ">
                                     <div class="input-group-center" style="width:80px; ">
