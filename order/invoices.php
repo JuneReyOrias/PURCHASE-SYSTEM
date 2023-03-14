@@ -57,7 +57,7 @@
              
 
        
-             <table  class="table-sm table-bordered table-responsive-sm ">
+             <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
@@ -82,7 +82,7 @@
                                
                             </tr>
                         </tbody>
-        <table class="table-md  table-responsive table-right float-end" style="margin-left:70.2rem;">
+        <table class="table-md  table-responsive table-right float-end" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th scope="col">Available Funds:</th>
