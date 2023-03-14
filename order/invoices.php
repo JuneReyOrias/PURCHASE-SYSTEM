@@ -236,7 +236,21 @@
     <div class="container" >
        
                 <h2> Track Order </h2>
-           
+                <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
+                        <thead>
+                            <tr>
+                                <th scope="col">Date</th>
+                                <th scope="col">Qty </th>
+                                <th scope="col">Unit </th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Unit Cost </th>
+                                <th scope="col">Amount </th>
+                              
+                                
+                                
+                            </tr>
+                        </thead>
+</table>
 
 
 
@@ -250,13 +264,13 @@
                     <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
                         <thead>
                             <tr>
-                                <th scope="col">OrderId</th>
-                                <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
-                                <th scope="col">requireDate </th>
-                                <th scope="col">Expe_deliverDate</th>
-                                <th scope="col">paymentId </th>
-                                <th scope="col"> Status </th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Qty </th>
+                                <th scope="col">Unit </th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Unit Cost </th>
+                                <th scope="col">Amount </th>
+                              
                                 
                                 
                             </tr>
