@@ -82,62 +82,7 @@
                                
                             </tr>
                         </tbody>
-        <table class="table-md  table-responsive table-right float-end" style="margin-left:15rem; margin-top:3rem;">
-                        <thead class="table-light " >
-                            <tr class="text-dark ">
-                                <th scope="col">Available Funds:</th>
-                                <th><div class="col-md-4 align-content-lg-center">
-                                <div class="input-group-center" style="width:90px; ">
-                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="P20,000" >
-                                    <!--<button class="input-group-text increment-btn">+</button>-->
-                                    </div>
-                                </div></th>  
-                            
-                                
-                              
-                                
-                                
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                              <th scope="row">From Previous: </th>
-                              <th><div class="col-md-4 align-content-lg-center">
-                                <div class="input-group-center" style="width:90px; ">
-                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="P0.00" >
-                                    <!--<button class="input-group-text increment-btn">+</button>-->
-                                    </div>
-                                </div></th>
-                              
-                                
-                               
-                               
-                                
-                              
-                               
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                              <th scope="row">Remaining Balance: </th>
-                              <th ><div class="col-md-4 align-content-lg-center">
-                                <div class="input-group-center" style="width:90px; ">
-                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="P0.00" >
-                                    <!--<button class="input-group-text increment-btn">+</button>-->
-                                    </div>
-                                </div></th>
-                              
-                                
-                               
-                               
-                                
-                              
-                    
-                            </tr>
-                        </tbody>
+      
 </table><br>
        
                 <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
