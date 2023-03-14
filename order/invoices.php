@@ -105,6 +105,7 @@
                             <tr>
                                 <td>
                                      <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
                               <option value="">Digital Color</option>
                              <option value="">Digital Black and White</option>
                             <option value="">Photo Printing</option>
@@ -170,6 +171,7 @@
                             <tr>
                             <td>
                                      <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
                               <option value="">Digital Color</option>
                              <option value="">Digital Black and White</option>
                             <option value="">Photo Printing</option>
@@ -235,6 +237,7 @@
                             <tr>
                             <td>
                                      <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
                               <option value="">Digital Color</option>
                              <option value="">Digital Black and White</option>
                             <option value="">Photo Printing</option>
