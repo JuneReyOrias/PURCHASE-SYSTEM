@@ -82,21 +82,7 @@
                                
                             </tr>
                         </tbody>
-                        <tbody>
-                            <tr>
-                              
-                            <th > <label>Uploadfile():</label>
-                            <div class="mb-3">
-    <input type="file" class="form-control" aria-label="file pdf/word" required>
-    <div class="invalid-feedback"> invalid file </div>
-  </div></th>
-                                    <th > <label>Contact_No.:</label>
-                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
-                                
-                           
-                               
-                            </tr>
-                        </tbody>
+                     
       
 </table><br>
        
