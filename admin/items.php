@@ -230,7 +230,7 @@ left:25px;" >
 
    
                     <h2 style="margin-left: 40rem;"> Create New Items </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 130px;">
                         Add New Items
                     </button>
             
