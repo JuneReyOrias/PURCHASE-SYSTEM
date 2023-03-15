@@ -42,7 +42,7 @@ left:25px;" >
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
         <a href='create_user.php'>CreateUsers</a>
-        <a href='items.php'>Items</a><br>
+        <a href='items.php'>Product</a><br>
         <div class="ser-center fs-2 " >
 
        
@@ -229,9 +229,9 @@ left:25px;" >
 
 
    
-                    <h2 style="margin-left: 40rem;"> Items </h2>
+                    <h2 style="margin-left: 40rem;"> Product </h2>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 130px;">
-                        Add New Items
+                        Add New Product
                     </button>
             
 
@@ -248,7 +248,7 @@ left:25px;" >
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col"> ID</th>
-                                <th scope="col">ItemName </th>
+                                <th scope="col">ProductName </th>
                                 <th scope="col">Services </th>
                                 <th scope="col">Unit_Prices </th>
                                 <th scope="col"> Quantity </th>
