@@ -18,7 +18,7 @@ require_once 'database.class.php';
     }
 
 
-    function show(){
+    function shows(){
         $sql = "SELECT * FROM products;";
         
         $query=$this->db->connect()->prepare($sql);
@@ -59,3 +59,4 @@ require_once 'database.class.php';
         }	
     }
  }
+ ?>
