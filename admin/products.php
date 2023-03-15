@@ -2,9 +2,9 @@
 
     //resume session here to fetch session values
     session_start();
-  
+  require_once '../database/products_model.php';
     /*
-        if user is not login then redirect to login page,
+        if user is. not login then redirect to login page,
         this is to prevent users from accessing pages that requires
         authentication such as the dashboard
     */
