@@ -61,7 +61,7 @@ left:25px;" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create Account </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create New Product </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -71,9 +71,9 @@ left:25px;" >
 
                     <div class="modal-body">
                         <div class="form-group">
-                        <label>Username </label>
-                            <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
+                        <label>ProductName </label>
+                            <input type="text" name="product_name" id="product_name" class="form-control"
+                                placeholder="Enter ProductName">
                         </div>
 
                         <div class="form-group">
@@ -83,9 +83,9 @@ left:25px;" >
                         </div>
 
                         <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
+                            <label>ProductDescription </label>
+                            <input type="text" name="product_desc" id="product_desc" class="form-control"
+                                placeholder="Enter ProductDescription">
                         </div>
                         <div class="form-group">
                             <label> lastname </label>
@@ -93,14 +93,14 @@ left:25px;" >
                                 placeholder="Enter Lastname">
                         </div>
                         <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
+                            <label> Unit_Prices </label>
+                            <input type="text" name="unit_price" id="unit_price" class="form-control"
+                                placeholder="Enter UnitPrice">
                         </div>
                         <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
+                            <label> Quantity </label>
+                            <input type="text" name="qty" id="qty" class="form-control"
+                                placeholder="Enter Quantity">
                         </div>
                     </div>
                     <div class="modal-footer">
