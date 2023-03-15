@@ -52,7 +52,7 @@
     transition: var(--tran-05);">
 <div class="row">
   <div class="col-sm-3"style="margin-left:8rem;" >
-    <div class="card"style="  margin-top:3rem; border-radius: 12px; height:15rem;">
+    <div class="card"style="  margin-top:3rem; border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Printing</h5>
       
@@ -61,7 +61,7 @@
     </div>
   </div>
   <div class="col-sm-3">
-    <div class="card"style="   margin-top:3rem;border-radius: 12px; height:15rem;">
+    <div class="card"style="   margin-top:3rem;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
     
@@ -70,7 +70,7 @@
     </div>
   </div>
   <div class="col-sm-3">
-    <div class="card"style="  margin-top:3rem;border-radius: 12px; height:15rem;">
+    <div class="card"style="  margin-top:3rem;border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
     
@@ -78,19 +78,11 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4" style="margin-top:2rem; margin-left:15rem;">
+
+ <div class="col-sm-4" style="margin-top:2rem;">
     <div class="card"style="  border-radius: 12px; height:10rem;">
       <div class="card-body">
-        <h5 class="card-title">Printing and Layout</h5>
-    
-        <a href="#" class="btn btn-primary">Continue</a>
-      </div>
-    </div>
-  </div>
- <div class="col-sm-4" style="margin-top:2rem;">
-    <div class="card"style="  border-radius: 12px; height:15rem;">
-      <div class="card-body">
-        <h5 class="card-title">Printin G</h5>
+        <h5 class="card-title">Printing General</h5>
     
         <a href="invoices.php" name="" class="btn btn-primary">Continue</a>
       </div>
