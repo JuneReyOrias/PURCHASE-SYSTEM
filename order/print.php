@@ -312,7 +312,7 @@ left:25px; " >
                         </table>
                        
 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end"style="margin-top:5rem;">
                         <button class="btn btn-primary me-md-2" type="button">Continues</button>
                         </div>
 
