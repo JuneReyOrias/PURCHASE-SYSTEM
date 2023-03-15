@@ -52,116 +52,270 @@ left:25px; " >
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">  
         
-    <div class="select-container">              
-            <form class="select-form" action="sample.php" method="post">
-            <div class="col2" ><spani class='bx bx-printer icon' >Printing Form</span></div>
-
-            <label  for="username">Name</label>
-            <input class="form-print" type="text" id="user_name" name="user_name" placeholder="Enter name" required tabindex="1">
-            <label for="email">Email</label>
-            <input class="form-print" type="email" id="email" name="email" placeholder="Enter email" required tabindex="2">
-            <label for="contact">Contact</label>
-            <input class="form-print" type="contact" id="contact" name="contact" placeholder="Contact" required tabindex="2">
-            
-
-        <label class="design"for=""></i>Printing type</label>
-        <select name="Printing type "class="select multiple-select" multiple >
-        
-        <option value="">Digital Color</option>
-        <option value="">Digital Black and White</option>
-        <option value="">Photo Printing</option>
-        <option value="">Rhisograph</option>
-        <option value="">Kromekote</option>
-        </select>
-        <div>
-        <input class="fc" type="text" name="digitall" placeholder="Quantity">
-        <input class="form-control" id="formFileSm" type="file" />
-    
-        <input class="size" placeholder="Input Size" list="size" name="size"><br>
-            <select class="size"id="size">
-            <option selected>Size</option>
-            <option value="Long">Long</option>
-            <option value="Short">Short</option>
-            <option value="A4">A4</option>
-</select>
-<div>
-        <label class="design"for=""></i>Printing type</label>
-        <select name="Printing type "class="select multiple-select" multiple >
-        
-        <option value="">Digital Color</option>
-        <option value="">Digital Black and White</option>
-        <option value="">Photo Printing</option>
-        <option value="">Rhisograph</option>
-        <option value="">Kromekote</option>
-
-        <div>
-        <input class="fc" type="text" name="digitall" placeholder="Quantity">
-        <input class="form-control" id="formFileSm" type="file" />
-        <input class="size" placeholder="Input Size" list="size" name="size"><br>
-            <select class="size"id="size">
-            <option selected>Size</option>
-            <option value="Long">Long</option>
-            <option value="Short">Short</option>
-            <option value="A4">A4</option>
-</select>
-        <input class="buttons" href="order.php" type="submit" value="continue" name="continue" tabindex="3" >
-        </div>
-       
-        </div>
-        
-
-
-
-</form> 
-                    </div>
-                </div>
-
-            
-                
- <div>
-
- </div>
-          
-    </section>
-
-</nav>
-<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script>
-    $(".multiple-select").select2({
-    maximumSelectionLength: 1
-    
-});
-</script>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-decodeURI                   
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
    
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
+       
+        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
+                        <thead class="table-light " >
+                            <tr class="text-dark ">
+                                <th > <label>Client Name:</label>
+                                    <input  style="width:200px; " type="text" placeholder="COLLEGE OF NURSING"></th>
+                                    <th > <label>Email:</label>
+                                    <input  style="width:200px; " type="text" placeholder="enter email"></th>
+                               
+                              
+                                
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Type of Jobs:</label>
+                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <th > <label>Contact_No.:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                     
+      
+</table><br>
+       
+                <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                        <thead class="text-center">
+                            <tr>
+                                <th>Uploadfile</th>
+                                <th scope="col">Type of Printing</th>
+                                <th scope="col">Size</th>
+                                <th scope="col">Qty </th>
+                                <th scope="col">Unit </th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Unit Cost </th>
+                                <th scope="col">Amount </th>
+                              
+                                
+                                
+                            </tr>
+                        </thead>
+
+<tbody>
+                            <tr>
+                                <td> <div class="mb-3">
+    <input type="file"  aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
+                                <td>
+                                     <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
+                              <option value="">Digital Color</option>
+                             <option value="">Digital Black and White</option>
+                            <option value="">Photo Printing</option>
+                          <option value="">Rhisograph</option>
+                           <option value="">Kromekote</option>
+                        </select></td>
+                        <td> <select class=""id="size">
+                        <option selected>--Select--</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+                        </select></td>
+                                <td>
+                                    <div class="col-md-5 align-content-lg-center ">
+                                    <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                               
+                                </td>
+                                <td>
+                                <div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                            </td>
+                                    
+                                </td>
+                                <td >
+                               
+                                    <div class="input-group-center" style="width:px; alignmen:center;">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td></td>
+                                
+                              
+                               
+                            </tr>
+                        </tbody>
+                      
+<tbody>
+                            <tr>
+                            <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
+                            <td>
+                                     <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
+                              <option value="">Digital Color</option>
+                             <option value="">Digital Black and White</option>
+                            <option value="">Photo Printing</option>
+                          <option value="">Rhisograph</option>
+                           <option value="">Kromekote</option>
+                        </select></td>
+                        <td> <select class=""id="size">
+                        <option selected>--Select--</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+</select></td>
+                                <td>
+                                    <div class="col-md-5 align-content-lg-center ">
+                                    <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                               
+                                </td>
+                                <td>
+                                <div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                            </td>
+                                    
+                                </td>
+                                <td >
+                               
+                                    <div class="input-group-center" style="width:px; alignmen:center;">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td></td>
+                                
+                              
+                               
+                            </tr>
+                        </tbody>
+                        
+<tbody>
+                            <tr>
+                            <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
+                            <td>
+                                     <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
+                              <option value="">Digital Color</option>
+                             <option value="">Digital Black and White</option>
+                            <option value="">Photo Printing</option>
+                          <option value="">Rhisograph</option>
+                           <option value="">Kromekote</option>
+                        </select></td>
+                        <td> <select class=""id="size">
+                        <option selected>--Select--</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+</select></td>
+                                <td>
+                                    <div class="col-md-5 align-content-lg-center ">
+                                    <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                               
+                                </td>
+                                <td>
+                                <div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                            </td>
+                                    
+                                </td>
+                                <td >
+                               
+                                    <div class="input-group-center" style="width:px; alignmen:center;">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td></td>
+                                
+                              
+                               
+                            </tr>
+                        </tbody>
+                        </table>
+                       
+
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="button">Continues</button>
+                        </div>
+
+
+     <script src="./js/sidebar.js"></script>
+ 

@@ -320,7 +320,7 @@
                         </tbody>
 </table><br>
        
-                <table  class="table table-bordered table-responsive-sm" style="margin-top:4rem;">
+                <table  class="table table-bordered table-responsive-sm" style="margin-top:6rem;">
                         <thead class="text-center">
                             <tr>
                             <th>Uploadfile</th>
