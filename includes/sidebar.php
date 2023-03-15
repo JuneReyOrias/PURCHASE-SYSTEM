@@ -26,7 +26,7 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="../admin/items.php">
+                        <a href="../admin/products.php">
                             <i class='bx bx-shopping-bag icon' ></i>
                             <span class="text nav-text">Products</span>
                         </a>
