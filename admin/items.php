@@ -230,7 +230,7 @@ left:25px;" >
 
    
                     <h2 style="margin-left: 40rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 130px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
                         Add New Product
                     </button>
             
