@@ -45,7 +45,7 @@ left:25px;" >
         <a href='services.php'>Services</a><br>
         <div class="ser-center fs-2 " >
 
-        <span>Create Items </span></div> 
+        <span>Services </span></div> 
 </div>
 </div>
 <body class="human " style="background-color: var(--body-color); 
