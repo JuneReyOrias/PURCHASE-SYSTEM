@@ -237,42 +237,35 @@ left:25px;" >
 
       
 
-                <?php
-                $connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
-
-                $query = "SELECT * FROM user_acc";
-                $query_run = mysqli_query($connection, $query);
-            ?>
                     <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
                         <thead class="thead-dark">
                             <tr>
-                                <th scope="col"> ID</th>
+                                <th scope="col"> ProductID</th>
                                 <th scope="col">ProductName </th>
-                                <th scope="col">Services </th>
+                                <th scope="col">ProductDesc </th>
                                 <th scope="col">Unit_Prices </th>
+                                <th scope="col"> UnitPrices </th>
                                 <th scope="col"> Quantity </th>
-                                <th scope="col"> Types </th>
-                                <th scope="col"> Size </th>
                                 <th scope="col"> Action </th>
                                 
                             </tr>
                         </thead>
                         <?php
-                if($query_run)
-                {
-                    foreach($query_run as $row)
-                    {
+                         $products= new Product();
+                         $productdata= $products->show();
+                         
+                         foreach($productdata as $products){ 
+
             ?>
+                
                         <tbody>
                             <tr>
-                                <td > <?php echo $row['id']; ?> </td>
-                                <td> <?php echo $row['user_name']; ?> </td>
-                                <td> <?php echo $row['user_pass']; ?> </td>
-                                <td> <?php echo $row['firstname']; ?> </td>
-                                <td> <?php echo $row['lastname']; ?> </td>
-                                <td> <?php echo $row['email']; ?> </td>
-                                <td> <?php echo $row['role']; ?> </td>
+                                <td > <?php echo $products['product_id']; ?> </td>
+                                <td> <?php echo $products['product_name']; ?> </td>
+                                <td> <?php echo $products['product_desc']; ?> </td>
+                                <td> <?php echo $products['unit_price']; ?> </td>
+                                <td> <?php echo $products['qty']; ?> </td>
+                               
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
@@ -283,11 +276,8 @@ left:25px;" >
                         </tbody>
                         <?php           
                     }
-                }
-                else 
-                {
-                    echo "No Record Found";
-                }
+                
+        
             ?>
                     </table>
                 </div>
