@@ -230,7 +230,14 @@ left:25px; " >
 
     <div class="container" >
        
-                <h2> Track Order </h2>
+    <h1>Order Tracking</h1>
+    <form method="post" action="track.php">
+      <label for="order-id">Order ID:</label>
+      <input type="text" id="order-id" name="order_id" required>
+      <button type="submit">Track Order</button>
+    </form>
+    <div id="order-details"></div>
+    <script src="script.js"></script>
            
 
 
