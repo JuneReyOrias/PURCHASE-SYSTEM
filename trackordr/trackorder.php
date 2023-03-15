@@ -234,7 +234,7 @@ left:25px; " >
     <form method="post" action="track.php">
       <label for="order-id">Order ID:</label>
       <input type="text" id="order-id" name="order_id" required>
-      <button type="submit" href= "../trackordr/trckorder.php">Track Order</button>
+      <button type="submit" href="trckorder.php">Track Order</button>
     </form>
     <div id="order-details"></div>
     <script src="script.js"></script>
