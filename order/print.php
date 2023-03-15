@@ -54,7 +54,7 @@ left:25px; " >
         
    
        
-        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:5rem;">
+        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
@@ -83,7 +83,7 @@ left:25px; " >
       
 </table><br>
        
-                <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:1rem;">
                         <thead class="text-center">
                             <tr>
                                 <th>Uploadfile</th>

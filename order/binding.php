@@ -55,7 +55,7 @@
      
         
     
-       <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:5rem;">
+       <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
@@ -137,7 +137,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -279,7 +279,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>

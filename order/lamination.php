@@ -56,24 +56,21 @@
         
         
        
-     <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
+     <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
                                     <input  style="width:200px; " type="text" placeholder="COLLEGE OF NURSING"></th>
                                     <th > <label>Email:</label>
                                     <input  style="width:200px; " type="text" placeholder="enter email"></th>
-                               
-                              
-                                
-                                
+                          
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                               
                             <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <input  style="width:200px; " type="text" placeholder="Lamination"></th>
                                     <th > <label>Contact_No.:</label>
                                     <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
                                 
@@ -85,7 +82,7 @@
       
 </table><br>
        
-                <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:1rem;">
                         <thead class="text-center">
                             <tr>
                                 <th>Uploadfile</th>
