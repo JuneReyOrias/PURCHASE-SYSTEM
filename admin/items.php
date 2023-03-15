@@ -253,9 +253,9 @@ left:25px;" >
                         </thead>
                         <?php
                          $product= new Product();
-                         $userdata= $product->show();
+                         $output= $product->show();
                          
-                         foreach($userdata as $product){ 
+                         foreach($output as $product){ 
 
             ?>
                 
