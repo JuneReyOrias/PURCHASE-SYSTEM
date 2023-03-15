@@ -27,8 +27,7 @@
        
  
 
-    <section class="home-dash ms-5 ms-5"style="height:160vh;width:100%;background-color: var(--body-color); transition: var(--tran-05);
-left:25px; " >
+    <section class="home-dash" style="left:25px; " >
 <div>
         <header>
 
@@ -51,7 +50,56 @@ left:25px; " >
         <a class="order" href="purchase.php" ><span>></span>Purchase</a><br>
 
         
-       
+</div>
+</div>
+<body class="human " style="background-color: var(--body-color);
+    transition: var(--tran-05);">
+        
+        <div class="home-content">
+        <div class="overview-boxes ms-lg-5" >
+            <div class="box ms-lg-5 " style= "margin-left:23px;">
+                <div class="right-side">
+                    <div class="box-topic ms-lg-3" class="btn-1">Printing</div> </br>
+                    <div class="number">Printing is a process for mass reproducing text and images using a master form or template.</div>
+                    
+                    </div>
+                </div>
+
+                <div class="box">
+                <div class="center">
+                    <div class="box-topic" class="btn-1">Layout</div></br>
+                    <div class="number">The act or process of planning or laying out in detail.</div>
+                    
+                    </div>
+                </div>
+                
+               
+            <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div class="box">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
+
+                <div class="box justify-content-center">
+                <div class="left-side">
+                    <div class="box-topic" class="btn-1">Binding</div></br>
+                    <div class="number">A strong covering holding the pages of a book together</div>
+                    
+                    </div>
+                    
+                </div>
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
