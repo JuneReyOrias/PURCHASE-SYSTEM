@@ -2,7 +2,7 @@
 
     //resume session here to fetch session values
     session_start();
-  require_once '../database/product.class.php';
+  require_once '../database/users.class.php';
     /*
         if user is not login then redirect to login page,
         this is to prevent users from accessing pages that requires
@@ -255,9 +255,9 @@ left:25px;" >
                         </thead>
                         <?php
                          $product= new products();
-                         $userdata= $product->shows();
+                         $data= $product->get();
                          
-                         foreach($userdata as $product){ 
+                         foreach($data as $product){ 
 
             ?>
                 
