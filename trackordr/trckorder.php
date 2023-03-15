@@ -228,75 +228,52 @@ left:25px; " >
     </div>
 
 
-    <div class="container" >
-       
-    <h1>Order Tracking</h1>
-    <form method="post" action="track.php">
-      <label for="order-id">Order ID:</label>
-      <input type="text" id="order-id" name="order_id" required>
-      <button type="submit" href= "../trackordr/trckorder.php">Track Order</button>
-    </form>
-    <div id="order-details"></div>
-    <script src="script.js"></script>
-           
+    <section class="vh-100" style="background-color: #eee;">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col">
+        <div class="card card-stepper" style="border-radius: 10px;">
+          <div class="card-body p-4">
 
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex flex-column">
+                <span class="lead fw-normal">Your order has been delivered</span>
+                <span class="text-muted small">by DHFL on 21 Jan, 2020</span>
+              </div>
+              <div>
+                <button class="btn btn-outline-primary" type="button">Track order details</button>
+              </div>
+            </div>
+            <hr class="my-4">
 
-
-                <?php
-                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
-
-                $query = "SELECT * FROM purchase_order";
-                $query_run = mysqli_query($connection, $query);
-            ?>
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
-                            <tr>
-                                <th scope="col">OrderId</th>
-                                <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
-                                <th scope="col">requireDate </th>
-                                <th scope="col">Expe_deliverDate</th>
-                                <th scope="col">paymentId </th>
-                                <th scope="col"> Status </th>
-                                
-                                
-                            </tr>
-                        </thead>
-                        <?php
-                if($query_run)
-                {
-                    foreach($query_run as $row)
-                    {
-            ?>
-                        <tbody>
-                            <tr>
-                                <td > <?php echo $row['ordr_id']; ?> </td>
-                                <td> <?php echo $row['ordr_date']; ?> </td>
-                                <td> <?php echo $row['buyer_id']; ?> </td>
-                                <td> <?php echo $row['req_date']; ?> </td>
-                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
-                                <td> <?php echo $row['payment_id']; ?> </td>
-                                <td> <?php echo $row['status']; ?> </td>
-                              
-                               
-                            </tr>
-                        </tbody>
-                        <?php           
-                    }
-                }
-                else 
-                {
-                    echo "No Record Found";
-                }
-            ?>
-                    </table>
-                </div>
+            <div class="d-flex flex-row justify-content-between align-items-center align-content-center">
+              <span class="dot"></span>
+              <hr class="flex-fill track-line"><span class="dot"></span>
+              <hr class="flex-fill track-line"><span class="dot"></span>
+              <hr class="flex-fill track-line"><span class="dot"></span>
+              <hr class="flex-fill track-line"><span
+                class="d-flex justify-content-center align-items-center big-dot dot">
+                <i class="fa fa-check text-white"></i></span>
             </div>
 
+            <div class="d-flex flex-row justify-content-between align-items-center">
+              <div class="d-flex flex-column align-items-start"><span>15 Mar</span><span>Order placed</span>
+              </div>
+              <div class="d-flex flex-column justify-content-center"><span>15 Mar</span><span>Order
+                  placed</span></div>
+              <div class="d-flex flex-column justify-content-center align-items-center"><span>15
+                  Mar</span><span>Order Dispatched</span></div>
+              <div class="d-flex flex-column align-items-center"><span>15 Mar</span><span>Out for
+                  delivery</span></div>
+              <div class="d-flex flex-column align-items-end"><span>15 Mar</span><span>Delivered</span></div>
+            </div>
 
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+</section>
 
 
 
