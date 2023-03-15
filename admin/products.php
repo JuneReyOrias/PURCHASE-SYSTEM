@@ -254,8 +254,8 @@ left:25px;" >
                             </tr>
                         </thead>
                         <?php
-                         $product= new products();
-                         $data= $product->get();
+                         $product= new Products();
+                         $data= $product->fetchAllRecords();
                          
                          foreach($data as $product){ 
 
