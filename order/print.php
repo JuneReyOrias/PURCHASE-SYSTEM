@@ -72,7 +72,7 @@ left:25px; " >
         <option value="">Photo Printing</option>
         <option value="">Rhisograph</option>
         <option value="">Kromekote</option>
-
+        </select>
         <div>
         <input class="fc" type="text" name="digitall" placeholder="Quantity">
         <input class="form-control" id="formFileSm" type="file" />
