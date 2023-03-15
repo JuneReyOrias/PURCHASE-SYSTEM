@@ -39,7 +39,7 @@ class Purchase {
 
     function get() {
         $stmt = $this->db->connect()->prepare("SELECT * FROM purchase_order WHERE id = :id");
-        $stmt->bindParam(":id", $Id);
+        $stmt->bindParam(":id",);
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }

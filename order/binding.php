@@ -46,7 +46,7 @@
         <a class="order" href="order.php" >Order</a>
         <a class="order" href="orderlist.php" ><span>></span>BindingForm</a>
         <div class="ser-center fs-2 " >
-             <span class="ser-center fs-2 " ></span></div> 
+             <span class="ser-center fs-2 " ></span></div> <br>
 </div>
 </div>
 <body class="human " style="background-color: var(--body-color);
@@ -55,7 +55,7 @@
      
         
     
-       <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
+       <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:5rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
@@ -72,7 +72,7 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <input  style="width:200px; " type="text" placeholder="Binding"></th>
                                     <th > <label>Contact_No.:</label>
                                     <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
                                 
@@ -301,8 +301,9 @@
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td>
-                                <td ><div class="col-md-4 align-content-lg-center">
-                                <div class="input-group-center" style="width:80px; ">
+                                <td >
+                                    <div class="col-md-4 align-content-lg-center">
+                                    <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
                                     <input  type="text" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->

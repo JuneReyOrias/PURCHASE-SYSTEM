@@ -54,7 +54,7 @@ left:25px; " >
         
    
        
-        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:3rem;">
+        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:5rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Client Name:</label>
