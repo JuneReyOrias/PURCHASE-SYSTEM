@@ -234,10 +234,11 @@ left:25px; " >
     <form method="post" action="track.php">
       <label for="order-id">Order ID:</label>
       <input type="text" id="order-id" name="order_id" required>
+</br>
 
       <div style="margin-left:5px;">
        
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 50px;">
+                    <button type="button" class="btn btn-primary float-end" data-toggle="modal" data-target="#studentaddmodal">
                         Track Order
                     </button>
                 </div></br>
