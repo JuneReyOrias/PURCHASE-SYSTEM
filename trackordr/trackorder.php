@@ -256,8 +256,8 @@ left:25px; " >
                 $query = "SELECT * FROM purchase_order";
                 $query_run = mysqli_query($connection, $query);
             ?>
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
+                    <table id="datatableid" class="table table-bordered table-responsive-sn">
+                        <thead class="table-dark">
                             <tr>
                                 <th scope="col">OrderId</th>
                                 <th scope="col">OrderDate </th>
