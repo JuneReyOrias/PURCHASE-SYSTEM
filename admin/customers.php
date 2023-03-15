@@ -1,5 +1,5 @@
 <?php
-   
+
     //resume session here to fetch session values
     session_start();
     require_once '../database/user.class.php';
@@ -20,7 +20,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash"style="
+<section class="home-dash "style="
 left:25px;" >
 <div>
         <header>
@@ -42,14 +42,10 @@ left:25px;" >
         <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="#contact">Admin</a>
         <a href='#contact us'>Hola!</a>
-        <a href='create_user.php'>CreateUsers</a>
-        <a href='customer.php'>Customers</a>
-        <div class="ser-center fs-2 " ><br>
-
-        <span> </span></div> 
+        <a href='create_user.php'>CreateUsers</a><br>
+     
 </div>
 </div>
-
 <body class="human " style="background-color: var(--body-color); 
     transition: var(--tran-05);">
     <!-- Modal -->
@@ -58,13 +54,13 @@ left:25px;" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create Account </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create Customer Account </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
-                <form action="insertcode.php" method="POST">
+                <form action="insercode.php" method="POST">
 
                     <div class="modal-body">
                         <div class="form-group">
@@ -93,6 +89,11 @@ left:25px;" >
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
                                 placeholder="Enter Fullname">
+                        </div>
+                        <div class="form-group">
+                            <label> ContactNo </label>
+                            <input type="text" name="contact_no" id="contact_no" class="form-control"
+                                placeholder="Enter ContactNo">
                         </div>
                         <div class="form-group">
                             <label> role </label>
@@ -147,7 +148,12 @@ left:25px;" >
                         <div class="form-group">
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
+                                placeholder="Enter Email">
+                        </div>
+                        <div class="form-group">
+                            <label> ContactNo </label>
+                            <input type="text" name="contact_no" id="contact_no" class="form-control"
+                                placeholder="Enter ContactNo">
                         </div>
                         <div class="form-group">
                             <label> role </label>
@@ -228,59 +234,60 @@ left:25px;" >
     </div>
 
 
-    <div class="container" >
-       
-                <h2 style="margin-left: 35px;"> Customer Purchase </h2>
-           
-
-
+            <div style="margin-left: 35px;">
+            <h2 style="margin-left: 40rem;"> Customer Info </h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
+                        ADD New User
+                    </button>
+                </div>
+          
 
         
-                    <table  class="table table-bordered  table-responsive"style="margin-left:40px;">
-                        <thead class=" table-dark">
+                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
+                        <thead class="table-dark ">
                             <tr>
-                                <th scope="col">OrderId</th>
-                                <th scope="col">OrderDate </th>
-                                <th scope="col">BuyerId </th>
-                                <th scope="col">requireDate </th>
-                                <th scope="col">Expe_deliverDate</th>
-                                <th scope="col">paymentId </th>
-                                <th scope="col"> Action </th>
-                                <th scope="col"> Action </th>
-                                
-                                
+                                <th scope="col"> ID</th>
+                                <th scope="col">Username </th>
+                                <th scope="col">Password </th>
+                                <th scope="col">Firstname </th>
+                                <th scope="col"> Lastname </th>
+                                <th scope="col"> Email </th>
+                                 <th scope="col"> Contact </th>
+                                <th scope="col"> Role </th>
+                                <th scope="col"> Action</th>
+                             
                             </tr>
                         </thead>
                         <?php
-                  
-                  $user= new Users();
-                  $userdata= $user->show();
-                  
-                  foreach($userdata as $user){
-   
-               ?>
-        
+                         $user= new Users();
+                         $userdata= $user->show();
+                         
+                         foreach($userdata as $user){ 
+
+            ?>
                         <tbody>
                             <tr>
+                                <td > <?php echo $user['id']; ?> </td>
+                                <td> <?php echo $user['user_name']; ?> </td>
+                                <td> <?php echo $user['user_pass']; ?> </td>
+                                <td> <?php echo $user['firstname']; ?> </td>
+                                <td> <?php echo $user['lastname']; ?> </td>
+                                <td> <?php echo $user['email']; ?> </td>
+                                <td> <?php echo $user['contact_no']; ?> </td>
+                                <td> <?php echo $user['role']; ?> </td>
+                                <td>
+                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
+                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
                                 
-                                <td > <?php echo $user['user_name']; ?> </td>
-                                <td> <?php echo $user['ordr_date']; ?> </td>
-                                <td> <?php echo $user['buyer_id']; ?> </td>
-                                <td> <?php echo $user['req_date']; ?> </td>
-                                <td> <?php echo $user['exp_deliver_date']; ?> </td>
-                                <td> <?php echo $user['payment_id']; ?> </td>
-                              
-                              
-                             
-                                <td>
-                                    <button type="button" class="btn btn-success editbtn"> Approved  </button>
+                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
                                 </td>
-                                <td>
-                                    <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
-                                </td>  
                             </tr>
                         </tbody>
-                        <?php } ?>
+                        <?php   
+
+             }
+           
+            ?>
                     </table>
                 </div>
             </div>
@@ -318,24 +325,7 @@ left:25px;" >
     </script>
 
 
-   <!-- <script>
-        $(document).ready(function () {
 
-            $('#datatableid').DataTable({
-                "pagingType": "full_numbers",
-                "lengthMenu": [
-                    [10, 25, 50, -1],
-                    [10, 25, 50, "All"]
-                ],
-                responsive: true,
-                language: {
-                    search: "_INPUT_",
-                    searchPlaceholder: "Search Your Data",
-                }
-            });
-
-        });
-    </script>-->
 
     <script>
         $(document).ready(function () {
@@ -383,7 +373,3 @@ left:25px;" >
             });
         });
     </script>
-
-
-
- 
