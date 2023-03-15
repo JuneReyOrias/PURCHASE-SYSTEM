@@ -138,7 +138,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -208,7 +208,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -278,7 +278,7 @@
                                 <div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -289,7 +289,7 @@
                                
                                     <div class="input-group-center" style="width:px; alignmen:center;">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
+                                    <input  type="text" class="text-center"style="width:px;"  name="description" placeholder="" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     
                                 </div></td>
