@@ -2,7 +2,7 @@
 
     //resume session here to fetch session values
     session_start();
-    require_once '../database/Product.class.php';
+    require_once '../database/product.class.php';
     /*
         if user is not login then redirect to login page,
         this is to prevent users from accessing pages that requires
@@ -252,20 +252,20 @@ left:25px;" >
                             </tr>
                         </thead>
                         <?php
-                         $products= new Product();
-                         $productsdata= $products->show();
+                         $product= new Product();
+                         $userdata= $product->show();
                          
-                         foreach($productsdata as $products){ 
+                         foreach($userdata as $product){ 
 
             ?>
                 
                         <tbody>
                             <tr>
-                                <td > <?php echo $products['product_id']; ?> </td>
-                                <td> <?php echo $products['product_name']; ?> </td>
-                                <td> <?php echo $products['product_desc']; ?> </td>
-                                <td> <?php echo $products['unit_price']; ?> </td>
-                                <td> <?php echo $products['qty']; ?> </td>
+                                <td > <?php echo $product['product_id']; ?> </td>
+                                <td> <?php echo $product['product_name']; ?> </td>
+                                <td> <?php echo $product['product_desc']; ?> </td>
+                                <td> <?php echo $product['unit_price']; ?> </td>
+                                <td> <?php echo $product['qty']; ?> </td>
                                
                                 <td>
                                     <button type="button" class="btn btn-info viewbtn"> VIEW </button>
