@@ -19,7 +19,7 @@ require_once 'database.class.php';
 
 
     function show(){
-        $sql = "SELECT * FROM product;";
+        $sql = "SELECT * FROM products;";
         
         $query=$this->db->connect()->prepare($sql);
         $query->execute();
@@ -28,7 +28,7 @@ require_once 'database.class.php';
         return $result;
     }
     function addproduct(){
-        $sql = "INSERT INTO product(product_name, product_desc, unit_price, qty) VALUES 
+        $sql = "INSERT INTO products(product_name, product_desc, unit_price, qty) VALUES 
         (:product_name, :product_desc, :unit_price, :qty);";
     
         $query=$this->db->connect()->prepare($sql);
@@ -46,7 +46,7 @@ require_once 'database.class.php';
         }	
     }
     function delete(){
-        $sql = "DELETE FROM product WHERE product_id=:product_id";
+        $sql = "DELETE FROM products WHERE product_id=:product_id";
     
         $query=$this->db->connect()->prepare($sql);
         $query->bindParam(':product_id', $this->productId);
