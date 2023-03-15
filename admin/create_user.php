@@ -20,8 +20,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5 "style="height: 160vh;
-    width: 100%;background-color: var(--body-color);
+<section class="home-dash "style="
 left:25px;" >
 <div>
         <header>
@@ -46,8 +45,9 @@ left:25px;" >
         <a href='create_user.php'>CreateUsers</a><br>
      
 </div>
-
-
+</div>
+<body class="human " style="background-color: var(--body-color); 
+    transition: var(--tran-05);">
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">

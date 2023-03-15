@@ -19,8 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5 "style="height: 160vh;
-    width: 100%;background-color: var(--body-color);
+<section class="home-dash"style="
 left:25px;" >
 <div>
         <header>
@@ -50,7 +49,8 @@ left:25px;" >
 </div>
 </div>
 
-
+<body class="human " style="background-color: var(--body-color); 
+    transition: var(--tran-05);">
 
     <!-- Modal -->
     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -229,7 +229,7 @@ left:25px;" >
 
 
    
-                    <h2> Create New Items </h2>
+                    <h2 style="margin-left: 40rem;"> Create New Items </h2>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
                         Add New Items
                     </button>

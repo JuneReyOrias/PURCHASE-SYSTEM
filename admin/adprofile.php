@@ -19,8 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
 ?>
-<section class="home-dash ms-5 "style="height: 160vh;
-    width: 100%;background-color: var(--body-color);
+<section class="home-dash"style="
 left:25px;" >
 <div>
         <header>
@@ -41,14 +40,16 @@ left:25px;" >
         <div class="tapnav">
         <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="#adprofile.php">Admin</a>
-        <a href='#contact us'>Hola!</a><br>
+        <a href='#contact us'>Hola!</a>
+        <a href="">Profile</a></br>
         <div class="ser-center fs-2 " >
 
         <span></span></div> 
 </div>
 </div>
 
-
+<body class="human " style="background-color: var(--body-color); 
+    transition: var(--tran-05);">
     </div>
 
     <div class="row">
@@ -61,8 +62,6 @@ left:25px;" >
             <p class="text-muted mb-1">Staff head</p>
             <p class="text-muted mb-4">Putik Zamboanga City, Philippines</p>
             <div class="d-flex justify-content-center mb-2">
-              <button type="button" class="btn btn-primary">Follow</button>
-              <button type="button" class="btn btn-outline-primary ms-1">Message</button>
             </div>
           </div>
         </div>
