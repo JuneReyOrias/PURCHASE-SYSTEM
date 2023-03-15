@@ -247,7 +247,6 @@ left:25px;" >
                                 <th scope="col">ProductName </th>
                                 <th scope="col">ProductDesc </th>
                                 <th scope="col">Unit_Prices </th>
-                                <th scope="col"> UnitPrices </th>
                                 <th scope="col"> Quantity </th>
                                 <th scope="col"> Action </th>
                                 
@@ -263,7 +262,7 @@ left:25px;" >
                 
                         <tbody>
                             <tr>
-                                <td > <?php echo $product['id']; ?> </td>
+                                <td > <?php echo $product['product_id']; ?> </td>
                                 <td> <?php echo $product['product_name']; ?> </td>
                                 <td> <?php echo $product['product_desc']; ?> </td>
                                 <td> <?php echo $product['unit_price']; ?> </td>
