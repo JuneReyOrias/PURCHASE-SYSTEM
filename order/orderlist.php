@@ -235,7 +235,7 @@
        
                 <h2> orderlist </h2>
            
-                <table  class="table-sm table-bordered table-responsive-sm ">
+                <table  class="table-sm table-bordered table-responsive-sm margin-top:4rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                               <th > <label>OrderId:</label>
@@ -262,7 +262,7 @@
                                
                             </tr>
                         </tbody>
-        <table class="table-md  table-responsive table-right float-end" style="margin-left:70.2rem;">
+        <table class="table-md  table-responsive table-right float-end" style="margin-left:70.2rem;margin-top:4rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th scope="col">Available Funds:</th>
@@ -320,7 +320,7 @@
                         </tbody>
 </table><br>
        
-                <table  class="table table-bordered table-responsive-sm">
+                <table  class="table table-bordered table-responsive-sm" style="margin-top:4rem;">
                         <thead class="text-center">
                             <tr>
                             <th>Uploadfile</th>
