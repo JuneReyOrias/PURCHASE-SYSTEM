@@ -79,7 +79,7 @@
     </div>
   </div>
 
- <div class="col-sm-4" style="margin-top:2rem;">
+ <div class="col-sm-4" style="margin-top:2rem; margin-left:3rem;">
     <div class="card"style="  border-radius: 12px; height:10rem;">
       <div class="card-body">
         <h5 class="card-title">Printing General</h5>
