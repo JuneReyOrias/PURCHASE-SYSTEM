@@ -1,5 +1,5 @@
 <?php
-
+ require_once '../database/product.class.php';
     //resume session here to fetch session values
     session_start();
 
@@ -19,7 +19,7 @@
 
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
-    require_once '../database/product.class.php';
+   
 ?>
 <section class="home-dash"style="
 left:25px;" >
