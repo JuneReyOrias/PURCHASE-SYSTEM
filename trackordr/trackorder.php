@@ -55,179 +55,71 @@
 <body class="human " style="background-color: var(--body-color); 
     transition: var(--tran-05);">
     <!-- Modal -->
-    <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <form action="insertcode.php" method="POST">
-
-                    <div class="modal-body">
-                        <div class="form-group">
-                        <label>Username </label>
-                            <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
-                        </div>
-
-                        <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
-                        </div>
-
-                        <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
-                        </div>
-                        <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
-                        </div>
-                        <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
-                        </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="insertdata" class="btn btn-primary">Save Data</button>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Edit Customer Accounts </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <form action="updatecode.php" method="POST">
-
-                    <div class="modal-body">
-
-                        <input type="hidden" name="update_id" id="update_id">
-
-                        <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
-                        </div>
-
-                        <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
-                        </div>
-                        <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
-                        </div>
-                        <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
-                        </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="updatedata" class="btn btn-primary">Update Data</button>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- DELETE POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="deletemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Delete Account </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <form action="deletecode.php" method="POST">
-
-                    <div class="modal-body">
-
-                        <input type="hidden" name="delete_id" id="delete_id">
-
-                        <h4> Do you want to Delete this Account ??</h4>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"> NO </button>
-                        <button type="submit" name="deletedata" class="btn btn-primary"> Yes !! Delete it. </button>
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- VIEW POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="viewmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> View Customer Accounts </h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-
-                <form action="deletecode.php" method="POST">
-
-                    <div class="modal-body">
-
-                        <input type="text" name="view_id" id="view_id">
-
-                        <!-- <p id="fname"> </p> -->
-                        <h4 id="user_name"> <?php echo ''; ?> </h4>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"> CLOSE </button>
-                        <!-- <button type="submit" name="deletedata" class="btn btn-primary"> Yes !! Delete it. </button> -->
-                    </div>
-                </form>
-
-            </div>
-        </div>
-    </div>
+    <div class="row">
+		<div class="col-md-8 offset-md-2">
+			<div class="timeline" id="parcel_history">
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div id="clone_timeline-item" class="d-none">
+	<div class="iitem">
+	    <i class="fas fa-box bg-blue"></i>
+	    <div class="timeline-item">
+	      <span class="time"><i class="fas fa-clock"></i> <span class="dtime">12:05</span></span>
+	      <div class="timeline-body">
+	      	asdasd
+	      </div>
+	    </div>
+	  </div>
+</div>
+<script>
+	function track_now(){
+		start_load()
+		var tracking_num = $('#ref_no').val()
+		if(tracking_num == ''){
+			$('#parcel_history').html('')
+			end_load()
+		}else{
+			$.ajax({
+				url:'ajax.php?action=get_parcel_heistory',
+				method:'POST',
+				data:{ref_no:tracking_num},
+				error:err=>{
+					console.log(err)
+					alert_toast("An error occured",'error')
+					end_load()
+				},
+				success:function(resp){
+					if(typeof resp === 'object' || Array.isArray(resp) || typeof JSON.parse(resp) === 'object'){
+						resp = JSON.parse(resp)
+						if(Object.keys(resp).length > 0){
+							$('#parcel_history').html('')
+							Object.keys(resp).map(function(k){
+								var tl = $('#clone_timeline-item .iitem').clone()
+								tl.find('.dtime').text(resp[k].date_created)
+								tl.find('.timeline-body').text(resp[k].status)
+								$('#parcel_history').append(tl)
+							})
+						}
+					}else if(resp == 2){
+						alert_toast('Unkown Tracking Number.',"error")
+					}
+				}
+				,complete:function(){
+					end_load()
+				}
+			})
+		}
+	}
+	$('#track-btn').click(function(){
+		track_now()
+	})
+	$('#ref_no').on('search',function(){
+		track_now()
+	})
+</script>
 
 
     <div class="container" >
