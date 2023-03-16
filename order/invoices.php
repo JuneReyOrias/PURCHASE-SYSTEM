@@ -182,12 +182,13 @@
                                     
                                 </td>
                                 <td >
-                               
-                                    <div class="input-group-center" style="width:px; alignmen:center;">
-                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
-                                    <!--<button class="input-group-text increment-btn">+</button>-->
-                                    
+                                <option selected>--TypePrinting--</option>
+                             <option value="Long">Documents</option>
+                             <option value="Short">Poster</option>
+                                <option value="A4">PhotosA4</option>
+                                 <option value="A4">Forms</option>
+                                
+                                 </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
@@ -250,12 +251,12 @@
                                     
                                 </td>
                                 <td >
-                               
-                                    <div class="input-group-center" style="width:px; alignmen:center;">
-                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="text-center"style="width:px;  name="description" placeholder="" >
-                                    <!--<button class="input-group-text increment-btn">+</button>-->
-                                    
+                                <option selected>--TypeLamination--</option>
+                                <option value="Long">Lamination</option>
+                                <option value="Long">WholePage</option>
+                                
+                              
+                                 </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
@@ -317,12 +318,79 @@
                                     
                                 </td>
                                 <td >
+                                <option selected>--TypeLayout--</option>
+                             <option value="Long">Program Invitation</option>
+                             <option value="Short">Tarpaulint</option>
+                                <option value="A4">Calling Card</option>
                                
-                                    <div class="input-group-center" style="width:px; alignmen:center;">
+                                 </select>
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="text-center"style="width:px;"  name="description" placeholder="" >
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td>
+                                <td ><div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div></td></td>
+                                
+                              
+                               
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                            <td> <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <div class="invalid-feedback"> invalid file </div>
+  </div></td>
+                            <td>
+                            <select class="printing-type"id="size">
+                                     <option selected>--Select--</option>
+                                     <option value="">Colored</option>
+                                    <option value="">Black</option>
+                                 </select></td>
+                        <td> <select class=""id="size">
+                        <option selected>--Select--</option>
+            <option value="Long">Long</option>
+            <option value="Short">Short</option>
+            <option value="A4">A4</option>
+</select></td>
+                                <td>
+                                    <div class="col-md-5 align-content-lg-center ">
+                                    <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                               
+                                </td>
+                                <td>
+                                <div class="col-md-4 align-content-lg-center">
+                                <div class="input-group-center" style="width:80px; ">
+                                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
+                                    <!--<button class="input-group-text increment-btn">+</button>-->
+                                    </div>
+                                </div>
+                            </td>
                                     
+                                </td>
+                                <td >
+                                <option selected>--TypeBinding--</option>
+                             <option value="Long">Softbound</option>
+                             <option value="Short">Hardbound</option>
+                               
+                               
+                                 </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
