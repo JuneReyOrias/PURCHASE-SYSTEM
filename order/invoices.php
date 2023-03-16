@@ -101,7 +101,7 @@
                                  <option value="A4">A3</option>
                                  </select></th>
                                     <th > <label>Email:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
+                                    <input  style="width:200px; " type="text" placeholder="email"></th>
                                 
                            
                                
@@ -111,7 +111,7 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <input  style="width:200px; " type="text" placeholder="Printing_Laminate_Layout_Binding"></th>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
