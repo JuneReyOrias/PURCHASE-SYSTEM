@@ -63,8 +63,14 @@
                                 <th > <label>Order_date:</label>
                                     <input  style="width:200px; " type="text" placeholder="March 16,2023"></th>
                                     <th > <label>Payment:</label>
-                                    <input  style="width:200px; " type="text" placeholder="enter email"></th>
-                               
+                                   
+                            <select style="width:200px; "class="text-center"id="size">
+                            <option selected>--Select--</option>
+                             <option value="Long">Long</option>
+                             <option value="Short">Short</option>
+                                <option value="A4">A4</option>
+                                 <option value="A4">Letter</option>
+                                 </select> </th>
                               
                                 
                                 
@@ -86,7 +92,7 @@
                             <tr>
                               
                             <th > <label>Clien Name:</label>
-                            <select style="width:200px; "class=""id="size">
+                            <select style="width:200px; "class="text-center"id="size">
                             <option selected>--Select--</option>
                              <option value="Long">Long</option>
                              <option value="Short">Short</option>
