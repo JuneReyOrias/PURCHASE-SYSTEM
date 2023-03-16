@@ -97,8 +97,8 @@
                              <option value="Short">College of Nursing</option>
                                 <option value="A4">College of Teacher Education</option>
                                  <option value="A4">College of Engineering</option>
-                                 <option value="A4">Tabloid</option>
-                                 <option value="A4">ACollege of Science and Mathematics</option>
+                                 <option value="A4">College of Criminal Justice Education</option>
+                                 <option value="A4">College of Science and Mathematics</option>
                                  </select></th>
                                     <th > <label>Email:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="email"></th>
