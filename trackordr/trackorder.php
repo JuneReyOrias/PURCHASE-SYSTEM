@@ -59,154 +59,58 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-            <div class="container-fluid">
-	<div class="col-lg-12">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="callout callout-info">
-					<dl>
-						<dt>Tracking Number:</dt>
-						<dd> <h4><b><?php echo $reference_number ?></b></h4></dd>
-					</dl>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<div class="callout callout-info">
-					<b class="border-bottom border-primary">Sender Information</b>
-					<dl>
-						<dt>Name:</dt>
-						<dd><?php echo ucwords($sender_name) ?></dd>
-						<dt>Address:</dt>
-						<dd><?php echo ucwords($sender_address) ?></dd>
-						<dt>Contact:</dt>
-						<dd><?php echo ucwords($sender_contact) ?></dd>
-					</dl>
-				</div>
-				<div class="callout callout-info">
-					<b class="border-bottom border-primary">Recipient Information</b>
-					<dl>
-						<dt>Name:</dt>
-						<dd><?php echo ucwords($recipient_name) ?></dd>
-						<dt>Address:</dt>
-						<dd><?php echo ucwords($recipient_address) ?></dd>
-						<dt>Contact:</dt>
-						<dd><?php echo ucwords($recipient_contact) ?></dd>
-					</dl>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="callout callout-info">
-					<b class="border-bottom border-primary">Parcel Details</b>
-						<div class="row">
-							<div class="col-sm-6">
-								<dl>
-									<dt>Wight:</dt>
-									<dd><?php echo $weight ?></dd>
-									<dt>Height:</dt>
-									<dd><?php echo $height ?></dd>
-									<dt>Price:</dt>
-									<dd><?php echo number_format($price,2) ?></dd>
-								</dl>	
-							</div>
-							<div class="col-sm-6">
-								<dl>
-									<dt>Width:</dt>
-									<dd><?php echo $width ?></dd>
-									<dt>length:</dt>
-									<dd><?php echo $length ?></dd>
-									<dt>Type:</dt>
-									<dd><?php echo $type == 1 ? "<span class='badge badge-primary'>Deliver to Recipient</span>":"<span class='badge badge-info'>Pickup</span>" ?></dd>
-								</dl>	
-							</div>
-						</div>
-					<dl>
-						<dt>Branch Accepted the Parcel:</dt>
-						<dd><?php echo ucwords($branch[$from_branch_id]) ?></dd>
-						<?php if($type == 2): ?>
-							<dt>Nearest Branch to Recipient for Pickup:</dt>
-							<dd><?php echo ucwords($branch[$to_branch_id]) ?></dd>
-						<?php endif; ?>
-						<dt>Status:</dt>
-						<dd>
-							<?php 
-							switch ($status) {
-								case '1':
-									echo "<span class='badge badge-pill badge-info'> Collected</span>";
-									break;
-								case '2':
-									echo "<span class='badge badge-pill badge-info'> Shipped</span>";
-									break;
-								case '3':
-									echo "<span class='badge badge-pill badge-primary'> In-Transit</span>";
-									break;
-								case '4':
-									echo "<span class='badge badge-pill badge-primary'> Arrived At Destination</span>";
-									break;
-								case '5':
-									echo "<span class='badge badge-pill badge-primary'> Out for Delivery</span>";
-									break;
-								case '6':
-									echo "<span class='badge badge-pill badge-primary'> Ready to Pickup</span>";
-									break;
-								case '7':
-									echo "<span class='badge badge-pill badge-success'>Delivered</span>";
-									break;
-								case '8':
-									echo "<span class='badge badge-pill badge-success'> Picked-up</span>";
-									break;
-								case '9':
-									echo "<span class='badge badge-pill badge-danger'> Unsuccessfull Delivery Attempt</span>";
-									break;
-								
-								default:
-									echo "<span class='badge badge-pill badge-info'> Item Accepted by Courier</span>";
-									
-									break;
-							}
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Create Account </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
 
-							?>
-							<span class="btn badge badge-primary bg-gradient-primary" id='update_status'><i class="fa fa-edit"></i> Update Status</span>
-						</dd>
+                <form action="insertcode.php" method="POST">
 
-					</dl>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal-footer display p-0 m-0">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-</div>
-<style>
-	#uni_modal .modal-footer{
-		display: none
-	}
-	#uni_modal .modal-footer.display{
-		display: flex
-	}
-</style>
-<noscript>
-	<style>
-		table.table{
-			width:100%;
-			border-collapse: collapse;
-		}
-		table.table tr,table.table th, table.table td{
-			border:1px solid;
-		}
-		.text-cnter{
-			text-align: center;
-		}
-	</style>
-	<h3 class="text-center"><b>Student Result</b></h3>
-</noscript>
-<script>
-	$('#update_status').click(function(){
-		uni_modal("Update Status of: <?php echo $reference_number ?>","manage_parcel_status.php?id=<?php echo $id ?>&cs=<?php echo $status ?>","")
-	})
-</script>
+                    <div class="modal-body">
+                        <div class="form-group">
+                        <label>Username </label>
+                            <input type="text" name="user_name" id="user_name" class="form-control"
+                                placeholder="Enter UserName">
+                        </div>
+
+                        <div class="form-group">
+                            <label> Password </label>
+                            <input type="text" name="user_pass" id="user_pass" class="form-control"
+                                placeholder="Enter Password">
+                        </div>
+
+                        <div class="form-group">
+                            <label> Firstname </label>
+                            <input type="text" name="firstname" id="firstname" class="form-control"
+                                placeholder="Enter Firstname">
+                        </div>
+                        <div class="form-group">
+                            <label> lastname </label>
+                            <input type="text" name="lastname" id="lastname" class="form-control"
+                                placeholder="Enter Lastname">
+                        </div>
+                        <div class="form-group">
+                            <label> Email </label>
+                            <input type="text" name="email" id="email" class="form-control"
+                                placeholder="Enter Fullname">
+                        </div>
+                        <div class="form-group">
+                            <label> role </label>
+                            <input type="text" name="role" id="role" class="form-control"
+                                placeholder="Enter Role">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" name="insertdata" class="btn btn-primary">Save Data</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
     <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
