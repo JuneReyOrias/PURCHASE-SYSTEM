@@ -182,12 +182,12 @@
                                     
                                 </td>
                                 <td >
+                                <select class=""id="size">
                                 <option selected>--TypePrinting--</option>
                              <option value="Long">Documents</option>
                              <option value="Short">Poster</option>
                                 <option value="A4">PhotosA4</option>
                                  <option value="A4">Forms</option>
-                                
                                  </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
@@ -251,11 +251,10 @@
                                     
                                 </td>
                                 <td >
+                                <select class=""id="size">
                                 <option selected>--TypeLamination--</option>
                                 <option value="Long">Lamination</option>
                                 <option value="Long">WholePage</option>
-                                
-                              
                                  </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
@@ -318,11 +317,11 @@
                                     
                                 </td>
                                 <td >
+                                <select class=""id="size">
                                 <option selected>--TypeLayout--</option>
-                             <option value="Long">Program Invitation</option>
-                             <option value="Short">Tarpaulint</option>
+                                <option value="Long">Program Invitation</option>
+                                <option value="Short">Tarpaulint</option>
                                 <option value="A4">Calling Card</option>
-                               
                                  </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
@@ -384,12 +383,10 @@
                             </td>
                                     
                                 </td>
-                                <td >
+                                <td >   <select class=""id="size">
                                 <option selected>--TypeBinding--</option>
                              <option value="Long">Softbound</option>
                              <option value="Short">Hardbound</option>
-                               
-                               
                                  </select>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
