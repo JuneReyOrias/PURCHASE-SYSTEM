@@ -213,7 +213,7 @@
 <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <input type="file" aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
@@ -280,7 +280,7 @@
 <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <input type="file"  aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
@@ -347,7 +347,7 @@
                         <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file" class="form-control" aria-label="file pdf/word" required>
+    <input type="file"  aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
