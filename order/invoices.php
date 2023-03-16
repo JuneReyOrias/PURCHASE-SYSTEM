@@ -91,7 +91,7 @@
                             <tr>
                               
                             <th > <label>Clien Name:</label>
-                            <select style="width:200px; margin-left: 2rem; "class="text-center"id="size">
+                            <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
                             <option selected>--Select--</option>
                              <option value="Long">Long</option>
                              <option value="Short">Short</option>
