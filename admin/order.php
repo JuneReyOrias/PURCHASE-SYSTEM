@@ -273,16 +273,16 @@ left:25px;" >
                                 <td> <?php echo $row['payment_id']; ?> </td>
                               
                               
-                             
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> View </button>
+                                </td>  
                                 <td>
                                     <button type="button" class="btn btn-success editbtn"> Approved  </button>
                                 </td>
                                 <td>
                                     <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
                                 </td>  
-                                <td>
-                                    <button type="button" class="btn btn-danger deletebtn"> View </button>
-                                </td>  
+                                
                             </tr>
                         </tbody>
                         <?php           
