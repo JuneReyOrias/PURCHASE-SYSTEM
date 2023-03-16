@@ -141,7 +141,7 @@
 
 <tbody>
                             <tr>
-                                <td> <div class="mb-3" style="width:40px;">
+                                <td> <div class="mb-3" style="width:150px;">
     <input type="file"  aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
