@@ -252,6 +252,7 @@ left:25px;" >
                                 <th scope="col">paymentId </th>
                                 <th scope="col"> Action </th>
                                 <th scope="col"> Action </th>
+                                <th scope="col"> Action </th>
                                 
                                 
                             </tr>
@@ -278,6 +279,9 @@ left:25px;" >
                                 </td>
                                 <td>
                                     <button type="button" class="btn btn-danger deletebtn"> Disapproved </button>
+                                </td>  
+                                <td>
+                                    <button type="button" class="btn btn-danger deletebtn"> View </button>
                                 </td>  
                             </tr>
                         </tbody>
