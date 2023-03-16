@@ -66,10 +66,9 @@
                                    
                             <select style="width:200px; "class="text-center"id="size">
                             <option selected>--Select--</option>
-                             <option value="Long">Long</option>
-                             <option value="Short">Short</option>
-                                <option value="A4">A4</option>
-                                 <option value="A4">Letter</option>
+                             <option value="Long">Cash</option>
+                             <option value="Short">Credit</option>
+                                <option value="A4">Funds</option>
                                  </select> </th>
                               
                                 
@@ -82,7 +81,7 @@
                             <th > <label>Required_date:</label>
                                     <input  style="width:200px; " type="text" placeholder=""></th>
                                     <th > <label>expect_delivery_date:</label>
-                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
                            
                                
@@ -98,9 +97,11 @@
                              <option value="Short">Short</option>
                                 <option value="A4">A4</option>
                                  <option value="A4">Letter</option>
+                                 <option value="A4">Tabloid</option>
+                                 <option value="A4">A3</option>
                                  </select></th>
                                     <th > <label>Email:</label>
-                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
                            
                                
@@ -110,9 +111,9 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" value="Printing"></th>
+                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
                                     <th > <label>Contact_No.:</label>
-                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
                            
                                
@@ -125,7 +126,7 @@
                         <thead class="text-center">
                             <tr>
                                 <th>Uploadfile</th>
-                                <th scope="col">Type of Printing</th>
+                                <th scope="col">colorType</th>
                                 <th scope="col">Size</th>
                                 <th scope="col">Qty </th>
                                 <th scope="col">Unit </th>
@@ -147,18 +148,18 @@
                                 <td>
                                      <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
-                              <option value="">Digital Color</option>
-                             <option value="">Digital Black and White</option>
-                            <option value="">Photo Printing</option>
-                          <option value="">Rhisograph</option>
-                           <option value="">Kromekote</option>
-                        </select></td>
-                        <td> <select class=""id="size">
-                        <option selected>--Select--</option>
-            <option value="Long">Long</option>
-            <option value="Short">Short</option>
-            <option value="A4">A4</option>
-                        </select></td>
+                                     <option value="">Colored</option>
+                                    <option value="">Black</option>
+                                 </select></td>
+                                <td> <select class=""id="size">
+                                <option selected>--Select--</option>
+                             <option value="Long">Long</option>
+                             <option value="Short">Short</option>
+                                <option value="A4">A4</option>
+                                 <option value="A4">Letter</option>
+                                 <option value="A4">Tabloid</option>
+                                 <option value="A4">A3</option>
+                                 </select></td>
                                 <td>
                                     <div class="col-md-5 align-content-lg-center ">
                                     <div class="input-group-center" style="width:80px; ">
@@ -215,13 +216,11 @@
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
-                                     <select class="printing-type"id="size">
+                            <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
-                              <option value="">Digital Color</option>
-                             <option value="">Digital Black and White</option>
-                            <option value="">Photo Printing</option>
-                          <option value="">Rhisograph</option>
-                           <option value="">Kromekote</option>
+                                     <option value="">Colored</option>
+                                    <option value="">Black</option>
+                                 </select></td>
                         </select></td>
                         <td> <select class=""id="size">
                         <option selected>--Select--</option>
@@ -285,14 +284,11 @@
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
-                                     <select class="printing-type"id="size">
+                            <select class="printing-type"id="size">
                                      <option selected>--Select--</option>
-                              <option value="">Digital Color</option>
-                             <option value="">Digital Black and White</option>
-                            <option value="">Photo Printing</option>
-                          <option value="">Rhisograph</option>
-                           <option value="">Kromekote</option>
-                        </select></td>
+                                     <option value="">Colored</option>
+                                    <option value="">Black</option>
+                                 </select></td>
                         <td> <select class=""id="size">
                         <option selected>--Select--</option>
             <option value="Long">Long</option>
