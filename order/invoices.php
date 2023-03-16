@@ -60,9 +60,9 @@
              <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
-                                <th > <label>Order_date:</label>
+                                <th > <label>Order_date:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="March 16,2023"></th>
-                                    <th > <label>Payment:</label>
+                                    <th > <label>Payment:</label></br>
                                    
                             <select style="width:200px; "class="text-center"id="size">
                             <option selected>--Select--</option>
@@ -80,7 +80,7 @@
                               
                             <th > <label>Required_date:</label></br>
                                     <input  style="width:200px; " type="text" placeholder=""></th>
-                                    <th > <label>expect_delivery_date:</label>
+                                    <th > <label>expect_delivery_date:</label></br>
                                     <input  style="width:200px; " type="text" placeholder=""></th>
                                 
                            
@@ -90,7 +90,7 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Clien Name:</label>
+                            <th > <label>Clien Name:</label></br>
                             <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
                             <option selected>--Select--</option>
                              <option value="Long">Long</option>
@@ -100,7 +100,7 @@
                                  <option value="A4">Tabloid</option>
                                  <option value="A4">A3</option>
                                  </select></th>
-                                    <th > <label>Email:</label>
+                                    <th > <label>Email:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
                            
@@ -110,9 +110,9 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Type of Jobs:</label>
+                            <th > <label>Type of Jobs:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Printing"></th>
-                                    <th > <label>Contact_No.:</label>
+                                    <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
                            
