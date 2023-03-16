@@ -90,15 +90,15 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Clien Name:</label></br>
+                            <th > <label>Client Name:</label></br>
                             <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
                             <option selected>--Select--</option>
-                             <option value="Long">Long</option>
-                             <option value="Short">Short</option>
-                                <option value="A4">A4</option>
-                                 <option value="A4">Letter</option>
+                             <option value="Long">College of Architechture</option>
+                             <option value="Short">College of Nursing</option>
+                                <option value="A4">College of Teacher Education</option>
+                                 <option value="A4">College of Engineering</option>
                                  <option value="A4">Tabloid</option>
-                                 <option value="A4">A3</option>
+                                 <option value="A4">ACollege of Science and Mathematics</option>
                                  </select></th>
                                     <th > <label>Email:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="email"></th>
