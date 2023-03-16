@@ -79,7 +79,7 @@
                             <tr>
                               
                             <th > <label>Required_date:</label>
-                                    <input  style="width:200px;margin-right: -3rem; " type="text" placeholder=""></th>
+                                    <input  style="width:200px;margin-left: -3rem; " type="text" placeholder=""></th>
                                     <th > <label>expect_delivery_date:</label>
                                     <input  style="width:200px; " type="text" placeholder=""></th>
                                 
