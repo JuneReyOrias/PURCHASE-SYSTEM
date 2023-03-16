@@ -60,9 +60,9 @@
              <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
-                                <th > <label>Client Name:</label>
-                                    <input  style="width:200px; " type="text" placeholder="COLLEGE OF NURSING"></th>
-                                    <th > <label>Email:</label>
+                                <th > <label>Order_date:</label>
+                                    <input  style="width:200px; " type="text" placeholder="March 16,2023"></th>
+                                    <th > <label>Payment:</label>
                                     <input  style="width:200px; " type="text" placeholder="enter email"></th>
                                
                               
@@ -73,9 +73,27 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
-                                    <th > <label>Contact_No.:</label>
+                            <th > <label>Required_date:</label>
+                                    <input  style="width:200px; " type="text" placeholder=""></th>
+                                    <th > <label>expect_delivery_date:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Clien Name:</label>
+                            <select style="width:200px; "class=""id="size">
+                            <option selected>--Select--</option>
+                             <option value="Long">Long</option>
+                             <option value="Short">Short</option>
+                                <option value="A4">A4</option>
+                                 <option value="A4">Letter</option>
+                                 </select></th>
+                                    <th > <label>Email:</label>
                                     <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
                                 
                            
@@ -86,19 +104,7 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
-                                    <th > <label>Contact_No.:</label>
-                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
-                                
-                           
-                               
-                            </tr>
-                        </tbody>
-                        <tbody>
-                            <tr>
-                              
-                            <th > <label>Type of Jobs:</label>
-                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <input  style="width:200px; " type="text" value="Printing"></th>
                                     <th > <label>Contact_No.:</label>
                                     <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
                                 
