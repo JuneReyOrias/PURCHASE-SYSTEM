@@ -82,7 +82,30 @@
                                
                             </tr>
                         </tbody>
-                     
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Type of Jobs:</label>
+                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <th > <label>Contact_No.:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Type of Jobs:</label>
+                                    <input  style="width:200px; " type="text" placeholder="Printing"></th>
+                                    <th > <label>Contact_No.:</label>
+                                    <input  style="width:200px; " type="text" value="Enter ContactNo."></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
       
 </table><br>
        
