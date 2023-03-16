@@ -125,7 +125,7 @@
                 <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
-                                <th>Uploadfile</th>
+                                <th scope="col">Uploadfile</th>
                                 <th scope="col">colorType</th>
                                 <th scope="col">Size</th>
                                 <th scope="col">Qty </th>
@@ -141,7 +141,7 @@
 
 <tbody>
                             <tr>
-                                <td> <div class="mb-3">
+                                <td> <div class="mb-3" style="width:40px;">
     <input type="file"  aria-label="file pdf/word" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
