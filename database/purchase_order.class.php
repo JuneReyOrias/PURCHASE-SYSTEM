@@ -54,6 +54,8 @@ class Purchase{
             $insertStmt->bindParam(':required_date', $requireddate);
             $insertStmt->bindParam(':exp_dlv_date', $exp_dlvdate);
             $insertStmt->bindParam(':payment_id', $paymentid);
+            $insertStmt->bindParam(':method', $method);
+            $insertStmt->bindParam(':due', $due);
             $insertStmt->execute();
 
     

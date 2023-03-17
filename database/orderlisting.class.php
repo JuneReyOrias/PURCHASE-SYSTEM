@@ -17,6 +17,14 @@ class Orderlist{
     }
     function insertOrder(){ 
         try {
+             // Get the ID of the semester with the given  name
+            $serviceSql = "SELECT id FROM service WHERE id = :service_id";
+            $serviceStmt = $this->db->connect()->prepare($serviceSql);
+            $serviceStmt->bindParam(':service_id', $this->serviceId);
+            $serviceStmt->execute();
+            $serviceID = $serviceStmt->fetchColumn();
+
+
             $sql = "INSERT INTO order_listing (order_id, product_id, unit_price, qty, service_id) VALUES (:order_id, :product_id, :unit_price, :qty, :service_id)";
             $stmt = $this->db->connect()->prepare($sql);
             $stmt->bindParam(':order_id', $this->orderId);
