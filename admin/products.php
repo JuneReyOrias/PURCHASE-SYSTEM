@@ -178,10 +178,9 @@ left:25px;" >
                         <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
-                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                                <input type="hidden" name="action" value="delete">
-                                <input type="hidden" name="id" value="<?php echo $products['product_id']; ?>">
-                                <input type="submit" class="btn btn-danger" value="Delete">
+                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="hidden" name="action" value="delete">
+					<input type="submit" class="btn btn-danger" value="delete">
                             </div>
                 </form>
 
