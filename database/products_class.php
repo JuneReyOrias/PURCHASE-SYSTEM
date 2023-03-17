@@ -44,7 +44,7 @@ Class Products{
 
 
 
-    public function fetchAllRecords() {
+    public function show() {
        
             $sql = "SELECT * FROM user;";
             

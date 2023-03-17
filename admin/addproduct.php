@@ -1,6 +1,6 @@
 <?php 
 require_once '../database/database.php';
-require_once "../database/products.class.php";
+require_once "../database/products_class.php";
 
 // Check if the fosaverm has been submitted
 if (isset($_POST['action']) && $_POST['action'] == 'add') {

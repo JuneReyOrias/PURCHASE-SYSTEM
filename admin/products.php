@@ -1,5 +1,5 @@
 <?php
-
+ require_once '../database/products_class.php';
     //resume session here to fetch session values
     session_start();
   
@@ -246,10 +246,11 @@ left:25px;" >
                             </tr>
                         </thead>
                         <?php
-                         $product= new Products();
-                         $productdata= $product->fetchAllRecords();
-                         
-                         foreach($productdata as $product){ 
+                             $product= new ProductS();
+                             $productdata= $product->show();
+                             
+                             foreach($productdata as $product){ 
+    
 
             ?>
                 
