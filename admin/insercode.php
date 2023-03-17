@@ -3,7 +3,7 @@ require_once '../database/database.php';
 require_once "../database/user.class.php";
 
 // Check if the fosaverm has been submitted
-if (isset($_POST['action']) && $_POST['action'] == 'save') {
+if (isset($_POST['action']) && $_POST['action'] == 'add') {
     print_r($_POST);
     $newuser = new Users();
     // Sanitize input data
