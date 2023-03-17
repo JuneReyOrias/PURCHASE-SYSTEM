@@ -27,7 +27,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     // Add the fee to the database
     if ($product->addProduct()) {
         // Redirect to a success page or display a success message
-        header("Location: customers.php");
+        header("Location: products.php");
     } else {
         // Redirect to an error page or display an error message
         echo 'error';
