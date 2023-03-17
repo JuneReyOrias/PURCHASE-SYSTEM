@@ -237,52 +237,50 @@ left:25px;" >
     </div>
 
 
-            <div style="margin-left: 35px;">
-            <h2 style="margin-left: 40rem;"> Customer Info </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
-                        ADD New User
-                    </button>
-                </div>
           
+    <h2 style="margin-left: 40rem;"> Product </h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
+                        Add New Product
+                    </button>
+            
 
-        
+      
+
                     <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
-                        <thead class="table-dark ">
+                        <thead class="thead-dark">
                             <tr>
-                                <th scope="col"> ID</th>
-                                <th scope="col">Username </th>
-                                <th scope="col">Password </th>
-                                <th scope="col">Firstname </th>
-                                <th scope="col"> Lastname </th>
-                                <th scope="col"> Email </th>
-                                 <th scope="col"> Contact </th>
-                                <th scope="col"> Role </th>
-                                <th scope="col"> Action</th>
-                             
+                                <th scope="col"> ProductID</th>
+                                <th scope="col">ProductName </th>
+                                <th scope="col">ProductDesc </th>
+                                <th scope="col">Unit_Prices </th>
+                                <th scope="col"> Quantity </th>
+                                <th scope="col"> Action </th>
+                                
                             </tr>
                         </thead>
                         <?php
-                         $user= new Users();
-                         $userdata= $user->show();
-                         
-                         foreach($userdata as $user){ 
+                             $product= new ProductS();
+                             $productdata= $product->show();
+                             
+                             foreach($productdata as $product){ 
+    
 
             ?>
+                
                         <tbody>
                             <tr>
-                                <td > <?php echo $user['id']; ?> </td>
-                                <td> <?php echo $user['user_name']; ?> </td>
-                                <td> <?php echo $user['user_pass']; ?> </td>
-                                <td> <?php echo $user['firstname']; ?> </td>
-                                <td> <?php echo $user['lastname']; ?> </td>
-                                <td> <?php echo $user['email']; ?> </td>
-                                <td> <?php echo $user['contact_no']; ?> </td>
-                                <td> <?php echo $user['role']; ?> </td>
+                                <td > <?php echo $product['product_id']; ?> </td>
+                                <td> <?php echo $product['product_name']; ?> </td>
+                                <td> <?php echo $product['product_desc']; ?> </td>
+                                <td> <?php echo $product['unit_price']; ?> </td>
+                                <td> <?php echo $product['qty']; ?> </td>
+                               
                                 <td>
-                                   
-                                <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editcustomermodal"> EDIT </button>
-                                
-                                    <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deletecustomermodal"> DELETE </button>
+                                  
+                                  
+                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editproductmodal"> EDIT </button>
+                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deleteproductmodal"> DELETE </button>
+            
                                 </td>
                             </tr>
                         </tbody>
