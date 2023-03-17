@@ -1,5 +1,5 @@
 <?php
-
+     require_once '../databaste/purchase_order.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -18,6 +18,24 @@
 
     require_once '../includes/header.php';
     require_once '../includes/cust.sidebar.php';
+
+    $purchase= new Purchase();
+    if(isset($_POST['save'])) {
+             
+                
+        $required_date =  htmlentities($_POST['required_date']);
+        $exp_dlv_date =  htmlentities($_POST['exp_dlv_date']);
+
+        $method= htmlentities($_POST['method']);
+        $due= htmlentities($_POST['due']);
+
+        $unit_price= htmlentities($_POST['unit_price']);
+        $size= htmlentities($_POST['size']);
+        $print_type=htmlentities($_POST['color']);
+        $print_type=htmlentities($_POST['print_type']);
+        $unit_price=htmlentities($_POST['unit_price']);
+    $adddata= $purchase ->add();
+    }
 ?>
     
    
@@ -54,8 +72,8 @@
         </div>
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);"> 
-             
-
+               
+       
        
              <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
@@ -412,7 +430,7 @@
                        
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2" type="button">Continues</button>
+                        <button class="btn btn-primary me-md-2" name="save" type="button">Continue</button>
                         </div>
 
 
