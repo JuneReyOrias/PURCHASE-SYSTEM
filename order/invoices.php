@@ -21,6 +21,7 @@
 
     $purchase= new Purchase();
     if(isset($_POST['save'])) {
+        print_r($_POST);
              
                 
         $required_date =  htmlentities($_POST['required_date']);

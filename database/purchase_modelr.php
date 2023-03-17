@@ -31,7 +31,7 @@
                         $insert_stmt->bindParam(':qty', $qty);
                         $insert_stmt->bindParam(':total_price', $total_price);
                         $insert_stmt->bindParam(':filename', $filename);
-            if($query->execute()){
+            if($inser->execute()){
                 return true;
             }
             else{
@@ -89,7 +89,7 @@
             }
                 
             
-            }
+        }
             
 
 		//FETCH ALL RECORD FROM THE DATABASE 
