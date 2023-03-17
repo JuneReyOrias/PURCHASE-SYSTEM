@@ -150,10 +150,11 @@ left:25px;" >
                    
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input type="hidden" name="action" value="update">
-					<input type="submit" class="btn btn-success" value="update">
-                    </div>
+                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </div>
                 </div>
             </form>
             </div>
@@ -181,10 +182,11 @@ left:25px;" >
                         <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
-                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input type="hidden" name="action" value="delete">
-					<input type="submit" class="btn btn-danger" value="delete">
-                    </div>
+                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </div>
                 </div>
                 </form>
 
@@ -227,7 +229,7 @@ left:25px;" >
 
           
     <h2 style="margin-left: 40rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 143px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 148px;">
                         Add New Product
                     </button>
             
