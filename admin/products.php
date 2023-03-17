@@ -107,7 +107,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -184,7 +184,7 @@ left:25px;" >
                     <div class="modal-footer">
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                                 <input type="hidden" name="action" value="delete">
-                                
+
                                 <input type="submit" class="btn btn-danger" value="Delete">
                             </div>
                 </form>
@@ -266,7 +266,7 @@ left:25px;" >
                                 <td>
                                   
                                   
-                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editproductmodal"> EDIT </button>
+                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editmodal"> EDIT </button>
                                    <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deleteproductmodal"> DELETE </button>
             
                                 </td>
