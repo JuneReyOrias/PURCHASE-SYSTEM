@@ -67,46 +67,34 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="addnew.php" method="POST">
+                
+                <form action="addproduct.php" method="POST">
 
-                    <div class="modal-body">
+                <div class="modal-body">
                         <div class="form-group">
-                        <label>Username </label>
-                            <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
+                        <label>ProductName </label>
+                            <input type="text" name="product_name" id="product_name" class="form-control"
+                                placeholder="Enter ProductName">
                         </div>
 
                         <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
+                            <label> ProductDesc </label>
+                            <input type="text" name="product_desc" id="product_desc" class="form-control"
+                                placeholder="Enter ProducDesc">
                         </div>
 
                         <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
+                            <label> UnitPrices </label>
+                            <input type="text" name="unit_price" id="unit_price" class="form-control"
+                                placeholder="Enter UnitPrice">
                         </div>
                         <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
+                            <label> Quantity</label>
+                            <input type="text" name="qty" id="qty" class="form-control"
                                 placeholder="Enter Lastname">
                         </div>
-                        <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
-                        </div>
-                        <div class="form-group">
-                            <label> ContactNo </label>
-                            <input type="text" name="contact_no" id="contact_no" class="form-control"
-                                placeholder="Enter ContactNo">
-                        </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
+                        
+                   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -249,10 +237,10 @@ left:25px;" >
     </div>
 
 
-            <div style="margin-left: 35px;">
-            <h2 style="margin-left: 40rem;"> Customer Info </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 125px;">
-                        ADD New User
+          
+    <h2 style="margin-left: 40rem;"> Product </h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
+                        Add New Product
                     </button>
                 </div>
           
