@@ -413,7 +413,7 @@
                         </table>
                        
 
-                        <a href="orderlist.php" name="" class="btn btn-primary">Continue</a>
+                        <a href="orderlist.php" name="" class="btn btn-primary float-md-end">Continue</a>
                      
 
 
