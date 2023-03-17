@@ -1,5 +1,5 @@
 <?php
-     require_once '../databaste/purchase_order.php';
+     require_once '../databaste/purchase_modelr.php';
     //resume session here to fetch session values
     session_start();
     /*
@@ -19,24 +19,7 @@
     require_once '../includes/header.php';
     require_once '../includes/cust.sidebar.php';
 
-    $purchase= new Purchase();
-    if(isset($_POST['save'])) {
-        print_r($_POST);
-             
-                
-        $required_date =  htmlentities($_POST['required_date']);
-        $exp_dlv_date =  htmlentities($_POST['exp_dlv_date']);
 
-        $method= htmlentities($_POST['method']);
-        $due= htmlentities($_POST['due']);
-
-        $unit_price= htmlentities($_POST['unit_price']);
-        $size= htmlentities($_POST['size']);
-        $print_type=htmlentities($_POST['color']);
-        $print_type=htmlentities($_POST['print_type']);
-        $unit_price=htmlentities($_POST['unit_price']);
-    $adddata= $purchase ->add();
-    }
 ?>
     
    
@@ -50,7 +33,10 @@
 <div>
         <header>
 
+<?php
 
+    
+?>
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
@@ -431,7 +417,7 @@
                        
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2" name="save" type="button">Continue</button>
+                        <button class="btn btn-primary me-md-2" href="orderlist.php"name="save" type="button">Continue</button>
                         </div>
 
 
