@@ -1,6 +1,6 @@
 <?php 
-require_once '../classes/database.class.php';
-require_once "../classes/fee.class.php";
+require_once '../database/database.php';
+require_once "../database/user.class.php";
 
 // Check if the fosaverm has been submitted
 if (isset($_POST['insertdata']) && $_POST['insertdata'] == 'Save data') {
