@@ -60,7 +60,29 @@ function add(){
         return false;
     }	
 }
+function addUser(){
+    try {
+      
+    
 
+            $insertSql =  "INSERT INTO user(user_name, user_pass, lastname, firstname, email, contact_no, role) VALUES 
+            (:user_name, :user_pass, :lastname, :firstname, :email, :contact_no, :role);";
+            $insertStmt = $this->db->connect()->prepare($insertSql);
+            $insertStmt->bindParam(':user_name', $this->username);
+            $insertStmt->bindParam(':user_pass', $this->password);
+            $insertStmt->bindParam(':lastname', $this->lastname);
+            $insertStmt->bindParam(':firstname', $this->firstname);
+            $insertStmt->bindParam(':email', $this->email);
+            $insertStmt->bindParam(':contact_no', $this->contactNo);
+            $insertStmt->bindParam(':role', $this->role);
+            $insertStmt->execute();
+        
+        return true;
+    } catch (PDOException $e) {
+        echo "Error: " . $e->getMessage();
+        return false;
+    }
+}
 function delete(){
     $sql = "DELETE FROM user WHERE id=:id";
 
