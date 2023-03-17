@@ -61,22 +61,23 @@ Class Products{
 
      
 
-function delete(){
-    $sql = "DELETE FROM products WHERE product_id=:product_id";
+    function delete(){
+        $sql = "DELETE FROM products WHERE product_id=:product_id";
 
-    $query=$this->db->connect()->prepare($sql);
-    $query->bindParam(':product_id', $this->productId);
+        $query=$this->db->connect()->prepare($sql);
+        $query->bindParam(':product_id', $this->productId);
 
-    if($query->execute()){
-        return true;
+        if($query->execute()){
+            return true;
+        }
+        else{
+            return false;
+        }	
     }
-    else{
-        return false;
-    }	
-}
-public function deleteRecords($delete_id) {
-    $delete_stmt = $this->db->connect()->prepare('DELETE FROM event WHERE id = :sid ');
-    $delete_stmt->bindParam(':sid',$delete_id);
+
+public function deletes($delete_id) {
+    $delete_stmt = $this->db->connect()->prepare('DELETE FROM products WHERE product_id = :product_id ');
+    $delete_stmt->bindParam(':product_id',$delete_id);
 
     if ($delete_stmt->execute()) {
         echo 'Record deleted successfully.';

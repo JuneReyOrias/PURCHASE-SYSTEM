@@ -162,12 +162,12 @@ left:25px;" >
     </div>
 
     <!-- DELETE POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="deletemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="deleteproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Delete Account </h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> Delete Product </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -182,11 +182,11 @@ left:25px;" >
                         <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
-                    <input type="hidden" name="action" value="delete">
-                     <input type="submit" class="btn btn-danger" value="delete">
-                        <!--< type="submit" name="action" value="delete"class="btn btn-primary"> Yes !! Delete it. </button>-->
-                    </div>
+                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="fee_id" value="<?php echo $products['product_id']; ?>">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </div>
                 </form>
 
             </div>
@@ -268,7 +268,7 @@ left:25px;" >
                                   
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
                                     
-                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deletemodal"> DELETE </button>
+                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deleteproductmodal"> DELETE </button>
             
                                 </td>
                               
