@@ -4,7 +4,7 @@ require_once "../database/user.class.php";
 
 // Check if the fosaverm has been submitted
 if (isset($_POST['action']) && $_POST['action'] == 'add') {
-    print_r($_POST);
+   
     $newuser = new Users();
     // Sanitize input data
     $username = htmlspecialchars($_POST['user_name']);
@@ -14,6 +14,16 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     $email = htmlspecialchars($_POST['email']);
     $contactNo = htmlspecialchars($_POST['contact_no']);
     $role = htmlspecialchars($_POST['role']);
+
+    
+    if ($students->addUser()) {
+        // Redirect to a success page or display a success message
+        header("Location: customers.php");
+    } else {
+        // Redirect to an error page or display an error message
+        echo 'error';
+    }
+}
     // Check if any of the form fields are empty
     if (empty($username) || empty($password) || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
         echo 'All fields are required';
@@ -22,7 +32,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($students->addUser()) {
+    if ($newuser->addUser()) {
         // Redirect to a success page or display a success message
         header("Location: customers.php");
     } else {
