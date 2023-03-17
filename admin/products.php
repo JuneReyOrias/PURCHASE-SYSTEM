@@ -266,8 +266,8 @@ left:25px;" >
                                 <td>
                                   
                                   
-                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editmodal"> EDIT </button>
-                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deletemodal"> DELETE </button>
+                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#producteditmodal"> EDIT </button>
+                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#productdeletemodal"> DELETE </button>
             
                                 </td>
                             </tr>
@@ -321,7 +321,7 @@ left:25px;" >
 
             $('.deletebtn').on('click', function () {
 
-                $('#deletemodal').modal('show');
+                $('#productdeletemodal').modal('show');
 
                 $tr = $(this).closest('tr');
 
@@ -331,7 +331,7 @@ left:25px;" >
 
                 console.log(data);
 
-                $('#delete_id').val(data[0]);
+                $('#productdelete_id').val(data[0]);
 
             });
         });
