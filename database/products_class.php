@@ -62,7 +62,7 @@ Class Products{
      
 
 function delete(){
-    $sql = "DELETE FROM product WHERE product_id=:product_id";
+    $sql = "DELETE FROM products WHERE product_id=:product_id";
 
     $query=$this->db->connect()->prepare($sql);
     $query->bindParam(':product_id', $this->productId);
