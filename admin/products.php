@@ -264,9 +264,9 @@ left:25px;" >
                                 <td> <?php echo $product['qty']; ?> </td>
                                
                                 <td>
-                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
+                                  
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
+                                    <button type="button"name="action" class="btn btn-danger delete"> DELETE </button>
                                 </td>
                               
                             </tr>
@@ -318,7 +318,7 @@ left:25px;" >
     <script>
         $(document).ready(function () {
 
-            $('.deletebtn').on('click', function () {
+            $('.delete').on('click', function () {
 
                 $('#deletemodal').modal('show');
 
@@ -330,7 +330,7 @@ left:25px;" >
 
                 console.log(data);
 
-                $('#delete_id').val(data[0]);
+                $('#delete').val(data[0]);
 
             });
         });
