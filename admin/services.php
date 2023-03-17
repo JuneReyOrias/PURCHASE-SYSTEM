@@ -66,37 +66,33 @@ left:25px;" >
 
                     <div class="modal-body">
                         <div class="form-group">
-                        <label>Username </label>
+                        <label>Service Name </label>
                             <input type="text" name="user_name" id="user_name" class="form-control"
                                 placeholder="Enter UserName">
                         </div>
 
                         <div class="form-group">
-                            <label> Password </label>
+                            <label> Service Descriptionn </label>
                             <input type="text" name="user_pass" id="user_pass" class="form-control"
                                 placeholder="Enter Password">
                         </div>
 
                         <div class="form-group">
-                            <label> Firstname </label>
+                            <label> Price </label>
                             <input type="text" name="firstname" id="firstname" class="form-control"
                                 placeholder="Enter Firstname">
                         </div>
                         <div class="form-group">
-                            <label> lastname </label>
+                            <label> Service Size </label>
                             <input type="text" name="lastname" id="lastname" class="form-control"
                                 placeholder="Enter Lastname">
                         </div>
                         <div class="form-group">
-                            <label> Email </label>
+                            <label> Quantity </label>
                             <input type="text" name="email" id="email" class="form-control"
                                 placeholder="Enter Fullname">
                         </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

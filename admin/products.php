@@ -77,20 +77,9 @@ left:25px;" >
                         </div>
 
                         <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
-                        </div>
-
-                        <div class="form-group">
                             <label>ProductDescription </label>
                             <input type="text" name="product_desc" id="product_desc" class="form-control"
                                 placeholder="Enter ProductDescription">
-                        </div>
-                        <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
                         </div>
                         <div class="form-group">
                             <label> Unit_Prices </label>
