@@ -65,13 +65,13 @@ left:25px;" >
                     <div class="modal-body">
                         <div class="form-group">
                         <label>Username </label>
-                            <input type="text" name="username" id="username" class="form-control"
+                            <input type="text" name="user_name" id="user_name" class="form-control"
                                 placeholder="Enter UserName">
                         </div>
 
                         <div class="form-group">
                             <label> Password </label>
-                            <input type="text" name="userpass" id="userpass" class="form-control"
+                            <input type="text" name="user_pass" id="user_pass" class="form-control"
                                 placeholder="Enter Password">
                         </div>
 
