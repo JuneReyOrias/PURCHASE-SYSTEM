@@ -413,9 +413,8 @@
                         </table>
                        
 
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2" action ="orderlist.php" name="continue" type="button">Continue</button>
-                        </div>
+                        <a href="orderlist.php" name="" class="btn btn-primary">Continue</a>
+                     
 
 
  
