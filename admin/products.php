@@ -183,7 +183,7 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
-                    <input type="hidden" name="action" id="delete_id" value="delete">
+                    <input type="hidden" name="action" value="delete">
                      <input type="submit" class="btn btn-danger" value="delete">
                         <!--< type="submit" name="action" value="delete"class="btn btn-primary"> Yes !! Delete it. </button>-->
                     </div>
