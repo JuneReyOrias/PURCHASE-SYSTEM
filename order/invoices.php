@@ -414,7 +414,7 @@
                        
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2" href="orderlist.php"name="save" type="button">Continue</button>
+                        <button class="btn btn-primary me-md-2" action ="orderlist.php" name="continue" type="button">Continue</button>
                         </div>
 
 
