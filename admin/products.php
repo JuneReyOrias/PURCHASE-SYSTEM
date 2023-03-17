@@ -61,7 +61,7 @@ left:25px;" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create Customer Account </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create Products </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -108,7 +108,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="producteditmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -122,8 +122,9 @@ left:25px;" >
                 <form action="updatecode.php" method="POST">
 
                    
+               
                 <div class="modal-body">
-                <div class="form-group">
+                        <div class="form-group">
                         <label>ProductName </label>
                             <input type="text" name="product_name" id="product_name" class="form-control"
                                 placeholder="Enter ProductName">
@@ -145,20 +146,22 @@ left:25px;" >
                             <input type="text" name="qty" id="qty" class="form-control"
                                 placeholder="Enter Lastname">
                         </div>
+                        
+                   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <input type="hidden" name="action" value="update">
-					<input type="submit" class="btn btn-info" value="Update">
+					<input type="submit" class="btn btn-success" value="update">
                     </div>
-                </form>
-
+                </div>
+            </form>
             </div>
         </div>
     </div>
 
     <!-- DELETE POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="deletemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="productdeletemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -181,7 +184,8 @@ left:25px;" >
                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         <input type="hidden" name="action" value="delete">
 					<input type="submit" class="btn btn-danger" value="delete">
-                            </div>
+                    </div>
+                </div>
                 </form>
 
             </div>
@@ -223,7 +227,7 @@ left:25px;" >
 
           
     <h2 style="margin-left: 40rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 140px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 143px;">
                         Add New Product
                     </button>
             
