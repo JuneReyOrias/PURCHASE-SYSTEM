@@ -177,12 +177,13 @@ left:25px;" >
 
                     <div class="modal-body">
 
-                        <input type="hidden" name="action" id="delete_id" value="delete">
+                        
 
                         <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">close</button>
+                    <input type="hidden" name="action" id="delete_id" value="delete">
                      <input type="submit" class="btn btn-danger" value="delete">
                         <!--< type="submit" name="action" value="delete"class="btn btn-primary"> Yes !! Delete it. </button>-->
                     </div>
