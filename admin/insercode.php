@@ -3,8 +3,9 @@ require_once '../database/database.php';
 require_once "../database/user.class.php";
 
 // Check if the fosaverm has been submitted
-if (isset($_POST['insertdata']) && $_POST['insertdata'] == 'save') {
+if (isset($_POST['action']) && $_POST['action'] == 'save') {
     print_r($_POST);
+    $newuser = new Users();
     // Sanitize input data
     $username = htmlspecialchars($_POST['user_name']);
     $password = htmlspecialchars($_POST['user_pass']);
@@ -19,24 +20,13 @@ if (isset($_POST['insertdata']) && $_POST['insertdata'] == 'save') {
         exit();
     }
 
-    // Validate fee amount: must be a positive number
-    //if (!is_numeric($feeAmount) || $feeAmount <= 0) {
-      //  echo 'Invalid fee amount';
-     //   exit();
-    //}
-
-    // Create a new Fee object and set its properties
-    $user = new Users();
-   
-
     
     // Add the fee to the database
-    if ($user->addUser()) {
-        header('location:../admin/customers.php');
+    if ($students->addUser()) {
+        // Redirect to a success page or display a success message
+        header("Location: customers.php");
     } else {
-        echo 'Failed to add user.';
+        // Redirect to an error page or display an error message
+        echo 'error';
     }
-    
 }
-
-?>
