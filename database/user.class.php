@@ -40,31 +40,9 @@ Class users{
         return $result;
 
 }
-function add(){
-    $sql = "INSERT INTO user(user_name, user_pass, lastname, firstname, email, contact_no, role) VALUES 
-    (:user_name, :user_pass, :lastname, :firstname, :email, :contact_no, :role);";
-
-    $query=$this->db->connect()->prepare($sql);
-    $query->bindParam(':user_name', $this->username);
-    $query->bindParam(':user_pass', $this->password);
-    $query->bindParam(':lastname', $this->lastname);
-    $query->bindParam(':firstname', $this->firstname);
-    $query->bindParam(':email', $this->email);
-    $query->bindParam(':contact_no', $this->contactNo);
-    $query->bindParam(':role', $this->role);
-    
-    if($query->execute()){
-        return true;
-    }
-    else{
-        return false;
-    }	
-}
 function addUser(){
     try {
-      
-    
-
+  
             $insertSql =  "INSERT INTO user(user_name, user_pass, lastname, firstname, email, contact_no, role) VALUES 
             (:user_name, :user_pass, :lastname, :firstname, :email, :contact_no, :role);";
             $insertStmt = $this->db->connect()->prepare($insertSql);
