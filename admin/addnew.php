@@ -16,14 +16,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     $role = htmlspecialchars($_POST['role']);
 
     
-    if ($students->addUser()) {
-        // Redirect to a success page or display a success message
-        header("Location: customers.php");
-    } else {
-        // Redirect to an error page or display an error message
-        echo 'error';
-    }
-}
+
     // Check if any of the form fields are empty
     if (empty($username) || empty($password) || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
         echo 'All fields are required';
