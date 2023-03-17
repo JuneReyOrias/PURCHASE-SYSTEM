@@ -96,8 +96,7 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input type="hidden" name="action" value="add">
-					<input type="submit" class="btn btn-success" value="Add">
+                        <button type="submit" name="updatedata" class="btn btn-primary">Update Data</button>
                     </div>
                 </form>
 
