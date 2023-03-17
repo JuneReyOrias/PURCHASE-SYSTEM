@@ -1,5 +1,5 @@
 <?php
-     require_once '../databaste/purchase_modelr.php';
+;
     //resume session here to fetch session values
     session_start();
     /*
