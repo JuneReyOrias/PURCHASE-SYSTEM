@@ -173,17 +173,18 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="deletecode.php" method="POST">
+                <form action="deleteproduct.php" method="POST">
 
                     <div class="modal-body">
 
-                        <input type="hidden" name="delete_id" id="delete_id">
+                        <input type="hidden" name="action" id="delete" value="delete">
 
-                        <h4> Do you want to Delete this Account ??</h4>
+                        <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"> NO </button>
-                        <button type="submit" name="deletedata" class="btn btn-primary"> Yes !! Delete it. </button>
+
+                        <button type="submit" name="action" value="delete"class="btn btn-primary"> Yes !! Delete it. </button>
                     </div>
                 </form>
 
