@@ -153,7 +153,7 @@ left:25px;" >
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                                 <input type="hidden" name="action" value="update">
                                 <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
-                                <input type="submit" class="btn btn-danger" value="Update">
+                                <input type="submit" class="btn btn-info" value="Update">
                             </div>
                 </div>
             </form>
