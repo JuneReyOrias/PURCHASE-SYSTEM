@@ -93,11 +93,7 @@ left:25px;" >
                                 placeholder="Enter Lastname">
                         </div>
                         
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
+                   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
