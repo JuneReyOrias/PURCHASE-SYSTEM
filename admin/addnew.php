@@ -5,10 +5,10 @@ require_once "../database/user.class.php";
 // Check if the fosaverm has been submitted
 if (isset($_POST['action']) && $_POST['action'] == 'add') {
    
-    $newuser = new Users();
+    $user = new Users();
     // Sanitize input data
 
-
+   
     
 
     // Check if any of the form fields are empty
@@ -19,7 +19,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($newuser->add()) {
+    if ($user->add()) {
         // Redirect to a success page or display a success message
         header("Location: customers.php");
     } else {
