@@ -55,18 +55,19 @@ left:25px;" >
 <body class="human " style="background-color: var(--body-color); 
     transition: var(--tran-05);">
 
-    <!-- Modal -->
-    <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     <!-- Modal -->
+     <div class="modal fade" id="productaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Create New Product </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Create Customer Account </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
+                
                 <form action="addproduct.php" method="POST">
 
                 <div class="modal-body">
@@ -107,7 +108,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="editproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -184,9 +185,11 @@ left:25px;" >
                     <div class="modal-footer">
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                                 <input type="hidden" name="action" value="delete">
-
+                                
                                 <input type="submit" class="btn btn-danger" value="Delete">
                             </div>
+                                
+                              
                 </form>
 
             </div>
@@ -206,13 +209,14 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="deleteproduct.php" method="POST">
+                <form action="deletecode.php" method="POST">
 
                     <div class="modal-body">
 
                         <input type="text" name="view_id" id="view_id">
 
-                        
+                        <!-- <p id="fname"> </p> -->
+                        <h4 id="user_name"> <?php echo ''; ?> </h4>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal"> CLOSE </button>
@@ -225,16 +229,17 @@ left:25px;" >
     </div>
 
 
-   
-                    <h2 style="margin-left: 40rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
+          
+    <h2 style="margin-left: 40rem;"> Product </h2>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productaddmodal"style="margin-left: 135px;">
                         Add New Product
                     </button>
-            
+                </div>
+          
 
-      
+        
 
-                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
+                <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
                         <thead class="thead-dark">
                             <tr>
                                 <th scope="col"> ProductID</th>
@@ -266,17 +271,17 @@ left:25px;" >
                                 <td>
                                   
                                   
-                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editmodal"> EDIT </button>
+                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editproductmodal"> EDIT </button>
                                    <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deleteproductmodal"> DELETE </button>
             
                                 </td>
                               
                             </tr>
                         </tbody>
-                        <?php           
-                    }
-                
-        
+                        <?php   
+
+             }
+           
             ?>
                     </table>
                 </div>
@@ -320,7 +325,7 @@ left:25px;" >
     <script>
         $(document).ready(function () {
 
-            $('.delete').on('click', function () {
+            $('.deletebtn').on('click', function () {
 
                 $('#deletemodal').modal('show');
 
@@ -363,44 +368,3 @@ left:25px;" >
             });
         });
     </script>
-
-
-
- </div>
-          
-    </section>
-
-</nav>
-<script>
-        const body = document.querySelector('body'),
-      sidebar = body.querySelector('nav'),
-      toggle = body.querySelector(".toggle"),
-      searchBtn = body.querySelector(".search-box"),
-      modeSwitch = body.querySelector(".toggle-switch"),
-      modeText = body.querySelector(".mode-text");
-
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
-})
-
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
-
-modeSwitch.addEventListener("click" , () =>{
-    body.classList.toggle("dark");
-    
-    if(body.classList.contains("dark")){
-        modeText.innerText = "Light mode";
-    }else{
-        modeText.innerText = "Dark mode";
-        
-    }
-});
-    </script>
-
-   
-    <script src="./js/sidebar.js"></script>
-  </body>
-</html>
