@@ -74,7 +74,16 @@ function delete(){
         return false;
     }	
 }
+public function deleteRecords($delete_id) {
+    $delete_stmt = $this->db->connect()->prepare('DELETE FROM event WHERE id = :sid ');
+    $delete_stmt->bindParam(':sid',$delete_id);
 
+    if ($delete_stmt->execute()) {
+        echo 'Record deleted successfully.';
+    } else {
+        echo 'Failed to delete the record.';
+    }
+}
 
 }
 
