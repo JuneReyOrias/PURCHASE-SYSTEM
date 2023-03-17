@@ -2,6 +2,13 @@
 require_once 'database.php';
 
 Class Products{ 
+   
+                                   
+        public $productId;
+        public $productName;
+        public $productDesc;
+        public $unitPrice;
+        public $qty;
                                    
   
 
@@ -12,6 +19,30 @@ Class Products{
         $this->db = new database();
     }
  
+    function addProduct(){
+        try {
+      
+                $insertSql =  "INSERT INTO products(product_name, product_desc, unit_price, qty) VALUES 
+                (:product_name, :product_desc, :unit_price, :qty);";
+                $insertStmt = $this->db->connect()->prepare($insertSql);
+                $insertStmt->bindParam(':product_name', $this->productName);
+                $insertStmt->bindParam(':product_desc', $this->productDesc);
+                $insertStmt->bindParam(':unit_price', $this->unitPrice);
+                $insertStmt->bindParam(':qty', $this->qty);
+            
+                $insertStmt->execute();
+            
+            return true;
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+            return false;
+        }
+    }
+
+
+
+
+
 
     public function fetchAllRecords() {
 
@@ -24,23 +55,11 @@ Class Products{
 
         return $data;
     }
-function add(){
-    $sql = "INSERT INTO products(product_name, product_desc, unit_price, qty) VALUES 
-    (:product_name, :product_desc, :unit_price, :qty);";
 
-    $query=$this->db->connect()->prepare($sql);
-    $query->bindParam(':product_name', $this->productName);
-    $query->bindParam(':product_desc', $this->productDesc);
-    $query->bindParam(':unit_price', $this->unitPrice);
-    $query->bindParam(':qty', $this->qty);
-  
-    if($query->execute()){
-        return true;
-    }
-    else{
-        return false;
-    }	
-}
+
+
+
+     
 
 function delete(){
     $sql = "DELETE FROM product WHERE product_id=:product_id";

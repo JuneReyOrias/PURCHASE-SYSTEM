@@ -67,7 +67,7 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="insertcode.php" method="POST">
+                <form action="addproduct.php" method="POST">
 
                     <div class="modal-body">
                         <div class="form-group">
@@ -80,6 +80,8 @@ left:25px;" >
                             <label>ProductDescription </label>
                             <input type="text" name="product_desc" id="product_desc" class="form-control"
                                 placeholder="Enter ProductDescription">
+                        </div>
+                    
                         </div>
                         <div class="form-group">
                             <label> Unit_Prices </label>
@@ -94,7 +96,9 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="insertdata" class="btn btn-primary">Save Data</button>
+                        <input type="hidden" name="action" value="add">
+					<input type="submit" class="btn btn-success" value="add">
+                       
                     </div>
                 </form>
 
