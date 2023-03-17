@@ -56,7 +56,7 @@ left:25px;" >
     transition: var(--tran-05);">
 
      <!-- Modal -->
-     <div class="modal fade" id="studentaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     <div class="modal fade" id="productaddmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -188,7 +188,7 @@ left:25px;" >
                                 <input type="hidden" name="id" value="<?php echo $products['product_id']; ?>">
                                 <input type="submit" class="btn btn-danger" value="Delete">
                             </div>
-                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                                
                               
                 </form>
 
@@ -231,7 +231,7 @@ left:25px;" >
 
           
     <h2 style="margin-left: 45rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#productaddmodal"style="margin-left: 135px;">
                         Add New Product
                     </button>
                 </div>
