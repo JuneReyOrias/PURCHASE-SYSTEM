@@ -46,7 +46,7 @@ Class Products{
 
     public function show() {
        
-            $sql = "SELECT * FROM user;";
+            $sql = "SELECT * FROM products;";
             
             $query=$this->db->connect()->prepare($sql);
             $query->execute();
