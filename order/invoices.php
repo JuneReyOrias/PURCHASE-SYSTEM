@@ -33,10 +33,7 @@
 <div>
         <header>
 
-<?php
 
-    
-?>
                 <div class="text-center" style= "color: #990000;">
                 <img src="/img/upress-logo.png" class="rounded mx-auto d-block" alt="UPRESS">
                 <span class="text-center fs-1">UNIVERSITY PRESS</span>
