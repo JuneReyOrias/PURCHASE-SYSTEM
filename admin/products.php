@@ -184,7 +184,7 @@ left:25px;" >
                     <div class="modal-footer">
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                                 <input type="hidden" name="action" value="delete">
-                                <input type="hidden" name="fee_id" value="<?php echo $products['product_id']; ?>">
+                                <input type="hidden" name="product_id" value="<?php echo $products['product_id']; ?>">
                                 <input type="submit" class="btn btn-danger" value="Delete">
                             </div>
                 </form>
