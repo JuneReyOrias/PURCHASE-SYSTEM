@@ -108,7 +108,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editcustomermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="editproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -121,45 +121,35 @@ left:25px;" >
 
                 <form action="updatecode.php" method="POST">
 
+                    <div class="modal-body">
+
+                        <input type="hidden" name="update_id" id="update_id">
+
+                        <div class="modal-body">
+                        <div class="form-group">
+                        <label>ProductName </label>
+                            <input type="text" name="product_name" id="product_name" class="form-control"
+                                placeholder="Enter ProductName">
+                        </div>
+
+                        <div class="form-group">
+                            <label> ProductDescription </label>
+                            <input type="text" name="product_desc" id="product_desc" class="form-control"
+                                placeholder="Enter ProducDesc">
+                        </div>
+
+                        <div class="form-group">
+                            <label> UnitPrices </label>
+                            <input type="text" name="unit_price" id="unit_price" class="form-control"
+                                placeholder="Enter UnitPrice">
+                        </div>
+                        <div class="form-group">
+                            <label> Quantity</label>
+                            <input type="text" name="qty" id="qty" class="form-control"
+                                placeholder="Enter Qty">
+                        </div>
+                        
                    
-                <div class="modal-body">
-                        <div class="form-group">
-                        <label>Username </label>
-                            <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
-                        </div>
-
-                        <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
-                        </div>
-
-                        <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
-                        </div>
-                        <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
-                        </div>
-                        <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Email">
-                        </div>
-                        <div class="form-group">
-                            <label> ContactNo </label>
-                            <input type="text" name="contact_no" id="contact_no" class="form-control"
-                                placeholder="Enter ContactNo">
-                        </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -173,31 +163,33 @@ left:25px;" >
     </div>
 
     <!-- DELETE POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="deletecustomermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="deleteproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel"> Delete Account </h5>
+                    <h5 class="modal-title" id="exampleModalLabel"> Delete Product </h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
 
-                <form action="deletecode.php" method="POST">
+                <form action="deleteproduct.php" method="POST">
 
                     <div class="modal-body">
 
-                        <input type="hidden" name="delete_id" id="delete_id">
+                        
 
-                        <h4> Do you want to Delete this Account ??</h4>
+                        <h4> Do you want to Delete this Product ??</h4>
                     </div>
                     <div class="modal-footer">
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
                                 <input type="hidden" name="action" value="delete">
-                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                                <input type="hidden" name="id" value="<?php echo $products['product_id']; ?>">
                                 <input type="submit" class="btn btn-danger" value="Delete">
                             </div>
+                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                              
                 </form>
 
             </div>
@@ -238,7 +230,7 @@ left:25px;" >
 
 
           
-    <h2 style="margin-left: 40rem;"> Product </h2>
+    <h2 style="margin-left: 45rem;"> Product </h2>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 135px;">
                         Add New Product
                     </button>
