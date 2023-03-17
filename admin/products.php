@@ -151,9 +151,9 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                                 <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="action" value="update">
                                 <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
-                                <input type="submit" class="btn btn-danger" value="Delete">
+                                <input type="submit" class="btn btn-danger" value="Update">
                             </div>
                 </div>
             </form>
