@@ -153,7 +153,7 @@ left:25px;" >
                         <div class="form-group">
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
+                                placeholder="Enter Email">
                         </div>
                         <div class="form-group">
                             <label> ContactNo </label>
