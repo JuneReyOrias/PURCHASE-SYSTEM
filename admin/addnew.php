@@ -19,7 +19,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($newuser->addUser()) {
+    if ($newuser->add()) {
         // Redirect to a success page or display a success message
         header("Location: customers.php");
     } else {
