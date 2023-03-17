@@ -8,6 +8,14 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     $user = new Users();
     // Sanitize input data
 
+    $user->username = $_POST['user_name'];
+    $user->password = $_POST['user_pass'];
+    $user->lastname = $_POST['lastname'];
+    $user->firstname = $_POST['firstname'];
+    $user->email = $_POST['email'];
+    $user->contactNo= $_POST['contact_no'];
+    $user->role = $_POST['role'];
+  
    
     
 
@@ -19,7 +27,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($user->add()) {
+    if ($user->addUser()) {
         // Redirect to a success page or display a success message
         header("Location: customers.php");
     } else {
