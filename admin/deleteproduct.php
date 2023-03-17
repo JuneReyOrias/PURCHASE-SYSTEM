@@ -4,9 +4,8 @@
     
     if (isset($_POST['action']) && $_POST['action'] == 'delete') {
         
-        $productid = new Products();
-        $productid->productId = $_POST['product_id'];
-            if($productid->delete()){
+    
+            if($productid->deleteRecords()){
                 header('location: products.php');
             }
             else{
