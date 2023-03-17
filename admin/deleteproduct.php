@@ -3,9 +3,10 @@
     require_once "../database/product_class.php";
     
     if (isset($_POST['action']) && $_POST['action'] == 'delete') {
-        $product = new Products();
-        $product->productId = $_POST['product_id'];
-            if($products->delete()){
+        
+        $productid = new Products();
+        $productid->productId = $_POST['product_id'];
+            if($productid->delete()){
                 header('location: products.php');
             }
             else{

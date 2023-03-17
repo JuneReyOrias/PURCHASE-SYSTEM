@@ -321,7 +321,7 @@ left:25px;" >
     <script>
         $(document).ready(function () {
 
-            $('.deletebtn').on('click', function () {
+            $('.delete').on('click', function () {
 
                 $('#deletemodal').modal('show');
 
