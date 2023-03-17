@@ -126,9 +126,13 @@ left:25px;" >
 
                 <form action="updatecode.php" method="POST">
 
-                    <div class="modal-body">
-
-                        <input type="hidden" name="update_id" id="update_id">
+                   
+                <div class="modal-body">
+                        <div class="form-group">
+                        <label>Username </label>
+                            <input type="text" name="user_name" id="user_name" class="form-control"
+                                placeholder="Enter UserName">
+                        </div>
 
                         <div class="form-group">
                             <label> Password </label>
@@ -149,7 +153,7 @@ left:25px;" >
                         <div class="form-group">
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Email">
+                                placeholder="Enter Fullname">
                         </div>
                         <div class="form-group">
                             <label> ContactNo </label>
@@ -164,7 +168,8 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="updatedata" class="btn btn-primary">Update Data</button>
+                        <input type="hidden" name="action" value="update">
+					<input type="submit" class="btn btn-success" value="Update">
                     </div>
                 </form>
 
