@@ -113,7 +113,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="editcustomermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -173,7 +173,7 @@ left:25px;" >
     </div>
 
     <!-- DELETE POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="deletemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="deletecustomermodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -193,9 +193,11 @@ left:25px;" >
                         <h4> Do you want to Delete this Account ??</h4>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal"> NO </button>
-                        <button type="submit" name="deletedata" class="btn btn-primary"> Yes !! Delete it. </button>
-                    </div>
+                                <input type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
+                                <input type="hidden" name="action" value="delete">
+                                <input type="hidden" name="id" value="<?php echo $users['id']; ?>">
+                                <input type="submit" class="btn btn-danger" value="Delete">
+                            </div>
                 </form>
 
             </div>
@@ -277,10 +279,10 @@ left:25px;" >
                                 <td> <?php echo $user['contact_no']; ?> </td>
                                 <td> <?php echo $user['role']; ?> </td>
                                 <td>
-                                    <button type="button" class="btn btn-info viewbtn"> VIEW </button>
-                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
+                                   
+                                <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editcustomermodal"> EDIT </button>
                                 
-                                    <button type="button" class="btn btn-danger deletebtn"> DELETE </button>
+                                    <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deletecustomermodal"> DELETE </button>
                                 </td>
                             </tr>
                         </tbody>
