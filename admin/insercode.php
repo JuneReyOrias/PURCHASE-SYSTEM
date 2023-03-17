@@ -1,18 +1,41 @@
-<?php
- require_once '../database/user.class.php';
+<?php 
+require_once '../classes/database.class.php';
+require_once "../classes/fee.class.php";
 
-   $user= new Users();
+// Check if the fosaverm has been submitted
+if (isset($_POST['insertdata']) && $_POST['insertdata'] == 'Save data') {
+    
+    // Sanitize input data
+    $username = htmlspecialchars($_POST['user_name']);
+    $password = htmlspecialchars($_POST['user_pass']);
+    $firstname = htmlspecialchars($_POST['firstname']);
+    $lastname = htmlspecialchars($_POST['lastname']);
+    $email = htmlspecialchars($_POST['email']);
+    $contactNo = htmlspecialchars($_POST['contact_no']);
+    $role = htmlspecialchars($_POST['role']);
+    // Check if any of the form fields are empty
+    if (empty($username) || empty($password) || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
+        echo 'All fields are required';
+        exit();
+    }
+
+    // Validate fee amount: must be a positive number
+    //if (!is_numeric($feeAmount) || $feeAmount <= 0) {
+      //  echo 'Invalid fee amount';
+     //   exit();
+    //}
+
+    // Create a new Fee object and set its properties
+    $user = new Users();
    
-  $create= $user->add();
-    if($user->add())
-    {
-        echo '<script> alert("Data Saved"); </script>';
-        header('Location: create_user.php');
+    
+    // Add the fee to the database
+    if ($user->add()) {
+        header('location: customer.php');
+    } else {
+        echo 'Failed to add fee.';
     }
-    else
-    {
-        echo '<script> alert("Data Not Saved"); </script>';
-    }
-
+    
+}
 
 ?>
