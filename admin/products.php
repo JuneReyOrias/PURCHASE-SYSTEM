@@ -69,34 +69,40 @@ left:25px;" >
 
                 <form action="addproduct.php" method="POST">
 
-                    <div class="modal-body">
+                <div class="modal-body">
                         <div class="form-group">
-                        <label>ProductName </label>
+                        <label>Productname </label>
                             <input type="text" name="product_name" id="product_name" class="form-control"
                                 placeholder="Enter ProductName">
                         </div>
 
                         <div class="form-group">
-                            <label>ProductDescription </label>
+                            <label> ProductDesc </label>
                             <input type="text" name="product_desc" id="product_desc" class="form-control"
-                                placeholder="Enter ProductDescription">
+                                placeholder="Enter ProducDesc">
                         </div>
-                    
-                        </div>
+
                         <div class="form-group">
-                            <label> Unit_Prices </label>
+                            <label> UnitPrices </label>
                             <input type="text" name="unit_price" id="unit_price" class="form-control"
                                 placeholder="Enter UnitPrice">
                         </div>
                         <div class="form-group">
-                            <label> Quantity </label>
+                            <label> Quantity</label>
                             <input type="text" name="qty" id="qty" class="form-control"
-                                placeholder="Enter Quantity">
+                                placeholder="Enter Lastname">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label> role </label>
+                            <input type="text" name="role" id="role" class="form-control"
+                                placeholder="Enter Role">
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="updatedata" class="btn btn-primary">Update Data</button>
+                        <input type="hidden" name="action" value="add">
+					<input type="submit" class="btn btn-success" value="Add">
                     </div>
                 </form>
 
