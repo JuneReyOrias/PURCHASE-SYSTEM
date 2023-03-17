@@ -18,7 +18,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     
 
     // Check if any of the form fields are empty
-    if (empty($username) || empty($password) || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
+    if (empty($username)  || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
         echo 'All fields are required';
         exit();
     }
