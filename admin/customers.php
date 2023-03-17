@@ -60,7 +60,7 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="insercode.php" method="POST">
+                <form action="addnew.php" method="POST">
 
                     <div class="modal-body">
                         <div class="form-group">
@@ -103,7 +103,8 @@ left:25px;" >
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="insertdata" class="btn btn-primary">Save Data</button>
+                        <input type="hidden" name="action" value="add">
+					<input type="submit" class="btn btn-success" value="Add">
                     </div>
                 </form>
 
