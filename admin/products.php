@@ -177,7 +177,7 @@ left:25px;" >
 
                     <div class="modal-body">
 
-                        <input type="hidden" name="action" id="delete" value="delete">
+                        <input type="hidden" name="action" id="delete_id" value="delete">
 
                         <h4> Do you want to Delete this Product ??</h4>
                     </div>
@@ -205,7 +205,7 @@ left:25px;" >
                     </button>
                 </div>
 
-                <form action="deletecode.php" method="POST">
+                <form action="deleteproduct.php" method="POST">
 
                     <div class="modal-body">
 
@@ -266,7 +266,9 @@ left:25px;" >
                                 <td>
                                   
                                     <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                    <button type="button"name="action" class="btn btn-danger delete"> DELETE </button>
+                                    
+                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deletemodal"> DELETE </button>
+            
                                 </td>
                               
                             </tr>
@@ -318,7 +320,7 @@ left:25px;" >
     <script>
         $(document).ready(function () {
 
-            $('.delete').on('click', function () {
+            $('.deletebtn').on('click', function () {
 
                 $('#deletemodal').modal('show');
 
@@ -330,7 +332,7 @@ left:25px;" >
 
                 console.log(data);
 
-                $('#delete').val(data[0]);
+                $('#delete_id').val(data[0]);
 
             });
         });

@@ -5,7 +5,7 @@
     if (isset($_POST['action']) && $_POST['action'] == 'delete') {
         $product = new Products();
         $product->productId = $_POST['product_id'];
-            if($fee->delete()){
+            if($products->delete()){
                 header('location: products.php');
             }
             else{
