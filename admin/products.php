@@ -71,7 +71,7 @@ left:25px;" >
 
                 <div class="modal-body">
                         <div class="form-group">
-                        <label>Productname </label>
+                        <label>ProductName </label>
                             <input type="text" name="product_name" id="product_name" class="form-control"
                                 placeholder="Enter ProductName">
                         </div>
@@ -107,7 +107,7 @@ left:25px;" >
     </div>
 
     <!-- EDIT POP UP FORM (Bootstrap MODAL) -->
-    <div class="modal fade" id="editmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    <div class="modal fade" id="editproductmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -124,36 +124,36 @@ left:25px;" >
 
                         <input type="hidden" name="update_id" id="update_id">
 
+                        <div class="modal-body">
                         <div class="form-group">
-                            <label> Password </label>
-                            <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
+                        <label>ProductName </label>
+                            <input type="text" name="product_name" id="product_name" class="form-control"
+                                placeholder="Enter ProductName">
                         </div>
 
                         <div class="form-group">
-                            <label> Firstname </label>
-                            <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
+                            <label> ProductDescription </label>
+                            <input type="text" name="product_desc" id="product_desc" class="form-control"
+                                placeholder="Enter ProducDesc">
+                        </div>
+
+                        <div class="form-group">
+                            <label> UnitPrices </label>
+                            <input type="text" name="unit_price" id="unit_price" class="form-control"
+                                placeholder="Enter UnitPrice">
                         </div>
                         <div class="form-group">
-                            <label> lastname </label>
-                            <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
+                            <label> Quantity</label>
+                            <input type="text" name="qty" id="qty" class="form-control"
+                                placeholder="Enter Qty">
                         </div>
-                        <div class="form-group">
-                            <label> Email </label>
-                            <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
-                        </div>
-                        <div class="form-group">
-                            <label> role </label>
-                            <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
-                        </div>
+                        
+                   
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" name="updatedata" class="btn btn-primary">Update Data</button>
+                        <input type="hidden" name="action" value="update">
+					<input type="submit" class="btn btn-success" value="Update">
                     </div>
                 </form>
 
@@ -266,8 +266,8 @@ left:25px;" >
                                
                                 <td>
                                   
-                                    <button type="button" class="btn btn-success editbtn"> EDIT </button>
-                                    
+                                  
+                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#editproductmodal"> EDIT </button>
                                    <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#deleteproductmodal"> DELETE </button>
             
                                 </td>
