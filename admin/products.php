@@ -247,9 +247,9 @@ left:25px;" >
                         </thead>
                         <?php
                          $product= new Products();
-                         $data= $product->fetchAllRecords();
+                         $productdata= $product->fetchAllRecords();
                          
-                         foreach($data as $product){ 
+                         foreach($productdata as $product){ 
 
             ?>
                 

@@ -45,15 +45,15 @@ Class Products{
 
 
     public function fetchAllRecords() {
-
-        $data = null;
-
-        $select_stmt = $this->db->connect()->prepare('SELECT product_id, product_name, product_desc, unit_price, qty FROM products;');
-        $select_stmt->execute();
-
-        $data = $select_stmt->fetchAll();
-
-        return $data;
+       
+            $sql = "SELECT * FROM user;";
+            
+            $query=$this->db->connect()->prepare($sql);
+            $query->execute();
+            
+            $result = $query->fetchAll(PDO::FETCH_ASSOC);
+            return $result;
+    
     }
 
 
