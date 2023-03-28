@@ -66,45 +66,45 @@ left:25px;" >
                         <div class="form-group">
                         <label>Username </label>
                             <input type="text" name="user_name" id="user_name" class="form-control"
-                                placeholder="Enter UserName">
+                                placeholder="Enter UserName" required tabindex 1>
                         </div>
 
                         <div class="form-group">
                             <label> Password </label>
                             <input type="text" name="user_pass" id="user_pass" class="form-control"
-                                placeholder="Enter Password">
+                                placeholder="Enter Password"required tabindex 2>
                         </div>
 
                         <div class="form-group">
                             <label> Firstname </label>
                             <input type="text" name="firstname" id="firstname" class="form-control"
-                                placeholder="Enter Firstname">
+                                placeholder="Enter Firstname"required tabindex 3>
                         </div>
                         <div class="form-group">
                             <label> lastname </label>
                             <input type="text" name="lastname" id="lastname" class="form-control"
-                                placeholder="Enter Lastname">
+                                placeholder="Enter Lastname"required tabindex 4>
                         </div>
                         <div class="form-group">
                             <label> Email </label>
                             <input type="text" name="email" id="email" class="form-control"
-                                placeholder="Enter Fullname">
+                                placeholder="Enter Fullname"required tabindex 5>
                         </div>
                         <div class="form-group">
                             <label> ContactNo </label>
                             <input type="text" name="contact_no" id="contact_no" class="form-control"
-                                placeholder="Enter ContactNo">
+                                placeholder="Enter ContactNo"required tabindex 6>
                         </div>
                         <div class="form-group">
                             <label> role </label>
                             <input type="text" name="role" id="role" class="form-control"
-                                placeholder="Enter Role">
+                                placeholder="Enter Role"required tabindex 7>
                         </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input type="hidden" name="action" value="add">
-					<input type="submit" class="btn btn-success" value="Add">
+                        <input type="hidden" name="action" value="add"required tabindex 1>
+					<input type="submit" class="btn btn-success" value="Add"required tabindex 1>
                     </div>
                 </form>
 
