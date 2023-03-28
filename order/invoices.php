@@ -121,7 +121,7 @@
            
                        ?>
                                        
-                                    <input  style="width:200px; " type="text"  id =""<?php $row['ServiceCat_id'] ?> <?php echo $row['service_category'] ?>></th> <?php }?>
+                                    <input  style="width:200px; " type="text"  id =""<?php echo $row['service_category'] ?>></th> <?php }?>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
