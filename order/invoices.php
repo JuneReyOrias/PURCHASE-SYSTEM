@@ -421,8 +421,8 @@
                         </tbody>
                         </table>
                        
-                        <input type="hidden" name="action" value="Continue"required tabindex 1>
-					<input type="submit" class="btn btn-primary float-md-end" value="Continue"required tabindex 1>
+                        <input type="hidden" name="action" value="Continue">
+					<input type="submit" class="btn btn-primary float-md-end" value="Continue">
                                     </form> 
                      
 
