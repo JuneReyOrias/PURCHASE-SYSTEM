@@ -60,6 +60,7 @@
                
        
        
+               <form action="addorder.php" method="POST">
              <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
