@@ -93,7 +93,7 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Client Name:</label></br>
+                            <th > <label>Colleges/Department:</label></br>
                             <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
                             <option selected>--Select--</option>
                              <option value="Long">College of Architechture</option>
@@ -116,7 +116,7 @@
                             <th > <label>Type of Jobs:</label></br>
                          
                                        
-                                    <input  style="width:200px; " type="text"  id ="" value="<?php $categ = new Category();
+                                    <input  style="width:200px; font-size: 12px; " type="text"  id ="" value="<?php $categ = new Category();
                                     $categdata= $categ->show();
                          
                                     foreach($categdata as $categ){
