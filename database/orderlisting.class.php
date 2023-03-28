@@ -42,6 +42,7 @@ class Orderlist{
         }
     
     }
+    //display the orlisting data on the 
     function show(){
         $sql = "SELECT * FROM `order_listing` ORDER BY `order_id`.`order_id` ASC";
         $query=$this->db->connect()->prepare($sql);

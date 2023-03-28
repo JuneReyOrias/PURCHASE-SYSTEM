@@ -1,7 +1,7 @@
 <?php 
 require_once 'database.php';
 
-Class SericeOrder{ 
+Class ServiceOrder{ 
    
                                    
         public $serviceId;
@@ -23,7 +23,12 @@ Class SericeOrder{
  
     function addService(){
         try {
-      
+
+            $serviceCatSql = "SELECT 	serviceCat_id FROM service WHERE 	serviceCat_id= :serviceCat_id";
+            $serviceCatStmt = $this->db->connect()->prepare($serviceCatSql);
+            $serviceCatStmt->bindParam(':serviceCat_id', $this->serviceCatId);
+            $serviceCatStmt->execute();
+            $serviceCatId = $serviceCatStmt->fetchColumn();
                 $insertSql =  "INSERT INTO serivce_order(material_id, qty, serviceCat_id, filename) VALUES 
                 (:material_id, :qty, :serviceCat_id, :filename);";
                 $insertStmt = $this->db->connect()->prepare($insertSql);
