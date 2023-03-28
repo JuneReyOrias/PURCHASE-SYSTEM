@@ -81,9 +81,9 @@
                             <tr>
                               
                             <th > <label>Required_date:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder=""></th>
+                                    <input  style="width:200px; " type="date" class="datepicker"></th>
                                     <th > <label>expect_delivery_date:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder=""></th>
+                                    <input  style="width:200px; " type="date" class="datepicker"></th>
                                 
                            
                                
