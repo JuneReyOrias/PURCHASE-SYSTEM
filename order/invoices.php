@@ -114,14 +114,14 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label></br>
-                                   <?php $categ = new Category();
+                         
+                                       
+                                    <input  style="width:200px; " type="text"  id ="" <?php $categ = new Category();
                                     $categdata= $categ->show();
                          
                                     foreach($categdata as $categ){
            
-                       ?>
-                                       
-                                    <input  style="width:200px; " type="text"  id =""<?php echo $categ['service_category'] ?>></th> <?php }?>
+                       ?><?php echo $categ['service_category'] ?>></th> <?php }?>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
