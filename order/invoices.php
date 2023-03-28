@@ -114,7 +114,8 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="<?php $row['ServiceCat_id'] ?>" <?php if (isset($_POST['service_ategory']))?>></th>
+                                 
+                                    <input  style="width:200px; " type="text"  id =""placeholder="<?php $row['ServiceCat_id'] ?>" <?php if (isset($_POST['service_ategory']))if {if($_POST['service_category']==$row[''ServiceCat_id'']) echo $row['service_category']}?>></th>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
