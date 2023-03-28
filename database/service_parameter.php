@@ -1,7 +1,7 @@
 <?php 
 require_once 'database.php';
 
-Class SericeOrder{ 
+Class ServiceParam { 
    
                     
         public $serviceCatId;
@@ -20,9 +20,16 @@ Class SericeOrder{
         $this->db = new database();
     }
  
-    function addService(){
+    function addparam(){
         try {
-      
+           
+        
+            $serviceCatSql = "SELECT 	serviceCat_id FROM service WHERE 	serviceCat_id= :	serviceCat_id";
+            $serviceCatStmt = $this->db->connect()->prepare($serviceCatSql);
+            $serviceCatStmt->bindParam(':serviceCat_id', $this->serviceCatId);
+            $serviceCatStmt->execute();
+            $serviceCatId = $serviceCatStmt->fetchColumn();
+
                 $insertSql =  "INSERT INTO serivce_parameter(size, unit_price, print_type, color_type) VALUES 
                 (:size, :unit_price, :print_type, :color_type);";
                 $insertStmt = $this->db->connect()->prepare($insertSql);
