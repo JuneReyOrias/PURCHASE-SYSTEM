@@ -113,7 +113,8 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label></br>
-                                    <input  style="width:200px; " type="text" <?php echo (isset($_POST['service_category']))?>></th>
+                                    <input  style="width:200px; " type="text" placeholder="<?php $row['ServiceCat_id'] ?>" <?php if (isset($_POST)['service
+                                    -category'])?>></th>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
