@@ -116,12 +116,12 @@
                             <th > <label>Type of Jobs:</label></br>
                          
                                        
-                                    <input  style="width:200px; " type="text"  id ="" <?php $categ = new Category();
+                                    <input  style="width:200px; " type="text"  id ="" value="<?php $categ = new Category();
                                     $categdata= $categ->show();
                          
                                     foreach($categdata as $categ){
            
-                       ?> <?php echo $categ['service_category'] ?><?php }?>></th>
+                       ?> <?php echo $categ['service_category'] ?><?php }?>" disabled></th>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
