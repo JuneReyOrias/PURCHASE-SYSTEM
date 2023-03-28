@@ -114,8 +114,8 @@
                             <tr>
                               
                             <th > <label>Type of Jobs:</label></br>
-                                 
-                                    <input  style="width:200px; " type="text"  id =""placeholder="<?php $row['ServiceCat_id'] ?>" <?php echo $row['purpose'] ?>></th>
+                                  
+                                    <input  style="width:200px; " type="text"  id =""<?php $row['ServiceCat_id'] ?> <?php echo $row['service_category'] ?>></th>
                                     <th > <label>Contact_No.:</label></br>
                                     <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
                                 
