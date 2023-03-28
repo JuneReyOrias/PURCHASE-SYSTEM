@@ -63,7 +63,7 @@
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>Order_date:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="March 16,2023"></th>
+                                    <input  style="width:200px; " type="date" class="datepicker" ></th>
                                     <th > <label>Payment:</label></br>
                                    
                             <select style="width:200px; "class="text-center"id="size">
@@ -262,14 +262,14 @@
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td></td>
@@ -329,14 +329,14 @@
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td>
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td></td>
