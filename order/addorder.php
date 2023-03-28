@@ -8,14 +8,14 @@ if (isset($_POST['action']) && $_POST['action'] == 'Continue') {
     $user = new ServiceParam();
     // Sanitize input data
 
-    $user->size= $_POST['user_name'];
-    $user->unitPrice = $_POST['user_pass'];
-    $user->printType= $_POST['lastname'];
-    $user->colorType = $_POST['firstname'];
+    $user->size= $_POST['size'];
+    $user->unitPrice = $_POST['unit_price'];
+    $user->printType= $_POST['print_type'];
+    $user->colorType = $_POST['color_type'];
     
     $user = new ServiceOrder();
-    $user->materialName = $_POST['user_pass'];
-    $user->filename = $_POST['lastname'];
+    $user->materialName = $_POST['material_name'];
+    $user->filename = $_POST['filename'];
 
    
     
