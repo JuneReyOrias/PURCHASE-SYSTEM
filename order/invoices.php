@@ -2,6 +2,7 @@
 ;
     //resume session here to fetch session values
     session_start();
+    require_once '../database/service_category.class.php';
     /*
         if user is not login then redirect to login page,
         this is to prevent users from accessing pages that requires
