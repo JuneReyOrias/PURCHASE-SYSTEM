@@ -1,29 +1,37 @@
-<?php
-$connection = mysqli_connect("localhost",'u151063784_upresswmsuprs','LadQw702+&3');
-$db = mysqli_select_db($connection, 'u151063784_db_upress');
+<?php 
+require_once '../database/database.php';
+require_once "../database/user.class.php";
 
-    if(isset($_POST['updatedata']))
-    {   
-        $id = $_POST['update_id'];
-        
-        $user_name = $_POST['user_name'];
-        $user_pass = $_POST['user_pass'];
-        $firstname = $_POST['firstname'];
-        $lastname = $_POST['lastname'];
-        $email = $_POST['email'];
-        $role = $_POST['role'];
+// Check if the fosaverm has been submitted
+if (isset($_POST['action']) && $_POST['action'] == 'update') {
+   
+    $user = new Users();
+    // Sanitize input data
 
-        $query = "INSERT INTO user_acc (`user_name`,`user_pass`,`firstname`, `lastname`, `email`,`role`) VALUES ('$user_name','$user_pass','$firstname','$lastname', '$email', '$role')";
-        $query_run = mysqli_query($connection, $query);
+    $user->username = $_POST['user_name'];
+    $user->password = $_POST['user_pass'];
+    $user->lastname = $_POST['lastname'];
+    $user->firstname = $_POST['firstname'];
+    $user->email = $_POST['email'];
+    $user->contactNo= $_POST['contact_no'];
+    $user->role = $_POST['role'];
+  
+   
+    
 
-        if($query_run)
-        {
-            echo '<script> alert("Data Updated"); </script>';
-            header("Location:create_user.php");
-        }
-        else
-        {
-            echo '<script> alert("Data Not Updated"); </script>';
-        }
+    // Check if any of the form fields are empty
+    //if (empty($username)  || empty($firstname)||empty($lastname)||empty($email)||empty($contactNo)||empty($role)) {
+      //  echo 'All fields are required';
+      //  exit();
+//}
+
+    
+    // Add the fee to the database
+    if ($user->update()) {
+        // Redirect to a success page or display a success message
+        header("Location: customers.php");
+    } else {
+        // Redirect to an error page or display an error message
+        echo 'error';
     }
-?>
+}

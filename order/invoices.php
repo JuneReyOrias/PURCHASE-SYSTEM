@@ -422,7 +422,7 @@
                         </table>
                        
                         <input type="hidden" name="action" value="add">
-					<input type="submit" class="btn btn-primary float-md-end" value="add">
+					<input type="submit" class="btn btn-primary float-md-end" style="width:20rem;" value="add">
                                     </form> 
                      
 

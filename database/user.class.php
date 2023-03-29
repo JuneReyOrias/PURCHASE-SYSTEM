@@ -74,7 +74,27 @@ function delete(){
         return false;
     }	
 }
-
+function update(){
+    $sql = "UPDATE user SET user_name=:user_name, user_pass=:user_pass, lastname=:lastname, firstname=:firstname, email=:email, contact_no=:contact_no, role=:role WHERE id=:id";
+    $query=$this->db->connect()->prepare($sql);
+    $query->bindParam(':user_name', $this->username);
+    $query->bindParam(':user_pass', $this->password);
+    $query->bindParam(':lastname', $this->lastname);
+    $query->bindParam(':firstname', $this->firstname);
+    $query->bindParam(':email', $this->email);
+    $query->bindParam(':contactNo', $this->contactNo);
+    $query->bindParam(':role', $this->role);
+    $query->bindParam(':id', $this->id);
+    if ($query->execute()) {
+        $count = $query->rowCount();
+        echo "$count row updated";
+        return true;
+    } else {
+        $error = $query->errorInfo();
+        echo "Update failed: " . $error[2];
+        return false;
+    }	
+}
 /*    function login(){
         $sql = "SELECT * FROM users WHERE BINARY email = :email AND BINARY password = :password AND type = 'customers';";
         $query=$this->db->connect()->prepare($sql);
