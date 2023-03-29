@@ -212,7 +212,7 @@
                                 <td ><div class="col-md-4 align-content-lg-center">
                                 <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                                    <input  type="text" class="form-control text-center input-qty" value="280.00" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td></td>
@@ -259,7 +259,7 @@
                                     <div class="col-md-5 align-content-lg-center ">
                                     <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="1" >
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
