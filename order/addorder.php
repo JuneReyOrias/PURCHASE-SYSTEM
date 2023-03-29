@@ -12,7 +12,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
     $servc->unitPrice = $_POST['unit_price'];
     $servc->printType= $_POST['print_type'];
     $servc->colorType = $_POST['color_type'];
-    $servc->serviceCatId = $_POST['serviceCat_id'];
+   
  
 
    

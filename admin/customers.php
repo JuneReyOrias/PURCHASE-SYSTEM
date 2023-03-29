@@ -102,7 +102,7 @@ left:25px;" >
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      
                         <input type="hidden" name="action" value="add"required tabindex 1>
 					<input type="submit" class="btn btn-success" value="Add"required tabindex 1>
                     </div>
@@ -167,7 +167,7 @@ left:25px;" >
                         </div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                       
                         <input type="hidden" name="action" value="update">
 					<input type="submit" class="btn btn-success" value="Update">
                     </div>
