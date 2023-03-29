@@ -154,7 +154,7 @@
 <tbody>
                             <tr>
                                 <td> <div class="mb-3" style="width:220px;">
-    <input type="file"  aria-label="file pdf/word" value="nurshingfile" disabled >
+    <input type="text" value="nurshingfile" disabled >
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                                 <td>
@@ -239,7 +239,7 @@
 <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file" aria-label="file pdf/word" value="nursingfile"disabled>
+    <input type="text" value="nursingfile"disabled>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
