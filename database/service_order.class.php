@@ -21,7 +21,7 @@ Class ServiceOrder{
         $this->db = new database();
     }
  
-    function addService(){
+    function addServO(){
         try {
 
             $serviceCatSql = "SELECT 	serviceCat_id FROM service WHERE 	serviceCat_id= :serviceCat_id";
@@ -47,6 +47,27 @@ Class ServiceOrder{
         }
     }
 
+    function addServ(){
+        try {
+
+   
+                $insertSql =  "INSERT INTO serivce_order(material_id, qty, serviceCat_id, filename) VALUES 
+                (:material_id, :qty, :serviceCat_id, :filename);";
+                $insertStmt = $this->db->connect()->prepare($insertSql);
+                $insertStmt->bindParam(':material_id', $this->materialName);
+                $insertStmt->bindParam(':qty', $this->qty);
+                $insertStmt->bindParam(':serviceCat_id', $this->serviceCatId);
+                $insertStmt->bindParam(':total_price', $this->totalPrice);
+                $insertStmt->bindParam(':filename', $this->filename);
+            
+                $insertStmt->execute();
+            
+            return true;
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+            return false;
+        }
+    }
 
 
 

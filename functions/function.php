@@ -2,9 +2,9 @@
 
 // for user and student validation (for now)
 function validate_first_name($POST){
-    if(!isset($POST['fn'])){
+    if(!isset($POST['firstname'])){
         return false;
-    }else if(strlen(trim($POST['fn']))<1){
+    }else if(strlen(trim($POST['firstname']))<1){
         return false;
     }
     return true;
@@ -12,14 +12,29 @@ function validate_first_name($POST){
 
 // for user and student validation (for now)
 function validate_last_name($POST){
-    if(!isset($POST['ln'])){
+    if(!isset($POST['lastname'])){
         return false;
-    }else if(strlen(trim($POST['ln']))<1){
+    }else if(strlen(trim($POST['lastname']))<1){
         return false;
     }
     return true;
 }
-
+function validate_user_name($POST){
+    if(!isset($POST['user_name'])){
+        return false;
+    }else if(strlen(trim($POST['user_name']))<1){
+        return false;
+    }
+    return true;
+}
+function validate_password($POST){
+    if(!isset($POST['user_pass'])){
+        return false;
+    }else if(strlen(trim($POST['user_pass']))<1){
+        return false;
+    }
+    return true;
+}
 function validate_email($POST){
     // Remove all illegal characters from email
     $email = filter_var($POST['email'], FILTER_SANITIZE_EMAIL);
