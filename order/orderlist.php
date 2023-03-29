@@ -380,7 +380,21 @@
                                     </div>
                                 </div></td></td>
                                 
-                              
+                                </div></td></td>
+                                <td>
+                                   <!-- Example single danger button -->
+                                   <div class="btn-group">
+                                   <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+   
+  </div>
+</div>
+</td>
                                
                             </tr>
                         </tbody>
@@ -446,7 +460,21 @@
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td></td>
-                                
+                                </div></td></td>
+                                <td>
+                                   <!-- Example single danger button -->
+                                   <div class="btn-group">
+                                   <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+   
+  </div>
+</div>
+</td>
                               
                                
                             </tr>
@@ -514,7 +542,21 @@
                                     </div>
                                 </div></td></td>
                                 
-                              
+                                </div></td></td>
+                                <td>
+                                   <!-- Example single danger button -->
+                                   <div class="btn-group">
+                                   <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+   
+  </div>
+</div>
+</td>
                                
                             </tr>
                         </tbody>
