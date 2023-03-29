@@ -69,7 +69,7 @@
                                     <th > <label>Payment:</label></br>
                                    
                             <select style="width:200px; "class="text-center"id="size">
-                            <option selected>--Select--</option>
+                            <option value="Cash" disabled >Cash</option>
                              <option value="Long">Cash</option>
                              <option value="Short">Credit</option>
                                 <option value="A4">Funds</option>
@@ -96,7 +96,7 @@
                               
                             <th > <label>Colleges/Department:</label></br>
                             <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
-                            <option selected>--Select--</option>
+                            <option selected>College of Nursing<</option>
                              <option value="Long">College of Architechture</option>
                              <option value="Short">College of Nursing</option>
                                 <option value="A4">College of Teacher Education</option>
@@ -105,7 +105,7 @@
                                  <option value="A4">College of Science and Mathematics</option>
                                  </select></th>
                                     <th > <label>Email:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="email"></th>
+                                    <input  style="width:200px; " type="text" placeholder="sidric@wmsu.edu.ph"disabled></th>
                                 
                            
                                
@@ -124,7 +124,7 @@
            
                        ?> <?php echo $categ['service_category'] ?><?php }?>" disabled></th>
                                     <th > <label>Contact_No.:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
+                                    <input  style="width:200px; " type="text" placeholder="09059260847" disabled></th>
                                 
                            
                                
@@ -154,7 +154,7 @@
 <tbody>
                             <tr>
                                 <td> <div class="mb-3" style="width:220px;">
-    <input type="file"  aria-label="file pdf/word" required>
+    <input type="file"  aria-label="file pdf/word" value=" required>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                                 <td>
