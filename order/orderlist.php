@@ -306,6 +306,8 @@
                                 <th scope="col">Description</th>
                                 <th scope="col">Unit Cost </th>
                                 <th scope="col">Amount </th>
+                                <th scope= "col">Action</th>
+
                               
                                 
                                 
@@ -576,7 +578,20 @@
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div></td></td>
-                                
+                                <td>
+                                   <!-- Example single danger button -->
+                                   <div class="btn-group">
+                                   <div class="btn-group">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+   
+  </div>
+</div>
+</td>
                               
                                
                             </tr>
@@ -592,66 +607,7 @@
 
               
 
-                <?php
-                $connection = mysqli_connect('localhost','u151063784_upresswmsuprs','LadQw702+&3');
-                $db = mysqli_select_db($connection, 'u151063784_db_upress');
-
-                $query = "SELECT * FROM purchase_order";
-                $query_run = mysqli_query($connection, $query);
-            ?>
-                    <table id="datatableid" class="table table-bordered table-dark table-responsive"class="table table-responsive">
-                        <thead>
-                            <tr>
-                                <th scope="col">OrderId</th>
-                                <th scope="col">ProductId </th>
-                                <th scope="col">UnitPrice </th>
-                                <th scope="col">Quantity </th>
-                                <th scope="col">ServiceId</th>
-                                <th scope="col"> Action</th>
-                                
-                                
-                            </tr>
-                        </thead>
-                        <?php
-                if($query_run)
-                {
-                    foreach($query_run as $row)
-                    {
-            ?>
-                        <tbody>
-                            <tr>
-                                <td > <?php echo $row['ordr_id']; ?> </td>
-                                <td> <?php echo $row['ordr_date']; ?> </td>
-                                <td> <?php echo $row['buyer_id']; ?> </td>
-                                <td> <?php echo $row['req_date']; ?> </td>
-                                <td> <?php echo $row['exp_deliver_date']; ?> </td>
-                                
-                                <td>
-                                   <!-- Example single danger button -->
-                                   <div class="btn-group">
-                                   <div class="btn-group">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Action
-  </button>
-  <div class="dropdown-menu">
-    <a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
-    <a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
-   
-  </div>
-</div>
-                                </td>
-                               
-                            </tr>
-                        </tbody>
-                        
-                        <?php           
-                    }
-                }
-                else 
-                {
-                    echo "No Record Found";
-                }
-            ?>
+         
                     </table>
                 </div>
             </div>
