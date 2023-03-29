@@ -278,7 +278,7 @@
                                 </td>
                                 <td >
                                 <select class=""id="size">
-                                <option selected>--TypeLamination--</option>
+                                <option selected>WHOLEPage</option>
                                 <option value="Long">Lamination</option>
                                 <option value="Long">WholePage</option>
                                  </select>
@@ -320,7 +320,7 @@
 <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file"  aria-label="file pdf/word" required>
+    <input type="file"  aria-label="file pdf/word">
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
@@ -399,7 +399,7 @@
                         <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file"  aria-label="file pdf/word" required>
+    <input type="file"  aria-label="file pdf/word" >
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
