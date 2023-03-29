@@ -476,8 +476,8 @@
                         </tbody>
                         </table>
                        
-                        <input type="hidden" name="action" value="add">
-					<input type="submit" class="btn btn-primary float-md-end" style="width:20rem;" value="add">
+                        <input type="hidden" name="action" value="save">
+					<input type="submit" class="btn btn-primary float-end" style="width:30rem;" value="Save">
                                     </form> 
                      
 
