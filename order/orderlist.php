@@ -154,17 +154,17 @@
 <tbody>
                             <tr>
                                 <td> <div class="mb-3" style="width:220px;">
-    <input type="file"  aria-label="file pdf/word" value=" required>
+    <input type="file"  aria-label="file pdf/word" value="nurshingfile" disabled >
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                                 <td>
                                      <select class="printing-type"id="size">
-                                     <option selected>--Select--</option>
+                                     <option selected  >Colored</option>
                                      <option value="">Colored</option>
                                     <option value="">Black</option>
                                  </select></td>
                                 <td> <select class=""id="size">
-                                <option selected>--Select--</option>
+                                <option selected>Long</option>
                              <option value="Long">Long</option>
                              <option value="Short">Short</option>
                                 <option value="A4">A4</option>
@@ -176,7 +176,7 @@
                                     <div class="col-md-5 align-content-lg-center ">
                                     <div class="input-group-center" style="width:80px; ">
                                     <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
-                                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                                    <input  type="text" class="form-control text-center input-qty" value="2">
                                     <!--<button class="input-group-text increment-btn">+</button>-->
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@
                                 </td>
                                 <td >
                                 <select class=""id="size">
-                                <option selected>--TypePrinting--</option>
+                                <option selected>Document</option>
                              <option value="Long">Documents</option>
                              <option value="Short">Poster</option>
                                 <option value="A4">PhotosA4</option>
@@ -239,18 +239,18 @@
 <tbody>
                             <tr>
                             <td> <div class="mb-3"style="width:220px;">
-    <input type="file" aria-label="file pdf/word" required>
+    <input type="file" aria-label="file pdf/word" value="nursingfile"disabled>
     <div class="invalid-feedback"> invalid file </div>
   </div></td>
                             <td>
                             <select class="printing-type"id="size">
-                                     <option selected>--Select--</option>
+                                     <option selected>black</option>
                                      <option value="">Colored</option>
                                     <option value="">Black</option>
                                  </select></td>
                         </select></td>
                         <td> <select class=""id="size">
-                        <option selected>--Select--</option>
+                        <option selected>A4</option>
             <option value="Long">Long</option>
             <option value="Short">Short</option>
             <option value="A4">A4</option>
