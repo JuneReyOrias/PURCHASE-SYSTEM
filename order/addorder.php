@@ -4,7 +4,7 @@ require_once "../database/service_parameter.php";
 require_once "../database/service_order.class.php";
 // Check if the fosaverm has been submitted
 if (isset($_POST['add'])) {
-   print_r ($_POST);
+   print_r ($_POST['add']);
     $servc = new ServiceParam();
     // Sanitize input data
 
@@ -28,7 +28,7 @@ if (isset($_POST['add'])) {
     // Add the fee to the database
     if ($servc->addparam()) {
         // Redirect to a success page or display a success message
-        header("Location: orderlist.php");
+        header("Location: invoices.php");
     } else {
         // Redirect to an error page or display an error message
         echo 'error';
