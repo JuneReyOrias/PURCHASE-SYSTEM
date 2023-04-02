@@ -227,8 +227,7 @@ left:25px;" >
          
             <div class="card">
                 
-                    <button type="button" class="btn btn-primary" style="" data-toggle="modal" data-target="#studentaddmodal">
-                        Create Services
+                    <button type="button" class="btn btn-primary" style="margin-left:-30px;" data-toggle="modal" data-target="#studentaddmodal"> Create Services
                     </button>
                 </div>
             </div>
