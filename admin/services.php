@@ -45,7 +45,7 @@ left:25px;" >
         <a href='services.php'>Services</a><br>
         <div class="ser-center fs-2 " >
 
-        <span>Services </span></div> 
+        <span>Services </span></div> </br>
 </div>
 </div>
 <body class="human " style="background-color: var(--body-color); 
@@ -227,7 +227,7 @@ left:25px;" >
          
             <div class="card">
                 
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal">
+                    <button type="button" class="btn btn-primary" style="" data-toggle="modal" data-target="#studentaddmodal">
                         Create Services
                     </button>
                 </div>
