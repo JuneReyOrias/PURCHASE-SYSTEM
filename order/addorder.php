@@ -5,13 +5,13 @@ require_once "../database/service_order.class.php";
 // Check if the fosaverm has been submitted
 if (isset($_POST['add'])) {
    print_r ($_POST['add']);
-    $servc = new ServiceParam();
+    $service = new ServiceParam();
     // Sanitize input data
 
-    $servc->size= $_POST['size'];
-    $servc->unitPrice = $_POST['unit_price'];
-    $servc->printType= $_POST['print_type'];
-    $servc->colorType = $_POST['color_type'];
+    $service->size= $_POST['size'];
+    $service->unitPrice = $_POST['unit_price'];
+    $service->printType= $_POST['print_type'];
+    $service->colorType = $_POST['color_type'];
    
  
 
@@ -26,9 +26,9 @@ if (isset($_POST['add'])) {
 
     
     // Add the fee to the database
-    if ($servc->addparam()) {
+    if ($service->addparam()) {
         // Redirect to a success page or display a success message
-        header("Location: invoices.php");
+        header("Location: order.php");
     } else {
         // Redirect to an error page or display an error message
         echo 'error';
