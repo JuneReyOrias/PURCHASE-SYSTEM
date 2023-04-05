@@ -28,7 +28,7 @@ f (isset($_POST['action']) && $_POST['action'] == 'add') {
     // Add the fee to the database
     if ($service->addparam()) {
         // Redirect to a success page or display a success message
-        header("Location: order.php");
+        header("Location: invoices.php");
     } else {
         // Redirect to an error page or display an error message
         echo 'error';
