@@ -3,7 +3,7 @@ require_once '../database/database.php';
 require_once "../database/service_parameter.php";
 require_once "../database/service_order.class.php";
 // Check if the fosaverm has been submitted
-if (isset($_POST['add'])) {
+f (isset($_POST['action']) && $_POST['action'] == 'add') {
    print_r ($_POST['add']);
     $service = new ServiceParam();
     // Sanitize input data
