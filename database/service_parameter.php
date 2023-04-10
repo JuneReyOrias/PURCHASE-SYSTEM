@@ -20,7 +20,7 @@ Class ServiceParam {
         $this->db = new database();
     }
  
-    function addparam(){
+    function addparam($size, $unit_price, $print_type, $color_type){
         try {
            
         

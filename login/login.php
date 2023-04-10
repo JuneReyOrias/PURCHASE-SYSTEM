@@ -1,7 +1,7 @@
 <?php
 require_once '../database/user.class.php';
 require_once '../includes/header.php';
-require_once '../functions/function.php';
+
 //we start session since we need to use session values
 session_start();
 $page_title = 'UPRESS -dasboard';
