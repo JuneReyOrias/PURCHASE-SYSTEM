@@ -1,20 +1,26 @@
 <?php 
 require_once '../database/database.php';
 require_once "../database/service_parameter.php";
-require_once "../database/service_order.class.php";
+require_once "../database/multipletable.class.php";
 // Check if the fosaverm has been submitted
-f (isset($_POST['action']) && $_POST['action'] == 'add') {
-   print_r ($_POST['add']);
-    $service = new ServiceParam();
+if (isset($_POST['action']) && $_POST['action'] == 'add') {
+  
+    $service = new multi();
     // Sanitize input data
+
+    $service->Service_Category= $_POST['service_category'];
+    $service->description= $_POST['description'];
 
     $service->size= $_POST['size'];
     $service->unitPrice = $_POST['unit_price'];
     $service->printType= $_POST['print_type'];
     $service->colorType = $_POST['color_type'];
-   
  
-
+    $service->materialId= $_POST['material_id'];
+    $service->qty = $_POST['qty'];
+    $service->ServiceCatId= $_POST['serviceCat_id'];
+    $service->totalPrice = $_POST['total_price'];
+    $service->filename = $_POST['filename'];
    
     
 
@@ -26,7 +32,7 @@ f (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($service->addparam()) {
+    if ($service->createProgram()) {
         // Redirect to a success page or display a success message
         header("Location: invoices.php");
     } else {
@@ -34,3 +40,4 @@ f (isset($_POST['action']) && $_POST['action'] == 'add') {
         echo 'error';
     }
 }
+?>
