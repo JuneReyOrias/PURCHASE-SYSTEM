@@ -5,22 +5,22 @@ require_once "../database/multipletable.class.php";
 // Check if the fosaverm has been submitted
 if (isset($_POST['action']) && $_POST['action'] == 'add') {
   
-    $service = new multi();
+    $multi = new multi();
     // Sanitize input data
 
-    $service->Service_Category= $_POST['service_category'];
-    $service->description= $_POST['description'];
+    $multi->Service_Category= $_POST['service_category'];
+    $multi->description= $_POST['description'];
 
-    $service->size= $_POST['size'];
-    $service->unitPrice = $_POST['unit_price'];
-    $service->printType= $_POST['print_type'];
-    $service->colorType = $_POST['color_type'];
+    $multi->size= $_POST['size'];
+    $multi->unitPrice = $_POST['unit_price'];
+    $multi->printType= $_POST['print_type'];
+    $multi->colorType = $_POST['color_type'];
  
-    $service->materialId= $_POST['material_id'];
-    $service->qty = $_POST['qty'];
-    $service->ServiceCatId= $_POST['serviceCat_id'];
-    $service->totalPrice = $_POST['total_price'];
-    $service->filename = $_POST['filename'];
+    $multi->materialId= $_POST['material_id'];
+    $multi->qty = $_POST['qty'];
+    $multi->ServiceCatId= $_POST['serviceCat_id'];
+    $multi->totalPrice = $_POST['total_price'];
+    $multi->filename = $_POST['filename'];
    
     
 

@@ -67,6 +67,49 @@ echo "Data inserted successfully\n";
         }
     }
 
+    function addCat(){
+        try {
+      
+                $insertSql =  "INSERT INTO serivce_category(service_category, description,) VALUES 
+                (:service_category, :description);";
+                $insertStmt = $this->db->connect()->prepare($insertSql);
+                $insertStmt->bindParam(':service_category', $this->Service_Category);
+                $insertStmt->bindParam(':description', $this->description);
+            
+                $insertStmt->execute();
+            
+            return true;
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+            return false;
+        }
+    }
+    function addparam($size, $unit_price, $print_type, $color_type){
+        try {
+           
+        
+            $serviceCatSql = "SELECT 	serviceCat_id FROM service WHERE 	serviceCat_id= :	serviceCat_id";
+            $serviceCatStmt = $this->db->connect()->prepare($serviceCatSql);
+            $serviceCatStmt->bindParam(':serviceCat_id', $this->ServiceCatId);
+            $serviceCatStmt->execute();
+            $serviceCatId = $serviceCatStmt->fetchColumn();
+
+                $insertSql =  "INSERT INTO serivce_parameter(size, unit_price, print_type, color_type) VALUES 
+                (:size, :unit_price, :print_type, :color_type);";
+                $insertStmt = $this->db->connect()->prepare($insertSql);
+                $insertStmt->bindParam(':size', $this->size);
+                $insertStmt->bindParam(':unit_price', $this->unitPrice);
+                $insertStmt->bindParam(':print_type', $this->printType);
+                $insertStmt->bindParam(':color_type', $this->colorType);
+            
+                $insertStmt->execute();
+            
+            return true;
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+            return false;
+        }
+    }
 
 }
 
