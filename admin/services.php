@@ -18,7 +18,7 @@
 
     require_once '../includes/header.php';
     require_once '../includes/sidebar.php';
-?>
+    ?>
 <section class="home-dash "style="
 left:25px;" >
 <div>
