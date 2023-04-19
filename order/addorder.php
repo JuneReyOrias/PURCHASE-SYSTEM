@@ -32,7 +32,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'add') {
 
     
     // Add the fee to the database
-    if ($service->createProgram()) {
+    if ($multi->createProgram()) {
         // Redirect to a success page or display a success message
         header("Location: invoices.php");
     } else {
