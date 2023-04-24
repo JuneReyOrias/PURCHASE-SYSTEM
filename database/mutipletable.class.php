@@ -47,7 +47,7 @@ $table2_stmt->bindParam(':color_type', $this->colorType);
 $table2_stmt->execute();
 
 // Insert data into table3
-$table3_sql = "INSERT INTO serivce_order(material_id, qty, serviceCat_id, total_price, filename) VALUES (:material_id, :qty, :serviceCat_id, :filename)";
+$table3_sql = "INSERT INTO serivce_order (material_id, qty, serviceCat_id, total_price, filename) VALUES (:material_id, :qty, :serviceCat_id, :total_price :filename)";
 $table3_stmt =$this->db->connect()->prepare($table3_sql);
 $table3_stmt->bindParam(':material_id', $this->materialId);
 $table3_stmt->bindParam(':qty', $$this->qty);

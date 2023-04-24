@@ -21,6 +21,7 @@
     require_once '../includes/cust.sidebar.php';
 
 
+    print_r($_POST);
 ?>
     
    
