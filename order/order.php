@@ -56,7 +56,7 @@
       <div class="card-body">
         <h5 class="card-title text-md-center">Printing</h5>
       
-        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:8rem;"Continue</a>
+        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:8rem;">Continue</a>
       </div>
       <div class="card-body">
         <h5 class="card-title text-md-center">Binding</h5>
