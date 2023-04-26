@@ -259,6 +259,7 @@
                     <button type="button" class="btn btn-primary float-end" data-toggle="modal" data-target="#studentaddmodal" style="margin-top:5px; margin-bottom:5px;">
                         Track Order
                     </button>
+                    <a href="../trackordr/track.php" type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</a>
                 </div></br>
     </form>
     <div id="order-details"></div>
