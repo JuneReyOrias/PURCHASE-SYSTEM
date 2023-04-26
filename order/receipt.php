@@ -283,7 +283,7 @@
 </table><br>
     
 
-                    <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                    <table id ="example" class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
@@ -389,10 +389,17 @@
         </tbody>
         </table>
        
-      </form> 
-      <input type="hidden" name="action" value="save">
+        <input type="hidden" name="action" value="save">
     <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 70rem;" >TrackOrder</button>
-    <button type="submit" onclick="window.print()" class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem; " >Print</button>             
+    <button type="submit" name="print"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem; " >Print</button>             </form> 
      
 
 
+    $(document).ready(function() {
+    $('#example').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'print'
+        ]
+    } );
+} );
