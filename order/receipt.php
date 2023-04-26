@@ -264,7 +264,7 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>Required_date:</label></br>
+                            <th > <label>order_date:</label></br>
                                     <input  style="width:200px; " type="date" class="datepicker"></th>
                                     <th > <label>expect_delivery_date:</label></br>
                                     <input  style="width:200px; " type="date" class="datepicker"></th>
@@ -283,7 +283,7 @@
 </table><br>
     
 
-                    <table id ="example" class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                    <table id ="example" class="table-md table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
