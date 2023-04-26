@@ -78,7 +78,7 @@
                 </div>
 
                 
-                <form action="addproduct.php" method="POST">
+                <form action="tracking.php" method="POST">
 
                 <div class="modal-body">
                         <div class="form-group">
@@ -269,8 +269,7 @@
                                     $categdata= $categ->show();
                                      foreach($categdata as $categ){
                                       ?> <?php echo $categ['service_category'] ?><?php }?>" disabled></th>
-                                       <th > <label>Contact_No.:</label></br>
-                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
+                                     
                                 </tr>
                         </tbody>
                        
@@ -402,7 +401,7 @@
 
         <input type="hidden" name="action" value="save">
     <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</button>
-    <button type="submit" name="print" id="example"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem;margin-top:1rem; " >Print</button>             </form> 
+    <button type="submit" onclick="window.print()" name="print" id="example"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem;margin-top:1rem; " >Print</button>             </form> 
      
 
 <script>

@@ -76,6 +76,12 @@ require_once '../includes/header.php';
                     </a>
                 </li>
 
+                <li class="nav-link">
+                        <a href="../admin/notification.php">
+                            <i class='bx bx-cart icon' ></i>
+                            <span class="text nav-text">Notidication</span>
+                        </a>
+                    </li>
             </ul>
         </div>
    
