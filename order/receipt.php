@@ -393,7 +393,7 @@
   <li class="Prepared by:">Prepared by:</li>
 
   <li ><input type="decimal" name=total value="480.0"></li></li>
-  <li class="Total:" style="margin-left:15rem">Total:</li>
+  <li class="Total:" style="margin-left:20rem">Total:</li>
 
   <li ><input type="decimal" name=total value="480.0"></li></li>
 </ul>
