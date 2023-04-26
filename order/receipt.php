@@ -264,14 +264,14 @@
                         <tbody>
                             <tr>
                               
-                            <th > <label>order_date:</label></br>
-                                    <input  style="width:200px; " type="date" class="datepicker"></th>
-                                    <th > <label>expect_delivery_date:</label></br>
-                                    <input  style="width:200px; " type="date" class="datepicker"></th>
-                                
-                           
-                               
-                            </tr>
+                            <th >   <label>Type of Jobs:</label></br>
+                                 <input  style="width:200px; font-size: 12px; " type="text"  id ="" value="<?php $categ = new Category();
+                                    $categdata= $categ->show();
+                                     foreach($categdata as $categ){
+                                      ?> <?php echo $categ['service_category'] ?><?php }?>" disabled></th>
+                                       <th > <label>Contact_No.:</label></br>
+                                    <input  style="width:200px; " type="text" placeholder="Enter ContactNo."></th>
+                                </tr>
                         </tbody>
                        
                            
