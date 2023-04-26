@@ -394,7 +394,7 @@
     <button type="submit" name="print"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem; " >Print</button>             </form> 
      
 
-
+<script>
     $(document).ready(function() {
     $('#example').DataTable( {
         dom: 'Bfrtip',
@@ -403,3 +403,4 @@
         ]
     } );
 } );
+</script>
