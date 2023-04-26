@@ -71,7 +71,7 @@
       <div class="card-body">
         <h5 class="card-title text-md-center">Multiple Services</h5>
     
-        <a href="invoices.php" name="" class="btn btn-primary text-md-center"style="margin-left:13rem; >Continue</a>
+        <a href="invoices.php" name="" class="btn btn-primary text-md-center"style="margin-left:13rem;" >Continue</a>
       </div>
     </div>
   </div>
