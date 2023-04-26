@@ -52,7 +52,7 @@
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span></span>Order</a>
         <a class="order" href="binding.php" ><span></span>Multiple</a>
-        <a class="order" href="orderlist.php" ><span>></span>.Receipt</a><br>
+        <a class="order" href="orderlist.php" ><span>></span>>Receipt</a><br>
 
         </div>
 <body class="human " style="background-color: var(--body-color);
