@@ -58,29 +58,16 @@
       
         <a href="print.php" class="btn btn-primary">Continue</a>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card"style="   margin-top:3rem;border-radius: 12px; height:20rem; width:20rem;">
       <div class="card-body">
         <h5 class="card-title">Binding</h5>
     
         <a href="binding.php" class="btn btn-primary">Continue</a>
       </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card"style="  margin-top:3rem;border-radius: 12px; width:20rem;">
       <div class="card-body">
         <h5 class="card-title">Lamination</h5>
     
         <a href="lamination.php" class="btn btn-primary">Continue</a><br>
       </div>
-    </div>
-  </div>
-
- <div class="col-sm-4" style="margin-top:2rem; margin-left:8rem;">
-    <div class="card"style="  border-radius: 12px; width:20rem;">
       <div class="card-body">
         <h5 class="card-title">Multiple Services</h5>
     
@@ -88,8 +75,5 @@
       </div>
     </div>
   </div>
-
-</div>
-          
-    </section>
-
+  <div class="col-sm-3">
+  
