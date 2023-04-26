@@ -52,7 +52,7 @@
     transition: var(--tran-05);">
 <div class="row">
   <div class="col-sm-3"style="margin-left:8rem;" >
-    <div class="card"style="  margin-top:3rem; border-radius: 12px; height:20rem; width:20rem;">
+    <div class="card"style="  margin-top:3rem; border-radius: 12px; height:40rem; width:400rem;">
       <div class="card-body">
         <h5 class="card-title">Printing</h5>
       
@@ -75,5 +75,4 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-3">
   
