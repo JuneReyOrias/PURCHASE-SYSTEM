@@ -319,8 +319,8 @@
                                 <td> 2 </td>
                                 <td> pcs </td>
                                 <td> document  </td>
-                                <td> 240</td>
-                                <td>480  </td>
+                                <td> 40</td>
+                                <td>80  </td>
                               
             
 
@@ -336,12 +336,12 @@
 </div></td>
 
                                 <td> Colored </td>
-                                <td> Long </td>
-                                <td> 2 </td>
+                                <td> A4 </td>
+                                <td> 1</td>
                                 <td> pcs </td>
-                                <td> document  </td>
-                                <td> 240</td>
-                                <td>480  </td>
+                                <td>  wholepage </td>
+                                <td> 140</td>
+                                <td> 140  </td>
             
                
             </tr>
@@ -356,11 +356,11 @@
 
                                 <td> Colored </td>
                                 <td> Long </td>
-                                <td> 2 </td>
+                                <td> 1</td>
                                 <td> pcs </td>
-                                <td> document  </td>
+                                <td> Tarpaulin </td>
                                 <td> 240</td>
-                                <td>480  </td>
+                                <td>240  </td>
                               
                 <td>
                
@@ -378,9 +378,9 @@
                                 <td> Long </td>
                                 <td> 2 </td>
                                 <td> pcs </td>
-                                <td> document  </td>
-                                <td> 240</td>
-                                <td>480  </td>
+                                <td> softbound  </td>
+                                <td> 120</td>
+                                <td> 120 </td>
                               
                    
                
@@ -395,7 +395,7 @@
 
   <li class="Total:" style="margin-left:24rem;">Total:</li>
 
-  <li ><input type="decimal" class="text-center" name=total value="480.0" style="width:9rem; heigth:7rem;"disabled></li></li>
+  <li ><input type="decimal" class="text-center" name=total value="540.0" style="width:9rem; heigth:7rem;"disabled></li></li>
 </ul>
 
 
