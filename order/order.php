@@ -82,7 +82,7 @@
  <div class="col-sm-4" style="margin-top:2rem; margin-left:8rem;">
     <div class="card"style="  border-radius: 12px; height:10rem;">
       <div class="card-body">
-        <h5 class="card-title">Printing General</h5>
+        <h5 class="card-title">Multiple Services</h5>
     
         <a href="invoices.php" name="" class="btn btn-primary">Continue</a>
       </div>
