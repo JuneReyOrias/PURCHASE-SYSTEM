@@ -56,12 +56,12 @@
       <div class="card-body">
         <h5 class="card-title text-md-center">Printing</h5>
       
-        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a>
+        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a></br>
       </div>
       <div class="card-body">
         <h5 class="card-title text-md-center">Binding</h5>
     
-        <a href="binding.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a>
+        <a href="binding.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a></br>
       </div>
       <div class="card-body">
         <h5 class="card-title text-md-center"style="margin-left:12rem;">Lamination</h5>
