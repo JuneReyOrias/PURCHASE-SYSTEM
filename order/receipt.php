@@ -249,12 +249,15 @@
                     <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
                         <thead class="thead-dark">
                             <tr>
-                                <th scope="col"> ProductID</th>
-                                <th scope="col">ProductName </th>
-                                <th scope="col">ProductDesc </th>
-                                <th scope="col">Unit_Prices </th>
-                                <th scope="col"> Quantity </th>
-                                <th scope="col"> Action </th>
+                            <th scope="col">Uploadfile</th>
+                                <th scope="col">colorType</th>
+                                <th scope="col">Size</th>
+                                <th scope="col">Qty </th>
+                                <th scope="col">Unit </th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Unit Cost </th>
+                                <th scope="col">Amount</th>
+                                <th scope="col">Action</th>
                                 
                             </tr>
                         </thead>
@@ -288,89 +291,334 @@
 
              }
            
-            ?>
-                    </table>
+            ?><tbody>
+            <tr>
+                <td> <div class="mb-3" style="width:220px;">
+<input type="text" value="nurshingfile" disabled >
+<div class="invalid-feedback"> invalid file </div>
+</div></td>
+                <td>
+                     <select class="printing-type"id="size">
+                     <option selected  >Colored</option>
+                     <option value="">Colored</option>
+                    <option value="">Black</option>
+                 </select></td>
+                <td> <select class=""id="size">
+                <option selected>Long</option>
+             <option value="Long">Long</option>
+             <option value="Short">Short</option>
+                <option value="A4">A4</option>
+                 <option value="A4">Letter</option>
+                 <option value="A4">Tabloid</option>
+                 <option value="A4">A3</option>
+                 </select></td>
+                <td>
+                    <div class="col-md-5 align-content-lg-center ">
+                    <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="2">
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
                 </div>
-            </div>
+               
+                </td>
+                <td>
+                <div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+            </td>
+                    
+                </td>
+                <td >
+                <select class=""id="size">
+                <option selected>Document</option>
+             <option value="Long">Documents</option>
+             <option value="Short">Poster</option>
+                <option value="A4">PhotosA4</option>
+                 <option value="A4">Forms</option>
+                 </select>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="280.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td></td>
+                
+              
+<td>
+                   <!-- Example single danger button -->
+                   <div class="btn-group">
+                   <div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Action
+</button>
+<div class="dropdown-menu">
+<a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+<a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+
+</div>
+</div>
+</td>
+               
+            </tr>
+        </tbody>
+      
+<tbody>
+            <tr>
+            <td> <div class="mb-3"style="width:220px;">
+<input type="text" value="nursingfile"disabled>
+<div class="invalid-feedback"> invalid file </div>
+</div></td>
+            <td>
+            <select class="printing-type"id="size">
+                     <option selected>black</option>
+                     <option value="">Colored</option>
+                    <option value="">Black</option>
+                 </select></td>
+        </select></td>
+        <td> <select class=""id="size">
+        <option selected>A4</option>
+<option value="Long">Long</option>
+<option value="Short">Short</option>
+<option value="A4">A4</option>
+</select></td>
+                <td>
+                    <div class="col-md-5 align-content-lg-center ">
+                    <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="1" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+               
+                </td>
+                <td>
+                <div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+            </td>
+                    
+                </td>
+                <td >
+                <select class=""id="size">
+                <option selected>WHOLEPage</option>
+                <option value="Long">Lamination</option>
+                <option value="Long">WholePage</option>
+                 </select>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td></td>
+                
+              
+<td>
+                   <!-- Example single danger button -->
+                   <div class="btn-group">
+                   <div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Action
+</button>
+<div class="dropdown-menu">
+<a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+<a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+
+</div>
+</div>
+</td>
+               
+            </tr>
+        </tbody>
+        
+<tbody>
+            <tr>
+            <td> <div class="mb-3"style="width:220px;">
+<input type="file"  aria-label="file pdf/word">
+<div class="invalid-feedback"> invalid file </div>
+</div></td>
+            <td>
+            <select class="printing-type"id="size">
+                     <option selected>--Select--</option>
+                     <option value="">Colored</option>
+                    <option value="">Black</option>
+                 </select></td>
+        <td> <select class=""id="size">
+        <option selected>--Select--</option>
+<option value="Long">Long</option>
+<option value="Short">Short</option>
+<option value="A4">A4</option>
+</select></td>
+                <td>
+                    <div class="col-md-5 align-content-lg-center ">
+                    <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+               
+                </td>
+                <td>
+                <div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+            </td>
+                    
+                </td>
+                <td >
+                <select class=""id="size">
+                <option selected>--TypeLayout--</option>
+                <option value="Long">Program Invitation</option>
+                <option value="Short">Tarpaulint</option>
+                <option value="A4">Calling Card</option>
+                 </select>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="number" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td></td>
+                
+             
+<td>
+                   <!-- Example single danger button -->
+                   <div class="btn-group">
+                   <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Action</button>
+<div class="dropdown-menu">
+<a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+<a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+
+</div>
+</div>
+</td> 
+               
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr>
+            <td> <div class="mb-3"style="width:220px;">
+<input type="file"  aria-label="file pdf/word" >
+<div class="invalid-feedback"> invalid file </div>
+</div></td>
+            <td>
+            <select class="printing-type"id="size">
+                     <option selected>--Select--</option>
+                     <option value="">Colored</option>
+                    <option value="">Black</option>
+                 </select></td>
+        <td> <select class=""id="size">
+        <option selected>--Select--</option>
+<option value="Long">Long</option>
+<option value="Short">Short</option>
+<option value="A4">A4</option>
+</select></td>
+                <td>
+                    <div class="col-md-5 align-content-lg-center ">
+                    <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="0" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+               
+                </td>
+                <td>
+                <div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="pcs" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div>
+            </td>
+                    
+                </td>
+                <td >   <select class=""id="size">
+                <option selected>--TypeBinding--</option>
+             <option value="Long">Softbound</option>
+             <option value="Short">Hardbound</option>
+                 </select>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td>
+                <td ><div class="col-md-4 align-content-lg-center">
+                <div class="input-group-center" style="width:80px; ">
+                    <!--<button class="input-group-text decrement-btn g-md-1">-</button>-->
+                    <input  type="text" class="form-control text-center input-qty" value="240.00" >
+                    <!--<button class="input-group-text increment-btn">+</button>-->
+                    </div>
+                </div></td></td>
+               
+<td>
+                   <!-- Example single danger button -->
+                   <div class="btn-group">
+                   <div class="btn-group">
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Action
+</button>
+<div class="dropdown-menu">
+<a type="button" class="dropdown-sucsess editbtn" href="#">Edit</a>
+<a type="button" class="dropdown-danger deletebtn" href="#">Delete</a>
+
+</div>
+</div>
+</td> 
+              
+               
+            </tr>
+        </tbody>
+        </table>
+       
+        <input type="hidden" name="action" value="save">
+    <input type="submit" class="btn btn-primary float-end" style="width:30rem;" value="Save">
+                    </form> 
+     
 
 
-        </div>
-    </div>
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-
-    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
-
-    <script>
-        $(document).ready(function () {
-
-            $('.viewbtn').on('click', function () {
-                $('#viewmodal').modal('show');
-                $.ajax({ //create an ajax request to display.php
-                    type: "GET",
-                    url: "display.php",
-                    dataType: "html", //expect html to be returned                
-                    success: function (response) {
-                        $("#responsecontainer").html(response);
-                        //alert(response);
-                    }
-                });
-            });
-
-        });
-    </script>
-
-
-
-
-    <script>
-        $(document).ready(function () {
-
-            $('.deletebtn').on('click', function () {
-
-                $('#productdeletemodal').modal('show');
-
-                $tr = $(this).closest('tr');
-
-                var data = $tr.children("td").map(function () {
-                    return $(this).text();
-                }).get();
-
-                console.log(data);
-
-                $('#productdelete_id').val(data[0]);
-
-            });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function () {
-
-            $('.editbtn').on('click', function () {
-
-                $('#editmodal').modal('show');
-
-                $tr = $(this).closest('tr');
-
-                var data = $tr.children("td").map(function () {
-                    return $(this).text();
-                }).get();
-
-                console.log(data);
-
-                $('#update_id').val(data[0]);
-                $('#user_name').val(data[1]);
-                $('#user_pass').val(data[2]);
-                $('#firstname').val(data[3]);
-                $('#lastname').val(data[4]);
-                $('#email').val(data[5]);
-                $('#role').val(data[6]);
-            });
-        });
-    </script>
