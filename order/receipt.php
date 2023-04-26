@@ -261,22 +261,22 @@
                                 
                             </tr>
                         </thead>
-                        <?php
-                             $product= new ProductS();
-                             $productdata= $product->show();
+                       <?php
+                            /// $product= new ProductS();
+                           ///  $productdata= $product->show();
                              
-                             foreach($productdata as $product){ 
+                        // foreach($productdata as $product){ 
     
 
             ?>
                 
-                        <tbody>
+                       <tbody>
                             <tr>
-                                <td > <?php echo $product['product_id']; ?> </td>
-                                <td> <?php echo $product['product_name']; ?> </td>
-                                <td> <?php echo $product['product_desc']; ?> </td>
-                                <td> <?php echo $product['unit_price']; ?> </td>
-                                <td> <?php echo $product['qty']; ?> </td>
+                             <td >/////<?php echo $product['product_id']; ?> </td>
+                                <td>//// <?php echo $product['product_name']; ?> </td>
+                                <td>//// <?php echo $product['product_desc']; ?> </td>
+                                <td>///// <?php echo $product['unit_price']; ?> </td>
+                                <td> ////<?php echo $product['qty']; ?> </td>
                                
                                 <td>
                                   
@@ -289,7 +289,7 @@
                         </tbody>
                         <?php   
 
-             }
+             //}---->
            
             ?><tbody>
             <tr>
