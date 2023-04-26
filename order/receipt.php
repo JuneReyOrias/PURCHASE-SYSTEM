@@ -268,7 +268,8 @@
                         // foreach($productdata as $product){ 
     
 
-       
+            ?>
+                <tbody>
             <tr>
                 <td> <div class="mb-3" style="width:220px;">
 <input type="text" value="nurshingfile" disabled >
