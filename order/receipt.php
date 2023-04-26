@@ -390,7 +390,7 @@
         </table>
        
         <input type="hidden" name="action" value="save">
-    <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 500rem;" >TrackOrder</button>
+    <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;" >TrackOrder</button>
     <button type="submit" name="print" id="example"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem; " >Print</button>             </form> 
      
 
