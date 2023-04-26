@@ -51,10 +51,10 @@
 <body class="human " style="background-color: var(--body-color);
     transition: var(--tran-05);">
 <div class="row">
-  <div class="col-sm-3"style="margin-left:8rem;" >
+  <div class="col-sm-3 "style="margin-left:8rem;" >
     <div class="card"style="  margin-top:3rem; border-radius: 12px; height:40rem; width:40rem;">
       <div class="card-body">
-        <h5 class="card-title">Printing</h5>
+        <h5 class="card-title text-md-center">Printing</h5>
       
         <a href="print.php" class="btn btn-primary">Continue</a>
       </div>
