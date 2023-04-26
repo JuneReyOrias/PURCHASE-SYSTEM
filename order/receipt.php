@@ -400,7 +400,7 @@
 
 
         <input type="hidden" name="action" value="save">
-    <button href="../trackordr/trackorder.php" type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</button>
+    <a href="../trackordr/trackorder.php" type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</a>
     <button type="submit" onclick="window.print()" name="print" id="example"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem;margin-top:1rem; " >Print</button>             </form> 
      
 
