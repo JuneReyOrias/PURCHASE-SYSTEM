@@ -238,10 +238,10 @@
 
 
   
-            
+    <h2 style="margin-left: 40rem;"> Customer Info </h2>
 
                         </div>
-                        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:70rem; margin-top:7rem;">
+                        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
                                 <th > <label>CustomerName/department:</label></br>
