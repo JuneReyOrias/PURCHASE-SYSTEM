@@ -240,7 +240,11 @@
   
             
 
-      
+    <div class="form-group">
+                        <label>ProductName </label>
+                            <input type="text" name="product_name" id="product_name" class="form-control"
+                                placeholder="Enter ProductName">
+                        </div>
 
                     <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
@@ -265,6 +269,8 @@
     
 
             ?>
+
+    
                 <tbody>
             <tr>
                 <td> <div class="mb-3" style="width:220px;">
