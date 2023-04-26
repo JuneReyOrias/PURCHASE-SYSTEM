@@ -51,8 +51,8 @@
          <a class="lefte ms-lg-3" href="dashboard.php">Home</a>
         <a href="">Shop</a>
         <a class="order" href="order.php" ><span></span>Order</a>
-        <a class="order" href="binding.php" ><span></span>BindingForm</a>
-        <a class="order" href="orderlist.php" ><span>></span>OrderList</a><br>
+        <a class="order" href="binding.php" ><span></span>Multiple</a>
+        <a class="order" href="orderlist.php" ><span>></span>.Receipt</a><br>
 
         </div>
 <body class="human " style="background-color: var(--body-color);
@@ -400,7 +400,7 @@
 
 
         <input type="hidden" name="action" value="save">
-    <a href="../trackordr/tracking.php" type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</a>
+    <a href="../trackordr/track.php" type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</a>
     <button type="submit" onclick="window.print()" name="print" id="example"  class="btn btn-primary float-end" style="width:20rem; margin-right: 1rem;margin-top:1rem; " >Print</button>             </form> 
      
 
