@@ -78,7 +78,7 @@
                 </div>
 
                 
-                <form action="tracking.php" method="POST">
+                <form action="../trackordr/tracking.php" method="POST">
 
                 <div class="modal-body">
                         <div class="form-group">
