@@ -388,9 +388,9 @@
             </tr>
         </tbody>
         </table>
-       
+        <button onclick="window.print()">Print</button>
         <input type="hidden" name="action" value="save">
-    <input type="submit" class="btn btn-primary float-end" style="width:30rem; margin-left:-80rem" value="Save">
+    <button type="submit" class="btn btn-primary float-end" style="width:30rem; " >TrackOrder</button>
                     </form> 
      
 
