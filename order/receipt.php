@@ -391,7 +391,7 @@
         <button onclick="window.print()">Print</button>
         <input type="hidden" name="action" value="save">
     <button type="submit" class="btn btn-primary float-end" style="width:30rem; " >TrackOrder</button>
-    <button type="submit" onclick="window.print()" class="btn btn-primary float-end" style="width:30rem; " >Print</button>             </form> 
+    <button type="submit" onclick="window.print()" class="btn btn-primary float-end" style="width:30rem; margin-right: 45rem; " >Print</button>             </form> 
      
 
 
