@@ -392,14 +392,14 @@
         <ul class="list-inline">
   <li class="Prepared by:"style="margin-left:13rem">Prepared by:</li>
 
-  <li ><input type="decimal" class="text-centers" name=total value="Joe 0. JulianS" style="width:9rem; heigth:7rem;"></li></li>
+  <li ><input type="decimal" class="text-centers" name=total value="Joe 0. Julian" ></li></li>
 </ul>
   
   <li class="Total:" style="margin-left:35rem;">Total:</li>
 
   <li ><input type="decimal" class="text-centers" name=total value="480.0" style="width:9rem; heigth:7rem;"></li></li>
 </ul>
-<ul><li  name="admin name" value="Joe O. Julian">Joe O. Julian</li></ul>
+
 
         <input type="hidden" name="action" value="save">
     <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</button>
