@@ -248,14 +248,11 @@ left:25px; " >
                                 <th scope="col">OrderId</th>
                                 <th scope="col">OrderDate </th>
                                 <th scope="col">BuyerId </th>
-                                <th scope="col">colorType</th>
-                                <th scope="col">Size</th>
-                                <th scope="col">Qty </th>
-                                <th scope="col">Unit </th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Unit Cost </th>
-                                <th scope="col">Amount</th>
-
+                                <th scope="col">requireDate </th>
+                                <th scope="col">Expe_deliverDate</th>
+                                <th scope="col">paymentId </th>
+                                <th scope="col"> Status </th>
+                                
                                 
                             </tr>
                         </thead>
