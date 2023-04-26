@@ -283,7 +283,7 @@
 </table><br>
     
 
-                    <table id ="example" class="table-lg table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                    <table id ="example" class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
@@ -388,6 +388,12 @@
             </tr>
         </tbody>
         </table>
+
+        <ul class="list-inline">
+  <li class="Prepared by:">Prepared by:</li>
+
+  <li ><input type="decimal" name=total value="480.0"></li></li>
+</ul>
        
         <input type="hidden" name="action" value="save">
     <button type="submit" class="btn btn-primary float-end" style="width:20rem; margin-right: 50rem;margin-top:1rem;" >TrackOrder</button>
