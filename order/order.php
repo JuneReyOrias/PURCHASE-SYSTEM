@@ -56,20 +56,20 @@
       <div class="card-body">
         <h5 class="card-title text-md-center">Printing</h5>
       
-        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:8rem;">Continue</a>
+        <a href="print.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a>
       </div>
       <div class="card-body">
         <h5 class="card-title text-md-center">Binding</h5>
     
-        <a href="binding.php" class="btn btn-primary text-md-center">Continue</a>
+        <a href="binding.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a>
       </div>
       <div class="card-body">
-        <h5 class="card-title text-md-center">Lamination</h5>
+        <h5 class="card-title text-md-center"style="margin-left:12rem;">Lamination</h5>
     
-        <a href="lamination.php" class="btn btn-primary text-md-center">Continue</a><br>
+        <a href="lamination.php" class="btn btn-primary text-md-center"style="margin-left:12rem;">Continue</a><br>
       </div>
       <div class="card-body">
-        <h5 class="card-title text-md-center">Multiple Services</h5>
+        <h5 class="card-title text-md-center"style="margin-left:12rem;">Multiple Services</h5>
     
         <a href="invoices.php" name="" class="btn btn-primary text-md-center">Continue</a>
       </div>
