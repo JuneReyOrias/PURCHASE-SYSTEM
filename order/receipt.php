@@ -242,7 +242,7 @@
 
       
 
-    <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                    <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
@@ -347,7 +347,7 @@
         </table>
        
         <input type="hidden" name="action" value="save">
-    <input type="submit" class="btn btn-primary float-end" style="width:30rem;" value="Save">
+    <input type="submit" class="btn btn-primary float-end" style="width:30rem; margin-left:-80rem" value="Save">
                     </form> 
      
 
