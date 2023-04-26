@@ -392,7 +392,7 @@
         <ul class="list-inline">
   <li class="Prepared by:">Prepared by:</li>
 
-  <li ><input type="text" name="admin name" class="Joe O. Julian">Joe O. Julian</input></li></li>
+  <li  name="admin name" class="Joe O. Julian">Joe O. Julian</li></li>
   <li class="Total:" style="margin-left:35rem;">Total:</li>
 
   <li ><input type="decimal" class="text-centers" name=total value="480.0" style="width:12rem; heigth:7rem;"></li></li>
