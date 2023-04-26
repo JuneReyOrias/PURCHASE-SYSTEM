@@ -283,8 +283,8 @@
 </table><br>
     
 
-                    <table id ="example" class="table-sm  table-responsive" style="margin-left:15rem; margin-top:3rem;">
-                        <thead class="text-center table-md">
+                    <table id ="example" class="table-lg table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                        <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
                                 <th scope="col">colorType</th>
