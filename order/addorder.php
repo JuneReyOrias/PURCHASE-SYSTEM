@@ -3,7 +3,7 @@ require_once '../database/database.php';
 require_once "../database/service_parameter.php";
 require_once "../database/multipletable.class.php";
 
-print_r($_POST);
+print_r($_POST);    
 
 // Check if the fosaverm has been submitted
 if (isset($_POST['action']) && $_POST['action'] == 'add') {
