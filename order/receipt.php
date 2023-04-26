@@ -242,8 +242,8 @@
 
       
 
-                    <table id="datatableid" class="table table-bordered "style="margin-left:150px;">
-                        <thead class="thead-dark">
+    <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                        <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
                                 <th scope="col">colorType</th>
