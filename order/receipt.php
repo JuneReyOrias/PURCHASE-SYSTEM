@@ -237,16 +237,12 @@
     </div>
 
 
-          
-    <h2 style="margin-left: 40rem;"> Product </h2>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#studentaddmodal"style="margin-left: 148px;">
-                        Add New Product
-                    </button>
+  
             
 
       
 
-                    <table id="datatableid" class="table table-bordered table-responsive"style="margin-left:150px;">
+                    <table id="datatableid" class="table table-bordered "style="margin-left:150px;">
                         <thead class="thead-dark">
                             <tr>
                             <th scope="col">Uploadfile</th>
