@@ -360,13 +360,13 @@ Action
 <input type="text" value="nursingfile"disabled>
 <div class="invalid-feedback"> invalid file </div>
 </div></td>
-            <td>
-            <select class="printing-type"id="size">
+            
+            <select class="printing-type"id="size" disabled>
                      <option selected>black</option>
                      <option value="">Colored</option>
                     <option value="">Black</option>
                  </select></td>
-        </select></td>
+        </select>
         <td> <select class=""id="size">
         <option selected>A4</option>
 <option value="Long">Long</option>
