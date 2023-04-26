@@ -240,11 +240,79 @@
   
             
 
-    <div class="form-group">
-                        <label>ProductName </label>
-                            <input type="text" name="product_name" id="product_name" class="form-control"
-                                placeholder="Enter ProductName">
                         </div>
+                        <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
+                        <thead class="table-light " >
+                            <tr class="text-dark ">
+                                <th > <label>Order_date:</label></br>
+                                    <input  style="width:200px; " type="date" class="datepicker" ></th>
+                                    <th > <label>Payment:</label></br>
+                                   
+                            <select style="width:200px; "class="text-center"id="size">
+                            <option value="Cash" disabled >Cash</option>
+                             <option value="Long">Cash</option>
+                             <option value="Short">Credit</option>
+                                <option value="A4">Funds</option>
+                                 </select> </th>
+                              
+                                
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Required_date:</label></br>
+                                    <input  style="width:200px; " type="date" class="datepicker"></th>
+                                    <th > <label>expect_delivery_date:</label></br>
+                                    <input  style="width:200px; " type="date" class="datepicker"></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Colleges/Department:</label></br>
+                            <select style="width:200px; margin-left: 6px; "class="text-center"id="size">
+                            <option selected>College of Nursing<</option>
+                             <option value="Long">College of Architechture</option>
+                             <option value="Short">College of Nursing</option>
+                                <option value="A4">College of Teacher Education</option>
+                                 <option value="A4">College of Engineering</option>
+                                 <option value="A4">College of Criminal Justice Education</option>
+                                 <option value="A4">College of Science and Mathematics</option>
+                                 </select></th>
+                                    <th > <label>Email:</label></br>
+                                    <input  style="width:200px; " type="text" placeholder="sidric@wmsu.edu.ph"disabled></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                              
+                            <th > <label>Type of Jobs:</label></br>
+                         
+                                       
+                                    <input  style="width:200px; font-size: 12px; " type="text"  id ="" value="<?php $categ = new Category();
+                                    $categdata= $categ->show();
+                         
+                                    foreach($categdata as $categ){
+           
+                       ?> <?php echo $categ['service_category'] ?><?php }?>" disabled></th>
+                                    <th > <label>Contact_No.:</label></br>
+                                    <input  style="width:200px; " type="text" placeholder="09059260847" disabled></th>
+                                
+                           
+                               
+                            </tr>
+                        </tbody>
+      
+</table><br>
+    
 
                     <table  class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
