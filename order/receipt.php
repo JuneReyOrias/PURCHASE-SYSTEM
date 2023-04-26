@@ -238,7 +238,7 @@
 
 
   
-    <h2 style="margin-left: 40rem;"class="text-center"> Receipt</h2>
+    <h2 style="margin-left: 0rem;"class="text-center"> Receipt</h2>
 
                         </div>
                         <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
