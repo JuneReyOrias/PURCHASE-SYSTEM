@@ -283,7 +283,7 @@
 </table><br>
     
 
-                    <table id ="example" class="table-sm table-bordered table-responsive" style="margin-left:15rem; margin-top:3rem;">
+                    <table id ="example" class="table-sm table-responsive" style="margin-left:15rem; margin-top:3rem;">
                         <thead class="text-center">
                             <tr>
                             <th scope="col">Uploadfile</th>
