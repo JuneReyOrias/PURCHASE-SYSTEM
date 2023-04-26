@@ -66,7 +66,7 @@
       <div class="card-body">
         <h5 class="card-title text-md-center">Lamination</h5>
     
-        <a href="lamination.php" class="btn btn-primary text-md-center"style="margin-left:13rem;">Continue</a><br>
+        <a href="lamination.php" class="btn btn-primary text-md-center"style="margin-left:13rem;">Continue</a>
       </div>
       <div class="card-body">
         <h5 class="card-title text-md-center">Multiple Services</h5>
