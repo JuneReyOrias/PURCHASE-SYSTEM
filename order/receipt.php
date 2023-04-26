@@ -390,7 +390,7 @@
         </table>
 
         <ul class="list-inline">
-  <li class="Prepared by:"style="margin-left:23rem">Prepared by:</li>
+  <li class="Prepared by:"style="margin-left:13rem">Prepared by:</li>
 
   <li  name="admin name" class="Joe O. Julian">Joe O. Julian</li></li>
   <li class="Total:" style="margin-left:35rem;">Total:</li>
