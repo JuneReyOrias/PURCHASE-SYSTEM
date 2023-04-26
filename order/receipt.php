@@ -244,8 +244,8 @@
                         <table  class="table-sm table-bordered table-responsive-sm "style="margin-left:15rem; margin-top:7rem;">
                         <thead class="table-light " >
                             <tr class="text-dark ">
-                                <th > <label>Order_date:</label></br>
-                                    <input  style="width:200px; " type="date" class="datepicker" ></th>
+                                <th > <label>CustomerName/department:</label></br>
+                                    <input  style="width:200px; " type="text" class="datepicker" value="College of Nursing" ></th>
                                     <th > <label>Payment:</label></br>
                                    
                             <select style="width:200px; "class="text-center"id="size">
@@ -254,6 +254,8 @@
                              <option value="Short">Credit</option>
                                 <option value="A4">Funds</option>
                                  </select> </th>
+                                 <th > <label>riv no.:</label></br>
+                                    <input  style="width:200px; " type="text" value="" disabled></th>
                               
                                 
                                 
