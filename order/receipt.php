@@ -392,12 +392,11 @@
         <ul class="list-inline">
   <li class="Prepared by:"style="margin-left:13rem">Prepared by:</li>
 
-  <li ><input type="decimal" class="text-centers" name=total value="Joe 0. Julian" ></li></li>
-</ul>
-  
+  <li ><input type="text" class="text-center" name=total value="Joe 0. Julian" ></li></li>
+
   <li class="Total:" style="margin-left:35rem;">Total:</li>
 
-  <li ><input type="decimal" class="text-centers" name=total value="480.0" style="width:9rem; heigth:7rem;"></li></li>
+  <li ><input type="decimal" class="text-center" name=total value="480.0" style="width:9rem; heigth:7rem;"disabled></li></li>
 </ul>
 
 
