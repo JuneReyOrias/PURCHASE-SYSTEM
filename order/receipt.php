@@ -268,30 +268,7 @@
                         // foreach($productdata as $product){ 
     
 
-            ?>
-                
-                       <tbody>
-                            <tr>
-                             <td >/////<?php echo $product['product_id']; ?> </td>
-                                <td>//// <?php echo $product['product_name']; ?> </td>
-                                <td>//// <?php echo $product['product_desc']; ?> </td>
-                                <td>///// <?php echo $product['unit_price']; ?> </td>
-                                <td> ////<?php echo $product['qty']; ?> </td>
-                               
-                                <td>
-                                  
-                                  
-                                    <button type="button" class="btn btn-success editbtn" data-toggle="modal" data-target="#producteditmodal"> EDIT </button>
-                                   <button type="button" class="btn btn-danger deletebtn" data-toggle="modal" data-target="#productdeletemodal"> DELETE </button>
-            
-                                </td>
-                            </tr>
-                        </tbody>
-                        <?php   
-
-             //}---->
-           
-            ?><tbody>
+       
             <tr>
                 <td> <div class="mb-3" style="width:220px;">
 <input type="text" value="nurshingfile" disabled >
