@@ -281,7 +281,7 @@
                                 <td>480  </td>
                               
             
-</td>
+
                
             </tr>
         </tbody>
@@ -300,8 +300,7 @@
                                 <td> document  </td>
                                 <td> 240</td>
                                 <td>480  </td>
-                              
-                <td>
+            
                
             </tr>
         </tbody>
@@ -341,7 +340,7 @@
                                 <td> 240</td>
                                 <td>480  </td>
                               
-                <td>              
+                   
                
             </tr>
         </tbody>
