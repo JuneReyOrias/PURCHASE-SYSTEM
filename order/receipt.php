@@ -393,6 +393,9 @@
   <li class="Prepared by:">Prepared by:</li>
 
   <li ><input type="decimal" name=total value="480.0"></li></li>
+  <li class="col-sm text center">Total:</li>
+
+  <li ><input type="decimal" name=total value="480.0"></li></li>
 </ul>
        
         <input type="hidden" name="action" value="save">
