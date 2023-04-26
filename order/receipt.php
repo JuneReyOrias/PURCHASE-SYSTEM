@@ -275,6 +275,15 @@
 <input type="text" value="nurshingfile" disabled >
 <div class="invalid-feedback"> invalid file </div>
 </div></td>
+<td >  </td>
+                                <td> Colored </td>
+                                <td>  </td>
+                                <td>  </td>
+                                <td>  </td>
+                                <td>  </td>
+                                <td> </td>
+                                <td>  </td>
+                                <td></td>
                 <td>
                      <select class="printing-type"id="size">
                      <option selected  >Colored</option>
@@ -360,13 +369,14 @@ Action
 <input type="text" value="nursingfile"disabled>
 <div class="invalid-feedback"> invalid file </div>
 </div></td>
-            
-            <select class="printing-type"id="size" disabled>
+
+            <td>
+            <select class="printing-type"id="size">
                      <option selected>black</option>
                      <option value="">Colored</option>
                     <option value="">Black</option>
                  </select></td>
-        </select>
+        </select></td>
         <td> <select class=""id="size">
         <option selected>A4</option>
 <option value="Long">Long</option>
