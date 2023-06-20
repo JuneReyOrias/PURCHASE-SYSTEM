@@ -368,11 +368,11 @@
             /*Edited the body  background*/
             
             .login-container {
-                width: 100%;
-                height: calc(100vh);
-                display: flex;
-                align-items: center;
-                justify-items: center;
+                    width: 100%;
+                    height: calc(100vh);
+                    display: flex;
+                    align-items: center;
+                    justify-items: center;
                 background-image: url('../img/campus.JPG');
                 background-size: cover;
                 background-position: 0cm;

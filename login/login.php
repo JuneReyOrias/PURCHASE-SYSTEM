@@ -79,7 +79,7 @@ $page_title = 'UPRESS -dasboard';
                 <span class="image justify-content-center">  
                     <img src="../img/upress-logo.png" alt=""></span>
                
-            </div>
+</div>
             <hr class="divider">
             <label for="username">Username</label>
             <input type="text" id="user_name" name="user_name" placeholder="Enter Username" required tabindex="1">
